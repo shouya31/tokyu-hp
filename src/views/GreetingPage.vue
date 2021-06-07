@@ -1,15 +1,19 @@
 <template>
+    <!-- 全体のグリッドを直す -->
     <div class="greeting-wrapper grid grid-rows-3 grid-flow-col gap-4">
         <div class="row-span-4 px-2 text-center md:pt-8 md:top-0 md:left-0 h-16">
             <div class="md:relative mx-auto lg:px-6">
                 <ul class="list-reset flex flex-row md:flex-col text-center md:text-left">
                     <li class="mr-3 flex-1">
-                        <img src="../assets/tokyu-logo.png" alt="東急百貨店" width="150">
+                        <!-- 画像ちょっと横にずれてる？ -->
+                        <img src="../assets/tokyu-logo-gray.png" alt="東急百貨店" width="150">
                     </li>
                     <li class="ml-3 pt-1 flex-1 tracking-widest font-medium">
+                        <!-- フォント調べる -->
                         <p>RECUITMENT</p>
                     </li>
                     <li class="mx-8 flex-1 leading-10">
+                        <!-- ハンバーガーでいい？ -->
                         <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
                             <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/>
                         </svg>
@@ -22,26 +26,30 @@
                 </ul>
             </div>
         </div>
-        <div>
-            <div>
-                <img src="../assets/hr-leader.png" alt="東急百貨店代表" width="600">
+        <div class="pt-24">
+            <div class="text-start mb-9">
+                <img src="../assets/hr-leader.png" alt="東急百貨店代表" width="625">
             </div>
-            <div>
-                <h1>新しい未来に向けて、共に歩んでいきましょう</h1>
-                <ul>
-                    <li><p>飯塚康弘</p></li>
-                    <li><p>Yasuhiro Iizuka</p></li>
+            <section class="pb-16">
+                <h1 class="text-3xl font-weight: 200 py-3">新しい未来に向けて、共に歩んでいきましょう</h1>
+                <hr class="my-3 border-black">
+                <ul class="flex mt-6">
+                    <li><h5 class="text-3xl"><span class="mr-2">飯塚</span><span class="ml-2">康弘</span></h5></li>
+                    <li><p class="leading-10 ml-3 text-gray-400 tracking-widest">Yasuhiro Iizuka</p></li>
                 </ul>
-                <p>人事部長</p>
-            </div>
-            <section>
-                <div>
-                    <h6>Question</h6>
-                    <h2>求める人物像</h2>
+                <p class="mt-3">人事部長</p>
+            </section>
+            <section class="py-8">
+                <div class="py-2">
+                    <!-- Questionのフォント調査 -->
+                    <h6 class="text-3xl">Question</h6>
+                    <hr class="bar">
+                    <h2 class="text-3xl pt-3 font-semibold">求める人物像</h2>
+                    <hr class="bar border-2 my-4">
                 </div>
-                <div>
-                    <p>A.企業理念の実践とその一歩先へ</p>
-                    <p>
+                <div class="pt-2">
+                    <p class="bg-white p-5 text-3xl font-semibold tracking-widest">A.企業理念の実践とその一歩先へ</p>
+                    <p class="my-7 tracking-wider leading-8 text-gray-600">
                         当社で働くにあたって、その根底にあるのは企業理念の実践です。企業理念にある、
                         「お客様にとって、なくてはならない存在。それが私たちの誇りです」、「誰よりもお客様の近くで、
                         誰よりも深くお客様を思い、誰よりも情熱をもってお客様の力になります」、そして「お客様とともに未来へ向かって
@@ -54,14 +62,17 @@
                     </p>
                 </div>
             </section>
-            <section>
-                <div>
-                    <h6>Question</h6>
-                    <h2>人事部長として心がけていること</h2>
+            <section class="py-8">
+                <div class="py-2">
+                    <!-- Questionのフォント調査 -->
+                    <h6 class="text-3xl">Question</h6>
+                    <hr class="bar">
+                    <h2 class="text-3xl pt-3 font-semibold">人事部長として心がけていること</h2>
+                    <hr class="bar border-2 my-4">
                 </div>
-                <div>
-                    <p>A.「人材」を「人財」へと進化させていくために</p>
-                    <p>
+                <div class="pt-2">
+                    <p class="bg-white p-5 text-3xl font-semibold tracking-widest">A.「人材」を「人財」へと進化させていくために</p>
+                    <p class="my-7 tracking-wider leading-8 text-gray-600">
                         普段から心がけているのは、「否定をしないこと」と「メンバーの様子に気を配ること」。共に働く仲間とその
                         一人ひとりが持つ熱意を大切にしたい......。人事部長として、それぞれの個性を活かし、尊重する人材育成を行って
                         いきたいと考えています。組織を城の城壁に例えると、城壁は様々な形とおおきさの石垣が重なり合い、崩れない
@@ -71,14 +82,17 @@
                     </p>
                 </div>
             </section>
-            <section>
-                <div>
-                    <h6>Question</h6>
-                    <h2>応募者へのメッセージ</h2>
+            <section class="pt-8 pb-32">
+                <div class="py-2">
+                    <!-- Questionのフォント調査 -->
+                    <h6 class="text-3xl">Question</h6>
+                    <hr class="bar">
+                    <h2 class="text-3xl pt-3 font-semibold">応募者へのメッセージ</h2>
+                    <hr class="bar border-2 my-4">
                 </div>
-                <div>
-                    <p>A.共に歩み、成長する、未来へ向かって</p>
-                    <p>
+                <div class="pt-2">
+                    <p class="bg-white p-5 text-3xl font-semibold tracking-widest">A.共に歩み、成長する、未来へ向かって</p>
+                    <p class="my-7 pb-5 tracking-wider leading-8 text-gray-600">
                         ご存知の通り、百貨店業界を取り巻く環境は決して楽観できるものではなく、構造改革や新たな事業モデル構築の
                         動きが加速しています。そうした不透明な状況下でも、当社は「融合型リテーラー（多事業戦略）」の実現に向け、
                         より強固な事業構造への転換と*DXの推進による新しいお買い物体験の提供を進めています。今後、いかにその推進速度を
@@ -88,16 +102,17 @@
                         そして行動力が必要です。企業理念を実践し続け、お客様の豊かで上質な暮らしづくりに貢献していきましょう。
                         共に歩み、成長する、未来へ向かって。ご応募お待ちしております。
                     </p>
-                    <small>
+                    <p><small class="text-gray-600">
                         *DX: Digital Transformationの略。デジタル技術を浸透させることで
-                        人々の生活をより良いものへと変革すること。また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
-                    </small>
+                        人々の生活をより良いものへと<br>変革すること。また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
+                    </small></p>
                 </div>
             </section>
         </div>
         <footer class="w-full bg-white pt-5">
             <div class="text-center pt-5">
-                <img src="../assets/tokyu-logo.png" alt="東急百貨店" width="220" class="mx-auto bg-white">
+                <!-- 画像ちょっと横にずれてる？ -->
+                <img src="../assets/tokyu-logo-white.png" alt="東急百貨店" width="200" class="mx-auto bg-white">
                 <p class="text-black mb-5 tracking-widest">RECUITMENT</p>
                 <p class="mt-5 italic"><small>Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights Reserved.</small></p>
             </div>
@@ -113,8 +128,21 @@ export default {
 </script>
 
 <style>
+    body {
+        font-family: "Hiragino Kaku Gothic ProN";
+    }
     /* ここにCSSを実装する */
     .greeting-wrapper {
         background-color: #f2f2f2;
+    }
+    .bar {
+        color: #15334d;
+    }
+
+    section h6 {
+        color:#15334d;
+    }
+    section h2 {
+        color: #383838;
     }
 </style>

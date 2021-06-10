@@ -1,11 +1,8 @@
 <template>
     <div class="container-fuild grid grid-cols-1 lg:grid-cols-4 gap-9 lg:gap-7">
         <!-- sp ヘッダー-->
-        <nav class="flex lg:hidden pl-24 pt-8">
-            <a href="#" class="max-w-xl md:max-w-xs mr-4"><img src="../assets/tokyu-logo-gray.png" alt="東急百貨店"></a>
-            <button class="bg-blue-900 leading-none px-2 ml-auto lg:ml-24 tracking-wide">
-                <p class="text-white text-xs md:text-sm">ENTRY</p>
-            </button>
+        <nav class="flex lg:hidden pl-24 pt-8 mx-auto">
+            <a href="#" class="max-w-xl md:max-w-xs"><img src="../assets/tokyu-logo-gray.png" alt="東急百貨店"></a>
         </nav>
         <!-- sp ヘッダーここまで -->
         <div class="hidden max-w-full lg:block lg:col-span-1 px-2 ml-4">
@@ -20,7 +17,7 @@
                 <p class="text-white">ENTRY</p>
             </button>
         </div>
-        <div class="col-span-4 p-12 lg:col-span-2 pt-10 lg:pt-16">
+        <div class="col-span-4 p-4 lg:col-span-2 lg:pt-16">
             <img src="../assets/hr-leader.png" class="w-full lg:max-w-3xl mt-4" alt="東急百貨店代表">
             <section class="pb-16 text-gray-700">
                 <h1 class="message text-md font-weight-100 tracking-wider pt-9 pb-3 md:text-3xl">新しい未来に向けて、共に歩んでいきましょう</h1>
@@ -33,9 +30,9 @@
             </section>
             <section class="py-8">
                 <!-- Questionのフォント調査 -->
-                <h3 class="text-md md:text-3xl text-indigo-900">Question</h3>
+                <h2 class="question-title">Question</h2>
                 <hr>
-                <h4 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">求める人物像</h4>
+                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">求める人物像</h3>
                 <hr class="border-2 mt-2 mb-4">
                 <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">A. 企業理念の実践とその一歩先へ</p>
                 <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-10 text-gray-600">
@@ -52,9 +49,9 @@
             </section>
             <section class="py-8">
                 <!-- Questionのフォント調査 -->
-                <h3 class="text-md md:text-3xl text-indigo-900">Question</h3>
+                <h2 class="question-title">Question</h2>
                 <hr>
-                <h4 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">人事部長として心がけていること</h4>
+                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">人事部長として心がけていること</h3>
                 <hr class="border-2 mt-2 mb-4">
                 <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">A. 「人材」を「人財」へと進化させていくために</p>
                 <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-10 text-gray-600">
@@ -68,9 +65,9 @@
             </section>
             <section class="pt-8 pb-8 lg:pb-32">
                 <!-- Questionのフォント調査 -->
-                <h3 class="text-md md:text-3xl text-indigo-900">Question</h3>
+                <h2 class="question-title">Question</h2>
                 <hr>
-                <h4 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">応募者へのメッセージ</h4>
+                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">応募者へのメッセージ</h3>
                 <hr class="border-2 mt-2 mb-4">
                 <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">A. 共に歩み、成長する、未来へ向かって</p>
                 <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-10 text-gray-600">

@@ -130,24 +130,5 @@ export default {
 </script>
 
 <style>
-    body {
-        background-color: #f2f2f2;
-        box-sizing: border-box;
-        font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
-    }
-    hr {
-        border-color: #15334d;
-    }
-    .leader-name {
-        font-family: "Hiragino Sans","ヒラギノ角ゴシック";
-    }
-    .leader-name-reading {
-        font-family: system-ui;
-    }
-    .recruitment {
-        letter-spacing: 0.3rem;
-    }
-    .message {
-        font-family: "游明朝体","YuMincho";
-    }
+  @import "../assets/style/style.css";
 </style>

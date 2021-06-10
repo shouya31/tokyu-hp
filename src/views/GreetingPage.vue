@@ -1,41 +1,41 @@
 <template>
-    <!-- 全体のグリッドを直す -->
     <div class="container-fuild">
         <div class="row grid grid-cols-4 gap-4">
-            <div class="col-span-1 auto-cols-min px-2 text-center md:pt-8 md:top-0 md:left-0 h-16">
-                <div class="md:relative mx-auto lg:px-6">
-                    <ul class="list-reset flex flex-row md:flex-col text-center md:text-left">
-                        <li class="mr-3 flex-1">
-                            <!-- 画像ちょっと横にずれてる？ -->
-                            <img src="../assets/tokyu-logo-gray.png" alt="東急百貨店" width="150">
-                        </li>
-                        <li class="ml-3 pt-1 flex-1 font-medium">
-                            <!-- フォント調べる -->
-                            <p class="tracking-widest">RECUITMENT</p>
-                        </li>
-                        <li class="mx-8 flex-1 leading-10">
-                            <!-- ハンバーガーでいい？ -->
-                            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-                                <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/>
-                            </svg>
-                        </li>
-                        <li class="ml-3 pt-5 flex-1 font-medium">
-                            <button class="bg-blue-900 py-1 px-3">
-                                <p class="text-white tracking-widest">ENTRY</p>
-                            </button>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-span-1 px-2 text-center">
+                <aside class="fixed inset-y-0 w-64 overflow-hidden transition-all transform" :class="{'-translate-x-full lg:translate-x-0 lg:w-100': !isSidebarOpen}">
+                    <div class="col-span-1 px-2 text-center">
+                        <div class="md:relative mx-auto lg:px-6">
+                            <ul class="list-reset flex flex-row md:flex-col text-center md:text-left">
+                                <li class="mr-3 flex-1">
+                                    <a href="#"><img src="../assets/tokyu-logo-gray.png" alt="東急百貨店" width="150"></a>
+                                </li>
+                                <li class="ml-3 pt-1 flex-1 font-medium">
+                                    <p class="recruitment">RECRUITMENT</p>
+                                </li>
+                                <li class="mx-8 flex-1 py-64 leading-10">
+                                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                                        <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/>
+                                    </svg>
+                                </li>
+                                <li class="ml-3 pt-5 flex-1 font-medium">
+                                    <button class="bg-blue-900 py-1 px-3">
+                                        <p class="text-white tracking-widest">ENTRY</p>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
             </div>
             <div class="col-span-2 pt-24">
-                <div class="text-start mb-9">
+                <div class="text-start mb-9 pt-5">
                     <img src="../assets/hr-leader.png" alt="東急百貨店代表" width="710">
                 </div>
                 <section class="pb-16 text-gray-700">
-                    <h1 class="text-3xl font-weight-100 tracking-widest py-3">新しい未来に向けて、共に歩んでいきましょう</h1>
+                    <h1 class="message text-3xl font-weight-100 tracking-widest py-3">新しい未来に向けて、共に歩んでいきましょう</h1>
                     <hr class="my-3 border-black">
                     <ul class="flex mt-6">
-                        <li class="leader-name"><h4 class="text-3xl"><span class="mr-4">飯塚</span><span class="ml-4">康浩</span></h4></li>
+                        <li class="leader-name"><p class="text-3xl"><span class="mr-4">飯塚</span><span class="ml-4">康浩</span></p></li>
                         <li class="leader-name-reading"><p class="leading-10 ml-4 text-gray-400 tracking-widest">Yasuhiro Iizuka</p></li>
                     </ul>
                     <p class="mt-3">人事部長</p>
@@ -43,9 +43,9 @@
                 <section class="py-8">
                     <div class="py-2">
                         <!-- Questionのフォント調査 -->
-                        <h6 class="text-3xl">Question</h6>
+                        <h3 class="text-3xl text-indigo-900">Question</h3>
                         <hr>
-                        <h2 class="text-2xl pt-5 font-semibold tracking-wider text-gray-700">求める人物像</h2>
+                        <h4 class="text-2xl pt-5 font-semibold tracking-wider text-gray-700">求める人物像</h4>
                         <hr class="border-2 mt-2 mb-4">
                     </div>
                     <div class="pt-2">
@@ -66,9 +66,9 @@
                 <section class="py-8">
                     <div class="py-2">
                         <!-- Questionのフォント調査 -->
-                        <h6 class="text-3xl">Question</h6>
+                        <h3 class="text-3xl text-indigo-900">Question</h3>
                         <hr>
-                        <h2 class="text-2xl pt-5 font-semibold tracking-wider text-gray-700">人事部長として心がけていること</h2>
+                        <h4 class="text-2xl pt-5 font-semibold tracking-wider text-gray-700">人事部長として心がけていること</h4>
                         <hr class="border-2 mt-2 mb-4">
                     </div>
                     <div class="pt-2">
@@ -86,9 +86,9 @@
                 <section class="pt-8 pb-32">
                     <div class="py-2">
                         <!-- Questionのフォント調査 -->
-                        <h6 class="text-3xl">Question</h6>
+                        <h3 class="text-3xl text-indigo-900">Question</h3>
                         <hr>
-                        <h2 class="text-2xl pt-5 font-semibold tracking-wider text-gray-700">応募者へのメッセージ</h2>
+                        <h4 class="text-2xl pt-5 font-semibold tracking-wider text-gray-700">応募者へのメッセージ</h4>
                         <hr class="border-2 mt-2 mb-4">
                     </div>
                     <div class="pt-2">
@@ -114,9 +114,8 @@
         <footer class="w-full bg-white py-10">
             <div class="text-center pt-5">
                 <!-- 画像ちょっと横にずれてる？ -->
-                <img src="../assets/tokyu-logo-white.png" alt="東急百貨店" width="180" class="mx-auto bg-white">
-                <!-- letter spacingの調整 -->
-                <p class="text-black mb-5 tracking-widest">RECUITMENT</p>
+                <a href=""><img src="../assets/tokyu-logo-white.png" alt="東急百貨店" width="180" class="mx-auto bg-white"></a>
+                <p class="recruitment text-black mb-5">RECRUITMENT</p>
                 <p class="text-sm mt-5 italic"><small>Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights Reserved.</small></p>
             </div>
         </footer>
@@ -145,10 +144,10 @@ export default {
     .leader-name-reading {
         font-family: system-ui;
     }
-    section h1 {
-        font-family: "游明朝体","YuMincho";
+    .recruitment {
+        letter-spacing: 0.3rem;
     }
-    section h6 {
-        color:#15334d;
+    .message {
+        font-family: "游明朝体","YuMincho";
     }
 </style>

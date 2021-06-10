@@ -11,12 +11,6 @@ hr {
 .leader-name {
   font-family: "Hiragino Sans","ヒラギノ角ゴシック";
 }
-.leader-name-reading {
-  font-family: system-ui;
-}
-.recruitment {
-  letter-spacing: 0.3rem;
-}
 .message {
   font-family: "游明朝体","YuMincho";
 }

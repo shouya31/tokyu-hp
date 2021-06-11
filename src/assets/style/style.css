@@ -7,6 +7,22 @@ hr {
   border-color: #15334d;
 }
 
+/* humbergar */
+.menu, .menu span {
+  display: inline-block;
+  box-sizing: border-box;
+}
+.menu p {
+  margin: -9px 0;
+}
+.menu::before,
+.menu::after,
+.menu span {
+  width: 17%;
+  height: 4px;
+  background: #333;
+}
+
 /* Greeting.vue */
 .leader-name {
   font-family: "Hiragino Sans","ヒラギノ角ゴシック";
@@ -18,4 +34,32 @@ hr {
 }
 .message {
   font-family: "游明朝体","YuMincho";
+}
+
+/* PeoplePage.vue */
+.people {
+  background-color: #add5d4;
+  font-family: "游明朝体","YuMincho";
+}
+.people-lead {
+  vertical-align: 0.6rem;
+  letter-spacing: 0.3rem;
+}
+
+.question-vertical {
+  letter-spacing: 0.5rem;
+  text-decoration: overline;
+  writing-mode: vertical-rl;
+}
+.question-vertical h3{
+  line-height: 1.6em;
+}
+
+.question-vertical h3 span{
+	border-left: 1px solid #000;
+  padding-top: 4.5rem;
+}
+
+.column-lead{
+  letter-spacing: 0.7rem;
 }

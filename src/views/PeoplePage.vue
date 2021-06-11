@@ -1,15 +1,20 @@
 <template>
-    <h2>Peopleページ</h2>
+    <div class="container-fuild grid grid-cols-1 lg:grid-cols-4 gap-9 lg:gap-7">
+        <sidebar></sidebar>
+    </div>
 </template>
 
 <script>
-// ここにJSを実装する
+import Sidebar from '../components/Sidebar.vue';
+
 export default {
   name: 'PeoplePage',
-  }
+  components: {
+    Sidebar
+  },
+}
 </script>
 
 <style>
-/* ここにCSSを実装する */
-
+  @import "../assets/style/style.css";
 </style>

@@ -23,15 +23,17 @@
 
         <!-- 質問回答セクション -->
         <section class="question col-span-3 col-start-2 flex py-10 pr-5">
-            <div class="left-content w-3/5">
+            <div class="left-content w-3/5 relative">
                 <!-- 画像重ね-->
-                <img src="../assets/people-akiyama2.png" class="pr-24" alt="people2">
+                <div class="bg-white absolute right-40 -top-6 w-4/5 h-80"></div>
+                <div class="relative z-20"><img src="../assets/people-akiyama2.png" class="pr-24" alt="people2"></div>
+                <div class="bg-blue-900 absolute left-14 -bottom-6 w-4/5 h-80"></div>
             </div>
-            <div class="right-content text-center question-vertical">
-                <img src="../assets/loupe.png" class="relative top-6 left-5 pl-7 float-left" width="100" alt="loupe">
-                <p class="text-xs h-3/5 text-right"><span>Question</span></p><br>
-                <p class="text-2xl font-semibold">東急百貨店を</p><br>
-                <p class="text-2xl font-semibold">志望した理由</p>
+            <div class="right-content text-center question-vertical pb-12">
+                <img src="../assets/loupe.png" class="relative left-5 pl-7 float-left" width="100" alt="loupe">
+                <p class="text-xs h-4/6 text-right"><span>Question</span></p><br>
+                <p class="text-2xl font-bold">東急百貨店を</p><br>
+                <p class="text-2xl font-bold">志望した理由</p>
             </div>
         </section>
 
@@ -47,13 +49,13 @@
         </section>
 
         <section class="question col-span-3 col-start-2 flex pt-10 pr-5">
-            <div class="left-content question-vertical h-3/5 mt-16">
+            <div class="left-content question-vertical h-3/5 mt-16 ml-10">
                 <img src="../assets/loupe.png" class="relative bottom-20 right-12" width="80" alt="loupe">
                 <p class="text-xs pt-14"><span>Question</span></p><br>
-                <p class="text-2xl pb-9 font-semibold">現在の</p><br>
-                <p class="text-2xl font-semibold">仕事内容</p>
+                <p class="text-2xl pb-9 font-bold">現在の</p><br>
+                <p class="text-2xl font-bold">仕事内容</p>
             </div>
-            <div class="answer right-content ml-40 w-3/5">
+            <div class="answer right-content ml-10 w-3/5">
                 <h4 class="answer-title text-2xl font-bold my-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>固定概念に捉われず、お客様ニーズを満たす</h4>
                 <p class="answer-text my-7 text-xs lg:text-md tracking-wider lg:leading-7 text-gray-800">
                     所属する営業企画部では、主に会社全体の販売スケジュール作成や売出計画の策定を行っています。
@@ -72,20 +74,21 @@
             </div>
         </section>
 
-        <section class="question col-span-3 col-start-2 flex pt-10 pr-5">
-            <div class="left-content w-3/5">
-                <!-- 画像重ね-->
-                <img src="../assets/tokyu-department.png" class="pr-24" alt="people2">
+        <section class="question col-span-3 col-start-2 flex pr-5">
+            <div class="left-content w-3/5 relative">
+                <div class="bg-white absolute right-40 -top-7 w-4/5 h-80"></div>
+                <div class="relative z-20"><img src="../assets/tokyu-department.png" class="pr-24" alt="department"></div>
+                <div class="bg-blue-900 absolute left-14 -bottom-6 w-4/5 h-80"></div>
             </div>
-            <div class="right-content question-vertical mt-12">
+            <div class="right-content question-vertical mt-2">
                 <img src="../assets/loupe.png" class="relative top-1 left-5 pl-7 float-left" width="100" alt="loupe">
                 <p class="text-xs pt-24"><span>Question</span></p><br>
-                <p class="text-2xl pb-28 font-semibold">私の</p><br>
-                <p class="text-2xl font-semibold">エピソード</p>
+                <p class="text-2xl pb-28 font-bold">私の</p><br>
+                <p class="text-2xl font-bold">エピソード</p>
             </div>
         </section>
 
-        <section class="answer col-span-3 col-start-2 w-3/5 mx-auto pb-10 pr-5">
+        <section class="answer col-span-3 col-start-2 w-3/5 mx-auto py-5 pr-5">
             <h4 class="answer-title text-2xl font-bold my-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>50周年記念イベントで掴んだ自信</h4>
             <p class="answer-text my-7 text-xs lg:text-md tracking-wider lg:leading-7 text-gray-800">
                 2017年に開店から50周年を迎えた本店。その記念日を祝うため、1年程前からお店の歴史について
@@ -99,13 +102,13 @@
         </section>
 
         <section class="question col-span-3 col-start-2 flex pt-10 pr-5">
-            <div class="left-content question-vertical">
+            <div class="left-content question-vertical ml-10">
                 <img src="../assets/loupe.png" class="relative bottom-20 right-12" width="80" alt="loupe">
                 <p class="text-xs pt-20"><span>Question</span></p><br>
-                <p class="text-xl font-semibold">これからの</p><br>
-                <p class="text-xl pb-24 font-semibold">歩み</p>
+                <p class="text-xl font-bold">これからの</p><br>
+                <p class="text-xl pb-24 font-bold">歩み</p>
             </div>
-            <div class="answer right-content ml-40 w-3/5">
+            <div class="answer right-content ml-10 w-3/5">
                 <h4 class="answer-title text-2xl font-bold mb-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>沿線生活をイノベートする</h4>
                 <p class="answer-text my-7 text-xs lg:text-md tracking-wider lg:leading-7 text-gray-800">
                     ここ数年で東急百貨店は東急沿線を中心に専門店や小型店を多数出店。東急沿線上で生活されている

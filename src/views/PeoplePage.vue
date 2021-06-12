@@ -1,9 +1,9 @@
 <template>
-    <div class="container-fuild people grid grid-cols-1 lg:grid-cols-4 gap-9 lg:gap-7">
+    <div class="container-fuild people grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-9 lg:gap-7">
         <sidebar></sidebar>
         <section class="hero px-4 col-span-4 lg:col-span-3 lg:flex lg:pt-10 lg:pr-5">
             <div class="left-content mr-auto">
-                <h1 class="lead text-3xl xl:text-5xl tracking-wider font-semibold lg:relative lg:right-16"><span class="people-lead text-lg xl:text-2xl font-extralight">共に歩む ✖️ </span>PEOPLE</h1>
+                <h1 class="lead text-3xl xl:text-4xl tracking-wider font-semibold lg:relative lg:right-16"><span class="people-lead text-lg xl:text-xl font-extralight">共に歩む ✖️ </span>PEOPLE</h1>
                 <h2 class="sub-lead leading-snug font-thin text-2xl xl:text-5xl mt-28 mb-14 tracking-wider">心躍る百貨店を<br>思い描いて</h2>
                 <p class="message my-14 text-sm xl:text-xl leading-9 tracking-wider">
                     日々の生活や会話の中から<br>
@@ -22,8 +22,8 @@
         </section>
 
         <!-- 質問回答セクション -->
-        <section class="question col-span-3 col-start-2 lg:flex pt-0 pr-5 h-full">
-            <div class="left-content w-3/5 md:relative pt-48 lg:pt-0">
+        <section class="question col-span-3 col-start-2 lg:flex pt-0 pr-5 xl:pt-30 h-full">
+            <div class="left-content w-3/5 hidden md:block md:relative pt-48 lg:pt-0">
                 <div class="bg-white hidden lg:block md:absolute right-40 xl:-top-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
                 <div class="hidden lg:block md:relative top-14 xl:top-1 xl:left-6 z-20"><img src="../assets/people-akiyama2.png" class="max-h-80 pr-24" alt="people2"></div>
                 <div class="bg-blue-900 hidden lg:block md:absolute left-14 -bottom-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
@@ -31,8 +31,8 @@
             <div class="right-content text-center question-vertical pb-12">
                 <img src="../assets/loupe.png" class="relative lg:left-5 pl-7 float-left" width="100" alt="loupe">
                 <p class="text-xs h-4/6 text-right"><span>Question</span></p><br>
-                <p class="text-2xl font-bold">東急百貨店を</p><br>
-                <p class="text-2xl font-bold">志望した理由</p>
+                <p class="text-lg font-bold">東急百貨店を</p><br>
+                <p class="text-lg font-bold">志望した理由</p>
             </div>
         </section>
 
@@ -47,14 +47,14 @@
             </p>
         </section>
 
-        <section class="question col-span-3 col-start-2 flex pt-10 pr-28 lg:pr-5">
-            <div class="left-content question-vertical mt-16 ml-10">
+        <section class="question col-span-3 col-start-2 md:flex md:pt-10 md:pr-28 lg:pr-5 h-full">
+            <div class="left-content question-vertical w-9/12 md:w-auto mx-auto md:mt-16 md:ml-10">
                 <img src="../assets/loupe.png" class="relative bottom-20 right-12" width="80" alt="loupe">
-                <p class="text-xs pt-14"><span>Question</span></p><br>
-                <p class="text-2xl pb-9 font-bold">現在の</p><br>
-                <p class="text-2xl font-bold">仕事内容</p>
+                <p class="text-xs pt-9"><span>Question</span></p><br>
+                <p class="text-lg pb-8 font-bold">現在の</p><br>
+                <p class="text-lg font-bold">仕事内容</p>
             </div>
-            <div class="answer right-content lg:ml-10 w-3/5">
+            <div class="answer right-content lg:ml-10 mx-12 md:w-3/5">
                 <h4 class="answer-title text-2xl font-bold my-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>固定概念に捉われず、お客様ニーズを満たす</h4>
                 <p class="answer-text my-7 text-xs lg:text-md tracking-wider lg:leading-7 text-gray-800">
                     所属する営業企画部では、主に会社全体の販売スケジュール作成や売出計画の策定を行っています。
@@ -73,7 +73,7 @@
             </div>
         </section>
 
-        <section class="question col-span-3 col-start-2 lg:flex xl:pt-8 pr-5 h-full">
+        <section class="question col-span-3 col-start-2 lg:flex xl:pt-8 pt-0 pr-5 h-full">
             <div class="left-content w-3/5 relative">
                 <div class="bg-white hidden lg:block md:absolute right-40 xl:-top-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
                 <div class="hidden lg:block md:relative top-14 xl:top-1 xl:left-6 z-20"><img src="../assets/tokyu-department.png" class="max-h-80 pr-24" alt="department"></div>
@@ -81,13 +81,13 @@
             </div>
             <div class="right-content question-vertical mt-2">
                 <img src="../assets/loupe.png" class="relative top-1 left-5 pl-7 float-left" width="100" alt="loupe">
-                <p class="text-xs pt-24"><span>Question</span></p><br>
-                <p class="text-2xl pb-28 font-bold">私の</p><br>
-                <p class="text-2xl font-bold">エピソード</p>
+                <p class="text-xs pt-16"><span>Question</span></p><br>
+                <p class="text-lg pb-24 font-bold">私の</p><br>
+                <p class="text-lg font-bold">エピソード</p>
             </div>
         </section>
 
-        <section class="answer col-span-3 col-start-2 w-3/5 mx-auto py-5 pr-5">
+        <section class="answer col-span-3 col-start-2 w-3/5 mx-auto py-5 pr-5 h-full">
             <h4 class="answer-title text-2xl font-bold my-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>50周年記念イベントで掴んだ自信</h4>
             <p class="answer-text my-7 text-xs lg:text-md tracking-wider lg:leading-7 text-gray-800">
                 2017年に開店から50周年を迎えた本店。その記念日を祝うため、1年程前からお店の歴史について
@@ -100,14 +100,14 @@
             </p>
         </section>
 
-        <section class="question col-span-3 col-start-2 flex pt-10 pr-28 lg:pr-5">
-            <div class="left-content question-vertical ml-10">
+        <section class="question col-span-3 col-start-2 md:flex pt-10 pr-28 lg:pr-5 h-full">
+            <div class="left-content question-vertical w-9/12 md:w-auto mx-auto md:mt-16 md:ml-10 md:static md:left-0 relative left-24">
                 <img src="../assets/loupe.png" class="relative bottom-20 right-12" width="80" alt="loupe">
                 <p class="text-xs pt-20"><span>Question</span></p><br>
-                <p class="text-xl font-bold">これからの</p><br>
-                <p class="text-xl pb-24 font-bold">歩み</p>
+                <p class="text-lg font-bold">これからの</p><br>
+                <p class="text-lg pb-24 font-bold">歩み</p>
             </div>
-            <div class="answer right-content lg:ml-10 w-3/5">
+            <div class="answer right-content lg:ml-10 ml-12 w-full md:w-3/5">
                 <h4 class="answer-title text-2xl font-bold mb-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>沿線生活をイノベートする</h4>
                 <p class="answer-text my-7 text-xs lg:text-md tracking-wider lg:leading-7 text-gray-800">
                     ここ数年で東急百貨店は東急沿線を中心に専門店や小型店を多数出店。東急沿線上で生活されている
@@ -122,13 +122,13 @@
         <!-- コラム -->
         <section class="column col-span-4 lg:col-span-3 lg:col-start-2 lg:pt-10 lg:pr-5 px-10">
             <div class="upper-content bg-indigo-900 text-white text-center w-1/2 xl:w-1/5 py-2 relative lg:right-12 top-20">
-                <h5 class="font-thin text-3xl column-lead">Column</h5>
+                <h5 class="font-thin text-xl md:text-3xl column-lead">Column</h5>
             </div>
             <div class="column-sublead medium-content text-center w-1/2 xl:w-1/5 py-2 relative lg:right-12 top-20">
                 <p>「〇〇とともに歩む」</p>
             </div>
             <div class="bottom-content xl:w-4/5 bg-white text-center xl:py-7 pt-10">
-                <h6 class="column-title underline pb-3 pt-12 font-extralight text-4xl font-thin tracking-widest">東急線と共に歩む</h6>
+                <h6 class="column-title underline pb-3 pt-12 font-extralight text-2xl md:text-4xl font-thin tracking-widest">東急線と共に歩む</h6>
                 <p class="column-text p-10 w-3/4 mx-auto text-xs lg:text-md tracking-wider lg:leading-7 text-gray-800">
                     私自身、東急沿線上に住んでおり、東急百貨店が東急グループの一員として沿線に住む人々の生活に影響を
                     与えていることを日々実感しています。沿線生活者の暮らしをより豊かにすることを目標に、小型店や専門店、
@@ -143,14 +143,14 @@
                 <img src="../assets/people-akiyama3.png" alt="">
             </div>
             <div class="bottom-content mt-8">
-                <ul class="flex mt-14 profile">
+                <ul class="md:flex mt-14 profile">
                     <li class="bg-indigo-900 leading-10 text-center text-white mb-auto py-1 px-4"><p class="font-thin text-3xl tracking-widest">Profile</p></li>
-                    <li class="ml-16 people-name">
+                    <li class="md:ml-16 people-name pt-7 md:pt-0">
                         <p class="text-xl font-medium">秋山 さやか<br>
                             <small class="leading-7 text-gray-700 tracking-widest text-xs">Syaka Akiyama</small>
                         </p>
                     </li>
-                    <li class="ml-12 text-sm people-info">
+                    <li class="md:ml-12 text-sm people-info">
                         <p>営業推進部 営業企画部</p>
                         <p class="py-2">2005年 入社</p>
                         <p>文学部 心理学科 卒</p>

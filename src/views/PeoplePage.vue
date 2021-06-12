@@ -4,9 +4,8 @@
         <section class="hero px-4 col-span-3 col-start-2 lg:flex lg:pt-10 lg:pr-5">
             <div class="left-content mr-auto">
                 <h1 class="lead text-3xl xl:text-4xl tracking-wider font-semibold lg:relative lg:right-16"><span class="people-lead text-lg xl:text-xl font-extralight">共に歩む ✖️ </span>PEOPLE</h1>
-                <div class="sub-lead leading-snug font-thin text-2xl xl:text-5xl mt-28 mb-14 tracking-wider">
-                    <h2>心躍る百貨店を</h2>
-                    <h2>思い描いて</h2>
+                <div class="sub-lead leading-snug font-thin text-2xl xl:text-5xl mt-28 mb-14 tracking-wide">
+                    <h2>心躍る百貨店を思い描いて</h2>
                 </div>
                 <div class="message my-14 text-sm xl:text-xl leading-9 tracking-wider">
                     <p>日々の生活や会話の中から</p>

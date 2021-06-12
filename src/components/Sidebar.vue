@@ -1,7 +1,7 @@
 <template>
-    <div class="sidebar col-span-1">
+    <div class="fixed sidebar col-span-1">
         <!-- sp ヘッダー-->
-        <nav class="flex lg:hidden pl-24 pt-8 mx-auto">
+        <nav class="flex hidden pl-24 pt-8 mx-auto">
             <a href="#" class="max-w-xl md:max-w-xs"><img src="../assets/tokyu-logo.png" alt="東急百貨店"></a>
         </nav>
         <!-- sp ヘッダーここまで -->

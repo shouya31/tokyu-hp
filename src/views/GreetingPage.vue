@@ -1,7 +1,7 @@
 <template>
     <div class="container-fuild grid grid-cols-1 lg:grid-cols-4 gap-9 lg:gap-7">
         <sidebar></sidebar>
-        <div class="col-span-4 p-4 lg:col-span-2 lg:pt-16">
+        <div class="p-4 lg:col-span-2 col-span-3 lg:col-start-2 lg:pt-16">
             <img src="../assets/hr-leader.png" class="w-full lg:max-w-3xl mt-4" alt="東急百貨店代表">
             <section class="pb-16 text-gray-700">
                 <h1 class="message text-md font-weight-100 tracking-wider pt-9 pb-3 md:text-3xl">新しい未来に向けて、共に歩んでいきましょう</h1>

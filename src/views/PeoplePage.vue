@@ -1,16 +1,19 @@
 <template>
     <div class="container-fuild people grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-9 lg:gap-7">
         <sidebar></sidebar>
-        <section class="hero px-4 col-span-4 lg:col-span-3 lg:flex lg:pt-10 lg:pr-5">
+        <section class="hero px-4 col-span-3 col-start-2 lg:flex lg:pt-10 lg:pr-5">
             <div class="left-content mr-auto">
                 <h1 class="lead text-3xl xl:text-4xl tracking-wider font-semibold lg:relative lg:right-16"><span class="people-lead text-lg xl:text-xl font-extralight">共に歩む ✖️ </span>PEOPLE</h1>
-                <h2 class="sub-lead leading-snug font-thin text-2xl xl:text-5xl mt-28 mb-14 tracking-wider">心躍る百貨店を<br>思い描いて</h2>
-                <p class="message my-14 text-sm xl:text-xl leading-9 tracking-wider">
-                    日々の生活や会話の中から<br>
-                    企画につながるヒントを探す<br>
-                    企画が実現した瞬間の<br>
-                    ワクワク間を大切にしたい
-                </p>
+                <div class="sub-lead leading-snug font-thin text-2xl xl:text-5xl mt-28 mb-14 tracking-wider">
+                    <h2>心躍る百貨店を</h2>
+                    <h2>思い描いて</h2>
+                </div>
+                <div class="message my-14 text-sm xl:text-xl leading-9 tracking-wider">
+                    <p>日々の生活や会話の中から</p>
+                    <p>企画につながるヒントを探す</p>
+                    <p>企画が実現した瞬間の</p>
+                    <p>ワクワク間を大切にしたい</p>
+                </div>
                 <ul>
                     <li><p class="people-name text-xl xl:text-3xl">秋山 さやか<span class="leading-7 ml-4 text-gray-700 tracking-widest text-xs">Sayaka Akiyama</span></p></li>
                     <li><p class="people-info mt-3 text-xs xl:text-sm tracking-wide">営業推進部 営業企画部 <span class="mx-3">/</span> 2005年 入社</p></li>
@@ -30,9 +33,9 @@
             </div>
             <div class="right-content text-center question-vertical pb-12">
                 <img src="../assets/loupe.png" class="relative lg:left-5 pl-7 float-left" width="100" alt="loupe">
-                <p class="text-xs h-4/6 text-right"><span>Question</span></p><br>
-                <p class="text-lg font-bold">東急百貨店を</p><br>
-                <p class="text-lg font-bold">志望した理由</p>
+                <div class="text-xs text-right"><p class="pt-24"><span>Question</span></p></div>
+                <div class="text-lg font-bold"><p>東急百貨店を</p></div>
+                <div class="text-lg font-bold"><p>志望した理由</p></div>
             </div>
         </section>
 
@@ -50,9 +53,9 @@
         <section class="question col-span-3 col-start-2 md:flex md:pt-10 md:pr-28 lg:pr-5 h-full">
             <div class="left-content question-vertical w-9/12 md:w-auto mx-auto md:mt-16 md:ml-10">
                 <img src="../assets/loupe.png" class="relative bottom-20 right-12" width="80" alt="loupe">
-                <p class="text-xs pt-9"><span>Question</span></p><br>
-                <p class="text-lg pb-8 font-bold">現在の</p><br>
-                <p class="text-lg font-bold">仕事内容</p>
+                <div class="text-xs"><p class="pt-10"><span>Question</span></p></div>
+                <div class="text-lg font-bold"><p class="pb-8">現在の</p></div>
+                <div class="text-lg font-bold"><p>仕事内容</p></div>
             </div>
             <div class="answer right-content lg:ml-10 mx-12 md:w-3/5">
                 <h4 class="answer-title text-2xl font-bold my-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>固定概念に捉われず、お客様ニーズを満たす</h4>
@@ -63,13 +66,15 @@
                     という認識に捉われない試みでした。デジタル技術を用いて見えた課題もあった一方で、お客様への
                     新しいアプローチ方法に次につながる手応えを感じました。
                 </p>
-                <p class="text-xs lg:text-sm">
-                    <small class="text-gray-600">
-                        *ライブコマース:<br>
-                        ライブ動画の配信を通じて、商品を購入してもらう販売携帯のこと。ネットショッピングで
-                        ありながらも、商品に関する質問などお客様とのコミュニケーションを取ることが可能。
-                    </small>
-                </p>
+                <div class="text-xs lg:text-sm text-gray-600">
+                    <p><small>*ライブコマース:</small></p>
+                    <p>
+                        <small>
+                            ライブ動画の配信を通じて、商品を購入してもらう販売携帯のこと。ネットショッピングで
+                            ありながらも、商品に関する質問などお客様とのコミュニケーションを取ることが可能。
+                        </small>
+                    </p>
+                </div>
             </div>
         </section>
 
@@ -81,9 +86,9 @@
             </div>
             <div class="right-content question-vertical mt-2">
                 <img src="../assets/loupe.png" class="relative top-1 left-5 pl-7 float-left" width="100" alt="loupe">
-                <p class="text-xs pt-16"><span>Question</span></p><br>
-                <p class="text-lg pb-24 font-bold">私の</p><br>
-                <p class="text-lg font-bold">エピソード</p>
+                <div class="text-xs"><p class="pt-16"><span>Question</span></p></div>
+                <div class="text-lg font-bold"><p class="pb-20">私の</p></div>
+                <div class="text-lg font-bold"><p>エピソード</p></div>
             </div>
         </section>
 
@@ -103,9 +108,9 @@
         <section class="question col-span-3 col-start-2 md:flex pt-10 pr-28 lg:pr-5 h-full">
             <div class="left-content question-vertical w-9/12 md:w-auto mx-auto md:mt-16 md:ml-10 md:static md:left-0 relative left-24">
                 <img src="../assets/loupe.png" class="relative bottom-20 right-12" width="80" alt="loupe">
-                <p class="text-xs pt-20"><span>Question</span></p><br>
-                <p class="text-lg font-bold">これからの</p><br>
-                <p class="text-lg pb-24 font-bold">歩み</p>
+                <div class="text-xs"><p class="pt-8"><span>Question</span></p></div>
+                <div class="text-lg font-bold"><p class="lg:tracking-wide lg:pb-7">これからの</p></div>
+                <div class="text-lg font-bold"><p class="lg:tracking-wide pb-20">歩み</p></div>
             </div>
             <div class="answer right-content lg:ml-10 ml-12 w-full md:w-3/5">
                 <h4 class="answer-title text-2xl font-bold mb-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span>沿線生活をイノベートする</h4>
@@ -146,9 +151,8 @@
                 <ul class="md:flex mt-14 profile">
                     <li class="bg-indigo-900 leading-10 text-center text-white mb-auto py-1 px-4"><p class="font-thin text-3xl tracking-widest">Profile</p></li>
                     <li class="md:ml-16 people-name pt-7 md:pt-0">
-                        <p class="text-xl font-medium">秋山 さやか<br>
-                            <small class="leading-7 text-gray-700 tracking-widest text-xs">Syaka Akiyama</small>
-                        </p>
+                        <p class="text-xl font-medium">秋山 さやか</p>
+                        <p><small class="leading-7 text-gray-700 tracking-widest text-xs">Syaka Akiyama</small></p>
                     </li>
                     <li class="md:ml-12 text-sm people-info">
                         <p>営業推進部 営業企画部</p>

@@ -22,10 +22,10 @@
         </section>
 
         <!-- 質問回答セクション -->
-        <section class="question col-span-3 col-start-2 lg:flex pr-5 h-full">
+        <section class="question col-span-3 col-start-2 lg:flex pt-0 pr-5 h-full">
             <div class="left-content w-3/5 md:relative pt-48 lg:pt-0">
                 <div class="bg-white hidden lg:block md:absolute right-40 xl:-top-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
-                <div class="hidden lg:block md:relative top-14 z-20"><img src="../assets/people-akiyama2.png" class="max-h-full pr-24" alt="people2"></div>
+                <div class="hidden lg:block md:relative top-14 xl:top-1 xl:left-6 z-20"><img src="../assets/people-akiyama2.png" class="max-h-80 pr-24" alt="people2"></div>
                 <div class="bg-blue-900 hidden lg:block md:absolute left-14 -bottom-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
             </div>
             <div class="right-content text-center question-vertical pb-12">
@@ -73,11 +73,11 @@
             </div>
         </section>
 
-        <section class="question col-span-3 col-start-2 lg:flex pr-5 h-full">
+        <section class="question col-span-3 col-start-2 lg:flex xl:pt-8 pr-5 h-full">
             <div class="left-content w-3/5 relative">
                 <div class="bg-white hidden lg:block md:absolute right-40 xl:-top-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
-                <div class="hidden lg:block md:relative top-14 z-20"><img src="../assets/tokyu-department.png" class="max-h-full pr-24" alt="department"></div>
-                <div class="bg-blue-900 hidden lg:block md:absolute left-14 -bottom-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
+                <div class="hidden lg:block md:relative top-14 xl:top-1 xl:left-6 z-20"><img src="../assets/tokyu-department.png" class="max-h-80 pr-24" alt="department"></div>
+                <div class="bg-blue-900 hidden lg:block md:absolute left-14 md:-bottom-6 w-3/4 xl:w-4/5 h-60 xl:h-80"></div>
             </div>
             <div class="right-content question-vertical mt-2">
                 <img src="../assets/loupe.png" class="relative top-1 left-5 pl-7 float-left" width="100" alt="loupe">

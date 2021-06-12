@@ -30,13 +30,12 @@
                     <p class="relative text-4xl tracking-wider top-6" style="font-family top: 20px; left: -10px; font-size: 60px;">×</p>
                     <p class="relative text-6xl tracking-widest" style="font-family: emoji; font-weight: 600; right: -10px;bottom: -40px; color: #003366;">VISION</p>
                 </div>
-                <div class="fv-contents flex" v-on:click="show = !show">
-                    <transition name="fade">
-                        <div v-if="show" class="fv-left-content w-11/12">
+                <div class="fv-contents flex">
+                    <div class="fv-left-content w-11/12">
+                        <transition name="fade" mode="out-in">
                             <img :src="images[index]" :key="images[index]" alt="" width="800" height="550" style="height:550px;">
-                        </div>
-                    </transition>
-         
+                        </transition>
+                    </div> 
                     <div class="fv-right-content absolute right-0">
                         <div class="flex justify-end m-10">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-VliuBzfhMkFESbIx1mThj2Ay9Ll-UnYhQ&usqp=CAU" alt="" class="relative w-3/12" style="top: 170px;left: 65px; height: 180px;">
@@ -95,7 +94,7 @@ export default{
    mounted() {
     setInterval(() => {
         this.index = this.index < this.images.length - 1 ? this.index + 1 : 0;
-    }, 4000);
+    }, 3000);
   },
 }
 

@@ -10,7 +10,6 @@ hr {
 /* humbergar */
 .menu, .menu span {
   display: inline-block;
-  box-sizing: border-box;
 }
 .menu p {
   margin: -9px 0;
@@ -41,23 +40,29 @@ hr {
   background-color: #add5d4;
   font-family: "游明朝体","YuMincho";
 }
+.hero {
+  height: 800px;
+  width: 100%;
+}
+.lead {
+  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+}
 .people-lead {
   vertical-align: 0.6rem;
   letter-spacing: 0.3rem;
 }
-
 .question-vertical {
-  letter-spacing: 0.5rem;
-  text-decoration: overline;
+  letter-spacing: 0.8rem;
   writing-mode: vertical-rl;
 }
-.question-vertical h3{
-  line-height: 1.6em;
+.question-vertical p{
+  border-left: 2px solid #000;
+  display: inline-block;
+  margin: 2%;
 }
 
-.question-vertical h3 span{
-	border-left: 1px solid #000;
-  padding-top: 4.5rem;
+.question-vertical p span {
+  letter-spacing: 0.3rem;
 }
 
 .column-lead{

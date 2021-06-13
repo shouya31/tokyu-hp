@@ -1,23 +1,7 @@
 <template>
     <div class="container-fuild grid grid-cols-1 lg:grid-cols-4 gap-9 lg:gap-7">
-        <!-- sp ヘッダー-->
-        <nav class="flex lg:hidden pl-24 pt-8 mx-auto">
-            <a href="#" class="max-w-xl md:max-w-xs"><img src="../assets/tokyu-logo-gray.png" alt="東急百貨店"></a>
-        </nav>
-        <!-- sp ヘッダーここまで -->
-        <div class="hidden max-w-full lg:block lg:col-span-1 px-2 ml-4">
-            <a href="#" class="lg:ml-3"><img src="../assets/tokyu-logo-gray.png" alt="東急百貨店" width="150"></a>
-            <p class="hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest">RECRUITMENT</p>
-            <div class="hidden lg:block py-48 ml-6">
-                <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-                    <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/>
-                </svg>
-            </div>
-            <button class="bg-blue-900 ml-3 mt-28 px-2 tracking-widest">
-                <p class="text-white">ENTRY</p>
-            </button>
-        </div>
-        <div class="col-span-4 p-4 lg:col-span-2 lg:pt-16">
+        <sidebar></sidebar>
+        <div class="p-4 lg:col-span-2 col-span-3 lg:col-start-2 lg:pt-16">
             <img src="../assets/hr-leader.png" class="w-full lg:max-w-3xl mt-4" alt="東急百貨店代表">
             <section class="pb-16 text-gray-700">
                 <h1 class="message text-md font-weight-100 tracking-wider pt-9 pb-3 md:text-3xl">新しい未来に向けて、共に歩んでいきましょう</h1>
@@ -97,10 +81,14 @@
 </template>
 
 <script>
-// ここにJSを実装する
+import Sidebar from '../components/Sidebar.vue';
+
 export default {
   name: 'Greeting',
-  }
+  components: {
+    Sidebar
+  },
+}
 </script>
 
 <style>

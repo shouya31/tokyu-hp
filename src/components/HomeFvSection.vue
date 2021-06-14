@@ -42,13 +42,13 @@
             style="top: 170px;left: 65px; height: 180px;"
           />
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-VliuBzfhMkFESbIx1mThj2Ay9Ll-UnYhQ&usqp=CAU"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UfL29AEE6YkXLWVYUqixiR9AM-kt3UBrAA&usqp=CAU"
             alt=""
             class="relative w-3/12"
             style="top: -140px; left: 30px; height: 180px;"
           />
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UfL29AEE6YkXLWVYUqixiR9AM-kt3UBrAA&usqp=CAU"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-VliuBzfhMkFESbIx1mThj2Ay9Ll-UnYhQ&usqp=CAU"
             alt=""
             class="relative w-3/12"
             style="bottom: -280px; height: 180px;"

@@ -1,7 +1,7 @@
 <template>
     <div class="side-bar w-2/12  hidden lg:block">
                 <div class="max-w-full col-span-1 px-2 ml-4">
-                    <a href="#" class="lg:ml-3"><img src="../../public/tokyu-logo.png" alt="東急百貨店" width="150"></a>
+                    <router-link to="/greeting"><img src="../../public/tokyu-logo.png" alt="東急百貨店" width="150"></router-link>
                     <p class="hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest">RECRUITMENT</p>
             <div class="menu hidden lg:block py-48 ml-8">
                 <p><span style="width: 30%;"></span></p>

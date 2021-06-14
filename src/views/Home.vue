@@ -19,7 +19,7 @@
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
           />
           <HomeSectionImage 
-            image="https://pbs.twimg.com/profile_images/900653107289272322/qwKx2lL4_400x400.jpg"
+            image="../images/home-vision.png"
           />
         </div>
       </div>
@@ -31,7 +31,7 @@
         <HomeSectionTitle title="PROJECT" />
         <div class="flex justify-between p-10">
           <HomeSectionImage 
-            image="https://images.keizai.biz/shibukei/headline/1493095961_photo.jpg"
+            image="../images/home-project.png"
           />
           <HomeSectionText 
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
@@ -49,7 +49,7 @@
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
           />
           <HomeSectionImage 
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQkYFdztVxweCGcJv4_JztfVmJVih8D8YuvschG6jRRSe8v4UzRE9GDLc6CI9MUA9WFsc-at6OaZnSsg&usqp=CAU"
+            image="../images/home-people1.png"
           />
         </div>
       </div>
@@ -61,7 +61,7 @@
         <HomeSectionTitle title="CULTURE" />
         <div class="flex justify-between p-10">
           <HomeSectionImage 
-            image="https://tokyu-ap.com/images/interview/interview05/image1.jpg"
+            image="../images/home-culture.png"
           />
           <HomeSectionText 
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"

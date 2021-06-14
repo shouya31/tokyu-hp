@@ -36,19 +36,19 @@
       <div class="fv-right-content absolute right-0">
         <div class="flex justify-end m-10">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-VliuBzfhMkFESbIx1mThj2Ay9Ll-UnYhQ&usqp=CAU"
+            src="../assets/images/home-fv1.png"
             alt=""
             class="relative w-3/12"
             style="top: 170px;left: 65px; height: 180px;"
           />
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UfL29AEE6YkXLWVYUqixiR9AM-kt3UBrAA&usqp=CAU"
+            src="../assets/images/home-fv2.png"
             alt=""
             class="relative w-3/12"
             style="top: -140px; left: 30px; height: 180px;"
           />
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-VliuBzfhMkFESbIx1mThj2Ay9Ll-UnYhQ&usqp=CAU"
+            src="../assets/images/home-fv3.png"
             alt=""
             class="relative w-3/12"
             style="bottom: -280px; height: 180px;"
@@ -67,9 +67,8 @@ export default {
       show: true,
       index: 0,
       images: [
-        "https://i.pinimg.com/originals/95/35/ef/9535efedcf312e1b90845f27a7e815c8.jpg",
-        "https://contents.oricon.co.jp/special/img/55000/55338/detail/img660/1603497089912.jpg",
-        "https://www.bunkamura.co.jp/museum/exhibition/17_kyosai/topics/assets_c/2017/03/20170306165143-thumb-500x345-17692.jpg",
+        "../images/fv-main1.png",
+        "../images/fv-main2.png",
       ],
     };
   },

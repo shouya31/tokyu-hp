@@ -1,7 +1,7 @@
 <template>
   <div class="vision-right-content w-8/12 mt-8">
     <img
-      :src=image
+      :src="image"
       alt=""
       style="width: 100%; height: 500px"
     />
@@ -10,6 +10,6 @@
 
 <script>
 export default {
-    props: ['image']
+    props: ['image'],
 }
 </script>

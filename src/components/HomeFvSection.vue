@@ -67,8 +67,8 @@ export default {
       show: true,
       index: 0,
       images: [
-        "../images/fv-main1.png",
-        "../images/fv-main2.png",
+        require("@/assets/images/fv-main1.png"),
+        require("@/assets/images/fv-main2.png"),
       ],
     };
   },

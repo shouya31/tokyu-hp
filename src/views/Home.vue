@@ -19,7 +19,7 @@
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
           />
           <HomeSectionImage 
-            image="../images/home-vision.png"
+            :image=images[0]
           />
         </div>
       </div>
@@ -31,7 +31,7 @@
         <HomeSectionTitle title="PROJECT" />
         <div class="flex justify-between p-10">
           <HomeSectionImage 
-            image="../images/home-project.png"
+            :image=images[1]
           />
           <HomeSectionText 
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
@@ -49,7 +49,7 @@
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
           />
           <HomeSectionImage 
-            image="../images/home-people1.png"
+            :image=images[2]
           />
         </div>
       </div>
@@ -61,7 +61,7 @@
         <HomeSectionTitle title="CULTURE" />
         <div class="flex justify-between p-10">
           <HomeSectionImage 
-            image="../images/home-culture.png"
+            :image=images[3]
           />
           <HomeSectionText 
             text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
@@ -126,6 +126,17 @@ export default {
     HomeSectionImage,
     HomeSectionText,
   },
+  data() {
+      return {
+          images: [
+                require("@/assets/images/home-vision.png"),
+                require("@/assets/images/home-project.png"),
+                require("@/assets/images/home-people1.png"),
+                require("@/assets/images/home-culture.png"),
+
+          ]
+      }
+  }
 };
 </script>
 

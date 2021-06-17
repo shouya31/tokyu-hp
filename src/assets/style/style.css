@@ -1,4 +1,6 @@
 body {
+  height: 100%;
+  width: 100%;
   background-color: white;
   box-sizing: border-box;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
@@ -40,10 +42,6 @@ hr {
   background-color: #add5d4;
   font-family: "游明朝体","YuMincho";
 }
-.hero {
-  height: 800px;
-  width: 100%;
-}
 .lead {
   font-family: "Hiragino Sans","ヒラギノ角ゴシック";
 }
@@ -51,37 +49,72 @@ hr {
   vertical-align: 0.6rem;
   letter-spacing: 0.3rem;
 }
+.image-absolute {
+  height: 400px;
+  position: relative;
+}
+.white-box, .img-box, .blue-box {
+  position: absolute;
+}
+.white-box{
+  height: 370px;
+  width: 570px;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.img-box{
+  left: 20px;
+  top: 20px;
+  z-index: 10;
+}
+.blue-box {
+  height: 370px;
+  width: 570px;
+  left: 50px;
+  top: 50px;
+  z-index: 0;
+}
 .question-vertical {
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.5rem;
   writing-mode: vertical-rl;
 }
 .question-vertical p{
   border-left: 2px solid #000;
-  display: inline-block;
-  margin: 2%;
 }
-
 .question-vertical p span {
   letter-spacing: 0.3rem;
 }
-
 .column-lead{
-  letter-spacing: 0.7rem;
+  letter-spacing: 0.4rem;
 }
 
- /* tablet */
- @media (max-width: 1024px) {
-   .hero {
-     text-align: center;
-     padding-right: 8%;
-   }
-   .question {
-     height: 180px;
-     padding-top: 40%;
-   }
-   .question-vertical {
-    margin: 0 auto;
-    letter-spacing: 0.5rem;
-    height: 340px;
+@media (max-width: 1024px) {
+  .hero {
+    text-align: center;
+    padding-right: 8%;
+  }
+  .img-box{
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .image-absolute {
+    width:100%;
+    height:100%;
+    padding: 5% 0;
+  }
+  .white-box{
+    width: 90%;
+  }
+  .blue-box {
+    width: 90%;
+  }
+}
+@media (max-width: 360px) {
+  .blue-box {
+    top: 30px;
+    left: 30px;
   }
 }

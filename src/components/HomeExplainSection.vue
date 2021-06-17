@@ -1,5 +1,5 @@
 <template>
-  <div class="w-8/12 mt-16">
+  <div class="w-8/12 mx-auto  mt-16">
     <p class="text-center mt-8 explain-text tracking-widest">
       絶え間なく変化する時代の中で<br />
       今、百貨店業界は転換期を迎えている

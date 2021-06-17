@@ -1,5 +1,5 @@
 <template>
-  <div id="fv-main" class="fv w-full  hidden lg:block">
+  <div id="fv-main" class="fv w-full pl-52  hidden lg:block">
     <div class="fv-header flex p-10 m-8">
       <p
         class="relative text-5xl font-thin tracking-wider"

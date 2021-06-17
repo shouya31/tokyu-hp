@@ -18,6 +18,17 @@
         <p><span style="width: 30%;"></span></p>
         <p><span style="width: 30%;"></span></p>
       </div>
+
+      <modal name="hello-world" :draggable="true" :resizable="true">
+        <div class="modal-header">
+          <h2>Modal title</h2>
+        </div>
+        <div class="modal-body">
+          <p>you're reading this text in a modal!</p>
+          <button v-on:click="hide">閉じる</button>
+        </div>  
+      </modal>
+
       <button class="bg-blue-900 ml-3 mt-28 px-2 tracking-widest">
         <p class="text-white">ENTRY</p>
       </button>
@@ -26,7 +37,8 @@
 </template>
 
 <script>
-// ここにJSを実装する
+
+
 </script>
 
 <style>

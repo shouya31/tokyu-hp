@@ -1,74 +1,74 @@
 <template>
-  <div>
-    <section class="hidden lg:flex" style="padding: 20px 20px 80px 20px;">
+  <div class="flex">
+    <div>
       <HomeSideBar />
-      <HomeFvSection />
-    </section>
+    </div>
+    <div class="">
+      <section class="hidden lg:flex" style="padding: 20px 20px 80px 20px;">
+        <HomeFvSection />
+      </section>
 
-    <section class="explain lg:flex py-10" style="background-color: #add5d4;">
-      <HomeSideBar />
-      <HomeExplainSection />
-    </section>
+      <section class="explain lg:flex py-10" style="background-color: #add5d4;">
+        <HomeExplainSection />
+      </section>
 
-    <section class="explain lg:flex py-10">
-      <HomeSideBar />
-      <div class="mt-16 ml-10">
-        <HomeSectionTitle title="VISION" />
-        <div class="flex justify-between">
-          <HomeSectionText
-            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-          />
-          <HomeSectionImage 
-            :image=images[0]
-          />
+      <section class="explain pl-52 lg:flex py-10">
+        <div class="mt-16 ml-10">
+          <HomeSectionTitle title="VISION" />
+          <div class="flex justify-between">
+            <HomeSectionText
+              text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+            />
+            <HomeSectionImage 
+              :image=images[0]
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="project lg:flex py-10">
-      <HomeSideBar />
-      <div class="mt-16 ml-10">
-        <HomeSectionTitle title="PROJECT" />
-        <div class="flex justify-between p-10">
-          <HomeSectionImage 
-            :image=images[1]
-          />
-          <HomeSectionText 
-            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-          />
+      <section class="project pl-52 lg:flex py-10">
+        <div class="mt-16 ml-10">
+          <HomeSectionTitle title="PROJECT" />
+          <div class="flex justify-between p-10">
+            <HomeSectionImage 
+              :image=images[1]
+            />
+            <HomeSectionText 
+              text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="people-section lg:flex py-10">
-      <HomeSideBar />
-      <div class="mt-16 ml-10">
-        <HomeSectionTitle title="PEOPLE" />
-        <div class="flex justify-between">
-          <HomeSectionText 
-            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-          />
-          <HomeSectionImage 
-            :image=images[2]
-          />
+      <section class="people-section pl-52 lg:flex py-10">
+        <div class="mt-16 ml-10">
+          <HomeSectionTitle title="PEOPLE" />
+          <div class="flex justify-between">
+            <HomeSectionText 
+              text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+            />
+            <HomeSectionImage 
+              :image=images[2]
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-     <section class="project lg:flex py-10">
-      <HomeSideBar />
-      <div class="mt-16 ml-10">
-        <HomeSectionTitle title="CULTURE" />
-        <div class="flex justify-between p-10">
-          <HomeSectionImage 
-            :image=images[3]
-          />
-          <HomeSectionText 
-            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-          />
+      <section class="project pl-52 lg:flex py-10">
+        <div class="mt-16 ml-10">
+          <HomeSectionTitle title="CULTURE" />
+          <div class="flex justify-between p-10">
+            <HomeSectionImage 
+              :image=images[3]
+            />
+            <HomeSectionText 
+              text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>    
+   
 
     <div class="lg:hidden">
       <header>

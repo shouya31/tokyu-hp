@@ -24,20 +24,20 @@
             </div>
         </section>
 
-        <section class="question col-span-3 col-start-2 lg:flex pt-10 pr-5 xl:pt-30">
-            <div class="left-content image-absolute">
+        <section class="question col-span-3 col-start-2 lg:flex pt-10 px-5 xl:pt-30">
+            <div class="left-content image-absolute pb-48 lg:pb-0">
                 <div class="white-box bg-white"></div>
                 <div class="img-box lg:w-screen"><img src="../assets/images/person6-2.png" class="pr-10 lg:pr-16" alt="persion2"></div>
                 <div class="blue-box bg-blue-900"></div>
             </div>
-            <div class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right py-24">
+            <div class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right pt-40">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute -top-20 right-10" alt="loupe">
                 </div>
-                <div class="question-box">
+                <div class="question-boxs">
                     <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold">東急百貨店を</p>
-                    <p class="text-lg font-bold">志望した理由</p>
+                    <p class="text-lg font-bold text-left pr-2">東急百貨店を</p>
+                    <p class="text-lg font-bold text-left pr-2">志望した理由</p>
                 </div>
             </div>
         </section>
@@ -60,8 +60,8 @@
                 </div>
                 <div class="question-box mx-auto">
                     <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold">現在の</p>
-                    <p class="text-lg font-bold">仕事内容</p>
+                    <p class="text-lg font-bold pr-2">現在の</p>
+                    <p class="text-lg font-bold pr-2">仕事内容</p>
                 </div>
             </div>
             <div class="answer right-content w-screen py-5 px-4 lg:ml-10 md:mx-12 md:w-3/5">
@@ -85,20 +85,20 @@
             </div>
         </section>
 
-        <section class="question col-span-3 col-start-2 lg:flex pt-10 pr-5 xl:pt-30">
-            <div class="left-content image-absolute">
+        <section class="question col-span-3 col-start-2 lg:flex pt-10 px-5 xl:pt-30">
+            <div class="left-content image-absolute pb-48 lg:pb-0">
                 <div class="white-box bg-white"></div>
                 <div class="img-box lg:w-screen"><img src="../assets/images/person6-3.png" class="pr-10 lg:pr-16" alt="persion3"></div>
                 <div class="blue-box bg-blue-900"></div>
             </div>
-            <div class="right-content question-vertical mx-auto pl-16 lg:ml-auto lg:ml-auto lg:mr-32 lg:float-right pt-64">
+            <div class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right pt-24">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute right-10" alt="loupe">
                 </div>
                 <div class="question-box py-16 mx-auto">
                     <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold">私の</p>
-                    <p class="text-lg font-bold">エピソード</p>
+                    <p class="text-lg font-bold text-left pr-2">私の</p>
+                    <p class="text-lg font-bold text-left pr-2">エピソード</p>
                 </div>
             </div>
         </section>
@@ -123,8 +123,8 @@
                 </div>
                 <div class="question-box mx-auto">
                     <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold">これからの</p>
-                    <p class="text-lg font-bold">歩み</p>
+                    <p class="text-lg font-bold pr-2">これからの</p>
+                    <p class="text-lg font-bold pr-2">歩み</p>
                 </div>
             </div>
             <div class="answer right-content w-screen py-5 px-4 lg:ml-10 md:mx-12 md:w-3/5">

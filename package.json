@@ -13,6 +13,7 @@
     "core-js": "^3.6.5",
     "postcss": "^7.0.36",
     "vue": "^2.6.11",
+    "vue-js-modal": "^2.0.0-rc.6",
     "vue-router": "^3.5.1"
   },
   "devDependencies": {

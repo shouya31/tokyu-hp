@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fuild grid grid-cols-1 lg:grid-cols-4 gap-9 lg:gap-7">
+    <div class="container-fuild grid grid-cols-1 lg:grid-cols-4 gap-9 lg:gap-7" style="background: #D5D5D5;">
         <sidebar></sidebar>
         <div class="p-4 lg:col-span-2 col-span-3 lg:col-start-2 lg:pt-16">
             <img src="../assets/images/greeting.png" class="w-full lg:max-w-3xl mt-4" alt="東急百貨店代表">
@@ -10,16 +10,16 @@
                     <li class="leader-name"><p class="text-base md:text-3xl"><span class="mr-4">飯塚</span><span class="ml-4">康浩</span></p></li>
                     <li><p class="leading-7 ml-0 sm:ml-4 text-gray-400 tracking-widest text-xs sm:leading-10">Yasuhiro Iizuka</p></li>
                 </ul>
-                <p class="mt-3 text-xs md:text-md">人事部長</p>
+                <p class="mt-3 text-sm md:text-md">人事部長</p>
             </section>
             <section class="py-8">
                 <!-- Questionのフォント調査 -->
-                <h2 class="question-title">Question</h2>
+                <h2 class="question-title section-title-theme">Theme</h2>
                 <hr>
-                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">求める人物像</h3>
+                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider" style="color:#333333;">求める人物像</h3>
                 <hr class="border-2 mt-2 mb-4">
-                <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">A. 企業理念の実践とその一歩先へ</p>
-                <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-10 text-gray-600">
+                <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">企業理念の実践とその一歩先へ</p>
+                <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-7 text-gray-600">
                     当社で働くにあたって、その根底にあるのは企業理念の実践です。企業理念にある、
                     「お客様にとって、なくてはならない存在。それが私たちの誇りです」、「誰よりもお客様の近くで、
                     誰よりも深くお客様を思い、誰よりも情熱をもってお客様の力になります」、そして「お客様とともに未来へ向かって
@@ -33,12 +33,12 @@
             </section>
             <section class="py-8">
                 <!-- Questionのフォント調査 -->
-                <h2 class="question-title">Question</h2>
+                <h2 class="question-title section-title-theme">Theme</h2>
                 <hr>
-                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">人事部長として心がけていること</h3>
+                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider" style="color:#333333;">人事部長として心がけていること</h3>
                 <hr class="border-2 mt-2 mb-4">
-                <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">A. 「人材」を「人財」へと進化させていくために</p>
-                <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-10 text-gray-600">
+                <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">「人材」を「人財」へと進化させていくために</p>
+                <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-7 text-gray-600">
                     普段から心がけているのは、「否定をしないこと」と「メンバーの様子に気を配ること」。共に働く仲間とその
                     一人ひとりが持つ熱意を大切にしたい......。人事部長として、それぞれの個性を活かし、尊重する人材育成を行って
                     いきたいと考えています。組織を城の城壁に例えると、城壁は様々な形とおおきさの石垣が重なり合い、崩れない
@@ -49,12 +49,12 @@
             </section>
             <section class="pt-8 pb-8 lg:pb-32">
                 <!-- Questionのフォント調査 -->
-                <h2 class="question-title">Question</h2>
+                <h2 class="question-title section-title-theme">Theme</h2>
                 <hr>
-                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider text-gray-700">応募者へのメッセージ</h3>
+                <h3 class="text-lg md:text-2xl pt-5 font-semibold tracking-wider" style="color:#333333;">応募者へのメッセージ</h3>
                 <hr class="border-2 mt-2 mb-4">
-                <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">A. 共に歩み、成長する、未来へ向かって</p>
-                <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-10 text-gray-600">
+                <p class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl">共に歩み、成長する、未来へ向かって</p>
+                <p class="my-7 text-xs lg:text-sm tracking-wider leading-8 lg:leading-7 text-gray-600">
                     ご存知の通り、百貨店業界を取り巻く環境は決して楽観できるものではなく、構造改革や新たな事業モデル構築の
                     動きが加速しています。そうした不透明な状況下でも、当社は「融合型リテーラー（多事業戦略）」の実現に向け、
                     より強固な事業構造への転換と*DXの推進による新しいお買い物体験の提供を進めています。今後、いかにその推進速度を
@@ -92,5 +92,10 @@ export default {
 </script>
 
 <style>
-  @import "../assets/style/style.css";
+@import "../assets/style/style.css";
+
+.section-title-theme{
+    font-family: Brandon Grotesque;
+    font-weight: bold;
+}
 </style>

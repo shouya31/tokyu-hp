@@ -188,16 +188,25 @@
 </template>
 
 <script>
-import Sidebar from '../components/Sidebar.vue';
+import Sidebar from "../components/Sidebar.vue";
 
 export default {
-  name: 'PeoplePage',
+  name: "PeoplePage",
   components: {
-    Sidebar
+    Sidebar,
   },
-}
+};
 </script>
 
 <style>
-  @import "../assets/style/style.css";
+@import "../assets/style/style.css";
+
+.people-text {
+  color: #707070;
+}
+.column-title{
+    font-family: YuMincho;
+    font-size: 28px;
+    color: #707070;
+}
 </style>

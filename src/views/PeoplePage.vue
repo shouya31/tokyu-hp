@@ -34,7 +34,7 @@
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute -top-20 right-10" alt="loupe">
                 </div>
-                <div class="question-boxs">
+                <div class="question-box">
                     <p class="text-xs text-right"><span>Question</span></p>
                     <p class="text-lg font-bold text-left pr-2">東急百貨店を</p>
                     <p class="text-lg font-bold text-left pr-2">志望した理由</p>
@@ -54,7 +54,7 @@
         </section>
 
         <section class="question col-span-3 col-start-2 md:flex pr-28 lg:pr-5">
-            <div class="left-content question-vertical w-9/12 md:w-auto ml-32 pr-12 lg:pr-0 py-20">
+            <div class="left-content question-vertical w-9/12 md:w-auto ml-36 pr-12 lg:pr-0 py-20">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute bottom-4 right-10" alt="loupe">
                 </div>
@@ -117,7 +117,7 @@
         </section>
 
         <section class="question col-span-3 col-start-2 md:flex pr-28 lg:pr-5">
-            <div class="left-content question-vertical w-9/12 md:w-auto pr-12 lg:pr-0 ml-32 py-20">
+            <div class="left-content question-vertical w-9/12 md:w-auto pr-12 lg:pr-0 ml-36 py-20">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute bottom-4 right-10" alt="loupe">
                 </div>
@@ -148,7 +148,7 @@
             </div>
             <div class="bottom-content xl:w-4/5 bg-white text-center md:py-7 pt-10">
                 <h6 class="column-title underline pb-3 pt-16 font-extralight text-2xl md:text-4xl font-thin tracking-widest">東急線と共に歩む</h6>
-                <p class="column-text p-2 sm:p-10 sm:w-3/4 mx-auto text-xs lg:text-md tracking-wide md:tracking-wider leading-7 text-gray-800">
+                <p class="column-text p-4 sm:p-10 sm:w-3/4 mx-auto text-xs lg:text-md tracking-wide md:tracking-wider leading-7 text-gray-800">
                     私自身、東急沿線上に住んでおり、東急百貨店が東急グループの一員として沿線に住む人々の生活に影響を
                     与えていることを日々実感しています。沿線生活者の暮らしをより豊かにすることを目標に、小型店や専門店、
                     デジタルツールなどを通じて、東急百貨店だからこそできる質の高いサービスを届けていきたいと思います。

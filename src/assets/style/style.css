@@ -72,20 +72,20 @@ hr {
 }
 .blue-box {
   width: 570px;
-  height: 100%;
+  height: 95%;
   left: 50px;
   top: 50px;
   z-index: 0;
 }
 .question-vertical {
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.8rem;
   writing-mode: vertical-rl;
 }
 .question-vertical p{
   border-left: 2px solid #000;
 }
 .question-vertical p span {
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 .column-lead{
   letter-spacing: 0.4rem;
@@ -127,7 +127,6 @@ hr {
 @media (max-width: 414px) {
   .blue-box {
     width: 85%;
-    height: 100%;
   }
 }
 

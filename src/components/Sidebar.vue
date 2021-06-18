@@ -29,7 +29,7 @@
         </div>  
       </modal>
 
-      <button class="bg-blue-900 ml-3 mt-28 px-2 tracking-widest">
+      <button class="ml-3 mt-28 px-2 tracking-widest" style="background:#16344F;">
         <p class="text-white">ENTRY</p>
       </button>
     </div>

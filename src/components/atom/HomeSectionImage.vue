@@ -1,15 +1,13 @@
 <template>
-  <div class="vision-right-content w-8/12 mt-8">
-    <img
-      :src="image"
-      alt=""
-      style="width: 100%; height: 500px"
-    />
+  <div class="hidden lg:flex">
+    <div class="vision-right-content mt-8">
+      <img :src="image" alt=""/>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-    props: ['image'],
-}
+  props: ["image"],
+};
 </script>

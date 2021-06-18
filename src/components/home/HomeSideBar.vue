@@ -2,18 +2,18 @@
   <div class="side-bar w-2/12 p-5 fixed  hidden lg:block">
     <div class="max-w-full col-span-1 px-2 ml-4">
       <router-link to="/greeting"
-        ><img src="../../public/tokyu-logo.png" alt="東急百貨店" width="150"
+        ><img src="../../../public/tokyu-logo.png" alt="東急百貨店" width="150"
       /></router-link>
-      <p class="hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest">
+      <p class="hidden lg:block mt-3 tracking-widest ml-2" style="color:#16344F;">
         RECRUITMENT
       </p>
       <div v-on:click="show" class="menu hidden lg:block py-40 ml-8">
         <p><span style="width: 30%;"></span></p>
         <p><span style="width: 30%;"></span></p>
       </div>
-      <modal 
-        name="hello-world" 
-        :draggable="true" 
+      <modal
+        name="hello-world"
+        :draggable="true"
         :resizable="true"
         width="100%"
         height="100%"
@@ -21,13 +21,26 @@
         <div class="menu-context p-10 flex">
           <div class="modal-sidebar">
             <div class="menu-logo">
-              <router-link to="/"><img src="../../public/tokyu-logo.png" alt="東急百貨店" width="150"/></router-link>
-              <p class="hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest">
+              <router-link to="/"
+                ><img
+                  src="../../../public/tokyu-logo.png"
+                  alt="東急百貨店"
+                  width="150"
+              /></router-link>
+              <p
+                class="hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest"
+              >
                 RECRUITMENT
               </p>
             </div>
             <div>
-              <p class="menu-close items-center flex" v-on:click="hide"><img src="../assets/images/close-menu.png" alt="" srcset=""></p>
+              <p class="menu-close items-center flex" v-on:click="hide">
+                <img
+                  src="../../assets/images/close-menu.png"
+                  alt=""
+                  srcset=""
+                />
+              </p>
             </div>
           </div>
           <div class="each-menu flex">
@@ -55,7 +68,9 @@
                 <p class="menu-context-title text-3xl">_PEOPLE</p>
                 <ul>
                   <li class="menu-list">キャリアフィールド</li>
-                  <p style="background:#333333; color:white; padding:5px;">社員紹介</p>
+                  <p style="background:#333333; color:white; padding:5px;">
+                    社員紹介
+                  </p>
                   <ul>
                     <li class="menu-list">社員A</li>
                     <li class="menu-list">社員B</li>
@@ -91,8 +106,9 @@
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">_RECRUIT</p>
                 <ul>
-                  <li></li>
-                  <li></li>
+                  <li ><router-link to="/greeting" class="menu-list">> 人事部長メッセージ</router-link></li>
+                  <li class="menu-list">> FAQ</li>
+                  <li class="menu-list">> 会社概要＆募集要項</li>
                 </ul>
               </div>
               <div class="menu-follow">
@@ -101,13 +117,12 @@
             </div>
           </div>
         </div>
-        
       </modal>
       <ul>
-        <li class="menu-context-title tracking-wider">VISION</li>
-        <li class="menu-context-title tracking-wider">PROJECT</li>
-        <li class="menu-context-title tracking-wider">PEOPLE</li>
-        <li class="menu-context-title tracking-wider">CULTURE</li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#vision" style="color:gray;">VISION</a></li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#project" style="color:gray;">PROJECT</a></li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#people" style="color:gray;">PEOPLE</a></li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#culture" style="color:gray;">CULTURE</a></li>
       </ul>
       <div class="w-11/12 mx-auto">
         <button class="mt-16 px-2" style="background: #003366;">
@@ -132,38 +147,40 @@ export default {
 </script>
 
 <style>
-@import "../assets/style/home.css";
-@import "../assets/style/style.css";
-.menu-close{
+@import "../../assets/style/home.css";
+@import "../../assets/style/style.css";
+.font-BrandonGrotesque{
+  font-family: Brandon Grotesque;
+}
+.menu-close {
   position: absolute;
   top: 0px;
   bottom: 0px;
   margin-left: 50px;
 }
-.menu-line{
+.menu-line {
   padding: 80px 20px;
 }
-.menu-block{
+.menu-block {
   padding: 30px;
   margin-bottom: 30px;
 }
-.menu-block ul{
+.menu-block ul {
   padding: 10px;
 }
 
-.menu-block ul ul{
+.menu-block ul ul {
   padding: 10px;
 }
-.menu-context-title{
+.menu-context-title {
   font-size: 30px;
   font-family: Brandon Grotesque;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.menu-list{
+.menu-list {
   font-family: Noto Sans;
   line-height: 28px;
   font-size: 14px;
 }
-
 </style>

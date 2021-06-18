@@ -3,7 +3,7 @@ body {
   width: 100%;
   background-color: white;
   box-sizing: border-box;
-  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-family: serif;
 }
 hr {
   border-color: #15334d;
@@ -40,11 +40,18 @@ hr {
 /* PeoplePage.vue */
 .people {
   background-color: #add5d4;
-  font-family: "游明朝体","YuMincho";
 }
 .lead {
-  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+  font-family: emoji;
+  color: #16344F;
 }
+.sub-lead {
+  color: #000000;
+}
+.sub-lead h2 {
+  font-family: "Hiragino Sans", ヒラギノ角ゴシック;
+}
+
 .people-lead {
   vertical-align: 0.6rem;
   letter-spacing: 0.3rem;
@@ -73,6 +80,7 @@ hr {
 .blue-box {
   width: 570px;
   height: 95%;
+  background-color: #16344F;
   left: 50px;
   top: 50px;
   z-index: 0;
@@ -82,13 +90,20 @@ hr {
   writing-mode: vertical-rl;
 }
 .question-vertical p{
-  border-left: 2px solid #000;
+  border-left: 2px solid #16344F;
 }
 .question-vertical p span {
   letter-spacing: 0.1rem;
 }
+.answer-title span {
+  background-color: #16344F;
+}
 .column-lead{
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.8rem;
+  background-color: #16344F;
+}
+.profile-title {
+  background-color: #16344F;
 }
 
 @media (max-width: 1024px) {

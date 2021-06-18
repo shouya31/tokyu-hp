@@ -6,7 +6,7 @@
                 <h1 class="lead text-left text-3xl tracking-wider font-semibold relative right-2 lg:right-16"><span class="people-lead text-lg xl:text-xl font-extralight">共に歩む ✖️ </span>PEOPLE</h1>
                 <div class="sub-lead leading-snug font-thin text-2xl xl:text-5xl lg:mt-28 lg:mb-14 tracking-wide">
                     <img src="../assets/images/person6.png" class="pt-0 pr-4 lg:hidden" width="450" height="800" alt="people1">
-                    <h2 class="pt-10 pr-16 lg:pt-0 lg:pr-0 text-3xl lg:text-base text-left">心躍る百貨店を思い描いて</h2>
+                    <h2 class="pt-10 pr-16 lg:pt-0 lg:pr-0 text-3xl text-left">心躍る百貨店を思い描いて</h2>
                 </div>
                 <div class="message mt-5 lg:my-14 text-sm xl:text-xl text-left leading-9 tracking-wider">
                     <p>日々の生活や会話の中から</p>
@@ -24,18 +24,16 @@
             </div>
         </section>
 
-        <!-- スマホ画面の背景色と文字の配置修正あり -->
         <section class="question col-span-3 col-start-2 lg:flex pt-10 pr-5 xl:pt-30">
             <div class="left-content image-absolute">
                 <div class="white-box bg-white"></div>
                 <div class="img-box lg:w-screen"><img src="../assets/images/person6-2.png" class="pr-10 lg:pr-16" alt="persion2"></div>
                 <div class="blue-box bg-blue-900"></div>
             </div>
-            <div class="right-content text-center question-vertical lg:ml-auto lg:mr-32 lg:float-right pt-64 pb-12">
+            <div class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right py-24">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute -top-20 right-10" alt="loupe">
                 </div>
-                <!-- スマホ画面中央に -->
                 <div class="question-box">
                     <p class="text-xs text-right"><span>Question</span></p>
                     <p class="text-lg font-bold">東急百貨店を</p>
@@ -56,11 +54,10 @@
         </section>
 
         <section class="question col-span-3 col-start-2 md:flex pr-28 lg:pr-5">
-            <div class="left-content question-vertical w-9/12 md:w-auto ml-32 py-20">
+            <div class="left-content question-vertical w-9/12 md:w-auto ml-32 pr-12 lg:pr-0 py-20">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute bottom-4 right-10" alt="loupe">
                 </div>
-                <!-- スマホ画面中央に -->
                 <div class="question-box mx-auto">
                     <p class="text-xs text-right"><span>Question</span></p>
                     <p class="text-lg font-bold">現在の</p>
@@ -88,18 +85,16 @@
             </div>
         </section>
 
-        <!-- スマホ画面の背景色と文字の配置修正あり -->
         <section class="question col-span-3 col-start-2 lg:flex pt-10 pr-5 xl:pt-30">
             <div class="left-content image-absolute">
                 <div class="white-box bg-white"></div>
                 <div class="img-box lg:w-screen"><img src="../assets/images/person6-3.png" class="pr-10 lg:pr-16" alt="persion3"></div>
                 <div class="blue-box bg-blue-900"></div>
             </div>
-            <div class="right-content question-vertical lg:ml-auto lg:ml-auto lg:mr-32 lg:float-right pt-64">
+            <div class="right-content question-vertical mx-auto pl-16 lg:ml-auto lg:ml-auto lg:mr-32 lg:float-right pt-64">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute right-10" alt="loupe">
                 </div>
-                <!-- スマホ画面中央に -->
                 <div class="question-box py-16 mx-auto">
                     <p class="text-xs text-right"><span>Question</span></p>
                     <p class="text-lg font-bold">私の</p>
@@ -122,11 +117,10 @@
         </section>
 
         <section class="question col-span-3 col-start-2 md:flex pr-28 lg:pr-5">
-            <div class="left-content question-vertical w-9/12 md:w-auto ml-32 py-20">
+            <div class="left-content question-vertical w-9/12 md:w-auto pr-12 lg:pr-0 ml-32 py-20">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute bottom-4 right-10" alt="loupe">
                 </div>
-                <!-- スマホ画面中央に -->
                 <div class="question-box mx-auto">
                     <p class="text-xs text-right"><span>Question</span></p>
                     <p class="text-lg font-bold">これからの</p>

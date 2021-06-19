@@ -24,6 +24,10 @@ hr {
   height: 4px;
   background: #333;
 }
+.side-recruitment-title {
+  font-family: Brandon Grotesque;
+}
+
 
 /* Greeting.vue */
 .leader-name {
@@ -34,28 +38,27 @@ hr {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.message {
-  font-family: "游明朝体","YuMincho";
-}
 
 /* PeoplePage.vue */
 .people {
   background-color: #add5d4;
+  color: #333333;
+  font-family: Noto Sans;
 }
 .lead {
-  font-family: emoji;
+  font-family: Brandon Grotesque;
   color: #16344F;
 }
-.sub-lead {
-  color: #000000;
-}
 .sub-lead h2 {
-  font-family: "Hiragino Sans", ヒラギノ角ゴシック;
+  font-family: Noto Serif;
 }
 
 .people-lead {
   vertical-align: 0.6rem;
   letter-spacing: 0.3rem;
+}
+.people-kana {
+  font-family: Brandon Grotesque;
 }
 .image-absolute {
   height: 400px;
@@ -90,22 +93,36 @@ hr {
   letter-spacing: 0.8rem;
   writing-mode: vertical-rl;
 }
-.question-vertical p{
-  border-left: 2px solid #16344F;
+.question-logo {
+  border-left: 1px solid #16344F;
 }
-.question-vertical p span {
+.question-logo span {
   letter-spacing: 0.1rem;
+}
+.question-title {
+  border-left: 4px solid #16344F;
 }
 .answer-title span {
   background-color: #16344F;
 }
 .column-lead{
-  letter-spacing: 0.8rem;
+  letter-spacing: 0.6rem;
   background-color: #16344F;
+}
+.column-lead h5 {
+  font-family: Brandon Grotesque;
 }
 .profile-title {
   background-color: #16344F;
 }
+.profile-title p {
+  font-family: Brandon Grotesque;
+}
+.pagination {
+  font-family: Brandon Grotesque;
+}
+
+
 
 @media (max-width: 1024px) {
   .hero {

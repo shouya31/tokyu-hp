@@ -3,10 +3,10 @@
         <sidebar></sidebar>
         <section class="hero px-4 col-span-3 col-start-2 lg:flex lg:pt-10 lg:pr-5 mx-auto">
             <div class="left-content mr-auto">
-                <h1 class="lead text-left text-3xl tracking-wider font-semibold relative right-2 lg:right-16"><span class="people-lead text-lg xl:text-xl font-extralight">共に歩む ✖️ </span>PEOPLE</h1>
+                <h1 class="lead leading-7 text-left text-4xl tracking-wider font-semibold relative right-1 lg:right-16 pb-5 lg:pb-0"><span class="people-lead text-lg xl:text-xl font-extralight">共に歩む ✖️ </span>PEOPLE</h1>
                 <div class="sub-lead leading-snug font-thin text-2xl xl:text-5xl lg:mt-28 lg:mb-14 tracking-wide">
                     <img src="../assets/images/person6.png" class="pt-0 pr-4 lg:hidden" width="450" height="800" alt="people1">
-                    <h2 class="pt-10 pr-16 lg:pt-0 lg:pr-0 text-3xl text-left">心躍る百貨店を思い描いて</h2>
+                    <h2 class="font-extralight pt-10 pr-16 lg:pt-0 lg:pr-0 text-3xl text-left">心躍る百貨店を思い描いて</h2>
                 </div>
                 <div class="message mt-5 lg:my-14 text-sm xl:text-xl text-left leading-9 tracking-wider">
                     <p>日々の生活や会話の中から</p>
@@ -15,7 +15,7 @@
                     <p>ワクワク間を大切にしたい</p>
                 </div>
                 <ul class="text-left pt-6 lg:pt-0">
-                    <li><p class="people-name text-xl xl:text-3xl">秋山 さやか<span class="leading-7 ml-4 text-gray-500 tracking-widest text-xs">Sayaka Akiyama</span></p></li>
+                    <li><p class="people-name text-xl xl:text-3xl">秋山 さやか<span class="people-kana leading-7 ml-4 text-gray-500 tracking-widest text-xs">Sayaka Akiyama</span></p></li>
                     <li><p class="people-info mt-3 text-xs xl:text-sm tracking-wide">営業推進部<span class="mx-3 lg:mx-0">営業企画部</span><span class="mx-2 lg:mx-3">/</span> 2005年 入社</p></li>
                 </ul>
             </div>
@@ -34,10 +34,10 @@
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute -top-20 right-10" alt="loupe">
                 </div>
-                <div class="question-box">
-                    <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold text-left pr-2">東急百貨店を</p>
-                    <p class="text-lg font-bold text-left pr-2">志望した理由</p>
+                <div class="question-box h-48 pl-8">
+                    <p class="text-xs text-right question-logo"><span>Question</span></p>
+                    <p class="text-lg font-bold text-left pr-2 question-title">東急百貨店を</p>
+                    <p class="text-lg font-bold text-left pr-2 question-title">志望した理由</p>
                 </div>
             </div>
         </section>
@@ -54,14 +54,14 @@
         </section>
 
         <section class="question col-span-3 col-start-2 md:flex pr-28 lg:pr-5">
-            <div class="left-content question-vertical w-9/12 md:w-auto ml-36 pr-12 lg:pr-0 py-20">
+            <div class="left-content question-vertical w-9/12 md:w-auto ml-36 pr-12 lg:pr-0 py-24 lg:pb-20 lg:pt-32">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute bottom-4 right-10" alt="loupe">
                 </div>
-                <div class="question-box mx-auto">
-                    <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold pr-2">現在の</p>
-                    <p class="text-lg font-bold pr-2">仕事内容</p>
+                <div class="question-box mx-auto h-36">
+                    <p class="text-xs text-right question-logo"><span>Question</span></p>
+                    <p class="text-lg font-bold pr-2 question-title">現在の</p>
+                    <p class="text-lg font-bold pr-2 question-title">仕事内容</p>
                 </div>
             </div>
             <div class="answer right-content w-screen py-5 px-4 lg:ml-10 md:mx-12 md:w-3/5">
@@ -96,9 +96,9 @@
                     <img src="../assets/loupe.png" class="absolute right-10" alt="loupe">
                 </div>
                 <div class="question-box py-16 mx-auto">
-                    <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold text-left pr-2">私の</p>
-                    <p class="text-lg font-bold text-left pr-2">エピソード</p>
+                    <p class="text-xs text-right question-logo"><span>Question</span></p>
+                    <p class="text-lg font-bold text-left pr-2 question-title">私の</p>
+                    <p class="text-lg font-bold text-left pr-2 question-title">エピソード</p>
                 </div>
             </div>
         </section>
@@ -122,9 +122,9 @@
                     <img src="../assets/loupe.png" class="absolute bottom-4 right-10" alt="loupe">
                 </div>
                 <div class="question-box mx-auto">
-                    <p class="text-xs text-right"><span>Question</span></p>
-                    <p class="text-lg font-bold pr-2">これからの</p>
-                    <p class="text-lg font-bold pr-2">歩み</p>
+                    <p class="text-xs text-right question-logo"><span>Question</span></p>
+                    <p class="text-lg font-bold pr-2 question-title">これからの</p>
+                    <p class="text-lg font-bold pr-2 question-title">歩み</p>
                 </div>
             </div>
             <div class="answer right-content w-screen py-5 px-4 lg:ml-10 md:mx-12 md:w-3/5">
@@ -166,7 +166,7 @@
                     <li class="profile-title leading-10 sm:text-center text-white mb-auto py-1 px-4 w-36"><p class="font-thin text-3xl tracking-widest">Profile</p></li>
                     <li class="md:ml-16 people-name pt-7 lg:pt-0 pl-5 md:pl-0">
                         <p class="text-2xl sm:text-xl font-medium">秋山 さやか</p>
-                        <p><small class="leading-7 text-gray-500 tracking-widest text-xs">Syaka Akiyama</small></p>
+                        <p><small class="people-kana leading-7 text-gray-500 tracking-widest text-xs">Syaka Akiyama</small></p>
                     </li>
                     <li class="md:ml-12 text-sm people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
                         <p>営業推進部 営業企画部</p>
@@ -174,7 +174,7 @@
                         <p>文学部 心理学科 卒</p>
                     </li>
                 </ul>
-                <p class="w-screen lg:w-7/12 text-center font-thin lg:mx-auto py-10 xl:pt-20">← PrepPeople <span class="mx-5 lg:mx-2">|</span> Next People→</p>
+                <p class="pagination w-screen lg:w-7/12 text-center font-thin lg:mx-auto py-10 xl:pt-20">← PrepPeople <span class="mx-5 lg:mx-2">|</span> Next People→</p>
             </div>
         </section>
 

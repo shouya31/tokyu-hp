@@ -4,7 +4,7 @@
     <nav class="h-32 lg:hidden">
       <div class="left-nav-content float-left ml-3 w-40">
         <a href="/" class="w-3 md:max-w-xs"><img src="../assets/tokyu-logo.png" alt="東急百貨店"/></a>
-        <p class="font-weight-900 ml-3 pt-1 tracking-widest">RECRUITMENT</p>
+        <p class="side-recruitment-title font-weight-900 ml-3 pt-1 tracking-widest">RECRUITMENT</p>
       </div>
       <div class="right-nav-content float-right pt-8">
         <div class="menu h-20 w-20">
@@ -18,7 +18,7 @@
       <router-link to="/people">
         <img src="../../public/tokyu-logo.png" alt="東急百貨店" width="150" />
       </router-link>
-      <p class="hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest">
+      <p class="side-recruitment-title hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest">
         RECRUITMENT
       </p>
       <div class="menu hidden lg:block py-48 ml-8">

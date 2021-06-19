@@ -61,7 +61,7 @@ hr {
   font-family: Brandon Grotesque;
 }
 .image-absolute {
-  height: 400px;
+  height: 380px;
   position: relative;
 }
 .white-box, .img-box, .blue-box {
@@ -106,12 +106,18 @@ hr {
   background-color: #16344F;
 }
 .column-lead{
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.3rem;
   background-color: #16344F;
 }
 .column-lead h5 {
   font-family: Brandon Grotesque;
+  font-weight: lighter;
 }
+.column-sublead p {
+  font-size: 0.3rem;
+  letter-spacing: 0.1rem;
+}
+
 .profile-title {
   background-color: #16344F;
 }
@@ -135,9 +141,11 @@ hr {
 @media (max-width: 768px) {
   .white-box{
     width: 80%;
+    height: 100%;
   }
   .blue-box {
     width: 80%;
+    height: 100%;
   }
 }
 
@@ -149,15 +157,11 @@ hr {
   }
   .white-box{
     width: 85%;
+    height: 100%;
   }
   .blue-box {
     width: 85%;
-  }
-}
-
-@media (max-width: 414px) {
-  .blue-box {
-    width: 85%;
+    height: 100%;
   }
 }
 
@@ -168,5 +172,6 @@ hr {
   }
   .blue-box {
     width: 80%;
+    height: 80%;
   }
 }

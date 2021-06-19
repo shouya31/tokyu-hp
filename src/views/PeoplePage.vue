@@ -15,7 +15,7 @@
                     <p>ワクワク間を大切にしたい</p>
                 </div>
                 <ul class="text-left pl-4 lg:pl-0 pt-6 lg:pt-0">
-                    <li><p class="people-name text-xl xl:text-3xl">秋山 さやか<span class="people-kana leading-7 ml-4 text-gray-500 tracking-widest text-xs">Sayaka Akiyama</span></p></li>
+                    <li><p class="people-name text-xl tracking-widest xl:text-3xl">秋山 さやか<span class="people-kana leading-7 ml-4 text-gray-500 tracking-widest text-xs">Sayaka Akiyama</span></p></li>
                     <li><p class="people-info mt-3 text-xs xl:text-sm tracking-wide">営業推進部<span class="mx-3 lg:mx-0">営業企画部</span><span class="mx-2 lg:mx-3">/</span> 2005年 入社</p></li>
                 </ul>
             </div>
@@ -25,12 +25,12 @@
         </section>
 
         <section class="question col-span-3 col-start-2 lg:flex pt-10 px-5 xl:pt-30">
-            <div class="left-content image-absolute pb-48 lg:pb-0">
+            <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
                 <div class="white-box bg-white"></div>
                 <div class="img-box lg:w-screen"><img src="../assets/images/person6-2.png" class="pr-10 lg:pr-16" alt="persion2"></div>
                 <div class="blue-box"></div>
             </div>
-            <div class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right pt-40">
+            <div class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right pt-32">
                 <div class="loupe-img relative h-3 w-16">
                     <img src="../assets/loupe.png" class="absolute -top-20 right-10" alt="loupe">
                 </div>
@@ -86,7 +86,7 @@
         </section>
 
         <section class="question col-span-3 col-start-2 lg:flex pt-10 px-5 xl:pt-30">
-            <div class="left-content image-absolute pb-48 lg:pb-0">
+            <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
                 <div class="white-box bg-white"></div>
                 <div class="img-box lg:w-screen"><img src="../assets/images/person6-3.png" class="pr-10 lg:pr-16" alt="persion3"></div>
                 <div class="blue-box"></div>
@@ -140,10 +140,10 @@
 
         <!-- コラム -->
         <section class="column col-span-4 lg:col-span-3 lg:col-start-2 lg:pt-0 lg:pr-5 px-10 mb-10 sm:mb-0">
-            <div class="upper-content column-lead text-white text-center w-1/2 xl:w-1/5 py-2 relative -left-12 lg:right-12 top-16">
-                <h5 class="font-thin text-xl md:text-3xl py-2 pl-3 sm:py-0">Column</h5>
+            <div class="upper-content column-lead text-white text-center w-1/2 xl:w-1/5 py-1 relative -left-12 lg:right-12 top-16">
+                <h5 class="text-2xl md:text-3xl sm:py-0">Column</h5>
             </div>
-            <div class="column-sublead medium-content text-xs sm:text-base text-center w-1/2 xl:w-1/5 py-2 relative -left-10 lg:right-12 top-16">
+            <div class="column-sublead medium-content sm:text-base text-center w-1/2 xl:w-1/5 py-2 relative -left-10 lg:right-12 top-16">
                 <p>「〇〇とともに歩む」</p>
             </div>
             <div class="bottom-content xl:w-4/5 bg-white text-center md:py-7 pt-10">
@@ -165,7 +165,7 @@
                 <ul class="lg:flex xl:mt-14 profile">
                     <li class="profile-title leading-10 sm:text-center text-white mb-auto py-1 px-4 w-36"><p class="font-thin text-3xl tracking-widest">Profile</p></li>
                     <li class="md:ml-16 people-name pt-7 lg:pt-0 pl-5 md:pl-0">
-                        <p class="text-2xl sm:text-xl font-medium">秋山 さやか</p>
+                        <p class="text-2xl sm:text-xl tracking-widest font-medium">秋山 さやか</p>
                         <p><small class="people-kana leading-7 text-gray-500 tracking-widest text-xs">Syaka Akiyama</small></p>
                     </li>
                     <li class="md:ml-12 text-sm people-info pl-5 lg:pl-0 pt-3 lg:pt-0">

@@ -3,7 +3,6 @@ body {
   width: 100%;
   background-color: white;
   box-sizing: border-box;
-  font-family: serif;
 }
 
 hr {
@@ -26,6 +25,7 @@ hr {
 }
 .side-recruitment-title {
   font-family: Brandon Grotesque;
+  color: #16344F;
 }
 
 
@@ -83,7 +83,7 @@ hr {
 }
 .blue-box {
   width: 570px;
-  height: 95%;
+  height: 100%;
   background-color: #16344F;
   left: 50px;
   top: 50px;
@@ -122,8 +122,6 @@ hr {
   font-family: Brandon Grotesque;
 }
 
-
-
 @media (max-width: 1024px) {
   .hero {
     text-align: center;
@@ -146,7 +144,7 @@ hr {
 @media (max-width: 640px) {
   .image-absolute {
     width: 100%;
-    height: 90%;
+    height: 100%;
     padding: 5%;
   }
   .white-box{
@@ -170,6 +168,5 @@ hr {
   }
   .blue-box {
     width: 80%;
-    height: 80%;
   }
 }

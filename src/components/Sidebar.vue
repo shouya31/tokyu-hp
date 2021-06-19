@@ -8,8 +8,8 @@
       </div>
       <div class="right-nav-content float-right pt-8">
         <div class="menu h-20 w-20">
-          <p><span style="width: 30%;"></span></p>
-          <p><span style="width: 30%;"></span></p>
+          <p><span style="width: 50%;"></span></p>
+          <p><span style="width: 50%;"></span></p>
         </div>
       </div>
     </nav>
@@ -22,8 +22,8 @@
         RECRUITMENT
       </p>
       <div class="menu hidden lg:block py-48 ml-8">
-        <p><span style="width: 30%;"></span></p>
-        <p><span style="width: 30%;"></span></p>
+        <p><span style="width: 50%;"></span></p>
+        <p><span style="width: 50%;"></span></p>
       </div>
 
       <modal name="hello-world" :draggable="true" :resizable="true">

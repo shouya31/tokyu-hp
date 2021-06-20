@@ -39,7 +39,7 @@ export default {
   font-family: Brandon Grotesque;
 }
 .font-NotoSerif{
-  font-family: Noto Serif;
+  font-family: 'Noto Serif JP', serif;
 }
 
 </style>

@@ -47,4 +47,5 @@ export default {
 
 <style>
 @import "../assets/style/home.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
 </style>

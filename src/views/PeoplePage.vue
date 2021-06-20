@@ -10,10 +10,10 @@
                     <h2 class="font-extralight pt-10 pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 text-3xl text-left">心躍る百貨店を思い描いて</h2>
                 </div>
                 <div class="message mt-5 pl-4 lg:pl-0 lg:my-14 text-sm xl:text-xl text-left leading-9 tracking-wider">
-                    <p>日々の生活や会話の中から</p>
-                    <p>企画につながるヒントを探す</p>
-                    <p>企画が実現した瞬間の</p>
-                    <p>ワクワク間を大切にしたい</p>
+                    <p class="lg:leading-9">日々の生活や会話の中から</p>
+                    <p class="lg:leading-9">企画につながるヒントを探す</p>
+                    <p class="lg:leading-9">企画が実現した瞬間の</p>
+                    <p class="lg:leading-9">ワクワク間を大切にしたい</p>
                 </div>
                 <ul class="text-left pl-4 lg:pl-0 pt-6 lg:pt-0">
                     <li><p class="people-name text-xl tracking-widest xl:text-3xl">秋山 さやか<span class="people-kana leading-7 ml-4 text-gray-500 tracking-widest text-xs">Sayaka Akiyama</span></p></li>
@@ -43,7 +43,7 @@
             </div>
         </section>
 
-  <div
+  <!-- <div
     class="container-fuild people grid grid-cols-1 lg:grid-cols-9 gap-4 md:gap-9 lg:gap-7"
   >
     <sidebar></sidebar>
@@ -90,7 +90,7 @@
           style="width:60vw;"
         />
       </div>
-    </section>
+    </section> -->
 
 
         <section class="answer w-screen md:col-span-3 md:col-start-2 md:w-3/5 mx-auto pt-4 lg:pb-0 lg:pt-12 px-4 md:pl-0 md:pr-5">

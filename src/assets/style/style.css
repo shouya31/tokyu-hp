@@ -50,7 +50,7 @@ hr {
   color: #16344F;
 }
 .sub-lead h2 {
-  font-family: Noto Serif;
+  font-family: 'Noto Serif JP', serif;
 }
 
 .people-lead {
@@ -99,9 +99,7 @@ hr {
 .question-logo span {
   letter-spacing: 0.1rem;
 }
-.question-title {
-  border-left: 4px solid #16344F;
-}
+
 .answer-title span {
   background-color: #16344F;
 }

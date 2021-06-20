@@ -12,7 +12,7 @@
         <img src="../../assets/images/entry-btn.png" alt="" class="mx-auto" />
       </div>
     </section>
-    <section class="lg:hidden py-24">
+    <section class="lg:hidden py-40">
       <div class="grou-together">
         <img
           src="../../assets/images/grow-together.png"

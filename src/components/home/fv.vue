@@ -90,7 +90,7 @@ export default {
 }
 .explain-text {
   font-size: 18px;
-  font-family: serif;
+  font-family: 'Noto Serif JP', serif;
   line-height: 32px;
   z-index:-3;
 }

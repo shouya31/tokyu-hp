@@ -10,22 +10,17 @@
               width="140"
           /></a>
         </div>
-      <div class="menu p-5">
-        <p><span style="width: 40px;"></span></p>
-        <p><span style="width: 40px;"></span></p>
-      </div>
+        <div class="menu p-5">
+          <p><span style="width: 40px;"></span></p>
+          <p><span style="width: 40px;"></span></p>
+        </div>
       </div>
     </header>
 
     <section class="pt-20 pb-16">
-      <!-- <div class="fv-header">
-                    <p class="bg-white px-4 py-1 text-2xl font-thin tracking-wider" style="font-family: serif;">共に歩む</p>
-                    <p class="bg-white px-4 py-1 text-2xl tracking-wider w-1/12 mx-auto" style="font-size: 30px;">×</p>
-                    <p class="bg-white px-4 py-1 text-2xl tracking-widest text-right" style="font-family: emoji; font-weight: 600; color: #003366;">VISION</p>
-                </div> -->
       <div class="fv-contents w-11/12 relative left-0">
         <div class="fv-sp-title p-5">
-            <img src="../../assets/images/fv-vision.png" alt="" class="w-10/12">
+          <img src="../../assets/images/fv-vision.png" alt="" class="w-9/12" />
         </div>
         <div class="fv-left-content">
           <transition name="fade" mode="out-in">
@@ -34,6 +29,28 @@
         </div>
       </div>
     </section>
+    <div class="fv-right-content absolute right-0">
+      <div class="flex justify-end">
+        <img
+          src="../../assets/images/home-fv2.png"
+          alt=""
+          class="relative w-2/12"
+          style="top: -220px;"
+        />
+        <img
+          src="../../assets/images/home-fv1.png"
+          alt=""
+          class="relative w-2/12"
+          style="top: -330px;"
+        />
+        <img
+          src="../../assets/images/home-fv3.png"
+          alt=""
+          class="relative w-2/12"
+          style="top: -150px;"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -63,7 +80,7 @@ export default {
   font-family: Brandon Grotesque;
 }
 .font-NotoSerif {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
 }
 .fade-enter-active,
 .fade-leave-active {

@@ -1,16 +1,20 @@
 <template>
-  <div class="flex">
-    <div class="side">
-      <HomeSideBar />
+  <div>
+    <div class="flex">
+      <div class="side">
+        <HomeSideBar />
+      </div>
+      <div class="main">
+        <Fv />
+        <Explain />
+        <Vision />
+        <Project />
+        <People />
+        <Culture />
+        <Entry />
+      </div>
     </div>
-    <div class="main">
-      <Fv />
-      <Explain />
-      <Vision />
-      <Project />
-      <People />
-      <Culture />
-    </div>
+    <Footer />
   </div>
 </template>
 
@@ -22,6 +26,8 @@ import Vision from "../components/home/vision.vue";
 import Project from "../components/home/project.vue";
 import People from "../components/home/people.vue";
 import Culture from "../components/home/culture.vue";
+import Entry from "../components/home/entry.vue";
+import Footer from "../components/home/footer.vue";
 
 export default {
   name: "Home",
@@ -33,11 +39,12 @@ export default {
     Project,
     People,
     Culture,
+    Entry,
+    Footer,
   },
 };
 </script>
 
 <style>
 @import "../assets/style/home.css";
-
 </style>

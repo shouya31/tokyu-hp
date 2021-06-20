@@ -1,7 +1,8 @@
 <template>
   <div class="visoion-title">
-    <div class="flex">
-      <p
+    <img :src="image">
+    <!-- <div class="flex"> -->
+      <!-- <p
         class="relative text-5xl font-thin tracking-wider font-NotoSerif"
         style="z-index:-2;"
       >
@@ -18,13 +19,19 @@
       style="font-weight: 600; color: #003366; z-index:-2;"
     >
       {{ title }}
-    </p>
+    </p> -->
   </div>
 </template>
 
 <script>
 export default {
-  props: ["title"],
+  props: ["image"],
+  data(){
+    return{
+        people: require("@/assets/images/top-people.png"),
+        culture: require("@/assets/images/top-culture.png"),
+    }
+  }
 };
 </script>
 <style>
@@ -34,4 +41,5 @@ export default {
 .font-NotoSerif{
   font-family: Noto Serif;
 }
+
 </style>

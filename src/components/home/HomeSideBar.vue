@@ -2,11 +2,11 @@
   <div class="side-bar w-2/12 p-5 fixed  hidden lg:block">
     <div class="max-w-full col-span-1 px-2 ml-4">
       <router-link to="/greeting"
-        ><img src="../../../public/tokyu-logo.png" alt="東急百貨店" width="150"
+        ><img src="../../assets/images/tokyu-logo.png" alt="東急百貨店" width="150"
       /></router-link>
-      <p class="hidden lg:block mt-3 tracking-widest ml-2" style="color:#16344F;">
+      <!-- <p class="hidden lg:block mt-3 tracking-widest ml-2" style="color:#16344F;">
         RECRUITMENT
-      </p>
+      </p> -->
       <div v-on:click="show" class="menu hidden lg:block py-40 ml-8">
         <p><span style="width: 30%;"></span></p>
         <p><span style="width: 30%;"></span></p>

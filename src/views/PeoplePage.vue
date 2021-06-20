@@ -1,4 +1,5 @@
 <template>
+
     <div class="container-fuild people lg:grid grid-cols-1 w-screen lg:grid-cols-4 md:gap-9 lg:gap-7 overflow-hidden">
         <sidebar></sidebar>
         <section class="hero px-4 col-span-3 col-start-2 lg:flex lg:pt-10 lg:pr-5 mx-auto">
@@ -41,6 +42,56 @@
                 </div>
             </div>
         </section>
+
+  <div
+    class="container-fuild people grid grid-cols-1 lg:grid-cols-9 gap-4 md:gap-9 lg:gap-7"
+  >
+    <sidebar></sidebar>
+    <section class="hero px-4 col-span-8 col-start-3 lg:flex lg:pt-10 lg:pr-5">
+      <div class="left-content w-full">
+        <h1
+          class="lead text-3xl xl:text-5xl tracking-wider font-semibold  lg:right-16"
+          style="color:#16344F;"
+        >
+          <span class="people-lead text-lg xl:text-xl font-extralight" style="color:#707070;">共に歩む × </span>PEOPLE
+        </h1>
+        <div class="mt-28 mb-14 tracking-wide">
+          <p class="text-4xl mb-4" style="color: #707070">心躍る百貨店を</p>
+          <p class="text-4xl" style="color: #707070">思い描いて</p>
+        </div>
+        <div class="mb-16">
+          <p class="people-text mb-2 text-lg">日々の生活や会話の中から</p>
+          <p class="people-text mb-2 text-lg">企画につながるヒントを探す</p>
+          <p class="people-text mb-2 text-lg">企画が実現した瞬間の</p>
+          <p class="people-text mb-2 text-lg">ワクワク間を大切にしたい</p>
+        </div>
+        <ul>
+          <li class="mb-5">
+            <p class="people-name tracking-widest text-xl xl:text-2xl">
+              秋山 さやか<span
+                class="leading-7 ml-4 text-gray-700 tracking-widest text-xs"
+                >Sayaka Akiya style="background:#16344F;"ma</span
+              >
+            </p>
+          </li>
+          <li>
+            <p classXD="people-info mt-3 text-xs xl:text-sm tracking-wide" style="color:#707070;">
+              営業推進部 営業企画部 <span class="mx-3">/</span> 2005年 入社
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="right-content h-4/6 people-image pt-10 lg:pt-0 lg:pr-16"
+      >
+        <img
+          src="../assets/people-akiyama.png"
+          alt="people1"
+          style="width:60vw;"
+        />
+      </div>
+    </section>
+
 
         <section class="answer w-screen md:col-span-3 md:col-start-2 md:w-3/5 mx-auto pt-4 lg:pb-0 lg:pt-12 px-4 md:pl-0 md:pr-5">
             <h4 class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"><span class="py-1 px-2 mr-2 font-thin text-white">A</span>人を大切にしてくれる会社</h4>

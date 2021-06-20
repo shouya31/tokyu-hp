@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden lg:flex">
+  <div class="">
     <div class="vision-right-content mt-8">
       <img :src="image" alt=""/>
     </div>

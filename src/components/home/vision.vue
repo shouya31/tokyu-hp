@@ -1,15 +1,36 @@
 <template>
-  <section id="vision" class="pl-52 lg:flex py-10">
-    <div class="mt-16 ml-10">
-      <HomeSectionTitle title="VISION" />
-      <div class="flex justify-between">
-        <HomeSectionText
-          text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-        />
-        <HomeSectionImage :image="image" />
+  <div>
+    <section id="vision" class="hidden pl-52 lg:flex py-10">
+      <div class="mt-16 ml-10">
+        <HomeSectionTitle :image="titleimage" />
+        <div class="flex justify-between">
+          <HomeSectionText
+            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+          />
+          <HomeSectionImage :image="homeimage" />
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section id="vision" class="lg:hidden">
+      <div class="mt-16">
+        <div class="visoion-title w-8/12 mx-auto">
+          <img :src="titleimage" />
+        </div>
+        <div class="vision-right-content mt-8" style="margin-right: 20%;">
+          <img :src="homeimage" alt="" />
+        </div>
+        <div class="vision-left-content" style="margin-right: 20%;">
+          <p class="section-text text-sm py-5 pl-8">
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </div>
+        <p class="sentence-more text-center mt-3">
+          <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
+        </p>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -25,7 +46,8 @@ export default {
   },
   data() {
     return {
-      image: require("@/assets/images/home-vision.png"),
+      homeimage: require("@/assets/images/home-vision.png"),
+      titleimage: require("@/assets/images/top-vision.png"),
     };
   },
 };

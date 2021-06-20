@@ -1,7 +1,8 @@
 body {
+  height: 100%;
+  width: 100%;
   background-color: white;
   box-sizing: border-box;
-  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 
 hr {
@@ -22,6 +23,11 @@ hr {
   height: 4px;
   background: #333;
 }
+.side-recruitment-title {
+  font-family: Brandon Grotesque;
+  color: #16344F;
+}
+
 
 /* Greeting.vue */
 .leader-name {
@@ -32,57 +38,140 @@ hr {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.message {
-  font-family: "游明朝体","YuMincho";
-}
 
 /* PeoplePage.vue */
 .people {
   background-color: #add5d4;
-  font-family: "游明朝体","YuMincho";
-}
-.hero {
-  height: 800px;
-  width: 100%;
+  color: #333333;
+  font-family: Noto Sans;
 }
 .lead {
-  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+  font-family: Brandon Grotesque;
+  color: #16344F;
 }
+.sub-lead h2 {
+  font-family: Noto Serif;
+}
+
 .people-lead {
   vertical-align: 0.6rem;
   letter-spacing: 0.3rem;
+}
+.people-kana {
+  font-family: Brandon Grotesque;
+}
+.image-absolute {
+  height: 380px;
+  position: relative;
+}
+.white-box, .img-box, .blue-box {
+  position: absolute;
+}
+.white-box{
+  width: 550px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.img-box{
+  width: 100%;
+  height: 100%;
+  left: 15px;
+  top: 25px;
+  z-index: 10;
+}
+.blue-box {
+  width: 570px;
+  height: 100%;
+  background-color: #16344F;
+  left: 50px;
+  top: 50px;
+  z-index: 0;
 }
 .question-vertical {
   letter-spacing: 0.8rem;
   writing-mode: vertical-rl;
 }
-.question-vertical p{
-  border-left: 2px solid #000;
-  display: inline-block;
-  margin: 2%;
+.question-logo {
+  border-left: 1px solid #16344F;
 }
-
-.question-vertical p span {
-  letter-spacing: 0.3rem;
+.question-logo span {
+  letter-spacing: 0.1rem;
 }
-
+.question-title {
+  border-left: 4px solid #16344F;
+}
+.answer-title span {
+  background-color: #16344F;
+}
 .column-lead{
-  letter-spacing: 0.7rem;
+  letter-spacing: 0.3rem;
+  background-color: #16344F;
+}
+.column-lead h5 {
+  font-family: Brandon Grotesque;
+  font-weight: lighter;
+}
+.column-sublead p {
+  font-size: 0.3rem;
+  letter-spacing: 0.1rem;
 }
 
- /* tablet */
- @media (max-width: 1024px) {
-   .hero {
-     text-align: center;
-     padding-right: 8%;
-   }
-   .question {
-     height: 180px;
-     padding-top: 40%;
-   }
-   .question-vertical {
-    margin: 0 auto;
-    letter-spacing: 0.5rem;
-    height: 340px;
+.profile-title {
+  background-color: #16344F;
+}
+.profile-title p {
+  font-family: Brandon Grotesque;
+}
+.pagination {
+  font-family: Brandon Grotesque;
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    text-align: center;
+    padding-right: 8%;
+  }
+  .img-box{
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .white-box{
+    width: 80%;
+    height: 100%;
+  }
+  .blue-box {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .image-absolute {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+  }
+  .white-box{
+    width: 85%;
+    height: 100%;
+  }
+  .blue-box {
+    width: 85%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .white-box{
+    width: 80%;
+    height: 80%;
+  }
+  .blue-box {
+    width: 80%;
+    height: 80%;
   }
 }

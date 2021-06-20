@@ -23,7 +23,7 @@
           width="180"
           class="mx-auto bg-white w-4/12"
       /></a>
-      <p class="text-xs mt-5 italic">
+      <p class="text-xs p-5 italic">
         <small
           >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
           Reserved.</small

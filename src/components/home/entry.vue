@@ -12,16 +12,16 @@
         <img src="../../assets/images/entry-btn.png" alt="" class="mx-auto" />
       </div>
     </section>
-    <section class="lg:hidden py-16">
+    <section class="lg:hidden py-24">
       <div class="grou-together">
         <img
           src="../../assets/images/grow-together.png"
           alt=""
-          class="mx-auto w-10/12"
+          class="mx-auto w-9/12"
         />
       </div>
       <div class="entry-btn">
-        <img src="../../assets/images/entry-btn.png" alt="" class="mx-auto w-5/12" />
+        <img src="../../assets/images/entry-btn.png" alt="" class="mx-auto w-4/12" />
       </div>
     </section>
   </div>

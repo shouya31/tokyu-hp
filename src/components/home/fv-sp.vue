@@ -17,7 +17,7 @@
       </div>
     </header>
 
-    <section class="pt-20">
+    <section class="pt-20 pb-16">
       <!-- <div class="fv-header">
                     <p class="bg-white px-4 py-1 text-2xl font-thin tracking-wider" style="font-family: serif;">共に歩む</p>
                     <p class="bg-white px-4 py-1 text-2xl tracking-wider w-1/12 mx-auto" style="font-size: 30px;">×</p>

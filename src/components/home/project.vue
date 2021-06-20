@@ -24,14 +24,10 @@
           <p class="section-text text-sm py-5 pr-8">
             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           </p>
-          <p class="sentence-more text-center mt-3">
-            <img
-              src="../../assets/images/read-more.png"
-              alt=""
-              class="mx-auto"
-            />
-          </p>
         </div>
+        <p class="sentence-more text-center mt-3">
+          <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
+        </p>
       </div>
     </section>
   </div>

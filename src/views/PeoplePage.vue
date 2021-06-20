@@ -31,7 +31,7 @@
             </p>
           </li>
           <li>
-            <p class="people-info mt-3 text-xs xl:text-sm tracking-wide" style="color:#707070;">
+            <p classXD="people-info mt-3 text-xs xl:text-sm tracking-wide" style="color:#707070;">
               営業推進部 営業企画部 <span class="mx-3">/</span> 2005年 入社
             </p>
           </li>

@@ -334,7 +334,7 @@
       <div
         class="upper-content column-lead text-white text-center w-1/2 xl:w-1/5 py-1 relative -left-12 lg:right-12 top-16"
       >
-        <h5 class="text-2xl md:text-3xl sm:py-0">Column</h5>
+        <h5 class="text-4xl py-3 BrandonGrotesque">Column</h5>
       </div>
       <div
         class="column-sublead medium-content sm:text-base text-center w-1/2 xl:w-1/5 py-2 relative -left-10 lg:right-12 top-16"
@@ -367,9 +367,9 @@
       <div class="bottom-content mt-8">
         <ul class="lg:flex xl:mt-14 profile">
           <li
-            class="profile-title leading-10 sm:text-center text-white mb-auto py-1 px-4 w-36"
+            class="profile-title leading-10 sm:text-center text-white mb-auto py-3 px-4 w-40"
           >
-            <p class="font-thin text-3xl tracking-widest">Profile</p>
+            <p class="font-thin text-4xl tracking-widest BrandonGrotesque">Profile</p>
           </li>
           <li class="md:ml-16 people-name pt-7 lg:pt-0 pl-5 md:pl-0">
             <p class="text-2xl sm:text-xl tracking-widest font-medium">
@@ -438,5 +438,8 @@ export default {
   font-family: YuMincho;
   font-size: 28px;
   color: #707070;
+}
+.BrandonGrotesque{
+    font-family: Brandon Grotesque;
 }
 </style>

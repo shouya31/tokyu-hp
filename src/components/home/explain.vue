@@ -62,7 +62,10 @@
 </template>
 
 <style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url("https://use.typekit.net/bdr1ssy.css");
+
 .NotoSans-seri{
-  font-family: Noto sans-serif;
+  font-family: 'Noto Sans Japanese',sans-serif;
 }
 </style>

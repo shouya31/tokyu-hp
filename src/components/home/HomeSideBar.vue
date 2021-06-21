@@ -124,9 +124,9 @@
         <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#people" style="color:gray;">PEOPLE</a></li>
         <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#culture" style="color:gray;">CULTURE</a></li>
       </ul>
-      <div class="w-11/12 mx-auto">
+      <div class="">
         <button class="mt-16 px-2" style="background: #003366;">
-          <p class="text-2xl text-white tracking-widest">ENTRY</p>
+          <p class="text-2xl text-white tracking-widest" style="font-size: 20px;">ENTRY</p>
         </button>
       </div>
     </div>
@@ -173,7 +173,7 @@ export default {
   padding: 10px;
 }
 .menu-context-title {
-  font-size: 30px;
+  font-size: 24px;
   font-family: Brandon Grotesque;
   margin-bottom: 10px;
 }

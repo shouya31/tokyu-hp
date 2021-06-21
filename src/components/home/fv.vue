@@ -90,9 +90,10 @@ export default {
 }
 .explain-text {
   font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Noto Sans Japanese',sans-serif;
   line-height: 32px;
   z-index:-3;
+  font-weight: 300;
 }
 
 @keyframes anim {

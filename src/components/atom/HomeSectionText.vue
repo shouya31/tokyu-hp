@@ -16,7 +16,8 @@ export default {
 <style>
 .section-text{
     font-size: 14px;
-    font-family: Noto sans-serif;
+    font-family: 'Noto Sans Japanese';
+    line-height: 28px;
 }
 .sentence-more{
     font-family: Brandon Grotesque;

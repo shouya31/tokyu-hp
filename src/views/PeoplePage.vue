@@ -436,7 +436,7 @@ export default {
 <style>
 @import "../assets/style/style.css";
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-  @import url("https://use.typekit.net/bdr1ssy.css");
+@import url("https://use.typekit.net/bdr1ssy.css");
 
 .people-text {
   color: #707070;

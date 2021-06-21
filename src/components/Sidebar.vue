@@ -37,7 +37,7 @@
       </modal>
 
       <button class="ml-5 mt-28 px-2 tracking-widest" style="background:#16344F;">
-        <p class="text-white">ENTRY</p>
+        <p class="text-white pt-2">ENTRY</p>
       </button>
     </div>
   </div>

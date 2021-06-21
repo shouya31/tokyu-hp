@@ -3,7 +3,6 @@ body {
   width: 100%;
   background-color: white;
   box-sizing: border-box;
-  font-family: 'Noto Serif JP', serif !important;
 }
 
 hr {
@@ -32,10 +31,8 @@ hr {
 
 /* Greeting.vue */
 .leader-name {
-  font-family: "Hiragino Sans","ヒラギノ角ゴシック";
 }
 .question-title {
-  color: #15334d;
   font-size: 1.875rem;
   line-height: 2.25rem;
 }

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container-fuild people lg:grid grid-cols-1 w-screen lg:grid-cols-4 md:gap-9 lg:gap-7 overflow-hidden"
+    class="container-fuild people lg:grid grid-cols-1 w-screen lg:grid-cols-12 overflow-hidden"
   >
     <sidebar></sidebar>
     <header class="lg:hidden fixed w-full" style="z-index:999999999;">
@@ -20,7 +20,7 @@
       </div>
     </header>
     <section
-      class="hero px-4 col-span-3 col-start-2 lg:flex lg:pt-10 lg:pr-5 mx-auto pt-24"
+      class="hero px-4 col-span-12 col-start-3 lg:flex lg:pt-10 lg:pr-5 mx-auto pt-24"
     >
       <div class="left-content mr-auto">
         <div
@@ -39,23 +39,28 @@
             height="800"
             alt="people1"
           />
-          <h2
-            class="font-extralight pt-10 pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 text-3xl text-left"
+          <p
+            class="main-catch-font mb-3 pt-16 pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-4xl text-left"
           >
-            心躍る百貨店を思い描いて
-          </h2>
+            心躍る百貨店を
+          </p>
+           <p
+            class="main-catch-font  pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-4xl text-left"
+          > 
+            思い描いて
+          </p>
         </div>
         <div
           class="message mt-5 pl-4 lg:pl-0 lg:my-14 text-sm xl:text-xl text-left leading-9 tracking-wider"
         >
-          <p class="lg:leading-9">日々の生活や会話の中から</p>
-          <p class="lg:leading-9">企画につながるヒントを探す</p>
-          <p class="lg:leading-9">企画が実現した瞬間の</p>
-          <p class="lg:leading-9">ワクワク間を大切にしたい</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest">日々の生活や会話の中から</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest">企画につながるヒントを探す</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest">企画が実現した瞬間の</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest">ワクワク間を大切にしたい</p>
         </div>
         <ul class="text-left pl-4 lg:pl-0 pt-6 lg:pt-0">
           <li>
-            <p class="people-name text-xl tracking-widest xl:text-3xl">
+            <p class="people-name text-xl tracking-widest lg:text-2xl">
               秋山 さやか<span
                 class="people-kana leading-7 ml-4 text-gray-500 tracking-widest text-xs"
                 >Sayaka Akiyama</span
@@ -64,7 +69,7 @@
           </li>
           <li>
             <p class="people-info mt-3 text-xs xl:text-sm tracking-wide">
-              営業推進部<span class="mx-3 lg:mx-0">営業企画部</span
+              営業推進部<span class="lg:ml-3">営業企画部</span
               ><span class="mx-2 lg:mx-3">/</span> 2005年 入社
             </p>
           </li>
@@ -83,7 +88,7 @@
     </section>
 
     <section
-      class="question col-span-3 col-start-2 lg:flex pt-10 px-5 xl:pt-30"
+      class="question col-span-9 col-start-3 lg:flex pt-10 px-5 xl:pt-30"
     >
       <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
         <div class="white-box bg-white"></div>
@@ -168,7 +173,7 @@
     </section> -->
 
     <section
-      class="answer w-screen md:col-span-3 md:col-start-2 md:w-3/5 mx-auto pt-4 lg:pb-0 lg:pt-12 px-4 md:pl-0 md:pr-5"
+      class="answer w-screen md:col-span-12 md:col-start-4 md:w-3/5 mx-auto pt-4 lg:pb-0 lg:pt-12 px-4 md:pl-0 md:pr-5"
     >
       <h4
         class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
@@ -187,7 +192,7 @@
       </p>
     </section>
 
-    <section class="question col-span-3 col-start-2 md:flex pr-28 lg:pr-5">
+    <section class="question col-span-12 col-start-3 md:flex pr-28 lg:pr-5">
       <div
         class="left-content question-vertical w-9/12 md:w-auto ml-36 pr-12 lg:pr-0 py-16 lg:pb-20 lg:pt-32"
       >
@@ -235,7 +240,7 @@
     </section>
 
     <section
-      class="question col-span-3 col-start-2 lg:flex pt-10 px-5 xl:pt-30"
+      class="question col-span-9 col-start-3 lg:flex pt-10 px-5 xl:pt-30"
     >
       <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
         <div class="white-box bg-white"></div>
@@ -269,7 +274,7 @@
     </section>
 
     <section
-      class="answer w-screen md:col-span-3 md:col-start-2 md:w-3/5 mx-auto lg:pt-12 pb-5 px-4 md:pl-0 md:pr-5"
+      class="answer w-screen md:col-span-12 md:col-start-3 md:w-3/5 mx-auto lg:pt-12 pb-5 px-4 md:pl-0 md:pr-5"
     >
       <h4
         class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
@@ -290,7 +295,7 @@
       </p>
     </section>
 
-    <section class="question col-span-3 col-start-2 md:flex pr-28 lg:pr-5">
+    <section class="question col-span-12 col-start-3 md:flex pr-28 lg:pr-5">
       <div
         class="left-content question-vertical w-9/12 md:w-auto pr-12 lg:pr-0 ml-36 py-12"
       >
@@ -329,10 +334,10 @@
 
     <!-- コラム -->
     <section
-      class="column col-span-4 lg:col-span-3 lg:col-start-2 lg:pt-0 lg:pr-5 px-10 mb-10 sm:mb-0"
+      class="column col-span-4 lg:col-span-12 lg:col-start-3 lg:pt-0 lg:pr-5 lg:px-10 px-5 mb-10 sm:mb-0"
     >
       <div
-        class="upper-content column-lead text-white text-center w-1/2 xl:w-1/5 py-1 relative -left-12 lg:right-12 top-16"
+        class="upper-content column-lead text-white text-center w-1/2 xl:w-1/5 py-1 relative lg:right-0 right-12 lg:left-1 lg:right-12 top-16"
       >
         <h5 class="text-4xl py-3 BrandonGrotesque">Column</h5>
       </div>
@@ -341,9 +346,9 @@
       >
         <p>「〇〇とともに歩む」</p>
       </div>
-      <div class="bottom-content xl:w-10/12 bg-white text-center md:py-7 pt-10">
+      <div class="bottom-content xl:w-9/12 bg-white text-center md:py-7 pt-10 lg:ml-16">
         <h6
-          class="column-title underline pb-3 pt-16 text-2xl md:text-4xl font-thin tracking-widest"
+          class="column-title underline pb-3 pt-8 lg:pt-16 text-2xl md:text-4xl font-thin tracking-widest"
         >
           東急線と共に歩む
         </h6>
@@ -359,7 +364,7 @@
     <!-- コラムここまで -->
 
     <section
-      class="col-span-4 w-screen lg:col-span-3 lg:col-start-2 lg:pt-10 lg:pr-5 lg:px-10"
+      class="col-span-4 w-screen lg:col-span-12 lg:col-start-3 lg:pt-10 lg:pr-5 lg:px-10"
     >
       <div class="upper-content pt-8 lg:pt-0">
         <img src="../assets/images/home-people6.png" alt="people4" />
@@ -396,7 +401,7 @@
       </div>
     </section>
 
-    <footer class="col-span-4 bg-white pt-14 pb-10 text-center">
+    <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img
           src="../assets/tokyu-logo.png"
@@ -430,6 +435,7 @@ export default {
 
 <style>
 @import "../assets/style/style.css";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 .people-text {
   color: #707070;
@@ -440,6 +446,16 @@ export default {
   color: #707070;
 }
 .BrandonGrotesque{
-    font-family: Brandon Grotesque;
+    font-family: Brandon Grotesque !important;
+}
+.main-catch-font{
+  font-family: 'Noto Sans Japanese',sans-serif;
+  color: #000000;
+  font-weight: 300;
+  letter-spacing: 8px;
+}
+.sub-catch-font{
+  font-family: 'Noto Sans Japanese',sans-serif;
+  font-weight: 200;
 }
 </style>

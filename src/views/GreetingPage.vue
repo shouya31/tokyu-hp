@@ -1,7 +1,7 @@
 <template>
   <div
-    class="container-fuild grid grid-cols-1 lg:grid-cols-4 lg:gap-7"
-    style="background: #D5D5D5;"
+    class="container-fuild grid grid-cols-1 lg:grid-cols-10 lg:gap-20"
+    style="background: #F2F2F2;"
   >
     <sidebar></sidebar>
     <header class="lg:hidden fixed w-full" style="z-index:999999999;">
@@ -20,22 +20,22 @@
         </div>
       </div>
     </header>
-    <div class="p-4 lg:col-span-2 col-span-3 lg:col-start-2 lg:pt-16 pt-24">
+    <div class="p-4 lg:col-span-6 col-span-3 lg:col-start-3 lg:pt-16 pt-24">
       <img
         src="../assets/images/greeting.png"
-        class="w-full lg:max-w-3xl mt-4"
+        class="w-full mt-4"
         alt="東急百貨店代表"
       />
       <section class="lg:pb-16 text-gray-700">
         <h1
-          class="message text-md font-weight-100 tracking-wider pt-9 pb-3 md:text-3xl"
+          class="greeting-message text-md font-weight-100 tracking-wider pt-9 pb-3 md:text-3xl"
         >
           新しい未来に向けて、共に歩んでいきましょう
         </h1>
         <hr class="my-3 border-black" />
         <ul class="block mt-6 md:flex">
           <li class="leader-name">
-            <p class="text-base md:text-3xl">
+            <p class="text-base md:text-2xl">
               <span class="mr-4">飯塚</span><span class="ml-4">康浩</span>
             </p>
           </li>
@@ -54,14 +54,14 @@
         <h2 class="question-title section-title-theme">Theme</h2>
         <hr />
         <h3
-          class="text-lg md:text-2xl pt-5 font-semibold tracking-wider"
+          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider"
           style="color:#333333;"
         >
           求める人物像
         </h3>
         <hr class="border-2 mt-2 mb-4" />
         <p
-          class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
+          class="NotoSansJapanesee bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
         >
           企業理念の実践とその一歩先へ
         </p>
@@ -84,14 +84,14 @@
         <h2 class="question-title section-title-theme">Theme</h2>
         <hr />
         <h3
-          class="text-lg md:text-2xl pt-5 font-semibold tracking-wider"
+          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider"
           style="color:#333333;"
         >
           人事部長として心がけていること
         </h3>
         <hr class="border-2 mt-2 mb-4" />
         <p
-          class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
+          class="NotoSansJapanesee bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
         >
           「人材」を「人財」へと進化させていくために
         </p>
@@ -111,14 +111,14 @@
         <h2 class="question-title section-title-theme">Theme</h2>
         <hr />
         <h3
-          class="text-lg md:text-2xl pt-5 font-semibold tracking-wider"
+          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider"
           style="color:#333333;"
         >
           応募者へのメッセージ
         </h3>
         <hr class="border-2 mt-2 mb-4" />
         <p
-          class="bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
+          class="NotoSansJapanesee bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
         >
           共に歩み、成長する、未来へ向かって
         </p>
@@ -142,7 +142,7 @@
         </p>
       </section>
     </div>
-    <footer class="col-span-4 bg-white pt-14 pb-10 text-center">
+    <footer class="col-span-10 bg-white pt-14 pb-10 text-center">
       <!-- 画像ちょっと横にずれてる？ -->
       <a href=""
         ><img
@@ -179,7 +179,30 @@ export default {
 @import "../assets/style/style.css";
 
 .section-title-theme {
+  color: #16344F;
   font-family: Brandon Grotesque;
   font-weight: bold;
+}
+.question-title {
+  border: none !important;
+}
+.greeting-message {
+  font-family: "Noto Serif JP";
+}
+p {
+  font-family: "Noto Sans Japanese";
+}
+.section-title-theme {
+  font-family: Brandon Grotesque !important;
+  font-size: 32px;
+  font-weight: 500;
+}
+.section-sub-title {
+  color: rgb(51, 51, 51);
+  font-family: "Noto Sans Japanese";
+  font-weight: 500;
+}
+.NotoSansJapanesee{
+  font-family: "Noto Sans Japanese";
 }
 </style>

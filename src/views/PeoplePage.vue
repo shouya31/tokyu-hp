@@ -40,12 +40,12 @@
             alt="people1"
           />
           <p
-            class="main-catch-font mb-3 pt-16 pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-4xl text-left"
+            class="main-catch-font lg:mb-5 mb-3 text-3xl pt-16 pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-5xl text-left"
           >
             心躍る百貨店を
           </p>
            <p
-            class="main-catch-font  pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-4xl text-left"
+            class="main-catch-font pr-16 text-3xl pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-5xl text-left"
           > 
             思い描いて
           </p>
@@ -53,10 +53,10 @@
         <div
           class="message mt-5 pl-4 lg:pl-0 lg:my-14 text-sm xl:text-xl text-left leading-9 tracking-wider"
         >
-          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">日々の生活や会話の中から</p>
-          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">企画につながるヒントを探す</p>
-          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">企画が実現した瞬間の</p>
-          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">ワクワク間を大切にしたい</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest text-lg">日々の生活や会話の中から</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest text-lg">企画につながるヒントを探す</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest text-lg">企画が実現した瞬間の</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest text-lg">ワクワク間を大切にしたい</p>
         </div>
         <ul class="text-left pl-4 lg:pl-0 pt-6 lg:pt-0">
           <li>
@@ -113,10 +113,10 @@
         </div>
         <div class="question-box pl-8">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-section-title">
             東急百貨店を
           </p>
-          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-section-title">
             志望した理由
           </p>
         </div>
@@ -205,8 +205,8 @@
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">現在の</p>
-          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">仕事内容</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-section-title">現在の</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-section-title">仕事内容</p>
         </div>
       </div>
       <div
@@ -265,8 +265,8 @@
         </div>
         <div class="question-box py-16 mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">私の</p>
-          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-section-title">私の</p>
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-section-title">
             エピソード
           </p>
         </div>
@@ -308,8 +308,8 @@
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">これからの</p>
-          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">歩み</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-section-title">これからの</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-section-title">歩み</p>
         </div>
       </div>
       <div
@@ -369,7 +369,7 @@
       <div class="upper-content pt-8 lg:pt-0">
         <img src="../assets/images/home-people6.png" alt="people4" />
       </div>
-      <div class="bottom-content mt-8">
+      <div class=" mt-8">
         <ul class="lg:flex xl:mt-14 profile">
           <li
             class="profile-title leading-10 sm:text-center text-white mb-auto py-3 px-4 w-40"
@@ -394,9 +394,11 @@
           </li>
         </ul>
         <p
-          class="pagination w-screen mx-auto lg:w-11/12 text-center font-thin py-10 xl:pt-20"
+          class="pagination w-screen mx-auto lg:w-11/12 text-center py-10 xl:pt-20"
         >
+        <span class="absolute right-0 left-0">
           ← Prep People <span class="mx-5 lg:mx-2">|</span> Next People→
+        </span>
         </p>
       </div>
     </section>
@@ -466,7 +468,7 @@ export default {
   font-family: 'Noto Sans Japanese',sans-serif;
   font-weight: 300;
 }
-.question-title {
+.question-section-title {
   border-left: 4px solid #16344F;
   font-family: 'Noto Sans Japanese',sans-serif;
 }

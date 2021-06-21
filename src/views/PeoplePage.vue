@@ -20,7 +20,7 @@
       </div>
     </header>
     <section
-      class="hero px-4 col-span-12 col-start-3 lg:flex lg:pt-10 lg:pr-5 mx-auto pt-24"
+      class="hero px-4 col-span-12 col-start-3 lg:flex lg:pt-10 lg:pl-16 pt-24"
     >
       <div class="left-content mr-auto">
         <div
@@ -53,10 +53,10 @@
         <div
           class="message mt-5 pl-4 lg:pl-0 lg:my-14 text-sm xl:text-xl text-left leading-9 tracking-wider"
         >
-          <p class="sub-catch-font lg:leading-9 tracking-widest">日々の生活や会話の中から</p>
-          <p class="sub-catch-font lg:leading-9 tracking-widest">企画につながるヒントを探す</p>
-          <p class="sub-catch-font lg:leading-9 tracking-widest">企画が実現した瞬間の</p>
-          <p class="sub-catch-font lg:leading-9 tracking-widest">ワクワク間を大切にしたい</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">日々の生活や会話の中から</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">企画につながるヒントを探す</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">企画が実現した瞬間の</p>
+          <p class="sub-catch-font lg:leading-9 tracking-widest lg:text-lg">ワクワク間を大切にしたい</p>
         </div>
         <ul class="text-left pl-4 lg:pl-0 pt-6 lg:pt-0">
           <li>
@@ -111,12 +111,12 @@
             alt="loupe"
           />
         </div>
-        <div class="question-box h-48 pl-8">
+        <div class="question-box pl-8">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold text-left pr-2 question-title">
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">
             東急百貨店を
           </p>
-          <p class="text-lg font-bold text-left pr-2 question-title">
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">
             志望した理由
           </p>
         </div>
@@ -178,7 +178,7 @@
       <h4
         class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
       >
-        <span class="py-1 px-2 mr-2 font-thin text-white">A</span
+        <span class="py-1 px-3 mr-2 font-thin answer-font">A</span
         >人を大切にしてくれる会社
       </h4>
       <p
@@ -192,9 +192,9 @@
       </p>
     </section>
 
-    <section class="question col-span-12 col-start-3 md:flex pr-28 lg:pr-5">
+    <section class="question col-span-12 col-start-3 md:flex pr-28 lg:pr-5 lg:mt-28">
       <div
-        class="left-content question-vertical w-9/12 md:w-auto ml-36 pr-12 lg:pr-0 py-16 lg:pb-20 lg:pt-32"
+        class="left-content question-vertical w-9/12 md:w-auto ml-36 pr-12 lg:pr-0 py-16 lg:pb-20"
       >
         <div class="loupe-img relative h-3 w-16">
           <img
@@ -205,8 +205,8 @@
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold pr-2 question-title">現在の</p>
-          <p class="text-lg font-bold pr-2 question-title">仕事内容</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">現在の</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">仕事内容</p>
         </div>
       </div>
       <div
@@ -215,7 +215,7 @@
         <h4
           class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
         >
-          <span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span
+          <span class="py-1 px-3 mr-2 font-thin bg-blue-900 answer-font">A</span
           >沿線生活をイノベートする
         </h4>
         <p
@@ -240,7 +240,7 @@
     </section>
 
     <section
-      class="question col-span-9 col-start-3 lg:flex pt-10 px-5 xl:pt-30"
+      class="question col-span-9 col-start-3 lg:mt-20 lg:flex pt-10 px-5 xl:pt-30"
     >
       <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
         <div class="white-box bg-white"></div>
@@ -265,8 +265,8 @@
         </div>
         <div class="question-box py-16 mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold text-left pr-2 question-title">私の</p>
-          <p class="text-lg font-bold text-left pr-2 question-title">
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">私の</p>
+          <p class="text-lg font-bold text-left pr-4 lg:text-2xl question-title">
             エピソード
           </p>
         </div>
@@ -279,7 +279,7 @@
       <h4
         class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
       >
-        <span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span
+        <span class="py-1 px-3 mr-2 font-thin bg-blue-900 answer-font">A</span
         >50周年記念イベントで掴んだ自信
       </h4>
       <p
@@ -295,7 +295,7 @@
       </p>
     </section>
 
-    <section class="question col-span-12 col-start-3 md:flex pr-28 lg:pr-5">
+    <section class="question col-span-12 lg:mt-20 col-start-3 md:flex pr-28 lg:pr-5">
       <div
         class="left-content question-vertical w-9/12 md:w-auto pr-12 lg:pr-0 ml-36 py-12"
       >
@@ -308,8 +308,8 @@
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="text-lg font-bold pr-2 question-title">これからの</p>
-          <p class="text-lg font-bold pr-2 question-title">歩み</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">これからの</p>
+          <p class="text-lg font-bold pr-4 lg:text-2xl question-title">歩み</p>
         </div>
       </div>
       <div
@@ -318,7 +318,7 @@
         <h4
           class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
         >
-          <span class="py-1 px-2 mr-2 font-thin bg-blue-900 text-white">A</span
+          <span class="py-1 px-3 mr-2 font-thin bg-blue-900 answer-font">A</span
           >沿線生活をイノベートする
         </h4>
         <p
@@ -346,14 +346,14 @@
       >
         <p>「〇〇とともに歩む」</p>
       </div>
-      <div class="bottom-content xl:w-9/12 bg-white text-center md:py-7 pt-10 lg:ml-16">
+      <div class="bottom-content bg-white text-center md:py-7 pt-10 lg:ml-8">
         <h6
-          class="column-title underline pb-3 pt-8 lg:pt-16 text-2xl md:text-4xl font-thin tracking-widest"
+          class="column-title underline pb-3 pt-8 lg:pt-10 text-2xl md:text-4xl"
         >
           東急線と共に歩む
         </h6>
         <p
-          class="column-text p-4 sm:p-10 sm:w-3/4 mx-auto text-xs lg:text-md tracking-wide md:tracking-wider leading-7 text-gray-800"
+          class="column-text lg:py-6 lg:px-20 text-gray-800"
         >
           私自身、東急沿線上に住んでおり、東急百貨店が東急グループの一員として沿線に住む人々の生活に影響を
           与えていることを日々実感しています。沿線生活者の暮らしをより豊かにすることを目標に、小型店や専門店、
@@ -377,7 +377,7 @@
             <p class="font-thin text-4xl tracking-widest BrandonGrotesque">Profile</p>
           </li>
           <li class="md:ml-16 people-name pt-7 lg:pt-0 pl-5 md:pl-0">
-            <p class="text-2xl sm:text-xl tracking-widest font-medium">
+            <p class="people-name text-2xl sm:text-xl tracking-widest font-medium">
               秋山 さやか
             </p>
             <p>
@@ -394,9 +394,9 @@
           </li>
         </ul>
         <p
-          class="pagination w-screen lg:w-7/12 text-center font-thin lg:mx-auto py-10 xl:pt-20"
+          class="pagination w-screen mx-auto lg:w-11/12 text-center font-thin py-10 xl:pt-20"
         >
-          ← PrepPeople <span class="mx-5 lg:mx-2">|</span> Next People→
+          ← Prep People <span class="mx-5 lg:mx-2">|</span> Next People→
         </p>
       </div>
     </section>
@@ -436,26 +436,70 @@ export default {
 <style>
 @import "../assets/style/style.css";
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+  @import url("https://use.typekit.net/bdr1ssy.css");
 
 .people-text {
   color: #707070;
 }
 .column-title {
-  font-family: YuMincho;
+  font-family: noto-serif-condensed, serif;
+  font-weight: 400;
   font-size: 28px;
   color: #707070;
+  letter-spacing: 10px;
+}
+.column-text {
+  font-family: 'Noto Sans Japanese',sans-serif;
+  line-height: 28px;
+  font-size: 14px;
 }
 .BrandonGrotesque{
     font-family: Brandon Grotesque !important;
 }
 .main-catch-font{
-  font-family: 'Noto Sans Japanese',sans-serif;
+  font-family: noto-serif-condensed, serif;
   color: #000000;
   font-weight: 300;
   letter-spacing: 8px;
 }
 .sub-catch-font{
   font-family: 'Noto Sans Japanese',sans-serif;
+  font-weight: 300;
+}
+.question-title {
+  border-left: 4px solid #16344F;
+  font-family: 'Noto Sans Japanese',sans-serif;
+}
+.question-box{
+  display: inline-block;
+}
+.answer-text{
+  font-family: 'Noto Sans Japanese';
+}
+.answer-title{
+  font-family: 'Noto Sans Japanese';
+}
+.answer-font{
+    color: #ADD6D4;
+    font-family: 'Noto Sans Japanese';
+}
+.people-info{
+  font-family: 'Noto Sans Japanese',sans-serif;
   font-weight: 200;
+}
+.people-name{
+  font-family: 'Noto Sans Japanese';
+}
+.bottom-content{
+  width: 78%;
+}
+@media screen and (max-width: 720px) {
+  .bottom-content{
+    padding: 60px;
+    width: 100%;
+  }
+  .upper-content{
+    right: 13px !important;
+  }
 }
 </style>

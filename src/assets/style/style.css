@@ -103,11 +103,10 @@ hr {
 }
 .column-lead{
   letter-spacing: 0.3rem;
-  background-color: #16344F;
 }
 .column-lead h5 {
   font-family: Brandon Grotesque;
-  font-weight: lighter;
+
 }
 .column-sublead p {
   font-size: 0.3rem;
@@ -115,7 +114,6 @@ hr {
 }
 
 .profile-title {
-  background-color: #16344F;
 }
 .profile-title p {
   font-family: Brandon Grotesque;

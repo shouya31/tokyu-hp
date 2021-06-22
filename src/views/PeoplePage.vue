@@ -366,9 +366,11 @@
       class="column col-span-4 lg:col-span-12 lg:col-start-3 lg:pt-0 lg:pr-5 lg:px-10 px-5 mb-10 sm:mb-0"
     >
       <div
-        class="upper-content column-lead text-white text-center w-1/2 xl:w-1/5 py-1 relative lg:right-0 right-12 lg:left-1 lg:right-12 top-16"
+        class="upper-content column-lead text-white text-center w-1/2 xl:w-1/5 py-1 relative lg:right-0 right-12 lg:left-1 lg:right-12 top-20"
       >
-        <h5 class="text-4xl py-3 BrandonGrotesque">Column</h5>
+        <h5 class="text-4xl py-3 BrandonGrotesque">
+          <img src="../assets/images/people-column.png" alt="" srcset="">
+        </h5>
       </div>
       <div
         class="column-sublead medium-content sm:text-base text-center w-1/2 xl:w-1/5 py-2 relative -left-10 lg:right-12 top-16"
@@ -403,10 +405,10 @@
       <div class=" mt-8">
         <ul class="lg:flex xl:mt-14 profile">
           <li
-            class="profile-title leading-10 sm:text-center text-white mb-auto py-3 px-4 w-40"
+            class="profile-title"
           >
             <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
-              Profile
+              <img src="../assets/images/people-profile.png" alt="" srcset="">
             </p>
           </li>
           <li class="md:ml-16 people-name pt-7 lg:pt-0 pl-5 md:pl-0">
@@ -429,11 +431,10 @@
           </li>
         </ul>
         <p
-          class="pagination w-screen mx-auto lg:w-11/12 text-center py-10 xl:pt-20"
+          class="pagination w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
         >
-          <span class="absolute right-0 left-0">
-            ← Prep People <span class="mx-5 lg:mx-2">|</span> Next People→
-          </span>
+            <img src="../assets/images/people-pagination.png" alt="" class="pagination-img">
+
         </p>
       </div>
     </section>
@@ -492,6 +493,8 @@ export default {
 }
 .BrandonGrotesque {
   font-family: Brandon Grotesque !important;
+  font-weight: 300;
+  font-style: normal;
 }
 .main-catch-font {
   font-family: noto-serif-condensed, serif;
@@ -544,6 +547,9 @@ export default {
   }
   .home-person {
     width: 100%;
+  }
+  .pagination-img{
+    margin: auto;
   }
 }
 </style>

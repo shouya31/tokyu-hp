@@ -173,7 +173,8 @@ export default {
   padding: 10px;
 }
 .menu-context-title {
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 400;
   font-family: Brandon Grotesque;
   margin-bottom: 10px;
 }

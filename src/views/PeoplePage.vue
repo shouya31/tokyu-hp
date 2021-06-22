@@ -178,7 +178,7 @@
       <h4
         class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
       >
-        <span class="py-1 px-3 mr-2 font-thin answer-font">A</span
+        <span class="py-1 px-4 mr-2 font-thin answer-font">A</span
         >人を大切にしてくれる会社
       </h4>
       <p
@@ -215,7 +215,7 @@
         <h4
           class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
         >
-          <span class="py-1 px-3 mr-2 font-thin bg-blue-900 answer-font">A</span
+          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >沿線生活をイノベートする
         </h4>
         <p
@@ -279,7 +279,7 @@
       <h4
         class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
       >
-        <span class="py-1 px-3 mr-2 font-thin bg-blue-900 answer-font">A</span
+        <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
         >50周年記念イベントで掴んだ自信
       </h4>
       <p
@@ -318,7 +318,7 @@
         <h4
           class="answer-title text-lg md:text-2xl font-bold my-3 tracking-widest"
         >
-          <span class="py-1 px-3 mr-2 font-thin bg-blue-900 answer-font">A</span
+          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >沿線生活をイノベートする
         </h4>
         <p
@@ -480,6 +480,7 @@ export default {
 }
 .answer-title{
   font-family: 'Noto Sans Japanese';
+  padding: 8px 12px;
 }
 .answer-font{
     color: #ADD6D4;

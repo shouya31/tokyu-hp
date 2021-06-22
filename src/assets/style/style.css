@@ -63,7 +63,7 @@ hr {
   position: relative;
 }
 .white-box, .img-box, .blue-box {
-  position: absolute;
+  /* position: absolute; */
 }
 .white-box{
   width: 550px;

@@ -40,12 +40,12 @@
             alt="people1"
           />
           <p
-            class="main-catch-font lg:mb-5 mb-3 text-3xl pt-16 pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-5xl text-left"
+            class="main-catch-font lg:mb-5 mb-3 text-3xl pt-16 pr-16 pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-4xl text-left"
           >
             心躍る百貨店を
           </p>
            <p
-            class="main-catch-font pr-16 text-3xl pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-5xl text-left"
+            class="main-catch-font pr-16 text-3xl pl-4 lg:pl-0 lg:pt-0 lg:pr-0 lg:text-4xl text-left"
           > 
             思い描いて
           </p>
@@ -88,26 +88,26 @@
     </section>
 
     <section
-      class="question col-span-9 col-start-3 lg:flex pt-10 px-5 xl:pt-30"
+      class="question col-span-10 col-start-3 lg:flex pt-20 px-5 xl:pt-30"
     >
-      <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
-        <div class="white-box bg-white"></div>
-        <div class="img-box lg:w-screen">
+      <div class="left-content pb-48 mb-10 lg:pb-0">
+        <!-- <div class="white-box bg-white"></div> -->
+        <div class="img-box">
           <img
             src="../assets/images/person6-2.png"
             class="pr-10 lg:pr-16"
             alt="persion2"
           />
         </div>
-        <div class="blue-box"></div>
+        <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right pt-32"
+        class="right-content text-center question-vertical mx-auto"
       >
         <div class="loupe-img relative h-3 w-16">
           <img
             src="../assets/loupe.png"
-            class="absolute -top-20 right-10"
+            class="absolute top-16 right-10"
             alt="loupe"
           />
         </div>
@@ -243,23 +243,25 @@
       class="question col-span-9 col-start-3 lg:mt-20 lg:flex pt-10 px-5 xl:pt-30"
     >
       <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
-        <div class="white-box bg-white"></div>
-        <div class="img-box lg:w-screen">
+        <!-- <div class="white-box bg-white"></div> -->
+        <div class="img-box">
           <img
             src="../assets/images/person6-3.png"
             class="pr-10 lg:pr-16"
+
+
             alt="persion3"
           />
         </div>
-        <div class="blue-box"></div>
+        <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32 lg:float-right pt-24"
+        class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32"
       >
         <div class="loupe-img relative h-3 w-16">
           <img
             src="../assets/loupe.png"
-            class="absolute right-10"
+            class="relative top-10 right-10"
             alt="loupe"
           />
         </div>
@@ -348,7 +350,7 @@
       </div>
       <div class="bottom-content bg-white text-center md:py-7 pt-10 lg:ml-8">
         <h6
-          class="column-title underline pb-3 pt-8 lg:pt-10 text-2xl md:text-4xl"
+          class="column-title underline pb-3 pt-8 lg:pt-10 text-2xl md:text-3xl"
         >
           東急線と共に歩む
         </h6>

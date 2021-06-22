@@ -532,7 +532,7 @@ export default {
   width: 78%;
 }
 .home-person {
-  width: 66.8%;
+  width: 66.7%;
 }
 @media screen and (max-width: 720px) {
   .bottom-content {

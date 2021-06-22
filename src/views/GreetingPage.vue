@@ -54,7 +54,7 @@
         <h2 class="question-title section-title-theme">Theme</h2>
         <hr />
         <h3
-          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider"
+          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
           style="color:#333333;"
         >
           求める人物像
@@ -84,7 +84,7 @@
         <h2 class="question-title section-title-theme">Theme</h2>
         <hr />
         <h3
-          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider"
+          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
           style="color:#333333;"
         >
           人事部長として心がけていること
@@ -111,7 +111,7 @@
         <h2 class="question-title section-title-theme">Theme</h2>
         <hr />
         <h3
-          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider"
+          class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
           style="color:#333333;"
         >
           応募者へのメッセージ

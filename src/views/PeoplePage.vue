@@ -88,7 +88,7 @@
     </section>
 
     <section
-      class="question col-span-10 col-start-3 lg:flex pt-20 px-5 xl:pt-30"
+      class="question col-span-8 col-start-3 lg:flex pt-20 px-5 xl:pt-30"
     >
       <div class="left-content pb-48 mb-10 lg:pb-0">
         <!-- <div class="white-box bg-white"></div> -->
@@ -240,7 +240,7 @@
     </section>
 
     <section
-      class="question col-span-9 col-start-3 lg:mt-20 lg:flex pt-10 px-5 xl:pt-30"
+      class="question col-span-8 col-start-3 lg:mt-20 lg:flex pt-10 px-5 xl:pt-30"
     >
       <div class="left-content image-absolute pb-48 mb-10 lg:pb-0">
         <!-- <div class="white-box bg-white"></div> -->
@@ -256,7 +256,7 @@
         <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="right-content text-center question-vertical mx-auto pl-16 lg:ml-auto lg:mr-32"
+        class="right-content text-center question-vertical pl-16 lg:ml-auto"
       >
         <div class="loupe-img relative h-3 w-16">
           <img

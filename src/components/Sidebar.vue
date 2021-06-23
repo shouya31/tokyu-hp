@@ -14,40 +14,35 @@
       </div>
     </nav> -->
     <!-- sp ヘッダーここまで -->
-    <div class="hidden max-w-full lg:block lg:col-span-1 p-8">
-      <router-link to="/people">
-        <img src="../../public/tokyu-logo.png" alt="東急百貨店" width="150" />
-      </router-link>
-      <p class="side-recruitment-title hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest">
-        RECRUITMENT
-      </p>
-      <div class="menu hidden lg:block py-48 ml-8">
+    <div class="sidebar hidden max-w-full lg:flex lg:col-span-1 p-8">
+      <router-link to="/greeting" style="height: 30vh;"
+        ><img
+          src="../assets/images/tokyu-logo.png"
+          alt="東急百貨店"
+          width="150"
+      /></router-link>
+      <div class="menu hidden lg:block ml-6" style="height: 50vh;">
         <p><span style="width: 30%;"></span></p>
         <p><span style="width: 30%;"></span></p>
       </div>
 
-      <modal name="hello-world" :draggable="true" :resizable="true">
-        <div class="modal-header">
-          <h2>Modal title</h2>
-        </div>
-        <div class="modal-body">
-          <p>you're reading this text in a modal!</p>
-          <button v-on:click="hide">閉じる</button>
-        </div>  
-      </modal>
-
-      <button class="ml-5 mt-28 px-2 tracking-widest" style="background:#16344F;">
-        <p class="text-white p-2">ENTRY</p>
-      </button>
+      <a class="tracking-widest ml-4">
+        <img
+          src="../assets/images/side-entry-btn.png"
+          alt=""
+          srcset=""
+        />
+      </a>
     </div>
   </div>
 </template>
 
-<script>
-
-
-</script>
+<script></script>
 
 <style>
 @import "../assets/style/style.css";
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
 </style>

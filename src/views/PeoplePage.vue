@@ -94,7 +94,7 @@
         <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="question-right-content text-center question-vertical mx-auto lg:mt-0 lg:mt-24 lg:mb-8"
+        class="question-right-content text-center question-vertical mx-auto lg:mt-0 lg:mb-8"
       >
         <div class="loupe-img inline-block relative left-32">
           <img src="../assets/images/question-logo.png" class="" alt="loupe" />
@@ -385,7 +385,7 @@ export default {
 .column-title {
   font-family: noto-serif-condensed, serif;
   font-weight: 400;
-  font-size: 28pt;
+  font-size: 28px;
   color: #707070;
   letter-spacing: 10px;
   display: inline-block;
@@ -396,7 +396,7 @@ export default {
 .column-subtitle {
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: 300;
-  font-size: 12pt;
+  font-size: 14px;
   color: #707070;
   letter-spacing: 2px;
 }
@@ -406,7 +406,7 @@ export default {
 }
 .column-text {
   font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 12pt;
+  font-size: 14px;
   color: #707070;
   line-height: 28px;
   padding: 40px 96px 80px;
@@ -419,20 +419,20 @@ export default {
 .main-catch-font {
   font-family: noto-serif-condensed, serif;
   color: #000000;
-  font-size: 36pt;
+  font-size: 36px;
   font-weight: 300;
   letter-spacing: 8px;
 }
 .sub-catch-font {
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: 300;
-  font-size: 18pt;
+  font-size: 18px;
   color: #707070;
 }
 .question-section-title {
-  border-left: 4pt solid #16344f;
+  border-left: 4px solid #16344f;
   font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 24pt;
+  font-size: 24px;
   padding-right: 24px;
   font-weight: bold;
   text-align: left;
@@ -442,19 +442,19 @@ export default {
 }
 .answer-text {
   font-family: "Noto Sans Japanese";
-  font-size: 12pt;
+  font-size: 14px;
   width: 100%;
   color: #707070;
   font-weight: 400;
 }
 .answer-attention {
   font-family: "Noto Sans Japanese";
-  font-size: 10pt;
+  font-size: 10px;
   color: #707070;
 }
 .answer-title {
   font-family: "Noto Sans Japanese";
-  font-size: 24pt;
+  font-size: 24px;
 }
 .answer-font {
   color: #add6d4;
@@ -463,14 +463,14 @@ export default {
 .people-info {
   font-family: "Noto Sans Japanese", sans-serif;
   font-weight: 200;
-  font-size: 14pt;
+  font-size: 14px;
 }
 .people-name {
   font-family: "Noto Sans Japanese";
-  font-size: 24pt;
+  font-size: 24px;
 }
 .people-kana {
-  font-size: 14pt;
+  font-size: 14px;
   color: #707070;
 }
 .bottom-content {
@@ -499,7 +499,7 @@ export default {
     margin-bottom: 40px;
   }
   .main-catch-font {
-    font-size: 28pt;
+    font-size: 28px;
     text-align: left;
     padding-left: 30px;
   }
@@ -511,7 +511,7 @@ export default {
     padding: 20px 0px;
   }
   .sub-catch-font {
-    font-size: 14pt;
+    font-size: 14px;
   }
   .employee-box {
     text-align: left;
@@ -519,23 +519,23 @@ export default {
     margin: 20px auto 0px;
   }
   .people-name {
-    font-size: 19pt;
+    font-size: 19px;
   }
   .people-kana {
-    font-size: 11pt;
+    font-size: 11px;
   }
   .people-info {
-    font-size: 14pt;
+    font-size: 14px;
   }
   .question-right-content {
     margin: 40px auto;
     padding: 0px;
   }
   .answer-title {
-    font-size: 18pt;
+    font-size: 18px;
   }
   .answer-text {
-    font-size: 14pt;
+    font-size: 14px;
   }
   .people-answer-box {
     margin: 0;
@@ -547,10 +547,10 @@ export default {
     margin: auto;
   }
   .question-section-title {
-    font-size: 19pt;
+    font-size: 19px;
   }
   .column-title {
-    font-size: 24pt;
+    font-size: 24px;
     border: none;
     padding: 30px;
     text-decoration: underline;

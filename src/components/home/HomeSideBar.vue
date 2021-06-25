@@ -1,15 +1,13 @@
 <template>
-  <div class="side-bar w-2/12 p-5 fixed  hidden lg:block">
-    <div class="max-w-full col-span-1 px-2 ml-4">
+  <div class="side-bar w-2/12 p-8 fixed  hidden lg:block">
+    <div class="max-w-full col-span-1">
       <router-link to="/greeting"
         ><img src="../../assets/images/tokyu-logo.png" alt="東急百貨店" width="150"
       /></router-link>
-      <!-- <p class="hidden lg:block mt-3 tracking-widest ml-2" style="color:#16344F;">
-        RECRUITMENT
-      </p> -->
+
       <div v-on:click="show" class="menu hidden lg:block py-40 ml-8">
-        <p><span style="width: 30%;"></span></p>
-        <p><span style="width: 30%;"></span></p>
+        <p><span class="w-10"></span></p>
+        <p><span class="w-10"></span></p>
       </div>
       <modal
         name="hello-world"
@@ -119,14 +117,14 @@
         </div>
       </modal>
       <ul>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#vision" style="color:gray;">VISION</a></li>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#project" style="color:gray;">PROJECT</a></li>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#people" style="color:gray;">PEOPLE</a></li>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#culture" style="color:gray;">CULTURE</a></li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#vision" style="color:gray;"><img src="../../assets/images/VISION.png" alt=""></a></li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#project" style="color:gray;"><img src="../../assets/images/PROJECT.png" alt=""></a></li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#people" style="color:gray;"><img src="../../assets/images/PEOPLE.png" alt=""></a></li>
+        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#culture" style="color:gray;"><img src="../../assets/images/CULTURE.png" alt=""></a></li>
       </ul>
       <div class="">
         <button class="mt-16 px-2" style="background: #003366;">
-          <p class="text-2xl text-white tracking-widest" style="font-size: 20px;">ENTRY</p>
+          <p class="text-2xl text-white tracking-widest" style="font-size: 20px;"><img src="../../assets/images/side-entry-btn.png" alt=""></p>
         </button>
       </div>
     </div>

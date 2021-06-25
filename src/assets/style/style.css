@@ -19,7 +19,7 @@ hr {
 .menu::before,
 .menu::after,
 .menu span {
-  width: 17%;
+  /* width: 17%; */
   height: 4px;
   background: #333;
 }

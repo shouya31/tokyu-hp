@@ -136,8 +136,7 @@
         </p>
         <p class="text-sm">
           <small class="text-gray-600">
-            *DX: Digital Transformationの略。デジタル技術を浸透させることで
-            人々の生活をより良いものへと<br />変革すること。また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
+            *DX: Digital Transformationの略。デジタル技術を浸透させることで人々の生活をより良いものへと変革すること。<br />また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
           </small>
         </p>
       </section>
@@ -146,14 +145,12 @@
       <!-- 画像ちょっと横にずれてる？ -->
       <a href=""
         ><img
-          src="../assets/tokyu-logo-white.png"
+          src="../assets/images/footer-logo.png"
           alt="東急百貨店"
           width="180"
           class="mx-auto bg-white"
       /></a>
-      <p class="text-sm md:text-base recruitment text-black mt-6 lg:my-6">
-        RECRUITMENT
-      </p>
+
       <p class="text-sm mt-5 italic">
         <small
           >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights

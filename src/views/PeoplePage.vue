@@ -23,7 +23,7 @@
           <img
             src="../assets/images/people-title.png"
             alt=""
-            class="w-full people-logo-sp"
+            class="lg:w-full people-logo-sp"
           />
         </div>
         <div class="lg:mt-20 lg:mb-10 tracking-wide">
@@ -84,7 +84,7 @@
     <section class="question col-span-8 col-start-3 lg:flex pt-20 xl:pt-30">
       <div class="left-content mb-10 lg:pb-0">
         <!-- <div class="white-box bg-white"></div> -->
-        <div class="img-box">
+        <div class="img-box tablet-qisition-margin">
           <img
             src="../assets/images/person6-2.png"
             class="lg:pr-10 lg:pr-16 people-sp-image"
@@ -150,7 +150,7 @@
         class="people-answer-box w-screen md:col-span-3 md:col-start-2 md:w-3/5"
       >
         <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
+          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
         >
           <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >沿線生活をイノベートする
@@ -167,8 +167,8 @@
           <div class="text-xs lg:text-sm mt-7 text-gray-600">
             <p class="answer-attention">*ライブコマース:</p>
             <p class="answer-attention">
-              ライブ動画の配信を通じて、商品を購入してもらう販売携帯のこと。ネットショッピングで
-              ありながらも、商品に関する質問などお客様とのコミュニケーションを取ることが可能。
+              ライブ動画の配信を通じて、商品を購入してもらう販売携帯のこと。<br>
+              ネットショッピングでありながらも、商品に関する質問などお客様とのコミュニケーションを取ることが可能。
             </p>
           </div>
         </div>
@@ -180,10 +180,10 @@
     >
       <div class="left-content mb-10 lg:pb-0">
         <!-- <div class="white-box bg-white"></div> -->
-        <div class="img-box">
+        <div class="img-box tablet-qisition-margin">
           <img
             src="../assets/images/person6-3.png"
-            class="lg:pr-10 lg:pr-16 people-sp-image"
+            class="lg:pr-10 lg:pr-16"
             alt="persion3"
           />
         </div>
@@ -192,7 +192,7 @@
       <div
         class="question-right-content right-content text-center question-vertical mx-auto lg:pl-16"
       >
-        <div class="loupe-img inline-block relative left-40">
+        <div class="loupe-img inline-block relative left-40　tablet-qisition-margin">
           <img
             src="../assets/images/question-logo.png"
             class="relative lg:top-10 right-10"
@@ -250,7 +250,7 @@
       </div>
       <div class="people-answer-box right-content w-screen pb-5 md:w-3/5">
         <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
+          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
         >
           <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >沿線生活をイノベートする
@@ -307,7 +307,7 @@
           />
         </div>
         <div class=" mt-8">
-          <ul class="lg:flex xl:mt-14 profile">
+          <ul class="md:flex xl:mt-14 profile">
             <li class="profile-title">
               <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
                 <img
@@ -345,14 +345,11 @@
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img
-          src="../assets/tokyu-logo.png"
+          src="../assets/images/footer-logo.png"
           alt="東急百貨店"
           width="180"
           class="mx-auto bg-white"
       /></a>
-      <p class="text-sm md:text-base recruitment text-black mt-6 lg:my-6">
-        RECRUITMENT
-      </p>
       <p class="text-xs lg:text-sm mt-5 italic">
         <small
           >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
@@ -483,9 +480,11 @@ export default {
   margin-left: 80px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:1024px) {
+
   .hero {
     padding: 0px;
+    padding-right: 40px;
   }
   .people-logo-sp {
     width: 60%;
@@ -500,7 +499,6 @@ export default {
   }
   .main-catch-font {
     font-size: 28px;
-    text-align: left;
     padding-left: 30px;
   }
 
@@ -512,9 +510,9 @@ export default {
   }
   .sub-catch-font {
     font-size: 14px;
+    text-align: center;
   }
   .employee-box {
-    text-align: left;
     width: 84%;
     margin: 20px auto 0px;
   }
@@ -573,6 +571,31 @@ export default {
   }
   .pagination-img {
     margin: auto;
+  }
+  .column-content{
+    padding-bottom: 5rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .tablet-qisition-margin{
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero{
+    padding: 0px;
+  }
+  .main-catch-font{
+    text-align: left;
+  }
+  .sub-catch-font{
+    text-align: left;
+  }
+  .employee-box{
+    text-align: left;
+  }
+    .tablet-qisition-margin{
+    margin-top: 0px;
   }
 }
 </style>

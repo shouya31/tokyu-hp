@@ -192,7 +192,7 @@
       <div
         class="question-right-content right-content text-center question-vertical mx-auto lg:pl-16"
       >
-        <div class="loupe-img inline-block relative left-40　tablet-qisition-margin">
+        <div class="loupe-img inline-block relative left-40 tablet-qisition-margin">
           <img
             src="../assets/images/question-logo.png"
             class="relative lg:top-10 right-10"

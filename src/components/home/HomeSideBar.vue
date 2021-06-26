@@ -2,7 +2,10 @@
   <div class="side-bar w-2/12 p-8 fixed  hidden lg:block">
     <div class="max-w-full col-span-1">
       <router-link to="/greeting"
-        ><img src="../../assets/images/tokyu-logo.png" alt="東急百貨店" width="150"
+        ><img
+          src="../../assets/images/tokyu-logo.png"
+          alt="東急百貨店"
+          width="150"
       /></router-link>
 
       <div v-on:click="show" class="menu hidden lg:block py-40 ml-8">
@@ -21,15 +24,10 @@
             <div class="menu-logo">
               <router-link to="/"
                 ><img
-                  src="../../../public/tokyu-logo.png"
+                  src="../../assets/images/tokyu-logo.png"
                   alt="東急百貨店"
                   width="150"
               /></router-link>
-              <p
-                class="hidden lg:block font-weight-900 ml-3 pt-1 tracking-widest"
-              >
-                RECRUITMENT
-              </p>
             </div>
             <div>
               <p class="menu-close items-center flex" v-on:click="hide">
@@ -104,7 +102,11 @@
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">_RECRUIT</p>
                 <ul>
-                  <li ><router-link to="/greeting" class="menu-list">> 人事部長メッセージ</router-link></li>
+                  <li>
+                    <router-link to="/greeting" class="menu-list"
+                      >> 人事部長メッセージ</router-link
+                    >
+                  </li>
                   <li class="menu-list">> FAQ</li>
                   <li class="menu-list">> 会社概要＆募集要項</li>
                 </ul>
@@ -117,14 +119,36 @@
         </div>
       </modal>
       <ul>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#vision" style="color:gray;"><img src="../../assets/images/VISION.png" alt=""></a></li>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#project" style="color:gray;"><img src="../../assets/images/PROJECT.png" alt=""></a></li>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#people" style="color:gray;"><img src="../../assets/images/PEOPLE.png" alt=""></a></li>
-        <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#culture" style="color:gray;"><img src="../../assets/images/CULTURE.png" alt=""></a></li>
+        <!-- <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#vision" style="color:gray;"><img src="../../assets/images/VISION.png" alt=""></a></li> -->
+        <li v-on:mouseover="mouseoverVision" v-on:mouseleave="mouseleaveVision" class="menu-context-title tracking-wider font-BrandonGrotesque">
+          <a href="/#vision" style="color:gray;"
+            ><img :src="visionText" alt=""
+          /></a>
+        </li>
+        <li v-on:mouseover="mouseoverProject" v-on:mouseleave="mouseleaveProject" class="menu-context-title tracking-wider font-BrandonGrotesque">
+          <a href="/#project" style="color:gray;"
+            ><img :src="projectText" alt=""
+          /></a>
+        </li>
+        <li v-on:mouseover="mouseoverPeople" v-on:mouseleave="mouseleavePeople" class="menu-context-title tracking-wider font-BrandonGrotesque">
+          <a href="/#people" style="color:gray;"
+            ><img :src="peopleText" alt=""
+          /></a>
+        </li>
+        <li v-on:mouseover="mouseoverCulture" v-on:mouseleave="mouseleaveCulture" class="menu-context-title tracking-wider font-BrandonGrotesque">
+          <a href="/#culture" style="color:gray;"
+            ><img :src="cultureText" alt=""
+          /></a>
+        </li>
       </ul>
       <div class="">
         <button class="mt-16 px-2" style="background: #003366;">
-          <p class="text-2xl text-white tracking-widest" style="font-size: 20px;"><img src="../../assets/images/side-entry-btn.png" alt=""></p>
+          <p
+            class="text-2xl text-white tracking-widest"
+            style="font-size: 20px;"
+          >
+            <img src="../../assets/images/side-entry-btn.png" alt="" />
+          </p>
         </button>
       </div>
     </div>
@@ -133,6 +157,14 @@
 
 <script>
 export default {
+  data() {
+    return {
+      visionText: require("../../assets/images/VISION.png"),
+      projectText: require("../../assets/images/PROJECT.png"),
+      peopleText: require("../../assets/images/PEOPLE.png"),
+      cultureText: require("../../assets/images/CULTURE.png"),
+    };
+  },
   methods: {
     show: function() {
       this.$modal.show("hello-world");
@@ -140,6 +172,31 @@ export default {
     hide: function() {
       this.$modal.hide("hello-world");
     },
+    mouseoverVision: function () {
+      this.visionText = require("../../assets/images/hover-side-vision.png")
+    },
+    mouseleaveVision: function(){
+      this.visionText = require("../../assets/images/VISION.png")
+    },
+    mouseoverProject: function () {
+      this.projectText = require("../../assets/images/hover-side-project.png")
+    },
+    mouseleaveProject: function(){
+      this.projectText = require("../../assets/images/PROJECT.png")
+    },
+    mouseoverPeople: function () {
+      this.peopleText = require("../../assets/images/hover-side-people.png")
+    },
+    mouseleavePeople: function(){
+      this.peopleText = require("../../assets/images/PEOPLE.png")
+    },
+    mouseoverCulture: function () {
+      this.cultureText = require("../../assets/images/hover-side-culture.png")
+    },
+    mouseleaveCulture: function(){
+      this.cultureText = require("../../assets/images/CULTURE.png")
+    }
+
   },
 };
 </script>
@@ -147,7 +204,7 @@ export default {
 <style>
 @import "../../assets/style/home.css";
 @import "../../assets/style/style.css";
-.font-BrandonGrotesque{
+.font-BrandonGrotesque {
   font-family: Brandon Grotesque;
 }
 .menu-close {

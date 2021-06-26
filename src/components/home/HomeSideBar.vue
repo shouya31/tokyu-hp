@@ -8,9 +8,8 @@
           width="150"
       /></router-link>
 
-      <div v-on:click="show" class="menu hidden lg:block py-40 ml-8">
-        <p><span class="w-10"></span></p>
-        <p><span class="w-10"></span></p>
+      <div v-on:click="menuOpenOrClose" class="menu hidden lg:block py-40 ml-8">
+        <img :src="src" alt="" srcset="" />
       </div>
       <modal
         name="hello-world"
@@ -18,27 +17,9 @@
         :resizable="true"
         width="100%"
         height="100%"
+        @opened="opend" @before-close="beforeClose"
       >
-        <div class="menu-context p-10 flex">
-          <div class="modal-sidebar">
-            <div class="menu-logo">
-              <router-link to="/"
-                ><img
-                  src="../../assets/images/tokyu-logo.png"
-                  alt="東急百貨店"
-                  width="150"
-              /></router-link>
-            </div>
-            <div>
-              <p class="menu-close items-center flex" v-on:click="hide">
-                <img
-                  src="../../assets/images/close-menu.png"
-                  alt=""
-                  srcset=""
-                />
-              </p>
-            </div>
-          </div>
+        <div class="menu-context flex">
           <div class="each-menu flex">
             <div class="menu-line">
               <div class="menu-block">
@@ -120,22 +101,38 @@
       </modal>
       <ul>
         <!-- <li class="menu-context-title tracking-wider font-BrandonGrotesque"><a href="/#vision" style="color:gray;"><img src="../../assets/images/VISION.png" alt=""></a></li> -->
-        <li v-on:mouseover="mouseoverVision" v-on:mouseleave="mouseleaveVision" class="menu-context-title tracking-wider font-BrandonGrotesque">
+        <li
+          v-on:mouseover="mouseoverVision"
+          v-on:mouseleave="mouseleaveVision"
+          class="menu-context-title tracking-wider font-BrandonGrotesque"
+        >
           <a href="/#vision" style="color:gray;"
             ><img :src="visionText" alt=""
           /></a>
         </li>
-        <li v-on:mouseover="mouseoverProject" v-on:mouseleave="mouseleaveProject" class="menu-context-title tracking-wider font-BrandonGrotesque">
+        <li
+          v-on:mouseover="mouseoverProject"
+          v-on:mouseleave="mouseleaveProject"
+          class="menu-context-title tracking-wider font-BrandonGrotesque"
+        >
           <a href="/#project" style="color:gray;"
             ><img :src="projectText" alt=""
           /></a>
         </li>
-        <li v-on:mouseover="mouseoverPeople" v-on:mouseleave="mouseleavePeople" class="menu-context-title tracking-wider font-BrandonGrotesque">
+        <li
+          v-on:mouseover="mouseoverPeople"
+          v-on:mouseleave="mouseleavePeople"
+          class="menu-context-title tracking-wider font-BrandonGrotesque"
+        >
           <a href="/#people" style="color:gray;"
             ><img :src="peopleText" alt=""
           /></a>
         </li>
-        <li v-on:mouseover="mouseoverCulture" v-on:mouseleave="mouseleaveCulture" class="menu-context-title tracking-wider font-BrandonGrotesque">
+        <li
+          v-on:mouseover="mouseoverCulture"
+          v-on:mouseleave="mouseleaveCulture"
+          class="menu-context-title tracking-wider font-BrandonGrotesque"
+        >
           <a href="/#culture" style="color:gray;"
             ><img :src="cultureText" alt=""
           /></a>
@@ -163,40 +160,61 @@ export default {
       projectText: require("../../assets/images/PROJECT.png"),
       peopleText: require("../../assets/images/PEOPLE.png"),
       cultureText: require("../../assets/images/CULTURE.png"),
+      openBtn: require("../../assets/images/open-btn.png"),
+      closeBtn: require("../../assets/images/close-menu.png"),
+      src: require("../../assets/images/open-btn.png")
     };
   },
   methods: {
-    show: function() {
-      this.$modal.show("hello-world");
-    },
-    hide: function() {
-      this.$modal.hide("hello-world");
-    },
-    mouseoverVision: function () {
-      this.visionText = require("../../assets/images/hover-side-vision.png")
-    },
-    mouseleaveVision: function(){
-      this.visionText = require("../../assets/images/VISION.png")
-    },
-    mouseoverProject: function () {
-      this.projectText = require("../../assets/images/hover-side-project.png")
-    },
-    mouseleaveProject: function(){
-      this.projectText = require("../../assets/images/PROJECT.png")
-    },
-    mouseoverPeople: function () {
-      this.peopleText = require("../../assets/images/hover-side-people.png")
-    },
-    mouseleavePeople: function(){
-      this.peopleText = require("../../assets/images/PEOPLE.png")
-    },
-    mouseoverCulture: function () {
-      this.cultureText = require("../../assets/images/hover-side-culture.png")
-    },
-    mouseleaveCulture: function(){
-      this.cultureText = require("../../assets/images/CULTURE.png")
-    }
+    menuOpenOrClose: function() {
+      if(this.src === this.openBtn){
+        this.$modal.show("hello-world");
+        this.src = this.closeBtn
+        return
+      }
 
+      if(this.src === this.closeBtn){
+        this.$modal.show("hello-world");
+        this.src = this.openBtn
+        return
+      }
+    },
+    changeOpenMenu: function(){
+      this.src = this.openBtn
+    },
+    changeCloseMenu: function(){
+      this.src = this.closeBtn
+    },
+    mouseoverVision: function() {
+      this.visionText = require("../../assets/images/hover-side-vision.png");
+    },
+    mouseleaveVision: function() {
+      this.visionText = require("../../assets/images/VISION.png");
+    },
+    mouseoverProject: function() {
+      this.projectText = require("../../assets/images/hover-side-project.png");
+    },
+    mouseleaveProject: function() {
+      this.projectText = require("../../assets/images/PROJECT.png");
+    },
+    mouseoverPeople: function() {
+      this.peopleText = require("../../assets/images/hover-side-people.png");
+    },
+    mouseleavePeople: function() {
+      this.peopleText = require("../../assets/images/PEOPLE.png");
+    },
+    mouseoverCulture: function() {
+      this.cultureText = require("../../assets/images/hover-side-culture.png");
+    },
+    mouseleaveCulture: function() {
+      this.cultureText = require("../../assets/images/CULTURE.png");
+    },
+    opend : function(){
+        this.src = this.closeBtn
+    },
+    beforeClose : function(){
+        this.src = this.openBtn
+    }
   },
 };
 </script>
@@ -238,5 +256,19 @@ export default {
   font-family: Noto Sans;
   line-height: 28px;
   font-size: 14px;
+}
+.vm--modal {
+  /* width: 85% !important; */
+  box-shadow: none !important;
+}
+.vm--container {
+  z-index: 99999 !important;
+  top: 0 !important;
+  left: unset !important;
+  right: 0px !important;
+  width: 86% !important;
+}
+.vm--overlay {
+  background: none !important;
 }
 </style>

@@ -1,8 +1,16 @@
 <template>
   <div>
     <div id="fv-main" class="fv w-full pl-60 mb-20 hidden lg:block">
-      <div class="fv-header flex m-8 pt-10">
-        <img src="../../assets/images/fv-vision.png" />
+      <div class="fv-header flex items-start m-8 pt-10">
+        <img src="../../assets/images/fv-title.png" />
+        <transition name="fade" mode="out-in">
+          <img
+            :src="titleImages[index]"
+            :key="titleImages[index]"
+            class="ml-7 mt-10"
+            style="z-index:-2;"
+          />
+        </transition>
       </div>
       <div class="fv-contents flex">
         <div class="fv-left-content w-11/12" style="z-index:-3;">
@@ -80,6 +88,14 @@ export default {
       images: [
         require("@/assets/images/fv-main1.png"),
         require("@/assets/images/fv-main2.png"),
+        require("@/assets/images/fv-main1.png"),
+        require("@/assets/images/fv-main2.png"),
+      ],
+      titleImages: [
+        require("@/assets/images/fv-vision.png"),
+        require("@/assets/images/fv-project.png"),
+        require("@/assets/images/fv-people.png"),
+        require("@/assets/images/fv-culture.png"),
       ],
     };
   },
@@ -93,7 +109,7 @@ export default {
 
 <style>
 .fv-person-animation {
-  animation: person_moveY 12s linear 0s infinite;
+  animation: person_moveY 14s linear 0s infinite;
   z-index: -2;
 }
 @keyframes person_moveY {
@@ -101,7 +117,6 @@ export default {
     transform: scaleY(1) translateY(500px);
   }
   50% {
-
   }
   100% {
     transform: scaleY(1) translateY(-1200px);

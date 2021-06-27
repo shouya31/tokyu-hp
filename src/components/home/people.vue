@@ -196,6 +196,7 @@ export default {
 .VueCarousel {
   width: 75%;
   position: relative;
+  z-index: -30;
 }
 .VueCarousel-wrapper,
 .VueCarousel-inner,

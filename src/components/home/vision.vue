@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="vision" class="hidden pl-52 lg:flex py-10">
+    <section id="vision" class="hidden pl-52 lg:flex py-10 bg-white">
       <div class="mt-16 ml-10">
         <HomeSectionTitle :image="titleimage" />
         <div class="flex justify-between">

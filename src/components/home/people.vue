@@ -14,7 +14,7 @@
                 <img
                   src="../../assets/images/home-person1-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage1" />
               </div>
@@ -24,7 +24,7 @@
                 <img
                   src="../../assets/images/home-person2-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage2" />
               </div>
@@ -34,7 +34,7 @@
                 <img
                   src="../../assets/images/home-person3-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage3" />
               </div>
@@ -44,7 +44,7 @@
                 <img
                   src="../../assets/images/home-person4-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage4" />
               </div>
@@ -54,7 +54,7 @@
                 <img
                   src="../../assets/images/home-person5-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage5" />
               </div>
@@ -64,7 +64,7 @@
                 <img
                   src="../../assets/images/home-person6-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage6" />
               </div>
@@ -85,7 +85,7 @@
                 <img
                   src="../../assets/images/home-person1-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage1" />
               </div>
@@ -95,7 +95,7 @@
                 <img
                   src="../../assets/images/home-person2-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage2" />
               </div>
@@ -105,7 +105,7 @@
                 <img
                   src="../../assets/images/home-person3-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage3" />
               </div>
@@ -115,7 +115,7 @@
                 <img
                   src="../../assets/images/home-person4-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage4" />
               </div>
@@ -125,7 +125,7 @@
                 <img
                   src="../../assets/images/home-person5-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage5" />
               </div>
@@ -135,7 +135,7 @@
                 <img
                   src="../../assets/images/home-person6-message.png"
                   alt=""
-                  class="absolute bottom-0"
+                  class="absolute bottom-0 hidden"
                 />
                 <HomeSectionImage :image="homeimage6" />
               </div>

@@ -1,7 +1,6 @@
 import VueRouter from 'vue-router';
 import Home from './views/Home'
 import GreetingPage from './views/GreetingPage'
-import PeoplePage from './views/PeoplePage'
 import PeoplePage1 from './views/people/1/index.vue'
 import PeoplePage2 from './views/people/2/index.vue'
 import PeoplePage3 from './views/people/3/index.vue'
@@ -13,7 +12,6 @@ import PeoplePage6 from './views/people/6/index.vue'
 const routes = [
   {path: '/', component: Home}, 
   {path: '/greeting', component: GreetingPage}, 
-  {path: '/people', component: PeoplePage}, 
   {path: '/people/1', component: PeoplePage1}, 
   {path: '/people/2', component: PeoplePage2}, 
   {path: '/people/3', component: PeoplePage3}, 

@@ -4,7 +4,7 @@
     class="side-bar w-2/12 p-8 fixed  hidden lg:block"
   >
     <div class="max-w-full col-span-1">
-      <router-link to="/greeting"
+      <router-link to="/"
         ><img
           src="@/assets/images/tokyu-logo.png"
           alt="東急百貨店"
@@ -63,14 +63,12 @@
                     社員紹介
                   </p>
                   <ul>
-                    <li class="menu-list">> 社員A</li>
-                    <li class="menu-list">> 社員B</li>
-                    <li class="menu-list">> 社員C</li>
-                    <li class="menu-list">> 社員D</li>
-                    <li class="menu-list">> 社員E</li>
-                    <li class="menu-list">> 社員F</li>
-                    <li class="menu-list">> 社員G</li>
-                    <li class="menu-list">> 社員H</li>
+                    <li class="menu-list"><a href="/people/1">> 社員A</a></li>
+                    <li class="menu-list"><a href="/people/2">> 社員B</a></li>
+                    <li class="menu-list"><a href="/people/3">> 社員C</a></li>
+                    <li class="menu-list"><a href="/people/4">> 社員D</a></li>
+                    <li class="menu-list"><a href="/people/5">> 社員E</a></li>
+                    <li class="menu-list"><a href="/people/6">> 社員F</a></li>
                   </ul>
                 </ul>
               </div>

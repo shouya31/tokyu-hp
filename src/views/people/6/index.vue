@@ -167,7 +167,7 @@
           <div class="text-xs lg:text-sm mt-7 text-gray-600">
             <p class="answer-attention">*ライブコマース:</p>
             <p class="answer-attention">
-              ライブ動画の配信を通じて、商品を購入してもらう販売携帯のこと。<br>
+              ライブ動画の配信を通じて、商品を購入してもらう販売携帯のこと。<br />
               ネットショッピングでありながらも、商品に関する質問などお客様とのコミュニケーションを取ることが可能。
             </p>
           </div>
@@ -192,7 +192,9 @@
       <div
         class="question-right-content right-content text-center question-vertical mx-auto lg:pl-16"
       >
-        <div class="loupe-img inline-block relative left-40 tablet-qisition-margin">
+        <div
+          class="loupe-img inline-block relative left-40 tablet-qisition-margin"
+        >
           <img
             src="@/assets/images/question-logo.png"
             class="relative lg:top-10 right-10"
@@ -331,13 +333,13 @@
               <p>文学部 心理学科 卒</p>
             </li>
           </ul>
-          <p class="pagination w-screen mx-auto lg:w-6/12 py-10 xl:pt-20">
-            <img
-              src="@/assets/images/people-pagination.png"
-              alt=""
-              class="pagination-img"
-            />
-          </p>
+          <div
+            class="pagination flex justify-content w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
+          >
+            <a href="5"
+              ><img src="@/assets/images/prep.png" alt="" class="pagination-img"
+            /></a>
+          </div>
         </div>
       </div>
     </section>
@@ -480,8 +482,7 @@ export default {
   margin-left: 80px;
 }
 
-@media screen and (max-width:1024px) {
-
+@media screen and (max-width: 1024px) {
   .hero {
     padding: 0px;
     padding-right: 40px;
@@ -572,29 +573,29 @@ export default {
   .pagination-img {
     margin: auto;
   }
-  .column-content{
+  .column-content {
     padding-bottom: 5rem;
     margin-left: 2%;
     margin-right: 2%;
   }
-  .tablet-qisition-margin{
+  .tablet-qisition-margin {
     margin-top: 80px;
   }
 }
 @media screen and (max-width: 600px) {
-  .hero{
+  .hero {
     padding: 0px;
   }
-  .main-catch-font{
+  .main-catch-font {
     text-align: left;
   }
-  .sub-catch-font{
+  .sub-catch-font {
     text-align: left;
   }
-  .employee-box{
+  .employee-box {
     text-align: left;
   }
-    .tablet-qisition-margin{
+  .tablet-qisition-margin {
     margin-top: 0px;
   }
 }

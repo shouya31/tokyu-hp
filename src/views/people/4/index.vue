@@ -315,13 +315,17 @@
               <p>経済学部 経営学科 卒</p>
             </li>
           </ul>
-          <p class="pagination w-screen mx-auto lg:w-6/12 py-10 xl:pt-20">
-            <img
-              src="@/assets/images/people-pagination.png"
-              alt=""
-              class="pagination-img"
-            />
-          </p>
+          <div
+            class="pagination flex justify-center w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
+          >
+            <a href="3"
+              ><img src="@/assets/images/prep.png" alt="" class="pagination-img"
+            /></a>
+            <img src="@/assets/images/sep.png" alt="" class="pagination-img mx-3" />
+            <a href="5"
+              ><img src="@/assets/images/next.png" alt="" class="ml-2 pagination-img"
+            /></a>
+          </div>
         </div>
       </div>
     </section>

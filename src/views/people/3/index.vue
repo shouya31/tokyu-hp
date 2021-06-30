@@ -215,14 +215,15 @@
         >慌ただしく過ぎる時間の中で
       </h4>
       <p class="answer-text tracking-widest">
-        雑貨バイヤーだった2019年の同時期に、＋Q GOODSやKAZURA、ShinQsビューティーパレットといった複数店舗の立ち上げに携わりました。それらは、渋谷スクランブルスクエアや東急プラザ渋谷といった当社以外の企業が運営する商業施設に東急百貨店が出店する店舗。そのため、商品の仕入れからレジへの商品登録、販促活動に至るまで一つひとつの枠組みを自分たちで考え、行動しました。日中は運営店舗や仕入れ先など社外での打ち合わせが多く、その後に商品登録や値札作成を行うなど多忙な日々を送っていました。しかし、今振り返ると、そうした一から店舗をつくり上げた実体験が、「常に先を見据えて行動する」という全ての仕事に通底して重要な要素を教えてくれたと感じます。      
-    </p>
-              <div class="text-xs lg:text-sm mt-7 text-gray-600">
-            <p class="answer-attention">*実店舗を介したCtoC販売:</p>
-            <p class="answer-attention">
-                2020年6月10日にメルカリ初となる旗艦店が新宿マルイにプレオープンするなど実店舗を介して、お客様同士がモノを売買できるシステムの構築が進んでいる。
-            </p>
-          </div>
+        雑貨バイヤーだった2019年の同時期に、＋Q
+        GOODSやKAZURA、ShinQsビューティーパレットといった複数店舗の立ち上げに携わりました。それらは、渋谷スクランブルスクエアや東急プラザ渋谷といった当社以外の企業が運営する商業施設に東急百貨店が出店する店舗。そのため、商品の仕入れからレジへの商品登録、販促活動に至るまで一つひとつの枠組みを自分たちで考え、行動しました。日中は運営店舗や仕入れ先など社外での打ち合わせが多く、その後に商品登録や値札作成を行うなど多忙な日々を送っていました。しかし、今振り返ると、そうした一から店舗をつくり上げた実体験が、「常に先を見据えて行動する」という全ての仕事に通底して重要な要素を教えてくれたと感じます。
+      </p>
+      <div class="text-xs lg:text-sm mt-7 text-gray-600">
+        <p class="answer-attention">*実店舗を介したCtoC販売:</p>
+        <p class="answer-attention">
+          2020年6月10日にメルカリ初となる旗艦店が新宿マルイにプレオープンするなど実店舗を介して、お客様同士がモノを売買できるシステムの構築が進んでいる。
+        </p>
+      </div>
     </section>
 
     <section
@@ -321,13 +322,24 @@
               <p>法律学部 法律学科 卒</p>
             </li>
           </ul>
-          <p class="pagination w-screen mx-auto lg:w-6/12 py-10 xl:pt-20">
+          <div
+            class="pagination flex justify-center w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
+          >
+            <a href="2"
+              ><img src="@/assets/images/prep.png" alt="" class="pagination-img"
+            /></a>
             <img
-              src="@/assets/images/people-pagination.png"
+              src="@/assets/images/sep.png"
               alt=""
-              class="pagination-img"
+              class="pagination-img mx-3"
             />
-          </p>
+            <a href="4"
+              ><img
+                src="@/assets/images/next.png"
+                alt=""
+                class="ml-2 pagination-img"
+            /></a>
+          </div>
         </div>
       </div>
     </section>

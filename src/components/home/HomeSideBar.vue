@@ -1,5 +1,8 @@
 <template>
-  <div v-bind:class="{change_bg: ChangeBg}" class="side-bar w-2/12 p-8 fixed  hidden lg:block">
+  <div
+    v-bind:class="{ change_bg: ChangeBg }"
+    class="side-bar w-2/12 p-8 fixed  hidden lg:block"
+  >
     <div class="max-w-full col-span-1">
       <router-link to="/greeting"
         ><img
@@ -25,7 +28,9 @@
           <div class="each-menu flex">
             <div class="menu-line">
               <div class="menu-block">
-                <p class="menu-context-title text-3xl"><img src="../../assets/images/menu-vision.png"/></p>
+                <p class="menu-context-title text-3xl">
+                  <img src="../../assets/images/menu-vision.png" />
+                </p>
                 <ul>
                   <li class="menu-list">> トップインタビュー</li>
                   <li class="menu-list">> 融合型リテーラーとして</li>
@@ -35,7 +40,9 @@
                 </ul>
               </div>
               <div class="menu-block">
-                <p class="menu-context-title text-3xl"><img src="../../assets/images/menu-project.png"/></p>
+                <p class="menu-context-title text-3xl">
+                  <img src="../../assets/images/menu-project.png" />
+                </p>
                 <ul>
                   <li class="menu-list">> 地域と共に</li>
                   <li class="menu-list">> 新規事業と共に</li>
@@ -44,10 +51,15 @@
             </div>
             <div class="menu-line">
               <div class="menu-block">
-                <p class="menu-context-title text-3xl"><img src="../../assets/images/menu-people.png"/></p>
+                <p class="menu-context-title text-3xl">
+                  <img src="../../assets/images/menu-people.png" />
+                </p>
                 <ul>
                   <li class="menu-list">> キャリアフィールド</li>
-                  <p class="mt-8" style="background:#333333; color:white; padding:5px;">
+                  <p
+                    class="mt-8"
+                    style="background:#333333; color:white; padding:5px;"
+                  >
                     社員紹介
                   </p>
                   <ul>
@@ -65,7 +77,9 @@
             </div>
             <div class="menu-line">
               <div class="menu-block">
-                <p class="menu-context-title text-3xl"><img src="../../assets/images/menu-culture.png"/></p>
+                <p class="menu-context-title text-3xl">
+                  <img src="../../assets/images/menu-culture.png" />
+                </p>
                 <ul>
                   <li class="menu-list">> 若手座談会</li>
                   <li class="menu-list">> 男性社員座談会</li>
@@ -74,7 +88,9 @@
                 </ul>
               </div>
               <div class="menu-block">
-                <p class="menu-context-title text-3xl"><img src="../../assets/images/menu-system.png"/></p>
+                <p class="menu-context-title text-3xl">
+                  <img src="../../assets/images/menu-system.png" />
+                </p>
                 <ul>
                   <li class="menu-list">> 研修制度</li>
                   <li class="menu-list">> 福利厚生</li>
@@ -83,7 +99,9 @@
             </div>
             <div class="menu-line">
               <div class="menu-block">
-                <p class="menu-context-title text-3xl"><img src="../../assets/images/menu-recruit.png"/></p>
+                <p class="menu-context-title text-3xl">
+                  <img src="../../assets/images/menu-recruit.png" />
+                </p>
                 <ul>
                   <li>
                     <router-link to="/greeting" class="menu-list"
@@ -94,14 +112,20 @@
                   <li class="menu-list">> 会社概要＆募集要項</li>
                 </ul>
               </div>
-              <div class="menu-follow" style="margin-top: 100px; margin-left: 30px;">
-                <img src="../../assets/images/menu-follow-us.png"/>
+              <div
+                class="menu-follow"
+                style="margin-top: 100px; margin-left: 30px;"
+              >
+                <img src="../../assets/images/menu-follow-us.png" />
               </div>
-              <div class="flex justify-between" style="width: 60%; margin-left: 30px; margin-top: 20px;">
-                <img src="../../assets/images/menu-facebook.png"/>
-                <img src="../../assets/images/menu-instargram.png"/>
-                <img src="../../assets/images/menu-youtube.png"/>
-                <img src="../../assets/images/menu-twitter.png"/>
+              <div
+                class="flex justify-between"
+                style="width: 60%; margin-left: 30px; margin-top: 20px;"
+              >
+                <img src="../../assets/images/menu-facebook.png" />
+                <img src="../../assets/images/menu-instargram.png" />
+                <img src="../../assets/images/menu-youtube.png" />
+                <img src="../../assets/images/menu-twitter.png" />
               </div>
             </div>
           </div>
@@ -186,7 +210,7 @@ export default {
       openBtn: require("../../assets/images/open-btn.png"),
       closeBtn: require("../../assets/images/close-menu.png"),
       src: require("../../assets/images/open-btn.png"),
-      ChangeBg: false
+      ChangeBg: false,
     };
   },
   methods: {
@@ -234,13 +258,13 @@ export default {
       this.cultureText = require("../../assets/images/CULTURE.png");
     },
     beforeOpen: function() {
-      this.ChangeBg = true
+      this.ChangeBg = true;
     },
     opend: function() {
       this.src = this.closeBtn;
     },
     beforeClose: function() {
-      this.ChangeBg = false
+      this.ChangeBg = false;
       this.src = this.openBtn;
     },
   },
@@ -299,9 +323,8 @@ export default {
 .vm--overlay {
   background: none !important;
 }
-.change_bg{
+.change_bg {
   background: white;
   height: 100vh;
 }
-
 </style>

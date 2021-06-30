@@ -299,7 +299,7 @@
             <p class="answer-attention">*DX:</p>
             <p class="answer-attention">
               Digital
-              Transformationの略。デジタル技術を浸透させることで人々の生活をより良いものへと変革すること。<br>また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
+              Transformationの略。デジタル技術を浸透させることで人々の生活をより良いものへと変革すること。<br />また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
             </p>
           </div>
         </div>
@@ -340,13 +340,17 @@
               <p>映画学科 理論評論コース 卒</p>
             </li>
           </ul>
-          <p class="pagination w-screen mx-auto lg:w-6/12 py-10 xl:pt-20">
-            <img
-              src="@/assets/images/people-pagination.png"
-              alt=""
-              class="pagination-img"
-            />
-          </p>
+          <div
+            class="pagination flex justify-center w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
+          >
+            <a href="4"
+              ><img src="@/assets/images/prep.png" alt="" class="pagination-img"
+            /></a>
+            <img src="@/assets/images/sep.png" alt="" class="pagination-img mx-3" />
+            <a href="6"
+              ><img src="@/assets/images/next.png" alt="" class="ml-2 pagination-img"
+            /></a>
+          </div>
         </div>
       </div>
     </section>

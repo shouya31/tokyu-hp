@@ -323,13 +323,13 @@
               <p>経済学部 会計ファイナンス学科 卒</p>
             </li>
           </ul>
-          <p class="pagination w-screen mx-auto lg:w-6/12 py-10 xl:pt-20">
-            <img
-              src="@/assets/images/people-pagination.png"
-              alt=""
-              class="pagination-img"
-            />
-          </p>
+          <div
+            class="pagination flex justify-center w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
+          >
+            <a href="2"
+              ><img src="@/assets/images/next.png" alt="" class="ml-2 pagination-img"
+            /></a>
+          </div>
         </div>
       </div>
     </section>

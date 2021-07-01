@@ -11,7 +11,7 @@
           width="150"
       /></router-link>
 
-      <div v-on:click="menuOpenOrClose" class="menu hidden lg:block py-40 ml-8">
+      <div v-on:click="menuOpenOrClose" class="menu hidden lg:block py-40 ml-8" style="height:60vh;">
         <img :src="src" alt="" srcset="" />
       </div>
       <modal

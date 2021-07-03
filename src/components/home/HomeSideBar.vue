@@ -220,7 +220,7 @@ export default {
       }
 
       if (this.src === this.closeBtn) {
-        this.$modal.show("hello-world");
+        this.$modal.hide("hello-world");
         this.src = this.openBtn;
         return;
       }
@@ -307,22 +307,5 @@ export default {
   line-height: 28px;
   font-size: 14px;
 }
-.vm--modal {
-  /* width: 85% !important; */
-  box-shadow: none !important;
-}
-.vm--container {
-  z-index: 99999 !important;
-  top: 0 !important;
-  left: unset !important;
-  right: 0px !important;
-  width: 86% !important;
-}
-.vm--overlay {
-  background: none !important;
-}
-.change_bg {
-  background: white;
-  height: 100vh;
-}
+
 </style>

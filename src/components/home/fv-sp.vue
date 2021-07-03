@@ -268,4 +268,7 @@ export default {
     transform: translateY(-700px);
   }
 }
+.vm--modal{
+  overflow: scroll;
+}
 </style>

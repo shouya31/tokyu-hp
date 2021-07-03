@@ -269,6 +269,6 @@ export default {
   }
 }
 .vm--modal{
-  overflow: scroll;
+  overflow: scroll !important;
 }
 </style>

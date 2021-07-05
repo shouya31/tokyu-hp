@@ -2,6 +2,7 @@
   <div
     v-bind:class="{ change_bg: ChangeBg }"
     class="side-bar w-2/12 p-8 fixed  hidden lg:block"
+    style="z-index: 999;"
   >
     <div class="max-w-full col-span-1">
       <router-link to="/"

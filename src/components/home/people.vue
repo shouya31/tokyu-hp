@@ -3,70 +3,63 @@
     <section id="people" class="hidden pl-52 lg:flex py-10">
       <div class="mt-16 ml-10">
         <HomeSectionTitle :image="titleimage" />
-        <div class="flex justify-between">
-          <HomeSectionText
-            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-          />
+        <div class="">
+          <div class="absolute">
+            <div class="vision-left-content w-4/12 m-10">
+              <p class="section-text mt-16">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+              <p class="sentence-more text-center mt-12">
+                <img
+                  src="../../assets/images/read-more.png"
+                  alt=""
+                  class="mx-auto"
+                />
+              </p>
+            </div>
+          </div>
 
           <carousel :per-page="1" :autoplay="true" :loop="true">
             <slide>
-              <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person1-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
-                <HomeSectionImage :image="homeimage1" />
+              <div class="flex relative employee-image-box">
+                <a href="/people/1">
+                  <HomeSectionImage :image="homeimage1" />
+                </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person2-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
-                <HomeSectionImage :image="homeimage2" />
+                <a href="/people/2">
+                  <HomeSectionImage :image="homeimage2" />
+                </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person3-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
-                <HomeSectionImage :image="homeimage3" />
+                <a href="/people/3">
+                  <HomeSectionImage :image="homeimage3" />
+                </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person4-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
-                <HomeSectionImage :image="homeimage4" />
+                <a href="/people/4">
+                  <HomeSectionImage :image="homeimage4" />
+                </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person5-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
-                <HomeSectionImage :image="homeimage5" />
+                <a href="/people/5">
+                  <HomeSectionImage :image="homeimage5" />
+                </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person6-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
-                <HomeSectionImage :image="homeimage6" />
+                <a href="/people/6">
+                  <HomeSectionImage :image="homeimage6" />
+                </a>
               </div>
             </slide>
           </carousel>
@@ -82,61 +75,31 @@
           <carousel :per-page="1" :autoplay="true" :loop="true">
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person1-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
                 <HomeSectionImage :image="homeimage1" />
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person2-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
                 <HomeSectionImage :image="homeimage2" />
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person3-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
                 <HomeSectionImage :image="homeimage3" />
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person4-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
                 <HomeSectionImage :image="homeimage4" />
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person5-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
                 <HomeSectionImage :image="homeimage5" />
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <img
-                  src="../../assets/images/home-person6-message.png"
-                  alt=""
-                  class="absolute bottom-0 hidden"
-                />
                 <HomeSectionImage :image="homeimage6" />
               </div>
             </slide>
@@ -159,8 +122,6 @@
 import HomeSectionTitle from "../../components/atom/HomeSectionTitle.vue";
 import HomeSectionImage from "../../components/atom/HomeSectionImage.vue";
 import HomeSectionText from "../../components/atom/HomeSectionText.vue";
-// import { Hooper, Slide } from "hooper";
-// import "hooper/dist/hooper.css";
 import { Carousel, Slide } from "vue-carousel";
 
 export default {
@@ -174,12 +135,12 @@ export default {
   },
   data() {
     return {
-      homeimage1: require("@/assets/images/home-people1.png"),
-      homeimage2: require("@/assets/images/home-people2.png"),
-      homeimage3: require("@/assets/images/home-people3.png"),
-      homeimage4: require("@/assets/images/home-people4.png"),
-      homeimage5: require("@/assets/images/home-people5.png"),
-      homeimage6: require("@/assets/images/home-people6.png"),
+      homeimage1: require("@/assets/images/person1-message.png"),
+      homeimage2: require("@/assets/images/person2-message.png"),
+      homeimage3: require("@/assets/images/person3-message.png"),
+      homeimage4: require("@/assets/images/person4-message.png"),
+      homeimage5: require("@/assets/images/person5-message.png"),
+      homeimage6: require("@/assets/images/person6-message.png"),
 
       titleimage: require("@/assets/images/top-people.png"),
     };
@@ -194,9 +155,10 @@ export default {
   height: 6px !important;
 }
 .VueCarousel {
-  width: 75%;
+  width: 90%;
   position: relative;
   z-index: -30;
+  margin-left: 10%;
 }
 .VueCarousel-wrapper,
 .VueCarousel-inner,
@@ -219,5 +181,16 @@ export default {
   left: 20px;
   text-align: left;
   padding-left: 40px !important;
+}
+.employee-image-box {
+  overflow: visible !important;
+}
+.employee-message {
+  /* position: absolute; */
+  overflow: visible !important;
+  left: -100px;
+}
+.VueCarousel-pagination {
+  margin-left: 30%;
 }
 </style>

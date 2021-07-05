@@ -121,7 +121,6 @@
 <script>
 import HomeSectionTitle from "../../components/atom/HomeSectionTitle.vue";
 import HomeSectionImage from "../../components/atom/HomeSectionImage.vue";
-import HomeSectionText from "../../components/atom/HomeSectionText.vue";
 import { Carousel, Slide } from "vue-carousel";
 
 export default {
@@ -129,7 +128,6 @@ export default {
   components: {
     HomeSectionTitle,
     HomeSectionImage,
-    HomeSectionText,
     Carousel,
     Slide,
   },

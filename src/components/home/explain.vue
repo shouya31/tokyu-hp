@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="explain hidden lg:flex py-36" style="background-color: #add5d4;">
+    <section class="explain hidden lg:flex py-36 relative" style="background-color: #add5d4; z-index: 99;">
       <div class="w-8/12 mx-auto">
         <p class="text-center mt-8 explain-text tracking-widest">
           絶え間なく変化する時代の中で<br />

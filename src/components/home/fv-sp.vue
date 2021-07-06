@@ -7,7 +7,7 @@
             ><img
               src="../../assets/images/tokyu-logo.png"
               alt="東急百貨店"
-              width="140"
+              width="120"
           /></a>
         </div>
         <div v-on:click="menuOpenOrClose" class="menu p-5">
@@ -30,7 +30,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-vision.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> トップインタビュー</li>
                   <li class="menu-list">> 融合型リテーラーとして</li>
                   <li class="menu-list">> 店舗と共に</li>
@@ -42,7 +42,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-project.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> 地域と共に</li>
                   <li class="menu-list">> 新規事業と共に</li>
                 </ul>
@@ -53,7 +53,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-people.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> キャリアフィールド</li>
                   <p
                     class="mt-8"
@@ -77,7 +77,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-culture.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> 若手座談会</li>
                   <li class="menu-list">> 男性社員座談会</li>
                   <li class="menu-list">> 上司×部下対談</li>
@@ -88,7 +88,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-system.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> 研修制度</li>
                   <li class="menu-list">> 福利厚生</li>
                 </ul>
@@ -99,7 +99,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-recruit.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li>
                     <router-link to="/greeting" class="menu-list"
                       >> 人事部長メッセージ</router-link
@@ -109,16 +109,10 @@
                   <li class="menu-list">> 会社概要＆募集要項</li>
                 </ul>
               </div>
-              <div
-                class="menu-follow"
-                style="margin-top: 100px; margin-left: 30px;"
-              >
+              <div class="menu-follow">
                 <img src="../../assets/images/menu-follow-us.png" />
               </div>
-              <div
-                class="flex justify-between"
-                style="width: 60%; margin-left: 30px; margin-top: 20px;"
-              >
+              <div class="menu-folow-parts flex justify-between">
                 <img src="../../assets/images/menu-facebook.png" />
                 <img src="../../assets/images/menu-instargram.png" />
                 <img src="../../assets/images/menu-youtube.png" />
@@ -127,19 +121,17 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-between w-9/12">
-          <div class="menu-grou-together ml-8">
-            <img
-              src="../../assets/images/grow-together.png"
-              alt=""
-              class="w-10/12"
-            />
-          </div>
+        <div class="lg:flex justify-between">
           <div class="menu-entry-btn">
             <img
               src="../../assets/images/entry-btn.png"
               alt=""
-              class="w-11/12 mt-10"
+            />
+          </div>
+          <div class="menu-grou-together">
+            <img
+              src="../../assets/images/grow-together.png"
+              alt=""
             />
           </div>
         </div>
@@ -203,7 +195,7 @@ export default {
   },
   methods: {
     menuOpenOrClose: function() {
-              this.$modal.show("hello-world-sp");
+      this.$modal.show("hello-world-sp");
 
       if (this.src === this.openBtn) {
         console.log(1);
@@ -268,7 +260,62 @@ export default {
     transform: translateY(-700px);
   }
 }
-.vm--modal{
+.vm--modal {
   overflow: scroll !important;
+}
+@media screen and (max-width: 800px) {
+  .vm--modal {
+    left: 0px !important;
+    width: 100% !important;
+  }
+  .vm--container {
+    width: 100vw !important;
+  }
+  .each-menu {
+    padding-top: 100px;
+  }
+  .menu-list {
+    font: normal normal bold 16px/32px Noto Sans;
+    letter-spacing: 0px;
+    color: #333333;
+  }
+  .menu-line {
+    padding: 0px;
+  }
+  .menu-block {
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+  .menu-line .menu-follow {
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+  .menu-context-title {
+    width: 100px;
+    height: 36px;
+    margin-bottom: 0px;
+  }
+
+  .menu-block ul p {
+    width: 140px;
+    height: 35%;
+    font: normal normal bold 14px/32px Noto Sans;
+    text-align: center;
+  }
+  .menu-bottom-line {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px !important;
+  }
+  .menu-folow-parts {
+    width: 27%;
+    margin-left: 60px;
+  }
+  .menu-entry-btn{
+    margin: 40px 0px 40px 57px;
+  }
+  .menu-grou-together{
+    width: 80%;
+    margin-left: 37px;
+  }
 }
 </style>

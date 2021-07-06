@@ -44,7 +44,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-project.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> 地域と共に</li>
                   <li class="menu-list">> 新規事業と共に</li>
                 </ul>
@@ -55,7 +55,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-people.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> キャリアフィールド</li>
                   <p
                     class="mt-8"
@@ -63,7 +63,7 @@
                   >
                     社員紹介
                   </p>
-                  <ul>
+                  <ul class="border-none">
                     <li class="menu-list"><a href="/people/1">> 社員A</a></li>
                     <li class="menu-list"><a href="/people/2">> 社員B</a></li>
                     <li class="menu-list"><a href="/people/3">> 社員C</a></li>
@@ -79,7 +79,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-culture.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> 若手座談会</li>
                   <li class="menu-list">> 男性社員座談会</li>
                   <li class="menu-list">> 上司×部下対談</li>
@@ -90,7 +90,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-system.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li class="menu-list">> 研修制度</li>
                   <li class="menu-list">> 福利厚生</li>
                 </ul>
@@ -101,7 +101,7 @@
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-recruit.png" />
                 </p>
-                <ul>
+                <ul class="menu-bottom-line">
                   <li>
                     <router-link to="/greeting" class="menu-list"
                       >> 人事部長メッセージ</router-link
@@ -111,15 +111,11 @@
                   <li class="menu-list">> 会社概要＆募集要項</li>
                 </ul>
               </div>
-              <div
-                class="menu-follow"
-                style="margin-top: 100px; margin-left: 30px;"
-              >
+              <div class="menu-follow">
                 <img src="../../assets/images/menu-follow-us.png" />
               </div>
               <div
-                class="flex justify-between"
-                style="width: 60%; margin-left: 30px; margin-top: 20px;"
+                class="menu-folow-parts flex justify-between"
               >
                 <img src="../../assets/images/menu-facebook.png" />
                 <img src="../../assets/images/menu-instargram.png" />
@@ -315,13 +311,15 @@ export default {
   line-height: 28px;
   font-size: 14px;
 }
-@media screen and (max-width: 800px) {
-  .vm--modal {
-    left: 0px !important;
-    width: 100% !important;
-  }
-  .vm--container{
-    width: 100vw !important;
-  }
+.menu-follow {
+  margin-top: 100px;
+  margin-left: 30px;
 }
+.menu-folow-parts{
+width: 60%; 
+margin-left: 30px; 
+margin-top: 20px;
+}
+
+
 </style>

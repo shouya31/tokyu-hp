@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="people" class="hidden pl-52 lg:flex py-10">
+    <section id="people" class="hidden relative pl-52 lg:flex py-10">
       <div class="mt-16 ml-10">
         <HomeSectionTitle :image="titleimage" />
         <div class="">
@@ -19,46 +19,94 @@
             </div>
           </div>
 
-          <carousel :per-page="1" :autoplay="true" :loop="true">
+          <carousel
+            :per-page="1"
+            :autoplay="true"
+            :loop="true"
+            :mouse-drag="true"
+            :speed=300
+          >
             <slide>
               <div class="flex relative employee-image-box">
                 <a href="/people/1">
-                  <HomeSectionImage :image="homeimage1" />
+                  <div class="vision-right-content mt-8">
+                    <img
+                      src="../../assets/images/person1-message.png"
+                      alt=""
+                      width="1073"
+                      height="465"
+                    />
+                  </div>
                 </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
                 <a href="/people/2">
-                  <HomeSectionImage :image="homeimage2" />
+                  <div class="vision-right-content mt-8">
+                    <img
+                      src="../../assets/images/person2-message.png"
+                      width="1073"
+                      height="465"
+                      alt=""
+                    />
+                  </div>
                 </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
                 <a href="/people/3">
-                  <HomeSectionImage :image="homeimage3" />
+                  <div class="vision-right-content mt-8">
+                    <img
+                      src="../../assets/images/person3-message.png"
+                      width="1073"
+                      height="465"
+                      alt=""
+                    />
+                  </div>
                 </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
                 <a href="/people/4">
-                  <HomeSectionImage :image="homeimage4" />
+                  <div class="vision-right-content mt-8">
+                    <img
+                      src="../../assets/images/person4-message.png"
+                      width="1073"
+                      height="465"
+                      alt=""
+                    />
+                  </div>
                 </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
                 <a href="/people/5">
-                  <HomeSectionImage :image="homeimage5" />
+                  <div class="vision-right-content mt-8">
+                    <img
+                      src="../../assets/images/person5-message.png"
+                      width="1073"
+                      height="465"
+                      alt=""
+                    />
+                  </div>
                 </a>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
                 <a href="/people/6">
-                  <HomeSectionImage :image="homeimage6" />
+                  <div class="vision-right-content mt-8">
+                    <img
+                      src="../../assets/images/person6-message.png"
+                      width="1073"
+                      height="465"
+                      alt=""
+                    />
+                  </div>
                 </a>
               </div>
             </slide>
@@ -154,8 +202,8 @@ export default {
 }
 .VueCarousel {
   width: 90%;
-  position: relative;
-  z-index: -30;
+  /* position: relative; */
+  /* z-index: -30; */
   margin-left: 10%;
 }
 .VueCarousel-wrapper,
@@ -190,5 +238,6 @@ export default {
 }
 .VueCarousel-pagination {
   margin-left: 30%;
+  width: 70% !important;
 }
 </style>

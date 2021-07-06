@@ -234,24 +234,28 @@ export default {
     },
     mouseoverVision: function() {
       this.visionText = require("../../assets/images/hover-side-vision.png");
+      window.location.href = "#vision"
     },
     mouseleaveVision: function() {
       this.visionText = require("../../assets/images/VISION.png");
     },
     mouseoverProject: function() {
       this.projectText = require("../../assets/images/hover-side-project.png");
+      window.location.href = "#project"
     },
     mouseleaveProject: function() {
       this.projectText = require("../../assets/images/PROJECT.png");
     },
     mouseoverPeople: function() {
       this.peopleText = require("../../assets/images/hover-side-people.png");
+      window.location.href = "#people"
     },
     mouseleavePeople: function() {
       this.peopleText = require("../../assets/images/PEOPLE.png");
     },
     mouseoverCulture: function() {
       this.cultureText = require("../../assets/images/hover-side-culture.png");
+      window.location.href = "#culture"
     },
     mouseleaveCulture: function() {
       this.cultureText = require("../../assets/images/CULTURE.png");

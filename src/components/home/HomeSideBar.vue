@@ -1,10 +1,10 @@
 <template>
   <div
     v-bind:class="{ change_bg: ChangeBg }"
-    class="side-bar w-2/12 p-8 fixed  hidden lg:block"
+    class="side-bar w-2/12 p-8 fixed hidden lg:block"
     style="z-index: 999;"
   >
-    <div class="max-w-full col-span-1">
+    <div class="side-bar-content max-w-full col-span-1">
       <router-link to="/"
         ><img
           src="../../assets/images/tokyu-logo.png"
@@ -234,28 +234,28 @@ export default {
     },
     mouseoverVision: function() {
       this.visionText = require("../../assets/images/hover-side-vision.png");
-      window.location.href = "#vision"
+      window.location.href = "#vision";
     },
     mouseleaveVision: function() {
       this.visionText = require("../../assets/images/VISION.png");
     },
     mouseoverProject: function() {
       this.projectText = require("../../assets/images/hover-side-project.png");
-      window.location.href = "#project"
+      window.location.href = "#project";
     },
     mouseleaveProject: function() {
       this.projectText = require("../../assets/images/PROJECT.png");
     },
     mouseoverPeople: function() {
       this.peopleText = require("../../assets/images/hover-side-people.png");
-      window.location.href = "#people"
+      window.location.href = "#people";
     },
     mouseleavePeople: function() {
       this.peopleText = require("../../assets/images/PEOPLE.png");
     },
     mouseoverCulture: function() {
       this.cultureText = require("../../assets/images/hover-side-culture.png");
-      window.location.href = "#culture"
+      window.location.href = "#culture";
     },
     mouseleaveCulture: function() {
       this.cultureText = require("../../assets/images/CULTURE.png");
@@ -306,11 +306,22 @@ export default {
   font-family: Brandon Grotesque;
   margin-bottom: 10px;
 }
+.side-bar-content .vm--container {
+  width: 86%;
+}
 
 .menu-list {
   font-family: Noto Sans;
   line-height: 28px;
   font-size: 14px;
 }
-
+@media screen and (max-width: 800px) {
+  .vm--modal {
+    left: 0px !important;
+    width: 100% !important;
+  }
+  .vm--container{
+    width: 100vw !important;
+  }
+}
 </style>

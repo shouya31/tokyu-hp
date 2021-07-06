@@ -278,7 +278,6 @@ export default {
   top: 0 !important;
   left: unset !important;
   right: 0px !important;
-  width: 86% !important;
 }
 .vm--overlay {
   background: none !important;

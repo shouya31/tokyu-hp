@@ -123,22 +123,26 @@
         </div>
         <div class="lg:flex justify-between">
           <div class="menu-entry-btn">
-            <img
-              src="../../assets/images/entry-btn.png"
-              alt=""
-            />
+            <img src="../../assets/images/entry-btn.png" alt="" />
           </div>
           <div class="menu-grou-together">
-            <img
-              src="../../assets/images/grow-together.png"
-              alt=""
-            />
+            <img src="../../assets/images/grow-together.png" alt="" />
           </div>
         </div>
       </modal>
       <div class="fv-contents w-11/12 relative left-0">
         <div class="fv-sp-title p-5">
-          <img src="../../assets/images/fv-vision.png" alt="" class="w-9/12" />
+          <div class="fv-header-sp flex items-start pt-10">
+            <img src="../../assets/images/fv-title.png" />
+            <transition name="fade" mode="out-in">
+              <img
+                :src="titleImages[index]"
+                :key="titleImages[index]"
+                class="ml-4 mt-4"
+                style="z-index:-2;"
+              />
+            </transition>
+          </div>
         </div>
         <div class="fv-left-content">
           <transition name="fade" mode="out-in">
@@ -148,25 +152,66 @@
       </div>
     </section>
     <div class="fv-right-content absolute right-0">
-      <div class="flex justify-end">
-        <img
-          src="../../assets/images/home-fv2.png"
-          alt=""
-          class="relative w-2/12"
-          style="top: -220px;"
-        />
-        <img
-          src="../../assets/images/home-fv1.png"
-          alt=""
-          class="relative w-2/12"
-          style="top: -330px;"
-        />
-        <img
-          src="../../assets/images/home-fv3.png"
-          alt=""
-          class="relative w-2/12"
-          style="top: -150px;"
-        />
+      <div class="flex justify-end m-10">
+        <a href="/people/2">
+          <img
+            src="../../assets/images/home-fv2.png"
+            alt=""
+            class="fv-person-animation-sp2"
+            style="top: 170px;left: 65px; z-index:-2;;"
+            width="85"
+          />
+        </a>
+        <a href="/people/1">
+          <img
+            src="../../assets/images/home-fv1.png"
+            alt=""
+            class="fv-person-animation-sp1"
+            style="top: -140px; left: 30px; z-index:-2;;"
+            width="85"
+          />
+        </a>
+
+        <a href="/people/3">
+          <img
+            src="../../assets/images/home-fv3.png"
+            alt=""
+            class="fv-person-animation-sp3"
+            style="bottom: -280px; z-index:-2;;"
+            width="85"
+          />
+        </a>
+      </div>
+      <div class="flex justify-end mt-96">
+        <a href="/people/5">
+          <img
+            src="../../assets/images/home-fv5.png"
+            alt=""
+            class="fv-person-animation-sp5"
+            style="top: 280px;left: 65px; z-index:-2;;"
+            width="85"
+          />
+        </a>
+
+        <a href="/people/4">
+          <img
+            src="../../assets/images/home-fv4.png"
+            alt=""
+            class="fv-person-animation-sp4"
+            style="left: 30px; z-index:-2;;"
+            width="85"
+          />
+        </a>
+
+        <a href="/people/6">
+          <img
+            src="../../assets/images/home-fv6.png"
+            alt=""
+            class="fv-person-animation-sp6"
+            style="bottom: -420px; z-index:-2;;"
+            width="85"
+          />
+        </a>
       </div>
     </div>
   </div>
@@ -186,6 +231,12 @@ export default {
       src: require("@/assets/images/open-btn.png"),
       openBtn: require("@/assets/images/open-btn.png"),
       closeBtn: require("@/assets/images/close-menu.png"),
+      titleImages: [
+        require("@/assets/images/fv-vision.png"),
+        require("@/assets/images/fv-project.png"),
+        require("@/assets/images/fv-people.png"),
+        require("@/assets/images/fv-culture.png"),
+      ],
     };
   },
   mounted() {
@@ -228,6 +279,96 @@ export default {
 </script>
 
 <style>
+.fv-person-animation-sp1 {
+  animation: person_moveY-sp1 15s linear infinite;
+}
+
+@keyframes person_moveY-sp1 {
+  0% {
+    transform: scaleY(1) translateY(60px);
+  }
+  50% {
+  }
+  100% {
+    transform: scaleY(1) translateY(-800px);
+  }
+}
+
+.fv-person-animation-sp2 {
+  animation: person_moveY-sp2 16s linear infinite;
+}
+
+@keyframes person_moveY-sp2 {
+  0% {
+    transform: scaleY(1) translateY(350px);
+  }
+  50% {
+  }
+  100% {
+    transform: scaleY(1) translateY(-800px);
+  }
+}
+
+.fv-person-animation-sp3 {
+  animation: person_moveY-sp3 17s linear infinite;
+}
+
+@keyframes person_moveY-sp3 {
+  0% {
+    transform: scaleY(1) translateY(500px);
+  }
+  50% {
+  }
+  100% {
+    transform: scaleY(1) translateY(-800px);
+  }
+}
+
+.fv-person-animation-sp4 {
+  animation: person_moveY-sp4 23s linear infinite;
+}
+
+@keyframes person_moveY-sp4 {
+  0% {
+    transform: scaleY(1) translateY(200px);
+  }
+  50% {
+  }
+  100% {
+    transform: scaleY(1) translateY(-1600px);
+  }
+}
+
+.fv-person-animation-sp5 {
+  animation: person_moveY-sp5 25s linear infinite;
+}
+
+@keyframes person_moveY-sp5 {
+  0% {
+    transform: scaleY(1) translateY(450px);
+  }
+  50% {
+  }
+  100% {
+    transform: scaleY(1) translateY(-1600px);
+  }
+}
+
+.fv-person-animation-sp6 {
+  animation: person_moveY-sp6 24s linear infinite;
+}
+
+@keyframes person_moveY-sp6 {
+  0% {
+    transform: scaleY(1) translateY(700px);
+  }
+  50% {
+  }
+  100% {
+    transform: scaleY(1) translateY(-1600px);
+  }
+}
+
 .font-BrandonGrotesque {
   font-family: Brandon Grotesque;
 }
@@ -248,6 +389,9 @@ export default {
   font-family: "Noto Sans Japanese", sans-serif;
   line-height: 32px;
   z-index: -3;
+}
+.fv-header-sp {
+  width: 40%;
 }
 
 @keyframes anim {
@@ -293,7 +437,7 @@ export default {
   .menu-context-title {
     width: 100px;
     height: 36px;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
   }
 
   .menu-block ul p {
@@ -305,15 +449,16 @@ export default {
   .menu-bottom-line {
     border-bottom: 1px solid #cccccc;
     padding-bottom: 20px !important;
+    padding-top: 0px;
   }
   .menu-folow-parts {
     width: 27%;
     margin-left: 60px;
   }
-  .menu-entry-btn{
+  .menu-entry-btn {
     margin: 40px 0px 40px 57px;
   }
-  .menu-grou-together{
+  .menu-grou-together {
     width: 80%;
     margin-left: 37px;
   }

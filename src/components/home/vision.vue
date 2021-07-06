@@ -12,8 +12,8 @@
       </div>
     </section>
 
-    <section id="vision" class="lg:hidden">
-      <div class="mt-16">
+    <section id="vision" class="lg:hidden relative bg-white" style="z-index:99;">
+      <div class="pt-16">
         <div class="visoion-title w-8/12 mx-auto">
           <img :src="titleimage" />
         </div>

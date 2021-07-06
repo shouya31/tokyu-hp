@@ -29,7 +29,7 @@
       </div>
     </section>
 
-    <section class="lg:hidden py-10" style="background-color: #add5d4;">
+    <section class="lg:hidden py-10 relative" style="background-color: #add5d4; z-index: 99;">
       <div class="w-11/12 mx-auto">
         <p class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest">
           絶え間なく変化する時代の中で<br />

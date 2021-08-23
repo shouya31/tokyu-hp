@@ -7,7 +7,10 @@ import PeoplePage3 from './views/people/3/index.vue'
 import PeoplePage4 from './views/people/4/index.vue'
 import PeoplePage5 from './views/people/5/index.vue'
 import PeoplePage6 from './views/people/6/index.vue'
-
+import FAQPage from './views/faq.vue'
+import RecruitPage from './views/recruit.vue'
+import WorkstylePage from './views/workstyle.vue'
+import VisionPage from './views/vision.vue'
 
 const routes = [
   {path: '/', component: Home}, 
@@ -18,6 +21,11 @@ const routes = [
   {path: '/people/4', component: PeoplePage4}, 
   {path: '/people/5', component: PeoplePage5}, 
   {path: '/people/6', component: PeoplePage6}, 
+  {path: '/faq', component: FAQPage}, 
+  {path: '/recruit', component: RecruitPage}, 
+  {path: '/vision', component: VisionPage}, 
+  {path: '/workstyle', component: WorkstylePage}, 
+
 ];
 
 export default new VueRouter({ 

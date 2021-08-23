@@ -5,9 +5,11 @@
         <HomeSectionTitle :image="titleimage" />
         <div class="">
           <div class="absolute">
-            <div class="vision-left-content w-4/12 m-10">
+            <div class="vision-left-content w-4/12 m-10 relative bg-white" style="z-index:99;">
               <p class="section-text mt-16">
-                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                東急百貨店と共に成長する仲間たち。
+                志望動機や現在の仕事内容はもちろん、入社から現在に至るまで
+                記憶に残るエピソードや未来に向けた想いを語っていただきました。
               </p>
               <p class="sentence-more text-center mt-12">
                 <img
@@ -24,7 +26,7 @@
             :autoplay="true"
             :loop="true"
             :mouse-drag="true"
-            :speed=300
+            :speed="300"
           >
             <slide>
               <div class="flex relative employee-image-box">
@@ -155,7 +157,9 @@
         </div>
         <div class="vision-left-content" style="margin-right: 20%;">
           <p class="section-text text-sm py-5 pl-8">
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            東急百貨店と共に成長する仲間たち。<br />
+            志望動機や現在の仕事内容はもちろん、入社から現在に至るまで<br />
+            記憶に残るエピソードや未来に向けた想いを語っていただきました。<br />
           </p>
         </div>
         <p class="sentence-more text-center mt-3">

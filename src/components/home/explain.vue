@@ -1,27 +1,29 @@
 <template>
   <div>
-    <section class="explain hidden lg:flex py-36 relative" style="background-color: #add5d4; z-index: 99;">
+    <section
+      class="explain hidden lg:flex py-36 relative"
+      style="background-color: #add5d4; z-index: 99;"
+    >
       <div class="w-8/12 mx-auto">
         <p class="text-center mt-8 explain-text tracking-widest">
-          絶え間なく変化する時代の中で<br />
-          今、百貨店業界は転換期を迎えている
+          変わりゆく時代の中で<br />
+          今、東急百貨店は生まれ変わろうとしている。
         </p>
         <p class="text-center mt-8 explain-text tracking-widest">
-          オンラインショッピングに浸透<br />
-          AIを中心としたテクノロジーの進歩
+          これからは新しい価値を提供するため。<br />
+          これからもお客様の期待に応え続けるため。
         </p>
         <p class="text-center mt-8 explain-text tracking-widest">
           そんな状況下でも東急百貨店が未来への歩みを止めない<br />
           これまで培ってきた挑戦者としてのDNAを活かして
         </p>
         <p class="text-center mt-8 explain-text tracking-widest">
-          東急グループとして取り組む幅広い事業<br />
-          渋谷を拠点に発展を遂げるビジネス特性
+          私たちは常に挑戦し続ける。<br />
+          「GROW TOGETHER」
         </p>
         <p class="text-center mt-8 explain-text tracking-widest">
-          そして、東急百貨店に根付いた唯一無二の信念<br />
-          「hug everyone」<br />
-          時代やグループ、地域、お客様と共に歩む
+          時代と。東急百貨店と。働く仲間と共に。<br />
+          未来へ向かって。
         </p>
         <p class="text-center mt-8 explain-text tracking-widest">
           目指すは、百貨店らしくない百貨店
@@ -29,43 +31,56 @@
       </div>
     </section>
 
-    <section class="lg:hidden py-10 relative" style="background-color: #add5d4; z-index: 99;">
+    <section
+      class="lg:hidden py-10 relative"
+      style="background-color: #add5d4; z-index: 99;"
+    >
       <div class="w-11/12 mx-auto">
-        <p class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest">
-          絶え間なく変化する時代の中で<br />
-          今、百貨店業界は転換期を迎えている
+        <p
+          class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest"
+        >
+          変わりゆく時代の中で<br />
+          今、東急百貨店は生まれ変わろうとしている。
         </p>
-        <p class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest">
-          オンラインショッピングに浸透<br />
-          AIを中心としたテクノロジーの進歩
+        <p
+          class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest"
+        >
+          これからは新しい価値を提供するため。<br />
+          これからもお客様の期待に応え続けるため。
         </p>
-        <p class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest">
+        <p
+          class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest"
+        >
           そんな状況下でも東急百貨店が未来への歩みを止めない<br />
           これまで培ってきた挑戦者としてのDNAを活かして
         </p>
-        <p class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest">
-          東急グループとして取り組む幅広い事業<br />
-          渋谷を拠点に発展を遂げるビジネス特性
+        <p
+          class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest"
+        >
+          私たちは常に挑戦し続ける。<br />
+          「GROW TOGETHER」
         </p>
-        <p class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest">
-          そして、東急百貨店に根付いた唯一無二の信念<br />
-          「hug everyone」<br />
-          時代やグループ、地域、お客様と共に歩む
+        <p
+          class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest"
+        >
+          時代と。東急百貨店と。働く仲間と共に。<br />
+          未来へ向かって。
         </p>
-        <p class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest">
+        <p
+          class="text-center mt-8 text-sm NotoSans-seri leading-7 tracking-widest"
+        >
           目指すは、百貨店らしくない百貨店
         </p>
       </div>
     </section>
   </div>
-
 </template>
 
 <style>
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url("https://use.typekit.net/bdr1ssy.css");
 
-.NotoSans-seri{
-  font-family: 'Noto Sans Japanese',sans-serif;
+.NotoSans-seri {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 </style>

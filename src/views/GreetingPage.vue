@@ -36,7 +36,7 @@
         <ul class="block mt-6 md:flex">
           <li class="leader-name">
             <p class="text-base md:text-2xl">
-              <span class="mr-4">飯塚</span><span class="ml-4">康浩</span>
+              <span class="mr-1">飯塚</span><span class="ml-1">康浩</span>
             </p>
           </li>
           <li>
@@ -51,8 +51,6 @@
       </section>
       <section class="py-8">
         <!-- Questionのフォント調査 -->
-        <h2 class="question-title section-title-theme">Theme</h2>
-        <hr />
         <h3
           class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
           style="color:#333333;"
@@ -81,8 +79,6 @@
       </section>
       <section class="py-8">
         <!-- Questionのフォント調査 -->
-        <h2 class="question-title section-title-theme">Theme</h2>
-        <hr />
         <h3
           class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
           style="color:#333333;"
@@ -108,8 +104,6 @@
       </section>
       <section class="pt-8 pb-8 lg:pb-32">
         <!-- Questionのフォント調査 -->
-        <h2 class="question-title section-title-theme">Theme</h2>
-        <hr />
         <h3
           class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
           style="color:#333333;"

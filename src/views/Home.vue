@@ -19,9 +19,7 @@
         <Fv />
         <Explain />
         <Vision />
-        <Project />
         <People />
-        <Culture />
         <Entry />
       </div>
     </div>
@@ -34,9 +32,7 @@ import HomeSideBar from "../components/home/HomeSideBar.vue";
 import Fv from "../components/home/fv.vue";
 import Explain from "../components/home/explain.vue";
 import Vision from "../components/home/vision.vue";
-import Project from "../components/home/project.vue";
 import People from "../components/home/people.vue";
-import Culture from "../components/home/culture.vue";
 import Entry from "../components/home/entry.vue";
 import Footer from "../components/home/footer.vue";
 
@@ -47,9 +43,7 @@ export default {
     Fv,
     Explain,
     Vision,
-    Project,
     People,
-    Culture,
     Entry,
     Footer,
   },

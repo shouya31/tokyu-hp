@@ -34,9 +34,7 @@
                 </p>
                 <ul>
                   <li class="menu-list">> トップインタビュー</li>
-                  <li class="menu-list">> 融合型リテーラーとして</li>
-                  <li class="menu-list">> 店舗と共に</li>
-                  <li class="menu-list">> グループと共に</li>
+                  <li class="menu-list">> XXXXXXXXXXXX</li>
                   <li class="menu-list">> キーワードで知る</li>
                 </ul>
               </div>
@@ -64,12 +62,24 @@
                     社員紹介
                   </p>
                   <ul class="border-none">
-                    <li class="menu-list"><a href="/people/1">> 社員A</a></li>
-                    <li class="menu-list"><a href="/people/2">> 社員B</a></li>
-                    <li class="menu-list"><a href="/people/3">> 社員C</a></li>
-                    <li class="menu-list"><a href="/people/4">> 社員D</a></li>
-                    <li class="menu-list"><a href="/people/5">> 社員E</a></li>
-                    <li class="menu-list"><a href="/people/6">> 社員F</a></li>
+                    <li class="menu-list">
+                      <a href="/people/1">> たまプラーザ店 営業統括部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/2">> 専門店事業部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/3">> ファッション・雑貨統括部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/4">> 営業推進部 顧客サービス部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/5">> 事業戦略部 顧客サービス部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/6">> 営業推進部 営業企画部</a>
+                    </li>
                   </ul>
                 </ul>
               </div>
@@ -92,7 +102,7 @@
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">> 研修制度</li>
-                  <li class="menu-list">> 福利厚生</li>
+                  <li class="menu-list">> 働き方について</li>
                 </ul>
               </div>
             </div>
@@ -110,17 +120,6 @@
                   <li class="menu-list">> FAQ</li>
                   <li class="menu-list">> 会社概要＆募集要項</li>
                 </ul>
-              </div>
-              <div class="menu-follow">
-                <img src="../../assets/images/menu-follow-us.png" />
-              </div>
-              <div
-                class="menu-folow-parts flex justify-between"
-              >
-                <img src="../../assets/images/menu-facebook.png" />
-                <img src="../../assets/images/menu-instargram.png" />
-                <img src="../../assets/images/menu-youtube.png" />
-                <img src="../../assets/images/menu-twitter.png" />
               </div>
             </div>
           </div>
@@ -153,15 +152,6 @@
           /></a>
         </li>
         <li
-          v-on:mouseover="mouseoverProject"
-          v-on:mouseleave="mouseleaveProject"
-          class="menu-context-title tracking-wider font-BrandonGrotesque"
-        >
-          <a href="/#project" style="color:gray;"
-            ><img :src="projectText" alt=""
-          /></a>
-        </li>
-        <li
           v-on:mouseover="mouseoverPeople"
           v-on:mouseleave="mouseleavePeople"
           class="menu-context-title tracking-wider font-BrandonGrotesque"
@@ -171,12 +161,12 @@
           /></a>
         </li>
         <li
-          v-on:mouseover="mouseoverCulture"
-          v-on:mouseleave="mouseleaveCulture"
+          v-on:mouseover="mouseoverRecruit"
+          v-on:mouseleave="mouseleaveRecruit"
           class="menu-context-title tracking-wider font-BrandonGrotesque"
         >
-          <a href="/#culture" style="color:gray;"
-            ><img :src="cultureText" alt=""
+          <a href="#" style="color:gray;"
+            ><img :src="recruitText" alt=""
           /></a>
         </li>
       </ul>
@@ -201,7 +191,7 @@ export default {
       visionText: require("../../assets/images/VISION.png"),
       projectText: require("../../assets/images/PROJECT.png"),
       peopleText: require("../../assets/images/PEOPLE.png"),
-      cultureText: require("../../assets/images/CULTURE.png"),
+      recruitText: require("../../assets/images/RECRUIT_side_text.png"),
       openBtn: require("../../assets/images/open-btn.png"),
       closeBtn: require("../../assets/images/close-menu.png"),
       src: require("../../assets/images/open-btn.png"),
@@ -249,12 +239,12 @@ export default {
     mouseleavePeople: function() {
       this.peopleText = require("../../assets/images/PEOPLE.png");
     },
-    mouseoverCulture: function() {
-      this.cultureText = require("../../assets/images/hover-side-culture.png");
-      window.location.href = "#culture";
+    mouseoverRecruit: function() {
+      this.recruitText = require("../../assets/images/RECRUIT_hover.png");
+      // window.location.href = "#recruit";
     },
-    mouseleaveCulture: function() {
-      this.cultureText = require("../../assets/images/CULTURE.png");
+    mouseleaveRecruit: function() {
+      this.recruitText = require("../../assets/images/RECRUIT_side_text.png");
     },
     beforeOpen: function() {
       this.ChangeBg = true;
@@ -315,11 +305,9 @@ export default {
   margin-top: 100px;
   margin-left: 30px;
 }
-.menu-folow-parts{
-width: 60%; 
-margin-left: 30px; 
-margin-top: 20px;
+.menu-folow-parts {
+  width: 60%;
+  margin-left: 30px;
+  margin-top: 20px;
 }
-
-
 </style>

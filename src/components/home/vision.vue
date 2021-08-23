@@ -5,7 +5,7 @@
         <HomeSectionTitle :image="titleimage" />
         <div class="flex justify-between">
           <HomeSectionText
-            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
+            text="東急グループの中でリテール関連事業の中核を担う東急百貨店。東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、これからどのようなビジョンと共に歩んでいくのかをお伝えします。"
           />
           <HomeSectionImage :image="homeimage" />
         </div>
@@ -22,7 +22,9 @@
         </div>
         <div class="vision-left-content" style="margin-right: 20%;">
           <p class="section-text text-sm py-5 pl-8">
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            東急グループの中でリテール関連事業の中核を担う東急百貨店。<br />
+            東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、<br />
+            これからどのようなビジョンと共に歩んでいくのかをお伝えします。
           </p>
         </div>
         <p class="sentence-more text-center mt-3">

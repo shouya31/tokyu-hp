@@ -280,7 +280,7 @@
             </h5>
           </div>
           <p class="column-subtitle">
-            「〇〇とともに歩む」
+            「〇〇 と共に歩む」
           </p>
         </div>
 
@@ -415,6 +415,7 @@ export default {
   color: #707070;
   line-height: 28px;
   padding: 40px 96px 80px;
+  text-align: left;
 }
 .BrandonGrotesque {
   font-family: Brandon Grotesque !important;

@@ -1,6 +1,5 @@
 <template>
 <div class="faq overflow-hidden">
- 
     <section class="">
       <div class="flex justify-between">
       <div class="">
@@ -42,7 +41,7 @@
         </dl>
         <dl class="listQA">
           <dt>
-            <p>入社前に必要な技能や資格があれば教えてください。?</p>
+            <p>入社前に必要な技能や資格があれば教えてください。</p>
           </dt>
           <dd>
             <p>特にございません。入社後、業務上必要な資格については、会社が取得費用を補助いたします。</p>
@@ -76,10 +75,6 @@
         </dl> 
       </div>
     </section>
-
-
-
-
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img
@@ -102,6 +97,11 @@
 .faq {
   background-color: rgba(213,213,213,.3);
 }
+.faq-contents p,.faq-contents dt,.faq-contents dd {
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: .07em;
+}
+
 .current-nav {
   width: 204px;
   height: 35px;
@@ -166,3 +166,4 @@
   font-weight: normal;
 }
 </style>
+

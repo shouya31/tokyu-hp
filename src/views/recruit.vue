@@ -48,6 +48,37 @@
           <dd>昇給 年１回 賞与 年２回</dd>
           <dt>退職金制度</dt>
           <dd>有</dd>
+          <dt>諸手当</dt>
+          <dd>通勤費（原則全額）、時間外勤務手当、家族手当等</dd>
+          <dt>勤務地</dt>
+          <dd>東京地区：東京都、神奈川県<br>
+            北海道地区：北海道（札幌市）</dd>
+          <dt>勤務時間</dt>
+          <dd>シフトによる交替制勤務<br>
+            実働7時間45分（食事・休憩時間1時間15分）</dd>
+          <dt>休日</dt>
+          <dd>週休2日（交替制）・年間休日116日</dd>
+          <dt>休暇</dt>
+          <dd>年2回の連続休暇制度、年2日のアニバーサリー休暇制度、<br class="sp-br">
+          年次休暇、半日休暇制度、慶弔休暇、リフレッシュ休暇他</dd>
+          <dt>福利厚生</dt>
+          <dd>各種社保、共済会、財形貯蓄、持株制度、自用品購買制度</dd>
+          <dt>受動喫煙対策</dt>
+          <dd>1．全事業所における完全分煙<br>
+            2．健康保険組合による「禁煙チャレンジ」の実施</dd>
+          <dt>教育研修</dt>
+          <dd>新入社員研修、階層別研修、専門知識・スキルアップ研修、<br class="sp-br">
+          自己啓発補助他</dd>
+          <dt>応募資格</dt>
+          <dd>大学院、大学卒業見込みの方（2023年3月卒業の方）</dd>
+          <dt>お問い合わせ</dt>
+          <dd>株）東急百貨店 人事部 採用担当<br>
+              ＜東京地区＞<br>
+              TEL：03-3477-3261（直通）<br>
+              E-mail：employ@tokyu-dept.co.jp<br>
+              ＜北海道地区＞<br>
+              TEL：011-212-2226（直通）<br>
+              E-mail：sp-employ@tokyu-dept.co.jp </dd>
         </dl>
       </div>
     </section>
@@ -61,28 +92,29 @@
       <h3 class="text-center">企業概要</h3>
             <div class="info">
         <dl>
-          <dt>ダミーダミー</dt>
+          <dt>商号</dt>
           <dd>
-            2022年 5名（予定）<br />
-            2021年 13名<br />
-            2020年 17名<br />
-            2019年 33名<br />
-            2018年 22名
+            株式会社 東急百貨店
           </dd>
-          <dt>ダミーダミー</dt>
-          <dd>総合職</dd>
-          <dt>ダミーダミー</dt>
-          <dd>全学部・全学科</dd>
-          <dt>ダミーダミー</dt>
+          <dt>会社設立年月日</dt>
+          <dd>大正8年3月7日（1919年）</dd>
+          <dt>事業内容</dt>
+          <dd>百貨店業</dd>
+          <dt>資本金</dt>
           <dd>
-            （2021年度実績）<br />
-            東京地区：月給210,000円<br />
-            北海道地区：月給199,500円
+            1億円
           </dd>
-          <dt>ダミーダミー</dt>
-          <dd>昇給 年１回 賞与 年２回</dd>
-          <dt>ダミーダミー</dt>
-          <dd>有</dd>
+          <dt>決算期</dt>
+          <dd>1月</dd>
+          <dt>本店所在地</dt>
+          <dd>東京都渋谷区道玄坂2丁目24番1号 </dd>
+          <dt>従業員数（社員）</dt>
+          <dd>1,665名（2021年4月30日現在） </dd>
+          <dt>電話番号</dt>
+          <dd>03-3477-3111（代表） </dd>
+          <dt>関連会社</dt>
+          <dd>株式会社セントラルフーズ、株式会社東急タイム、<br class="sp-br">
+東急ビジネスサポート株式会社 </dd>           
         </dl>
       </div>
     </section>
@@ -110,6 +142,10 @@
 .recruit-requirement {
   background-color: rgba(213, 213, 213, 0.3);
 }
+.recruit-requirement p,.recruit-requirement dt,.recruit-requirement dd {
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: .07em;
+}
 .recruit-requirement .recruit-requirement-content {
   max-width: 728px;
   margin-bottom: 80px;
@@ -132,6 +168,7 @@
   margin-bottom: 65px;
   font-size: 20px;
   font-family: "Noto Serif JP", serif;
+  letter-spacing: 3px;
 }
 .recruit-requirement .info {
   width: 100%;
@@ -161,5 +198,10 @@ border-bottom: 1px solid #16344F;
 .recruit-requirement .info dl {
 flex-flow: column;
 }
+}
+@media screen and (max-width: 800px) {
+  .recruit-requirement .recruit-requirement-content {
+    max-width: 90%;
+  }
 }
 </style>

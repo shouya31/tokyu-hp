@@ -95,7 +95,7 @@
 
 <style>
 .faq {
-  background-color: rgba(213,213,213,.3);
+  background-color: #f8f8f8;
 }
 .faq-contents p,.faq-contents dt,.faq-contents dd {
   font-family: 'Noto Sans JP', sans-serif;

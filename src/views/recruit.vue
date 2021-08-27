@@ -1,6 +1,6 @@
 <template>
   <div class="recruit-requirement overflow-hidden">
-    <section class="">
+    <section>
       <div class="flex justify-between">
         <div class="">
           <div class="relative lg:right-12">
@@ -59,7 +59,7 @@
           <dt>休日</dt>
           <dd>週休2日（交替制）・年間休日116日</dd>
           <dt>休暇</dt>
-          <dd>年2回の連続休暇制度、年2日のアニバーサリー休暇制度、<br class="sp-br">
+          <dd>年2回の連続休暇制度、年2日のアニバーサリー休暇制度、<br class="pc-br">
           年次休暇、半日休暇制度、慶弔休暇、リフレッシュ休暇他</dd>
           <dt>福利厚生</dt>
           <dd>各種社保、共済会、財形貯蓄、持株制度、自用品購買制度</dd>
@@ -67,7 +67,7 @@
           <dd>1．全事業所における完全分煙<br>
             2．健康保険組合による「禁煙チャレンジ」の実施</dd>
           <dt>教育研修</dt>
-          <dd>新入社員研修、階層別研修、専門知識・スキルアップ研修、<br class="sp-br">
+          <dd>新入社員研修、階層別研修、専門知識・スキルアップ研修、<br class="pc-br">
           自己啓発補助他</dd>
           <dt>応募資格</dt>
           <dd>大学院、大学卒業見込みの方（2023年3月卒業の方）</dd>
@@ -113,7 +113,7 @@
           <dt>電話番号</dt>
           <dd>03-3477-3111（代表） </dd>
           <dt>関連会社</dt>
-          <dd>株式会社セントラルフーズ、株式会社東急タイム、<br class="sp-br">
+          <dd>株式会社セントラルフーズ、株式会社東急タイム、<br class="pc-br">
 東急ビジネスサポート株式会社 </dd>           
         </dl>
       </div>
@@ -140,7 +140,7 @@
 
 <style>
 .recruit-requirement {
-  background-color: rgba(213, 213, 213, 0.3);
+  background-color: #f8f8f8;
 }
 .recruit-requirement p,.recruit-requirement dt,.recruit-requirement dd {
   font-family: 'Noto Sans JP', sans-serif;

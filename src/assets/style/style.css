@@ -123,6 +123,9 @@ hr {
 }
 
 .sp-br {
+  display: none;
+}
+.pc-br {
   display: block;
 }
 
@@ -149,6 +152,9 @@ hr {
 
 @media (max-width: 640px) {
   .sp-br {
+    display: block;
+  }
+  .pc-br {
     display: none;
   }
   .image-absolute {

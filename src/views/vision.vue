@@ -59,92 +59,131 @@
     </section>
     <section class="vision-contents philosophy mx-auto bg-gray">
       <h3 class="text-center">企業理念</h3>
-        <div>
-          <h4>
-            <img
-              src="@/assets/images/vision-title_vision.png"
-              srcset="
-                @/assets/images/vision-title_vision.png 1x,
-                @/assets/images/vision-title_vision.png 2x
-              "
-              alt="VISON"
-              class="mx-auto"
-            />
-          </h4>
-          <p class="sub-title text-center">私たち東急百貨店が求める姿</p>
-          <p class="text-box text-center mx-auto">
-            お客様にとって、なくてはならない存在。<br />
-            それが私たちの誇りです。<br />
-            私たちは、誰よりもお客様の近くで、<br />
-            誰よりも深くお客様を想い、<br />
-            誰よりも情熱をもってお客様の力になります。<br />
-            私たちは、お客様と共に<br />
-            未来へ向かって成長し続けます。
-          </p>
-        </div>
-        <div>
-          <h4>
-            <img
-              src="@/assets/images/vision-title_slogan.png"
-              srcset="
-                @/assets/images/vision-title_slogan.png 1x,
-                @/assets/images/vision-title_slogan.png 2x
-              "
-              alt="VISON"
-              class="mx-auto"
-            />
-          </h4>
-          <p class="sub-title text-center">ビジョンを実現するための私たちの合言葉</p>
-          <p class="text-box mx-auto hugeveryone">
-            <img
-              src="@/assets/images/vision-hugeveryone.png"
-              srcset="
-                @/assets/images/vision-hugeveryone.png 1x,
-                @/assets/images/vision-hugeveryone.png 2x
-              "
-              alt="hug everyone."
-              class="mx-auto"
-            />
-          </p>
-        </div>
-      <div class="credo">
-      <h3 class="text-center">行動指針</h3>
-      <h4 class="text-center sub-title">日々の仕事に向かう時の私たちの心得</h4>
-      <ul class="credo-list text-center">
-        <li>
-          <p><span>お客様とhug</span>
-誰よりも深くお客様のことを想い、 情熱と感性で、 その声にお応えしよう。</p>
-        </li>
-        <li>
-          <p><span>働く仲間とhug</span>
-つねに新しいチャレンジを続けながら、互いを尊敬し、高め合える存在であろう。</p>
-        </li>
-        <li>
-          <p><span>お取引先とhug</span>
-ともに信頼し、成長できる存在として、強い絆を結んでいこう。</p>
-        </li>
-        <li>
-          <p><span>社会とhug</span>
-清らかで豊かな心を持って、社会と向き合い、行動する人間であろう。</p>
-        </li>
-        <li>
-          <p><span>株主とhug</span>
-支援や激励をいただく皆様に誠意を尽くし、実りある実績でお応えしよう。</p>
-        </li>
-        <li>
-          <p><span>世界とhug</span>
-地球環境を考え、グローバルな視野を持って未来へ進もう。</p>
-        </li>
-      </ul>
+      <div class="content-inner">
+        <h4>
+          <img
+            src="@/assets/images/vision-title_vision.png"
+            srcset="
+              @/assets/images/vision-title_vision.png 1x,
+              @/assets/images/vision-title_vision.png 2x
+            "
+            alt="VISON"
+            class="mx-auto"
+          />
+        </h4>
+        <p class="sub-title text-center">私たち東急百貨店が求める姿</p>
+        <p class="text-box text-center mx-auto">
+          お客様にとって、なくてはならない存在。<br />
+          それが私たちの誇りです。<br />
+          私たちは、誰よりもお客様の近くで、<br />
+          誰よりも深くお客様を想い、<br />
+          誰よりも情熱をもってお客様の力になります。<br />
+          私たちは、お客様と共に<br />
+          未来へ向かって成長し続けます。
+        </p>
+      </div>
+      <div class="content-inner">
+        <h4>
+          <img
+            src="@/assets/images/vision-title_slogan.png"
+            srcset="
+              @/assets/images/vision-title_slogan.png 1x,
+              @/assets/images/vision-title_slogan.png 2x
+            "
+            alt="VISON"
+            class="mx-auto"
+          />
+        </h4>
+        <p class="sub-title text-center">
+          ビジョンを実現するための<br class="sp-br">私たちの合言葉
+        </p>
+        <p class="text-box mx-auto hugeveryone">
+          <img
+            src="@/assets/images/vision-hugeveryone.png"
+            srcset="
+              @/assets/images/vision-hugeveryone.png 1x,
+              @/assets/images/vision-hugeveryone.png 2x
+            "
+            alt="hug everyone."
+            class="mx-auto"
+          />
+        </p>
+      </div>
+      <div class="content-inner">
+        <h3 class="text-center">行動指針</h3>
+        <h4 class="text-center sub-title">
+          日々の仕事に向かう時の私たちの心得
+        </h4>
+        <ul class="credo-list text-center">
+          <li>
+            <p>
+              <span>お客様とhug</span> 誰よりも深くお客様のことを想い、<br class="sp-br">
+              情熱と感性で、 その声にお応えしよう。
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>働く仲間とhug</span>
+              つねに新しいチャレンジを続けながら、<br class="sp-br">
+              互いを尊敬し、高め合える存在であろう。
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>お取引先とhug</span>
+              ともに信頼し、成長できる存在として、強い絆を結んでいこう。
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>社会とhug</span>
+              清らかで豊かな心を持って、社会と向き合い、<br class="sp-br">
+              行動する人間であろう。
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>株主とhug</span>
+              支援や激励をいただく皆様に誠意を尽くし、<br class="sp-br">
+              実りある実績でお応えしよう。
+            </p>
+          </li>
+          <li>
+            <p>
+              <span>世界とhug</span>
+              地球環境を考え、グローバルな視野を持って未来へ進もう。
+            </p>
+          </li>
+        </ul>
       </div>
     </section>
     <section class="bg-yellow">
       <div class="vision-contents mx-auto">
-      <h3 class="text-center mx-auto positioning">東急グループの一員として</h3>
-      <p>東急百貨店は東急グループのリテール事業の中核として、沿線を中心に百貨店やショッピングセンター、専門店を展開し、地域のお客様の豊かで上質な生活を支えてきました。<br>
-近年注目されている東急グループが一翼を担う大規模な渋谷駅周辺開発プロジェクトでは、その開発に合わせ、当社は2012年以降、渋谷ヒカリエShinQs開業から渋谷スクランブルスクエアへの専門店出店、東横のれん街や渋谷 東急フードショーのリニューアルなど、東急百貨店だからこそできる取り組みを推進しています。今後もグループとの連携を図りながら、渋谷という地域における当社の存在価値を高めていきます。</p>
-</div>
+        <h3 class="text-center mx-auto positioning">
+          東急グループの一員として
+        </h3>
+        <p>
+          東急百貨店は東急グループのリテール事業の中核として、沿線を中心に百貨店やショッピングセンター、専門店を展開し、地域のお客様の豊かで上質な生活を支えてきました。<br />
+          近年注目されている東急グループが一翼を担う大規模な渋谷駅周辺開発プロジェクトでは、その開発に合わせ、当社は2012年以降、渋谷ヒカリエShinQs開業から渋谷スクランブルスクエアへの専門店出店、東横のれん街や渋谷
+          東急フードショーのリニューアルなど、東急百貨店だからこそできる取り組みを推進しています。今後もグループとの連携を図りながら、渋谷という地域における当社の存在価値を高めていきます。
+        </p>
+      </div>
     </section>
+        <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
+      <a href="/"
+        ><img
+          src="@/assets/images/footer-logo.png"
+          alt="東急百貨店"
+          width="180"
+          class="mx-auto bg-white"
+      /></a>
+      <p class="text-xs lg:text-sm mt-5 italic">
+        <small
+          >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
+          Reserved.</small
+        >
+      </p>
+    </footer>
   </div>
 </template>
 
@@ -159,7 +198,7 @@
   letter-spacing: 0.07em;
   line-height: 180%;
 }
-.vision .vision -content {
+.vision .vision-content {
   max-width: 728px;
   margin-bottom: 80px;
 }
@@ -208,7 +247,8 @@
   writing-mode: vertical-rl;
   font-size: 40px;
   font-weight: lighter;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
+  margin-top: 8px;
 }
 .now-textbox {
   margin-bottom: 290px;
@@ -251,7 +291,7 @@
 .philosophy .sub-title {
   font-size: 20px;
   font-family: "Noto Serif JP", serif;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   margin-bottom: -15px;
 }
 .philosophy .text-box {
@@ -259,7 +299,7 @@
   max-width: 728px;
   padding: 60px 0;
   line-height: 200%;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin-bottom: 80px;
 }
 .hugeveryone img {
@@ -268,7 +308,7 @@
 .credo .sub-title {
   font-size: 20px;
   font-family: "Noto Serif JP", serif;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   margin-bottom: 30px;
 }
 .credo-list li {
@@ -282,11 +322,11 @@
   display: block;
   font-size: 20px;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin-bottom: 10px;
 }
 .vision .bg-yellow {
-  background-color: #FDF7EB;
+  background-color: #fdf7eb;
   margin: 0 calc(50% - 50vw);
   max-width: 100vw !important;
   padding: 80px 0 60px;
@@ -308,35 +348,88 @@
   background: url(../assets/images/vision-POSITIONING.png) no-repeat
     center/contain;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   left: 50%;
   bottom: 15px;
 }
 @media screen and (max-width: 800px) {
   .now-textbox,
-.future-textbox {
-  width: 640px;
-  display: flex;
-  justify-content: space-between;
-}
+  .future-textbox {
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+  }
   .now-textbox {
     margin-bottom: 150px;
   }
-.future-textbox::after {
-  width: 740px;
-  bottom: 190px;
-  right: -40px;
-}
+  .future-textbox::after {
+    width: 740px;
+    bottom: 190px;
+    right: -40px;
+  }
 }
 @media screen and (max-width: 640px) {
   .vision .vision-contents {
     max-width: 90%;
   }
+  .vision h2 {
+    width: 90%;
+  }
   .vision h3 {
     font-size: 24px;
+    margin-bottom: 120px;
   }
-.now-textbox, .future-textbox {
+  .vision p {
+    font-size: 14px;
+  }
+  .now-textbox,
+  .future-textbox {
     width: 100%;
+    flex-direction: column;
   }
+  .now-textbox .sub-title, .future-textbox .sub-title {
+    -ms-writing-mode: initial;
+    writing-mode: initial;
+    margin-top: 0;
+  }
+  .future-textbox .sub-title,.future-textbox p {
+    margin-left: auto;
+  }
+  .now-textbox p, .future-textbox p {
+    width: 100%;
+    max-width: 350px;
+  }
+  .now-textbox {
+    margin-bottom: 180px;
+  }
+  .future-textbox::after {
+  width: 348px;
+  height: 642px;
+  bottom: 410px;
+  right: -10px;
+  background: url(../assets/images/vision-now_future_sp.png) no-repeat
+    center/contain;
+  }
+  .philosophy h3 {
+    margin-bottom: 80px;
+  }
+  .philosophy .content-inner {
+    width: 95%;
+    margin: auto;
+  }
+  .philosophy .sub-title {
+    font-size: 16px;
+  }
+  .credo-list li {
+    padding: 24px 0;
+  }
+  .credo-list li span {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .hugeveryone img {
+    width: 80%;
+  }
+
 }
 </style>

@@ -1,30 +1,37 @@
 <template>
   <div class="vision overflow-hidden">
-    <section class="">
-      <div class="flex justify-between">
-        <div class="">
-          <div class="relative lg:right-12">
-            <img
-              src="@/assets/images/recruit-title.png"
-              alt=""
-              class="lg:w-full people-logo-sp"
-            />
-          </div>
-        </div>
-        <div class="current-nav">
-          <p>FAQ</p>
-        </div>
-      </div>
-      <h2 class="mx-auto">
+        <header>
+      <h1>
         <img
-          src="@/assets/images/vision-kv.png"
-          srcset="
-            @/assets/images/vision-kv.png    1x,
-            @/assets/images/vision-kv@2x.png 2x
-          "
-          alt="東急百貨店のロゴ"
+          src="@/assets/images/header-logo.svg"
+          alt="東急百貨店のリクルートサイト"
         />
-      </h2>
+      </h1>
+      <div class="header-nav-wrapper">
+        <div v-on:click="menuOpenOrClose" class="menu">
+          <img src="@/assets/images/open-btn.png" alt="" srcset="" />
+        </div>
+        <button style="background: #003366">
+          <p
+            class="text-2xl text-white tracking-widest"
+            style="font-size: 20px"
+          >
+            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+          </p>
+        </button>
+      </div>
+    </header>
+    <section class="page-top mx-auto">
+      <div class="sub-pagetitle">
+        <img
+          src="@/assets/images/vision-title.svg"
+          alt="共に歩む×VISION"
+          class="lg:w-full"
+        />
+      </div>
+      <div class="current-nav">
+        <p>ビジョンについて</p>
+      </div>
     </section>
 
     <section class="vision-contents mx-auto">
@@ -65,7 +72,7 @@
             src="@/assets/images/vision-title_vision.png"
             srcset="
               @/assets/images/vision-title_vision.png 1x,
-              @/assets/images/vision-title_vision.png 2x
+              @/assets/images/vision-title_vision@2x.png 2x
             "
             alt="VISON"
             class="mx-auto"
@@ -88,7 +95,7 @@
             src="@/assets/images/vision-title_slogan.png"
             srcset="
               @/assets/images/vision-title_slogan.png 1x,
-              @/assets/images/vision-title_slogan.png 2x
+              @/assets/images/vision-title_slogan@2x.png 2x
             "
             alt="VISON"
             class="mx-auto"
@@ -102,7 +109,7 @@
             src="@/assets/images/vision-hugeveryone.png"
             srcset="
               @/assets/images/vision-hugeveryone.png 1x,
-              @/assets/images/vision-hugeveryone.png 2x
+              @/assets/images/vision-hugeveryone@2x.png 2x
             "
             alt="hug everyone."
             class="mx-auto"
@@ -202,15 +209,6 @@
   max-width: 728px;
   margin-bottom: 80px;
 }
-.current-nav {
-  width: 204px;
-  height: 35px;
-  border: solid 1px #707070;
-  text-align: center;
-  line-height: 35px;
-  font-weight: bold;
-  margin-right: 86px;
-}
 .vision h2 {
   width: fit-content;
   margin-top: 105px;
@@ -265,6 +263,7 @@
   right: -200px;
   background: url(../assets/images/vision-now_future.png) no-repeat
     center/contain;
+  background-image: image-set(url(../assets/images/vision-now_future.png) 1x, url(../assets/images/vision-now_future@2x.png) 2x);
 }
 .vision .bg-gray {
   background-color: #f8f8f8;
@@ -347,6 +346,7 @@
   height: 30px;
   background: url(../assets/images/vision-POSITIONING.png) no-repeat
     center/contain;
+    background-image: image-set(url(../assets/images/vision-POSITIONING.png) 1x, url(../assets/images/vision-POSITIONING@2x.png) 2x);
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -409,6 +409,7 @@
   right: -10px;
   background: url(../assets/images/vision-now_future_sp.png) no-repeat
     center/contain;
+    background-image: image-set(url(../assets/images/vision-now_future_sp.png) 1x, url(../assets/images/vision-now_future_sp@2x.png) 2x);
   }
   .philosophy h3 {
     margin-bottom: 80px;

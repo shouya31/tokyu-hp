@@ -1,26 +1,49 @@
 <template>
-  <div
-    class="container-fuild grid grid-cols-1 lg:grid-cols-10 lg:gap-20"
-    style="background: #F2F2F2;"
-  >
-    <sidebar></sidebar>
-    <header class="lg:hidden fixed w-full" style="z-index:999999999;">
-      <div class="pl-5 flex justify-between">
-        <div class="py-3">
-          <a href="#" class=""
-            ><img
-              src="../assets/images/tokyu-logo.png"
-              alt="東急百貨店"
-              width="140"
-          /></a>
+  <div class="greeting">
+    <header>
+      <h1>
+        <img
+          src="@/assets/images/header-logo.svg"
+          alt="東急百貨店のリクルートサイト"
+        />
+      </h1>
+      <div class="header-nav-wrapper">
+        <div v-on:click="menuOpenOrClose" class="menu">
+          <img src="@/assets/images/open-btn.png" alt="" srcset="" />
         </div>
-        <div class="menu p-5">
-          <p><span style="width: 40px;"></span></p>
-          <p><span style="width: 40px;"></span></p>
-        </div>
+        <button style="background: #003366">
+          <p
+            class="text-2xl text-white tracking-widest"
+            style="font-size: 20px"
+          >
+            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+          </p>
+        </button>
       </div>
     </header>
-    <div class="p-4 lg:col-span-6 col-span-3 lg:col-start-3 lg:pt-16 pt-24">
+    <section class="page-top mx-auto">
+      <div class="sub-pagetitle">
+        <img
+          src="@/assets/images/recruit-title.svg"
+          alt="共に歩む×RECRUIT"
+          class="lg:w-full"
+        />
+      </div>
+      <div class="current-nav">
+        <p>働き方について</p>
+      </div>
+    </section>
+    <div
+      class="
+        p-4
+        lg:col-span-6
+        col-span-3
+        lg:col-start-3
+        lg:pt-16
+        pt-24
+        greeting-contents
+      "
+    >
       <img
         src="../assets/images/greeting.png"
         class="w-full mt-4"
@@ -28,7 +51,15 @@
       />
       <section class="lg:pb-16 text-gray-700">
         <h1
-          class="greeting-message text-md font-weight-100 tracking-wider pt-9 pb-3 md:text-3xl"
+          class="
+            greeting-message
+            text-md
+            font-weight-100
+            tracking-wider
+            pt-9
+            pb-3
+            md:text-3xl
+          "
         >
           新しい未来に向けて、共に歩んでいきましょう
         </h1>
@@ -41,7 +72,15 @@
           </li>
           <li>
             <p
-              class="leading-7 ml-0 sm:ml-4 text-gray-400 tracking-widest text-xs sm:leading-10"
+              class="
+                leading-7
+                ml-0
+                sm:ml-4
+                text-gray-400
+                tracking-widest
+                text-xs
+                sm:leading-10
+              "
             >
               Yasuhiro Iizuka
             </p>
@@ -53,18 +92,34 @@
         <!-- Questionのフォント調査 -->
         <h3
           class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
-          style="color:#333333;"
+          style="color: #333333"
         >
           求める人物像
         </h3>
         <hr class="border-2 mt-2 mb-4" />
         <p
-          class="NotoSansJapanesee bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
+          class="
+            NotoSansJapanesee
+            bg-white
+            mt-12
+            p-5
+            font-semibold
+            tracking-widest
+            text-gray-700 text-lg
+            md:text-2xl
+          "
         >
           企業理念の実践とその一歩先へ
         </p>
         <p
-          class="my-7 text-sm tracking-wider leading-8 lg:leading-7 text-gray-600"
+          class="
+            my-7
+            text-sm
+            tracking-wider
+            leading-8
+            lg:leading-7
+            text-gray-600
+          "
         >
           当社で働くにあたって、その根底にあるのは企業理念の実践です。企業理念にある、
           「お客様にとって、なくてはならない存在。それが私たちの誇りです」、「誰よりもお客様の近くで、
@@ -81,18 +136,34 @@
         <!-- Questionのフォント調査 -->
         <h3
           class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
-          style="color:#333333;"
+          style="color: #333333"
         >
           人事部長として心がけていること
         </h3>
         <hr class="border-2 mt-2 mb-4" />
         <p
-          class="NotoSansJapanesee bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
+          class="
+            NotoSansJapanesee
+            bg-white
+            mt-12
+            p-5
+            font-semibold
+            tracking-widest
+            text-gray-700 text-lg
+            md:text-2xl
+          "
         >
           「人材」を「人財」へと進化させていくために
         </p>
         <p
-          class="my-7 text-sm tracking-wider leading-8 lg:leading-7 text-gray-600"
+          class="
+            my-7
+            text-sm
+            tracking-wider
+            leading-8
+            lg:leading-7
+            text-gray-600
+          "
         >
           普段から心がけているのは、「否定をしないこと」と「メンバーの様子に気を配ること」。共に働く仲間とその
           一人ひとりが持つ熱意を大切にしたい......。人事部長として、それぞれの個性を活かし、尊重する人材育成を行って
@@ -106,18 +177,34 @@
         <!-- Questionのフォント調査 -->
         <h3
           class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
-          style="color:#333333;"
+          style="color: #333333"
         >
           応募者へのメッセージ
         </h3>
         <hr class="border-2 mt-2 mb-4" />
         <p
-          class="NotoSansJapanesee bg-white mt-12 p-5 font-semibold tracking-widest text-gray-700 text-lg md:text-2xl"
+          class="
+            NotoSansJapanesee
+            bg-white
+            mt-12
+            p-5
+            font-semibold
+            tracking-widest
+            text-gray-700 text-lg
+            md:text-2xl
+          "
         >
           共に歩み、成長する、未来へ向かって
         </p>
         <p
-          class="my-7 text-sm tracking-wider leading-8 lg:leading-7 text-gray-600"
+          class="
+            my-7
+            text-sm
+            tracking-wider
+            leading-8
+            lg:leading-7
+            text-gray-600
+          "
         >
           ご存知の通り、百貨店業界を取り巻く環境は決して楽観できるものではなく、構造改革や新たな事業モデル構築の
           動きが加速しています。そうした不透明な状況下でも、当社は「融合型リテーラー（多事業戦略）」の実現に向け、
@@ -130,7 +217,8 @@
         </p>
         <p class="text-sm">
           <small class="text-gray-600">
-            *DX: Digital Transformationの略。デジタル技術を浸透させることで人々の生活をより良いものへと変革すること。<br />また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
+            *DX: Digital
+            Transformationの略。デジタル技術を浸透させることで人々の生活をより良いものへと変革すること。<br />また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
           </small>
         </p>
       </section>
@@ -155,22 +243,21 @@
   </div>
 </template>
 
-<script>
-import Sidebar from "../components/Sidebar.vue";
-
-export default {
-  name: "Greeting",
-  components: {
-    Sidebar,
-  },
-};
-</script>
 
 <style>
 @import "../assets/style/style.css";
 
+.greeting {
+  background-color: #f8f8f8;
+  padding: 40px 0 80px;
+}
+.greeting .greeting-contents {
+  max-width: 728px;
+  margin: auto;
+}
+
 .section-title-theme {
-  color: #16344F;
+  color: #16344f;
   font-family: Brandon Grotesque;
   font-weight: bold;
 }
@@ -193,7 +280,7 @@ p {
   font-family: "Noto Sans Japanese";
   font-weight: 500;
 }
-.NotoSansJapanesee{
+.NotoSansJapanesee {
   font-family: "Noto Sans Japanese";
 }
 </style>

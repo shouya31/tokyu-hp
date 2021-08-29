@@ -16,11 +16,24 @@
             class="text-2xl text-white tracking-widest"
             style="font-size: 20px"
           >
-            <img src="@/assets/images/side-entry-btn.png" alt="" />
+            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
           </p>
         </button>
       </div>
     </header>
+    <section class="page-top mx-auto">
+      <div class="sub-pagetitle">
+        <img
+          src="@/assets/images/people-title.svg"
+          alt="共に歩む×PEOPLE"
+          class="lg:w-full"
+        />
+      </div>
+      <div class="current-nav">
+        <p>キャリアフィールド</p>
+      </div>
+    </section>
+
     <div class="careerfield overflow-hidden">
       <section class="careerfield-contents mx-auto">
         <div>
@@ -90,37 +103,12 @@
 </template>
 
 <style>
-/* 新デザインヘッダー */
 
-header {
-  margin: 0 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 122px;
-}
-.header-nav-wrapper {
-  width: 200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-@media screen and (max-width: 640px) {
-  header {
-    height: 80px;
-    margin: 0 10px;
-  }
-  .header-nav-wrapper {
-    width: 160px;
-    height: 60px;
-  }
-}
-
-/* 新デザインヘッダーここまで */
 
 .careerfield {
   background-color: #add6d4;
   padding: 80px 0 240px;
+  margin-top: 40px;
 }
 .careerfield .careerfield-contentss {
   max-width: 728px;

@@ -182,3 +182,68 @@ hr {
     height: 80%;
   }
 }
+
+
+
+/* 新デザインヘッダー */
+
+header {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 122px;
+}
+.header-nav-wrapper {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-top {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-pagetitle {
+  width: 360px;
+}
+.current-nav {
+  width: 204px;
+  height: 35px;
+  border: solid 1px #707070;
+  text-align: center;
+}
+.current-nav p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 35px!important;
+}
+@media screen and (max-width: 740px) {
+  .page-top .sub-pagetitle {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    height: 80px;
+    margin: 0 10px;
+  }
+  .page-top {
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .header-nav-wrapper {
+    width: 160px;
+    height: 60px;
+  }
+  .sub-pagetitle {
+    margin-bottom: 10px;
+  }
+}
+
+/* 新デザインヘッダーここまで */

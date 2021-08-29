@@ -1,29 +1,50 @@
 <template>
   <div class="faq overflow-hidden">
-    <section class="">
-      <div class="flex justify-between">
-        <div class="">
-          <div class="relative lg:right-12">
-            <img
-              src="@/assets/images/recruit-title.png"
-              alt=""
-              class="lg:w-full people-logo-sp"
-            />
-          </div>
-        </div>
-        <div class="current-nav">
-          <p>FAQ</p>
-        </div>
-      </div>
-      <h2 class="mx-auto">
+    <header>
+      <h1>
         <img
-          src="@/assets/images/faq-title.png"
-          alt="Frequently Asked Questions"
+          src="@/assets/images/header-logo.svg"
+          alt="東急百貨店のリクルートサイト"
         />
-      </h2>
+      </h1>
+      <div class="header-nav-wrapper">
+        <div v-on:click="menuOpenOrClose" class="menu">
+          <img src="@/assets/images/open-btn.png" alt="" srcset="" />
+        </div>
+        <button style="background: #003366">
+          <p
+            class="text-2xl text-white tracking-widest"
+            style="font-size: 20px"
+          >
+            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+          </p>
+        </button>
+      </div>
+    </header>
+    <section class="page-top mx-auto">
+      <div class="sub-pagetitle">
+        <img
+          src="@/assets/images/recruit-title.svg"
+          alt="共に歩む×RECRUIT"
+          class="lg:w-full"
+        />
+      </div>
+      <div class="current-nav">
+        <p>FAQ</p>
+      </div>
     </section>
 
     <section class="faq-contents mx-auto">
+      <h2 class="mx-auto">
+        <img
+          src="@/assets/images/faq-title.png"
+          srcset="
+            @/assets/images/faq-title.png 1x,
+            @/assets/images/faq-title.png 2x
+          "
+          alt="Frequently Asked Questions"
+        />
+      </h2>
       <h3 class="text-center">採用・配属について</h3>
       <div class="">
         <dl class="listQA">
@@ -116,20 +137,14 @@
   font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 0.07em;
 }
-
-.current-nav {
-  width: 204px;
-  height: 35px;
-  border: solid 1px #707070;
-  text-align: center;
-  line-height: 35px;
-  font-weight: bold;
-  margin-right: 86px;
-}
 .faq h2 {
-  width: fit-content;
   margin-top: 105px;
 }
+
+.faq h2 img {
+  width: 100%;
+}
+
 .faq h3 {
   margin-top: 70px;
   margin-bottom: 65px;
@@ -165,7 +180,7 @@
   width: 18px;
   height: 18px;
   transform: rotate(45deg);
-  transition: .3s;
+  transition: 0.3s;
   position: absolute;
   top: 0;
   right: 1%;
@@ -176,7 +191,7 @@
   border-right: none;
   width: 22px;
   transform: rotate(360deg);
-  transition: .3s;
+  transition: 0.3s;
   position: absolute;
   top: 0;
   right: 1%;
@@ -188,11 +203,16 @@
   display: none;
 }
 
+@media screen and (max-width: 800px) {
+  .faq .faq-contents {
+    max-width: 90%;
+  }
+}
 
 @media screen and (max-width: 640px) {
-.faq .listQA dt {
-  padding-right: 30px;
-}
+  .faq .listQA dt {
+    padding-right: 30px;
+  }
 }
 </style>
 
@@ -201,7 +221,7 @@
 
 
 <script>
-import $ from 'jquery';
+import $ from "jquery";
 
 export default {
   mounted: function () {

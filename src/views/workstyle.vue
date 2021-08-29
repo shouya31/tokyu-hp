@@ -1,19 +1,36 @@
 <template>
   <div class="workstyle overflow-hidden">
-    <section>
-      <div class="flex justify-between">
-        <div class="">
-          <div class="relative lg:right-12">
-            <img
-              src="@/assets/images/recruit-title.png"
-              alt=""
-              class="lg:w-full people-logo-sp"
-            />
-          </div>
+    <header>
+      <h1>
+        <img
+          src="@/assets/images/header-logo.svg"
+          alt="東急百貨店のリクルートサイト"
+        />
+      </h1>
+      <div class="header-nav-wrapper">
+        <div v-on:click="menuOpenOrClose" class="menu">
+          <img src="@/assets/images/open-btn.png" alt="" srcset="" />
         </div>
-        <div class="current-nav">
-          <p>働き方について</p>
-        </div>
+        <button style="background: #003366">
+          <p
+            class="text-2xl text-white tracking-widest"
+            style="font-size: 20px"
+          >
+            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+          </p>
+        </button>
+      </div>
+    </header>
+    <section class="page-top mx-auto">
+      <div class="sub-pagetitle">
+        <img
+          src="@/assets/images/recruit-title.svg"
+          alt="共に歩む×RECRUIT"
+          class="lg:w-full"
+        />
+      </div>
+      <div class="current-nav">
+        <p>働き方について</p>
       </div>
     </section>
     <section class="workstyle mx-auto">
@@ -29,8 +46,11 @@
           <dd>週休2日（交替制）・年間休日116日</dd>
           <dt>有給休暇</dt>
           <dd>
-            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br class="pc-br">
-            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇 他
+            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br
+              class="pc-br"
+            />
+            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇
+            他
           </dd>
           <dt>無給休暇</dt>
           <dd>
@@ -50,8 +70,11 @@
           <dd>週休2日（交替制）・年間休日116日</dd>
           <dt>有給休暇</dt>
           <dd>
-            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br class="pc-br">
-            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇 他
+            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br
+              class="pc-br"
+            />
+            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇
+            他
           </dd>
           <dt>無給休暇</dt>
           <dd>
@@ -71,8 +94,11 @@
           <dd>週休2日（交替制）・年間休日116日</dd>
           <dt>有給休暇</dt>
           <dd>
-            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br class="pc-br">
-            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇 他
+            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br
+              class="pc-br"
+            />
+            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇
+            他
           </dd>
           <dt>無給休暇</dt>
           <dd>
@@ -121,15 +147,7 @@
   letter-spacing: 0.07em;
   line-height: 180%;
 }
-.current-nav {
-  width: 204px;
-  height: 35px;
-  border: solid 1px #707070;
-  text-align: center;
-  line-height: 35px;
-  font-weight: bold;
-  margin-right: 86px;
-}
+
 .workstyle h2 {
   width: fit-content;
   margin-top: 105px;
@@ -173,13 +191,14 @@
   padding-bottom: 80px;
 }
 @media screen and (max-width: 800px) {
-  .workstyle .workstyle-contents,.workstyle-heading {
+  .workstyle .workstyle-contents,
+  .workstyle-heading {
     max-width: 90%;
   }
-@media screen and (max-width: 559px) {
-  .workstyle.workstyle dl {
-    flex-flow: column;
+  @media screen and (max-width: 559px) {
+    .workstyle.workstyle dl {
+      flex-flow: column;
+    }
   }
-}
 }
 </style>

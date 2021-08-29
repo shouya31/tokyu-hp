@@ -24,7 +24,7 @@
       <h3 class="text-center">採用・配属について</h3>
       <div class="">
         <dl class="listQA">
-          <dt>
+          <dt class="question">
             <p>どのような人材を求めていますか?</p>
           </dt>
           <dd>
@@ -32,7 +32,7 @@
           </dd>
         </dl>
         <dl class="listQA">
-          <dt>
+          <dt id="question">
             <p>選考ステップを教えてください。</p>
           </dt>
           <dd>
@@ -40,7 +40,7 @@
           </dd>
         </dl>
         <dl class="listQA">
-          <dt>
+          <dt id="question">
             <p>入社前に必要な技能や資格があれば教えてください。</p>
           </dt>
           <dd>
@@ -48,7 +48,7 @@
           </dd>
         </dl>
         <dl class="listQA">
-          <dt>
+          <dt id="question">
             <p>地域別の採用は行っていますか?</p>
           </dt>
           <dd>
@@ -57,7 +57,7 @@
           </dd>
         </dl>
         <dl class="listQA">
-          <dt>
+          <dt id="question">
             <p>短期大学、専門学校卒の採用は行っていますか?</p>
           </dt>
           <dd>
@@ -65,7 +65,7 @@
           </dd>
         </dl>
         <dl class="listQA">
-          <dt>
+          <dt id="question">
             <p>入社後の配属について教えてください。</p>
           </dt>
           <dd>
@@ -149,21 +149,44 @@
   border-bottom: solid 1px #1E344D;
   width: 22px;
   position: absolute;
+  top: 10px;
   right: 1%;
+  transition: .3s;
 }
-/* .faq .listQA dt::after {
+.faq .listQA dt.active::after {
   content: "";
   border-bottom: solid 1px #1E344D;
   border-right: solid 1px #1E344D;
   width: 18px;
   height: 18px;
-  transform: rotate(45deg);
+  transform: rotate(405deg);
   position: absolute;
+  top: -6px;
   right: 1%;
-} */
+  transition: .3s;
+}
+
 .faq .listQA dd {
   font-size: 14px;
   font-weight: normal;
+  opacity: 0;
+  transition: .3s;
+}
+.faq .listQA dd.open {
+  opacity: 1;
+  transition: .3s;
 }
 </style>
 
+
+// <script>
+// window.addEventListener("load", () => {
+// // スライドさせたい要素を取得
+// const el = document.querySelector('.listQA dd');
+// // ボタン
+// const slideToggleBtn = document.getElementById('question');
+// slideToggleBtn.addEventListener("click", () => {
+//   slideToggle(el, 300);
+// });
+// })
+</script>

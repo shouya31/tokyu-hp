@@ -11,14 +11,14 @@
         <div v-on:click="menuOpenOrClose" class="menu">
           <img src="@/assets/images/open-btn.png" alt="" srcset="" />
         </div>
-          <button style="background: #003366">
-            <p
-              class="text-2xl text-white tracking-widest"
-              style="font-size: 20px"
-            >
-              <img src="@/assets/images/side-entry-btn.png" alt="" />
-            </p>
-          </button>
+        <button style="background: #003366">
+          <p
+            class="text-2xl text-white tracking-widest"
+            style="font-size: 20px"
+          >
+            <img src="@/assets/images/side-entry-btn.png" alt="" />
+          </p>
+        </button>
       </div>
     </header>
     <div class="careerfield overflow-hidden">
@@ -100,10 +100,20 @@ header {
   height: 122px;
 }
 .header-nav-wrapper {
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 640px) {
+  header {
+    height: 80px;
+    margin: 0 10px;
+  }
+  .header-nav-wrapper {
+    width: 160px;
+    height: 60px;
+  }
 }
 
 /* 新デザインヘッダーここまで */

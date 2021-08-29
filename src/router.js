@@ -11,6 +11,7 @@ import FAQPage from './views/faq.vue'
 import RecruitPage from './views/recruit.vue'
 import WorkstylePage from './views/workstyle.vue'
 import VisionPage from './views/vision.vue'
+import CareerfieldPage from './views/careerfield.vue'
 
 const routes = [
   {path: '/', component: Home}, 
@@ -25,6 +26,7 @@ const routes = [
   {path: '/recruit', component: RecruitPage}, 
   {path: '/vision', component: VisionPage}, 
   {path: '/workstyle', component: WorkstylePage}, 
+  {path: '/careerfield', component: CareerfieldPage}, 
 
 ];
 

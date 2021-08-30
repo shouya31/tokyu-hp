@@ -1,6 +1,6 @@
 <template>
   <div class="vision overflow-hidden">
-        <header>
+    <header>
       <h1>
         <img
           src="@/assets/images/header-logo.svg"
@@ -11,12 +11,18 @@
         <div v-on:click="menuOpenOrClose" class="menu">
           <img src="@/assets/images/open-btn.png" alt="" srcset="" />
         </div>
-        <button style="background: #003366">
+        <button>
           <p
             class="text-2xl text-white tracking-widest"
             style="font-size: 20px"
           >
-            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+            <a
+              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+            </a>
           </p>
         </button>
       </div>
@@ -71,7 +77,7 @@
           <img
             src="@/assets/images/vision-title_vision.png"
             srcset="
-              @/assets/images/vision-title_vision.png 1x,
+              @/assets/images/vision-title_vision.png    1x,
               @/assets/images/vision-title_vision@2x.png 2x
             "
             alt="VISON"
@@ -94,7 +100,7 @@
           <img
             src="@/assets/images/vision-title_slogan.png"
             srcset="
-              @/assets/images/vision-title_slogan.png 1x,
+              @/assets/images/vision-title_slogan.png    1x,
               @/assets/images/vision-title_slogan@2x.png 2x
             "
             alt="VISON"
@@ -102,13 +108,13 @@
           />
         </h4>
         <p class="sub-title text-center">
-          ビジョンを実現するための<br class="sp-br">私たちの合言葉
+          ビジョンを実現するための<br class="sp-br" />私たちの合言葉
         </p>
         <p class="text-box mx-auto hugeveryone">
           <img
             src="@/assets/images/vision-hugeveryone.png"
             srcset="
-              @/assets/images/vision-hugeveryone.png 1x,
+              @/assets/images/vision-hugeveryone.png    1x,
               @/assets/images/vision-hugeveryone@2x.png 2x
             "
             alt="hug everyone."
@@ -124,14 +130,16 @@
         <ul class="credo-list text-center">
           <li>
             <p>
-              <span>お客様とhug</span> 誰よりも深くお客様のことを想い、<br class="sp-br">
+              <span>お客様とhug</span> 誰よりも深くお客様のことを想い、<br
+                class="sp-br"
+              />
               情熱と感性で、 その声にお応えしよう。
             </p>
           </li>
           <li>
             <p>
               <span>働く仲間とhug</span>
-              つねに新しいチャレンジを続けながら、<br class="sp-br">
+              つねに新しいチャレンジを続けながら、<br class="sp-br" />
               互いを尊敬し、高め合える存在であろう。
             </p>
           </li>
@@ -144,14 +152,14 @@
           <li>
             <p>
               <span>社会とhug</span>
-              清らかで豊かな心を持って、社会と向き合い、<br class="sp-br">
+              清らかで豊かな心を持って、社会と向き合い、<br class="sp-br" />
               行動する人間であろう。
             </p>
           </li>
           <li>
             <p>
               <span>株主とhug</span>
-              支援や激励をいただく皆様に誠意を尽くし、<br class="sp-br">
+              支援や激励をいただく皆様に誠意を尽くし、<br class="sp-br" />
               実りある実績でお応えしよう。
             </p>
           </li>
@@ -176,7 +184,7 @@
         </p>
       </div>
     </section>
-        <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
+    <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img
           src="@/assets/images/footer-logo.png"
@@ -263,7 +271,10 @@
   right: -200px;
   background: url(../assets/images/vision-now_future.png) no-repeat
     center/contain;
-  background-image: image-set(url(../assets/images/vision-now_future.png) 1x, url(../assets/images/vision-now_future@2x.png) 2x);
+  background-image: image-set(
+    url(../assets/images/vision-now_future.png) 1x,
+    url(../assets/images/vision-now_future@2x.png) 2x
+  );
 }
 .vision .bg-gray {
   background-color: #f8f8f8;
@@ -346,7 +357,10 @@
   height: 30px;
   background: url(../assets/images/vision-POSITIONING.png) no-repeat
     center/contain;
-    background-image: image-set(url(../assets/images/vision-POSITIONING.png) 1x, url(../assets/images/vision-POSITIONING@2x.png) 2x);
+  background-image: image-set(
+    url(../assets/images/vision-POSITIONING.png) 1x,
+    url(../assets/images/vision-POSITIONING@2x.png) 2x
+  );
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -387,15 +401,18 @@
     width: 100%;
     flex-direction: column;
   }
-  .now-textbox .sub-title, .future-textbox .sub-title {
+  .now-textbox .sub-title,
+  .future-textbox .sub-title {
     -ms-writing-mode: initial;
     writing-mode: initial;
     margin-top: 0;
   }
-  .future-textbox .sub-title,.future-textbox p {
+  .future-textbox .sub-title,
+  .future-textbox p {
     margin-left: auto;
   }
-  .now-textbox p, .future-textbox p {
+  .now-textbox p,
+  .future-textbox p {
     width: 100%;
     max-width: 350px;
   }
@@ -403,13 +420,16 @@
     margin-bottom: 180px;
   }
   .future-textbox::after {
-  width: 348px;
-  height: 642px;
-  bottom: 410px;
-  right: -10px;
-  background: url(../assets/images/vision-now_future_sp.png) no-repeat
-    center/contain;
-    background-image: image-set(url(../assets/images/vision-now_future_sp.png) 1x, url(../assets/images/vision-now_future_sp@2x.png) 2x);
+    width: 348px;
+    height: 642px;
+    bottom: 410px;
+    right: -10px;
+    background: url(../assets/images/vision-now_future_sp.png) no-repeat
+      center/contain;
+    background-image: image-set(
+      url(../assets/images/vision-now_future_sp.png) 1x,
+      url(../assets/images/vision-now_future_sp@2x.png) 2x
+    );
   }
   .philosophy h3 {
     margin-bottom: 80px;
@@ -431,6 +451,5 @@
   .hugeveryone img {
     width: 80%;
   }
-
 }
 </style>

@@ -11,12 +11,18 @@
         <div v-on:click="menuOpenOrClose" class="menu">
           <img src="@/assets/images/open-btn.png" alt="" srcset="" />
         </div>
-        <button style="background: #003366">
+        <button>
           <p
             class="text-2xl text-white tracking-widest"
             style="font-size: 20px"
           >
-            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+            <a
+              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+            </a>
           </p>
         </button>
       </div>

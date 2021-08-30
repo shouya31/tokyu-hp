@@ -11,12 +11,18 @@
         <div v-on:click="menuOpenOrClose" class="menu">
           <img src="@/assets/images/open-btn.png" alt="" srcset="" />
         </div>
-        <button style="background: #003366">
+        <button>
           <p
             class="text-2xl text-white tracking-widest"
             style="font-size: 20px"
           >
-            <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+            <a
+              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+            </a>
           </p>
         </button>
       </div>
@@ -37,7 +43,14 @@
     <div class="careerfield overflow-hidden">
       <section class="careerfield-contents mx-auto">
         <div>
-          <img src="@/assets/images/careerfield-title.png" alt="CAREER FIELD" />
+          <img
+            src="@/assets/images/careerfield-title.png"
+            srcset="
+              @/assets/images/careerfield-title.png    1x,
+              @/assets/images/careerfield-title@2x.png 2x
+            "
+            alt="CAREER FIELD"
+          />
         </div>
         <h2>キャリアフィールド</h2>
         <p>東急百貨店には多種多様な仕事があります。</p>
@@ -103,8 +116,6 @@
 </template>
 
 <style>
-
-
 .careerfield {
   background-color: #add6d4;
   padding: 80px 0 240px;

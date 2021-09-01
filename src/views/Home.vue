@@ -20,6 +20,7 @@
         <Explain />
         <Vision />
         <People />
+        <Project />
         <Entry />
       </div>
     </div>
@@ -33,6 +34,7 @@ import Fv from "../components/home/fv.vue";
 import Explain from "../components/home/explain.vue";
 import Vision from "../components/home/vision.vue";
 import People from "../components/home/people.vue";
+import Project from "../components/home/project.vue";
 import Entry from "../components/home/entry.vue";
 import Footer from "../components/home/footer.vue";
 
@@ -46,6 +48,7 @@ export default {
     People,
     Entry,
     Footer,
+    Project
   },
   mounted: function() {
     let spinner = document.querySelector(".loader");

@@ -5,9 +5,15 @@
         <HomeSectionTitle :image="titleimage" />
         <div class="flex justify-between p-10">
           <HomeSectionImage :image="homeimage" />
-          <HomeSectionText
-            text="テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト"
-          />
+          <div class="vision-left-content w-5/12 m-10">
+            <p class="sentence-more text-center mt-12">
+              <img
+                src="../../assets/images/read-more.png"
+                alt=""
+                class="mx-auto"
+              />
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -36,19 +42,17 @@
 <script>
 import HomeSectionTitle from "../../components/atom/HomeSectionTitle.vue";
 import HomeSectionImage from "../../components/atom/HomeSectionImage.vue";
-import HomeSectionText from "../../components/atom/HomeSectionText.vue";
 
 export default {
   name: "Project",
   components: {
     HomeSectionTitle,
     HomeSectionImage,
-    HomeSectionText,
   },
   data() {
     return {
-      homeimage: require("@/assets/images/home-project.png"),
-      titleimage: require("@/assets/images/top-project.png"),
+      homeimage: require("@/assets/images/greeting.png"),
+      titleimage: require("@/assets/images/RECRUIT_title@2x.png"),
     };
   },
 };

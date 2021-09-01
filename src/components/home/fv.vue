@@ -27,9 +27,9 @@
         </div>
         <div class="fv-right-content absolute right-0">
           <div class="flex justify-end m-10">
-            <a href="/people/2">
+            <a href="/people/3">
               <img
-                src="../../assets/images/home-fv2.png"
+                src="../../assets/images/home-fv3.png"
                 alt=""
                 class=" w-3/12 fv-person-animation2"
                 style="top: 170px;left: 65px; width: 13vw; z-index:-2;;"
@@ -44,9 +44,9 @@
               />
             </a>
 
-            <a href="/people/3">
+            <a href="/people/6">
               <img
-                src="../../assets/images/home-fv3.png"
+                src="../../assets/images/home-fv6.png"
                 alt=""
                 class=" w-3/12 fv-person-animation3"
                 style="bottom: -280px; width: 13vw; z-index:-2;;"
@@ -54,16 +54,16 @@
             </a>
           </div>
           <div class="flex justify-end mt-96">
-            <a href="/people/5">
+            <a href="/people/2">
               <img
-                src="../../assets/images/home-fv5.png"
+                src="../../assets/images/home-fv2.png"
                 alt=""
                 class=" w-3/12 fv-person-animation5"
                 style="top: 280px;left: 65px; width: 13vw; z-index:-2;;"
               />
             </a>
 
-            <a href="/people/4">
+            <a href="/people/5">
               <img
                 src="../../assets/images/home-fv4.png"
                 alt=""
@@ -72,9 +72,9 @@
               />
             </a>
 
-            <a href="/people/6">
+            <a href="/people/4">
               <img
-                src="../../assets/images/home-fv6.png"
+                src="../../assets/images/home-fv5.png"
                 alt=""
                 class=" w-3/12 fv-person-animation6"
                 style="bottom: -420px; width: 13vw; z-index:-2;;"

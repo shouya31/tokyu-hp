@@ -34,7 +34,7 @@
                 </p>
                 <ul>
                   <li class="menu-list">> トップインタビュー</li>
-                  <li class="menu-list">> XXXXXXXXXXXX</li>
+                  <li class="menu-list">> ビジョンについて</li>
                   <li class="menu-list">> キーワードで知る</li>
                 </ul>
               </div>

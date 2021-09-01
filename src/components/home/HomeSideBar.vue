@@ -165,7 +165,7 @@
           v-on:mouseleave="mouseleaveRecruit"
           class="menu-context-title tracking-wider font-BrandonGrotesque"
         >
-          <a href="#" style="color:gray;"
+          <a href="/#recruit" style="color:gray;"
             ><img :src="recruitText" alt=""
           /></a>
         </li>

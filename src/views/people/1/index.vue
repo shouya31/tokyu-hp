@@ -1,372 +1,489 @@
 <template>
-  <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
-    <sidebar></sidebar>
-    <header class="lg:hidden fixed w-full" style="z-index:999999999;">
-      <div class="pl-5 flex justify-between">
-        <div class="py-3">
-          <a href="#" class=""
-            ><img
-              src="@/assets/images/tokyu-logo.png"
-              alt="東急百貨店"
-              width="140"
-          /></a>
+  <div>
+    <header>
+      <h1>
+        <img
+          src="@/assets/images/header-logo.svg"
+          alt="東急百貨店のリクルートサイト"
+        />
+      </h1>
+      <div class="header-nav-wrapper">
+        <div v-on:click="menuOpenOrClose" class="menu">
+          <img src="@/assets/images/open-btn.png" alt="" srcset="" />
         </div>
-        <div class="menu p-5">
-          <p><span style="width: 40px;"></span></p>
-          <p><span style="width: 40px;"></span></p>
-        </div>
+        <button>
+          <p
+            class="text-2xl text-white tracking-widest"
+            style="font-size: 20px"
+          >
+            <a
+              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+            </a>
+          </p>
+        </button>
       </div>
     </header>
-    <section class="hero col-span-12 col-start-3 lg:flex justify-around mt-10">
-      <div class="left-content">
-        <div class="relative lg:right-12">
-          <img
-            src="@/assets/images/people-title.png"
-            alt=""
-            class="lg:w-full people-logo-sp"
-          />
+    <section class="page-top mx-auto">
+      <div class="sub-pagetitle">
+        <img
+          src="@/assets/images/recruit-title.svg"
+          alt="共に歩む×RECRUIT"
+          class="lg:w-full"
+        />
+      </div>
+      <div class="current-nav">
+        <p>FAQ</p>
+      </div>
+    </section>
+    <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
+      <section
+        class="hero col-span-12 col-start-2 lg:flex justify-around mt-10"
+      >
+        <div class="left-content">
+          <div class="relative lg:right-12">
+            <img
+              src="@/assets/images/people-title.png"
+              alt=""
+              class="lg:w-full people-logo-sp"
+            />
+          </div>
+          <div class="lg:mt-20 lg:mb-10 tracking-wide">
+            <img
+              src="@/assets/images/person1.png"
+              class="pt-0 lg:hidden people-main-sp"
+              width="450"
+              height="800"
+              alt="people1"
+            />
+            <p class="main-catch-font">未来の自分を</p>
+            <p class="main-catch-font">見つめていたい</p>
+          </div>
+
+          <div class="message">
+            <p class="sub-catch-font tracking-widest mb-3">
+              不安やリスクを感じる仕事も
+            </p>
+            <p class="sub-catch-font tracking-widest mb-3">
+              チャンスと捉え、前向きでありたい
+            </p>
+            <p class="sub-catch-font tracking-widest mb-3">
+              様々な経験を積み重ねた先に
+            </p>
+            <p class="sub-catch-font tracking-widest mb-3">
+              明るく微笑む自分がいる
+            </p>
+          </div>
+          <ul class="employee-box lg:mt-16">
+            <li>
+              <p class="people-name tracking-widest">
+                船田 あかり<span class="people-kana tracking-widest lg:ml-5"
+                  >Akari Funada</span
+                >
+              </p>
+            </li>
+            <li>
+              <p class="people-info mt-3 tracking-wide">
+                たまプラーザ店<span class="lg:ml-3">営業統括部</span
+                ><span class="mx-2 lg:mx-3">/</span>2018年 入社<br />
+                経済学部 会計ファイナンス学科 卒
+              </p>
+            </li>
+          </ul>
         </div>
-        <div class="lg:mt-20 lg:mb-10 tracking-wide">
+        <div class="people-image mt-5 hidden lg:block">
           <img
             src="@/assets/images/person1.png"
-            class="pt-0 lg:hidden people-main-sp"
             width="450"
             height="800"
             alt="people1"
           />
-          <p class="main-catch-font">
-            未来の自分を
-          </p>
-          <p class="main-catch-font">
-            見つめていたい
-          </p>
         </div>
+      </section>
 
-        <div class="message">
-          <p class="sub-catch-font tracking-widest mb-3">
-            不安やリスクを感じる仕事も
-          </p>
-          <p class="sub-catch-font tracking-widest mb-3">
-            チャンスと捉え、前向きでありたい
-          </p>
-          <p class="sub-catch-font tracking-widest mb-3">
-            様々な経験を積み重ねた先に
-          </p>
-          <p class="sub-catch-font tracking-widest mb-3">
-            明るく微笑む自分がいる
-          </p>
+      <section class="question col-span-8 col-start-2 lg:flex pt-20 xl:pt-30">
+        <div class="left-content mb-10 lg:pb-0">
+          <!-- <div class="white-box bg-white"></div> -->
+          <div class="img-box tablet-qisition-margin">
+            <img
+              src="@/assets/images/person1-2.png"
+              class="lg:pr-10 lg:pr-16 people-sp-image"
+              alt="persion2"
+            />
+          </div>
+          <!-- <div class="blue-box"></div> -->
         </div>
-        <ul class="employee-box lg:mt-16">
-          <li>
-            <p class="people-name tracking-widest">
-              船田 あかり<span class="people-kana tracking-widest lg:ml-5"
-                >Akari Funada</span
-              >
-            </p>
-          </li>
-          <li>
-            <p class="people-info mt-3 tracking-wide">
-              たまプラーザ店<span class="lg:ml-3">営業統括部</span
-              ><span class="mx-2 lg:mx-3">/</span> 2018年 入社
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="people-image mt-5 hidden lg:block">
-        <img
-          src="@/assets/images/person1.png"
-          width="450"
-          height="800"
-          alt="people1"
-        />
-      </div>
-    </section>
-
-    <section class="question col-span-8 col-start-3 lg:flex pt-20 xl:pt-30">
-      <div class="left-content mb-10 lg:pb-0">
-        <!-- <div class="white-box bg-white"></div> -->
-        <div class="img-box tablet-qisition-margin">
-          <img
-            src="@/assets/images/person1-2.png"
-            class="lg:pr-10 lg:pr-16 people-sp-image"
-            alt="persion2"
-          />
-        </div>
-        <!-- <div class="blue-box"></div> -->
-      </div>
-      <div
-        class="question-right-content text-center question-vertical mx-auto lg:mt-0 lg:mb-8"
-      >
-        <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
-        </div>
-        <div class="question-box">
-          <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            東急百貨店を
-          </p>
-          <p class="question-section-title">
-            志望した理由
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section
-      class="answer w-screen md:col-span-12 md:col-start-3 md:w-3/5 mx-auto pt-4 lg:pb-0  px-4 md:pl-0 md:pr-5"
-    >
-      <h4
-        class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
-      >
-        <span class="py-1 px-4 mr-2 font-thin answer-font">A</span
-        >心に寄り添う社風
-      </h4>
-      <p class="answer-text tracking-widest">
-        中学、高校と演劇部に所属。観客の心に寄り添い、感動を届ける演技の魅力に惹かれていました。就職活動でも社員同士が協力し合い、最良のサービスを通じてお客様に感動を届ける百貨店の仕事に共通点を見出し、志望しました。東急百貨店の面接では、採用担当の方がこれまで歩んできた人生にまで興味を抱き、質問してくださるなど距離の近さを実感。企業理念の体現を肌で感じたことで、お客様の心に触れる仕事ができると確信しました。
-      </p>
-    </section>
-
-    <section
-      class="question col-span-12 col-start-3 md:flex lg:pr-5 lg:mt-28 justify-center"
-    >
-      <div class="question-right-content question-vertical">
-        <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
-        </div>
-        <div class="question-box mx-auto">
-          <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            現在の
-          </p>
-          <p class="question-section-title">
-            仕事内容
-          </p>
-        </div>
-      </div>
-      <div
-        class="people-answer-box w-screen md:col-span-3 md:col-start-2 md:w-3/5"
-      >
-        <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
+        <div
+          class="
+            question-right-content
+            text-center
+            question-vertical
+            mx-auto
+            lg:mt-0
+            lg:mb-8
+          "
         >
-          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
-          >潜在ニーズを見つけ出す
-        </h4>
-        <div>
-          <p class="answer-text tracking-widest">
-            現在はたまプラーザ店で主に婦人靴販売を担当。本部で決定される販売計画をもとにした販売施策の策定や*VMD業務、インポートシューズの選定を行っています。販売業務では、時代の変遷に伴う流行やお客様需要の変化を瞬時に捉え、発信することが求められます。そうした変化に対応するため、入社3年目からSNSを通じた商品情報の発信に注力。投稿を見たお客様に足を運んでいただけた際は、仕事のモチベーション向上につながります。
-          </p>
-
-          <div class="text-xs lg:text-sm mt-7 text-gray-600">
-            <p class="answer-attention">*VMD:</p>
-            <p class="answer-attention">
-              DVisual Merchandisingの略。<br />
-              視覚を利用して、そのブランドの価値や購買意欲を引き出すマーケティング手法のこと。見やすく、買いやすい売場づくりを目的に行われる。
+          <div class="loupe-img inline-block relative left-32">
+            <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          </div>
+          <div class="question-box">
+            <p class="text-xs text-right question-logo">
+              <span>Question</span>
             </p>
+            <p class="question-section-title">東急百貨店を</p>
+            <p class="question-section-title">志望した理由</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section
-      class="question col-span-8 col-start-3 lg:mt-20 lg:flex lg:pt-10 px-5 xl:pt-30"
-    >
-      <div class="left-content mb-10 lg:pb-0">
-        <!-- <div class="white-box bg-white"></div> -->
-        <div class="img-box tablet-qisition-margin">
-          <img
-            src="@/assets/images/person1-3.png"
-            class="lg:pr-10 lg:pr-16"
-            alt="persion3"
-          />
-        </div>
-        <!-- <div class="blue-box"></div> -->
-      </div>
-      <div
-        class="question-right-content right-content text-center question-vertical mx-auto lg:pl-16"
+      <section
+        class="
+          answer
+          w-screen
+          md:col-span-12 md:col-start-2
+          md:w-3/5
+          mx-auto
+          pt-4
+          lg:pb-0
+          px-4
+          md:pl-0
+          md:pr-5
+        "
       >
-        <div
-          class="loupe-img inline-block relative left-40 tablet-qisition-margin"
-        >
-          <img
-            src="@/assets/images/question-logo.png"
-            class="relative lg:top-10 right-10"
-            alt="loupe"
-          />
-        </div>
-        <div class="question-box lg:py-16 mx-auto">
-          <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            私の
-          </p>
-          <p class="question-section-title">
-            エピソード
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section
-      class="answer w-screen md:col-span-12 md:col-start-3 md:w-3/5 mx-auto lg:pt-12 pb-5 px-4 md:pl-0 md:pr-5"
-    >
-      <h4
-        class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
-      >
-        <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
-        >工夫を続けることで見えたもの
-      </h4>
-      <p class="answer-text tracking-widest">
-        2年目の後半から売場の*VMD業務を担当。当初、講習で学んだ知識を活かして*VP作成を行っていましたが、正解がない分どうすれば売上向上につながるのかが掴めず、不安を感じていました。そこで、売場に検証シートを導入し、PDCAサイクルを実施。まず、店頭ディスプレイをどのように展開するかを計画し、作成。次に、お客様の反応をもとに改善。最後に、売れた商品数と数字の記録を行いました。その結果、どのように商品を配置すれば、お客様の興味を引き、選びやすくなるのかが分かるように。実際にお客様から「こんな素敵な商品があったのね」とお声をいただけた際は、自分の行動によって、お客様に新たな発見の場を提供できたことを嬉しく思いました。
-      </p>
-      <div class="text-xs lg:text-sm mt-7 text-gray-600">
-        <p class="answer-attention">*VP:</p>
-        <p class="answer-attention">
-          Visual Presentationの略。<br />
-          VMDの要素の一つ。その店舗・ブランドの特徴やコンセプトを表現し、お客様に印象付ける役割を持った商品展示のこと。
-        </p>
-      </div>
-    </section>
-
-    <section
-      class="question col-span-12 lg:mt-20 col-start-3 md:flex lg:pr-5 justify-center"
-    >
-      <div class="question-right-content left-content question-vertical">
-        <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
-        </div>
-        <div class="question-box mx-auto">
-          <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            これからの
-          </p>
-          <p class="question-section-title">
-            歩み
-          </p>
-        </div>
-      </div>
-      <div class="people-answer-box right-content w-screen pb-5 md:w-3/5">
         <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
+          class="
+            answer-title
+            text-lg
+            md:text-2xl
+            font-bold
+            mb-6
+            tracking-widest
+          "
         >
-          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
-          >相手の心の側に立っていたい
+          <span class="py-1 px-4 mr-2 font-thin answer-font">A</span
+          >心に寄り添う社風
         </h4>
         <p class="answer-text tracking-widest">
-          百貨店を志望した当時と変わることなく、「心に寄り添い、感動を届けられる人」になることが目標です。将来的に売場から離れることがあっても、お客様の心からは離れずにいたい。そのために、VMDやSNS業務を通じて、お客様満足度の向上や購買意欲の促進に向けたノウハウを身に付けていくこと。日々お客様と接する中で得られることも多く、そうした現場経験を大切にし、自己研鑽と東急百貨店の成長に活かしていきたいと思います。
+          中学、高校と演劇部に所属。観客の心に寄り添い、感動を届ける演技の魅力に惹かれていました。就職活動でも従業員同士が協力し合い、最良のサービスを通じてお客様に感動を届ける百貨店の仕事に共通点を見出し、志望しました。東急百貨店の面接では、採用担当者がこれまで歩んできた人生にまで興味を抱き、質問をするなど距離の近さを実感。企業理念の体現を肌で感じたことで、お客様の心に触れる仕事ができると確信しました。
         </p>
-      </div>
-    </section>
+      </section>
 
-    <section
-      class="col-span-4 lg:col-span-9 lg:col-start-3 lg:pt-10 lg:pr-5 lg:px-10"
-    >
-      <!-- コラム -->
-      <section class="">
-        <div class="inline-block relative top-16">
-          <div class="upper-content text-white text-center ">
-            <h5 class="text-4xl py-3 BrandonGrotesque">
-              <img
-                src="@/assets/images/people-column.png"
-                alt=""
-                srcset=""
-                class="w-full"
-              />
-            </h5>
+      <section
+        class="
+          question
+          col-span-12 col-start-2
+          md:flex
+          lg:pr-5
+          lg:mt-28
+          justify-center
+        "
+      >
+        <div class="question-right-content question-vertical">
+          <div class="loupe-img inline-block relative left-32">
+            <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
           </div>
-          <p class="column-subtitle">
-            「〇〇 と共に歩む」
-          </p>
+          <div class="question-box mx-auto">
+            <p class="text-xs text-right question-logo">
+              <span>Question</span>
+            </p>
+            <p class="question-section-title">現在の</p>
+            <p class="question-section-title">仕事内容</p>
+          </div>
         </div>
+        <div
+          class="
+            people-answer-box
+            w-screen
+            md:col-span-3 md:col-start-2
+            md:w-3/5
+          "
+        >
+          <h4
+            class="
+              answer-title
+              text-lg
+              md:text-2xl
+              font-bold
+              mb-6
+              tracking-widest
+              tablet-qisition-margin
+            "
+          >
+            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+              >A</span
+            >潜在ニーズを見つけ出す
+          </h4>
+          <div>
+            <p class="answer-text tracking-widest">
+              現在はたまプラーザ店で主に婦人靴販売を担当。本部で決定される販売計画をもとにした販売施策の策定や*VMD業務、インポートシューズの選定を行っています。販売業務では、時代の変遷に伴う流行やお客様需要の変化を瞬時に捉え、発信することが求められます。そうした変化に対応するため、入社3年目からSNSを通じた商品情報の発信に注力。投稿を見たお客様に足を運んでいただけた際は、仕事のモチベーション向上につながります。
+            </p>
 
-        <div class="column-content bg-white text-center pt-20">
-          <h6 class="column-title">
-            働く仲間と共に歩む
-          </h6>
-          <p class="column-text">
-            東急百貨店の行動指針にも「働く仲間とhug」「つねに新しいチャレンジを続けながら、互いを尊敬し、高め合える存在であろう」とあります。当然ながら百貨店の仕事は一人で成り立つものではなく、沢山の社員が支え合い、現在の東急百貨店があります。働く仲間と共にお客様のことを第一に考え、常に必要とされる百貨店でありたいです。
+            <div class="text-xs lg:text-sm mt-7 text-gray-600">
+              <p class="answer-attention">*VMD:</p>
+              <p class="answer-attention">
+                Visual Merchandisingの略。<br />
+                視覚を利用して、そのブランドの価値や購買意欲を引き出すマーケティング手法のこと。見やすく、買いやすい売場づくりを目的に行われる。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="
+          question
+          col-span-8 col-start-2
+          lg:mt-20
+          lg:flex
+          lg:pt-10
+          px-5
+          xl:pt-30
+        "
+      >
+        <div class="left-content mb-10 lg:pb-0">
+          <!-- <div class="white-box bg-white"></div> -->
+          <div class="img-box tablet-qisition-margin">
+            <img
+              src="@/assets/images/person1-3.png"
+              class="lg:pr-10 lg:pr-16"
+              alt="persion3"
+            />
+          </div>
+          <!-- <div class="blue-box"></div> -->
+        </div>
+        <div
+          class="
+            question-right-content
+            right-content
+            text-center
+            question-vertical
+            mx-auto
+            lg:pl-16
+          "
+        >
+          <div
+            class="
+              loupe-img
+              inline-block
+              relative
+              left-40
+              tablet-qisition-margin
+            "
+          >
+            <img
+              src="@/assets/images/question-logo.png"
+              class="relative lg:top-10 right-10"
+              alt="loupe"
+            />
+          </div>
+          <div class="question-box lg:py-16 mx-auto">
+            <p class="text-xs text-right question-logo">
+              <span>Question</span>
+            </p>
+            <p class="question-section-title">私の</p>
+            <p class="question-section-title">エピソード</p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="
+          answer
+          w-screen
+          md:col-span-12 md:col-start-2
+          md:w-3/5
+          mx-auto
+          lg:pt-12
+          pb-5
+          px-4
+          md:pl-0
+          md:pr-5
+        "
+      >
+        <h4
+          class="
+            answer-title
+            text-lg
+            md:text-2xl
+            font-bold
+            mb-6
+            tracking-widest
+          "
+        >
+          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
+          >工夫を続けることで見えたもの
+        </h4>
+        <p class="answer-text tracking-widest">
+          2年目の後半から売場のVMD業務を担当。当初、社内研修で学んだ知識を活かして*VPの編集を行っていましたが、正解がない分どうすれば売上向上につながるのかが掴めず、不安を感じていました。そこで、PDCAサイクルをベースとした検証シートを導入。まず、店頭ディスプレイをどのように展開するかを計画し、編集。次に、お客様の反応をもとに改善。最後に、商品の販売数と売上の記録を行いました。その結果、どのように商品を配置すれば、お客様の興味を引き、選びやすくなるのかが分かるように。実際にお客様から「こんな素敵な商品があったのね」とお声をいただけた際は、自分の行動によって、お客様に新たな発見の場を提供できたことを嬉しく思いました。
+        </p>
+        <div class="text-xs lg:text-sm mt-7 text-gray-600">
+          <p class="answer-attention">*VP:</p>
+          <p class="answer-attention">
+            Visual Presentationの略。<br />
+            VMDの要素の一つ。その店舗・ブランドの特徴やコンセプトを表現し、お客様に印象付ける役割を持った商品展示のこと。
           </p>
         </div>
       </section>
-      <!-- コラムここまで -->
 
-      <div class="lg:mt-32">
-        <div class="upper-content pt-8 lg:pt-0">
-          <img
-            src="@/assets/images/home-people1.png"
-            alt="people4"
-            class="home-person w-full"
-          />
-        </div>
-        <div class=" mt-8">
-          <ul class="md:flex xl:mt-14 profile">
-            <li class="profile-title">
-              <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
-                <img
-                  src="@/assets/images/people-profile.png"
-                  alt=""
-                  srcset=""
-                />
-              </p>
-            </li>
-            <li class="md:ml-32 pt-7 lg:pt-0 pl-5 md:pl-0">
-              <p class="people-name tracking-widest">
-                船田 あかり
-              </p>
-              <p class="people-kana mt-3 tracking-widest">
-                Akari Funada
-              </p>
-            </li>
-
-            <li class="md:ml-12 people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
-              <p>たまプラーザ店 営業統括部</p>
-              <p class="py-4">2018年 入社</p>
-              <p>経済学部 会計ファイナンス学科 卒</p>
-            </li>
-          </ul>
-          <div
-            class="pagination flex justify-center w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
-          >
-            <a href="2"
-              ><img src="@/assets/images/next.png" alt="" class="ml-2 pagination-img"
-            /></a>
+      <section
+        class="
+          question
+          col-span-12
+          lg:mt-20
+          col-start-2
+          md:flex
+          lg:pr-5
+          justify-center
+        "
+      >
+        <div class="question-right-content left-content question-vertical">
+          <div class="loupe-img inline-block relative left-32">
+            <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          </div>
+          <div class="question-box mx-auto">
+            <p class="text-xs text-right question-logo">
+              <span>Question</span>
+            </p>
+            <p class="question-section-title">これからの</p>
+            <p class="question-section-title">歩み</p>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="people-answer-box right-content w-screen pb-5 md:w-3/5">
+          <h4
+            class="
+              answer-title
+              text-lg
+              md:text-2xl
+              font-bold
+              mb-6
+              tracking-widest
+              tablet-qisition-margin
+            "
+          >
+            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+              >A</span
+            >相手の心の側に立っていたい
+          </h4>
+          <p class="answer-text tracking-widest">
+            百貨店を志望した当時と変わることなく、「心に寄り添い、感動を届けられる人」になることが目標です。将来的に売場から離れることがあっても、お客様の心に寄り添い続けたい。そのために、VMDやSNS業務を通じて、お客様満足度の向上や購買意欲の促進に向けたノウハウを身に付けていくこと。日々お客様と接する中で得られることも多く、そうした現場経験を大切にし、自己研鑽と東急百貨店の成長に活かしていきたいと思います。
+          </p>
+        </div>
+      </section>
 
-    <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
-      <a href="/"
-        ><img
-          src="@/assets/images/footer-logo.png"
-          alt="東急百貨店"
-          width="180"
-          class="mx-auto bg-white"
-      /></a>
-      <p class="text-xs lg:text-sm mt-5 italic">
-        <small
-          >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
-          Reserved.</small
-        >
-      </p>
-    </footer>
+      <section
+        class="
+          col-span-4
+          lg:col-span-10 lg:col-start-2
+        "
+      >
+        <!-- コラム -->
+        <section class="">
+          <div class="inline-block relative top-16">
+            <div class="upper-content text-white text-center">
+              <h5 class="text-4xl py-3 BrandonGrotesque">
+                <img
+                  src="@/assets/images/people-column.png"
+                  alt=""
+                  srcset=""
+                  class="w-full"
+                />
+              </h5>
+            </div>
+            <p class="column-subtitle">「〇〇 と共に歩む」</p>
+          </div>
+
+          <div class="column-content bg-white text-center pt-20">
+            <h6 class="column-title">働く仲間と共に歩む</h6>
+            <p class="column-text">
+              東急百貨店の行動指針にも「働く仲間とhug」「つねに新しいチャレンジを続けながら、互いを尊敬し、高め合える存在であろう」とあります。当然ながら百貨店の仕事は一人で成り立つものではなく、沢山の従業員が支え合い、現在の東急百貨店があります。働く仲間と共にお客様のことを第一に考え、常に必要とされる百貨店でありたいです。
+            </p>
+          </div>
+        </section>
+        <!-- コラムここまで -->
+
+        <div class="lg:mt-32">
+          <div class="upper-content pt-8 lg:pt-0">
+            <img
+              src="@/assets/images/home-people1.png"
+              alt="people4"
+              class="home-person w-full"
+            />
+          </div>
+          <div class="mt-8">
+            <ul class="md:flex xl:mt-14 profile">
+              <li class="profile-title">
+                <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
+                  <img
+                    src="@/assets/images/people-profile.png"
+                    alt=""
+                    srcset=""
+                  />
+                </p>
+              </li>
+              <li class="md:ml-32 pt-7 lg:pt-0 pl-5 md:pl-0">
+                <p class="people-name tracking-widest">船田 あかり</p>
+                <p class="people-kana mt-3 tracking-widest">Akari Funada</p>
+              </li>
+
+              <li class="md:ml-12 people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
+                <p>たまプラーザ店 営業統括部</p>
+                <p class="py-4">2018年 入社</p>
+                <p>経済学部 会計ファイナンス学科 卒</p>
+              </li>
+            </ul>
+            <div
+              class="
+                pagination
+                flex
+                justify-center
+                w-screen
+                mx-auto
+                lg:w-6/12
+                py-10
+                xl:pt-20
+              "
+            >
+              <a href="2"
+                ><img
+                  src="@/assets/images/next.png"
+                  alt=""
+                  class="ml-2 pagination-img"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
+        <a href="/"
+          ><img
+            src="@/assets/images/footer-logo.png"
+            alt="東急百貨店"
+            width="180"
+            class="mx-auto bg-white"
+        /></a>
+        <p class="text-xs lg:text-sm mt-5 italic">
+          <small
+            >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
+            Reserved.</small
+          >
+        </p>
+      </footer>
+    </div>
   </div>
 </template>
-
-<script>
-import Sidebar from "@/components/Sidebar.vue";
-
-export default {
-  name: "PeoplePage",
-  components: {
-    Sidebar,
-  },
-};
-</script>
 
 <style>
 @import "../../../assets/style/style.css";
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url("https://use.typekit.net/bdr1ssy.css");
+
+.people {
+  margin-top: 40px;
+}
 
 .people-text {
   color: #707070;
@@ -589,5 +706,8 @@ export default {
   .tablet-qisition-margin {
     margin-top: 0px;
   }
+   .column-title {
+    font-size: 20px;
+   }
 }
 </style>

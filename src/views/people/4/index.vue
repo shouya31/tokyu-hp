@@ -1,7 +1,7 @@
 <template>
   <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
     <sidebar></sidebar>
-    <header class="lg:hidden fixed w-full" style="z-index:999999999;">
+    <header class="lg:hidden fixed w-full" style="z-index: 999999999">
       <div class="pl-5 flex justify-between">
         <div class="py-3">
           <a href="#" class=""
@@ -12,8 +12,8 @@
           /></a>
         </div>
         <div class="menu p-5">
-          <p><span style="width: 40px;"></span></p>
-          <p><span style="width: 40px;"></span></p>
+          <p><span style="width: 40px"></span></p>
+          <p><span style="width: 40px"></span></p>
         </div>
       </div>
     </header>
@@ -34,13 +34,9 @@
             height="800"
             alt="people1"
           />
-          
-          <p class="main-catch-font">
-            日々の進歩が
-          </p>
-          <p class="main-catch-font">
-            未来を照らす
-          </p>
+
+          <p class="main-catch-font">日々の進歩が</p>
+          <p class="main-catch-font">未来を照らす</p>
         </div>
 
         <div class="message">
@@ -67,8 +63,9 @@
           </li>
           <li>
             <p class="people-info mt-3 tracking-wide">
-              業推進部<span class="lg:ml-3">顧客サービス部</span
-              ><span class="mx-2 lg:mx-3">/</span> 2009年 入社
+              営業推進部<span class="lg:ml-3">顧客サービス部</span
+              ><span class="mx-2 lg:mx-3">/</span> 2009年 入社<br />
+              経済学部 経営学科 卒
             </p>
           </li>
         </ul>
@@ -96,25 +93,39 @@
         <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="question-right-content text-center question-vertical mx-auto lg:mt-0 lg:mb-8"
+        class="
+          question-right-content
+          text-center
+          question-vertical
+          mx-auto
+          lg:mt-0
+          lg:mb-8
+        "
       >
         <div class="loupe-img inline-block relative left-32">
           <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
         </div>
         <div class="question-box">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            東急百貨店を
-          </p>
-          <p class="question-section-title">
-            志望した理由
-          </p>
+          <p class="question-section-title">東急百貨店を</p>
+          <p class="question-section-title">志望した理由</p>
         </div>
       </div>
     </section>
 
     <section
-      class="answer w-screen md:col-span-12 md:col-start-3 md:w-3/5 mx-auto pt-4 lg:pb-0  px-4 md:pl-0 md:pr-5"
+      class="
+        answer
+        w-screen
+        md:col-span-12 md:col-start-3
+        md:w-3/5
+        mx-auto
+        pt-4
+        lg:pb-0
+        px-4
+        md:pl-0
+        md:pr-5
+      "
     >
       <h4
         class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
@@ -123,12 +134,19 @@
         >飾らない姿に惹かれて
       </h4>
       <p class="answer-text tracking-widest">
-        自分の身近にあり、働く想像がつきやすい職業という軸で就職活動を実施。金融業からお菓子メーカーまで幅広く受ける中で、接客経験やお買い物好きという理由から百貨店業界も志望しました。東急百貨店には、実家が東急沿線上だったこともあり、幼い頃から足を運んでおり、活気に満ちた売場や販売員の方の親切な接客に、惹かれていました。そうしたお客様一人ひとりを受け入れる親しみやすい部分が、最終的な決め手となりました。
+        自分の身近にあり、働く想像がつきやすい職業という軸で就職活動を行い、金融業からお菓子メーカーまで幅広く受ける中で、接客経験やお買い物好きという理由から百貨店業界も志望しました。東急百貨店には、実家が東急沿線だったこともあり、幼い頃から足を運んでおり、活気に満ちた売場や親切な接客に惹かれていました。そうしたお客様一人ひとりを受け入れる親しみやすい部分が、最終的な決め手となりました。
       </p>
     </section>
 
     <section
-      class="question col-span-12 col-start-3 md:flex lg:pr-5 lg:mt-28 justify-center"
+      class="
+        question
+        col-span-12 col-start-3
+        md:flex
+        lg:pr-5
+        lg:mt-28
+        justify-center
+      "
     >
       <div class="question-right-content question-vertical">
         <div class="loupe-img inline-block relative left-32">
@@ -136,26 +154,30 @@
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            現在の
-          </p>
-          <p class="question-section-title">
-            仕事内容
-          </p>
+          <p class="question-section-title">現在の</p>
+          <p class="question-section-title">仕事内容</p>
         </div>
       </div>
       <div
         class="people-answer-box w-screen md:col-span-3 md:col-start-2 md:w-3/5"
       >
         <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
+          class="
+            answer-title
+            text-lg
+            md:text-2xl
+            font-bold
+            mb-6
+            tracking-widest
+            tablet-qisition-margin
+          "
         >
           <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >お客様に最大限寄り添いたい
         </h4>
         <div>
           <p class="answer-text tracking-widest">
-              現在は渋谷地区のサービス担当として、お客様からのお問い合わせ対応や*セールスパートナーへの教育研修に従事しています。日々寄せられるお客様からのお問い合わせには、マニュアル通りにいかず、店舗ごとに臨機応変な対応が求められるものも。良いことも悪いことも店舗の発展には必要な資源だと考え、向き合っています。また、最近では今まで対面で行っていた研修をデジタル化し、空いた時間でさらなるサービス向上に向けた取り組みを行っています。
+            現在は渋谷地区のサービス担当として、お客様からのお問い合わせ対応や*セールスパートナーへの教育研修に従事しています。日々寄せられるお客様からのお問い合わせには、マニュアル通りにいかず、店舗ごとに臨機応変な対応が求められることも。店舗の発展には必要な資源だと考え、真摯に向き合っています。また、最近では今まで対面で行っていた研修をデジタル化し、空いた時間でさらなるサービス向上に向けた取り組みを行っています。
           </p>
 
           <div class="text-xs lg:text-sm mt-7 text-gray-600">
@@ -169,7 +191,15 @@
     </section>
 
     <section
-      class="question col-span-8 col-start-3 lg:mt-20 lg:flex lg:pt-10 px-5 xl:pt-30"
+      class="
+        question
+        col-span-8 col-start-3
+        lg:mt-20
+        lg:flex
+        lg:pt-10
+        px-5
+        xl:pt-30
+      "
     >
       <div class="left-content mb-10 lg:pb-0">
         <!-- <div class="white-box bg-white"></div> -->
@@ -183,7 +213,14 @@
         <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="question-right-content right-content text-center question-vertical mx-auto lg:pl-16"
+        class="
+          question-right-content
+          right-content
+          text-center
+          question-vertical
+          mx-auto
+          lg:pl-16
+        "
       >
         <div
           class="loupe-img inline-block relative left-40 tablet-qisition-margin"
@@ -196,18 +233,25 @@
         </div>
         <div class="question-box lg:py-16 mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            私の
-          </p>
-          <p class="question-section-title">
-            エピソード
-          </p>
+          <p class="question-section-title">私の</p>
+          <p class="question-section-title">エピソード</p>
         </div>
       </div>
     </section>
 
     <section
-      class="answer w-screen md:col-span-12 md:col-start-3 md:w-3/5 mx-auto lg:pt-12 pb-5 px-4 md:pl-0 md:pr-5"
+      class="
+        answer
+        w-screen
+        md:col-span-12 md:col-start-3
+        md:w-3/5
+        mx-auto
+        lg:pt-12
+        pb-5
+        px-4
+        md:pl-0
+        md:pr-5
+      "
     >
       <h4
         class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
@@ -216,12 +260,25 @@
         >心に残るあの日の風景
       </h4>
       <p class="answer-text tracking-widest">
-        2012年の4月にオープンした渋谷ヒカリエ。開業2ヶ月前に、「渋谷ヒカリエ出店準備室」という新店準備を行う部署に異動しました。入社から異動直前まで販売員として接客業務をしていたため、新店舗開設は未経験のことばかり。売場と什器だけの状態から商品や備品発注、販売体制の構築まで慣れない状況下で、四苦八苦しながら店舗づくりを行いました。緊張感を持ちながらも、「東急百貨店を代表する店舗を何としてでもつくりたい」という想いで仲間と共に切磋琢磨し合いました。開業当日、お客様から「ShinQsは楽しい」と仰っていただけた時は、努力が報われた気分でした。開店直後に入店されたお客様の笑顔で溢れた光景は今でも忘れられません。      
-    </p>
+        2012年の4月にオープンした渋谷ヒカリエ。開業2ヶ月前に、渋谷ヒカリエ内に出店する<a
+          href="https://www.tokyu-dept.co.jp/shinqs/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >「ShinQs」</a
+        >の開業準備を行う部署に異動しました。入社から異動直前まで店頭での接客業務をしていたため、新店舗開設は未経験のことばかり。売場と什器だけの状態から商品や備品発注、販売体制の構築まで慣れない状況下で、四苦八苦しながら店舗づくりを行いました。緊張感を持ちながらも、「東急百貨店を代表する店舗を何としてでもつくりたい」という想いで仲間と共に切磋琢磨し合いました。開業当日、お客様から「ShinQsは楽しい」と仰っていただけた時は、努力が報われた気分でした。開店直後に入店されたお客様の笑顔で溢れた光景は今でも忘れられません。
+      </p>
     </section>
 
     <section
-      class="question col-span-12 lg:mt-20 col-start-3 md:flex lg:pr-5 justify-center"
+      class="
+        question
+        col-span-12
+        lg:mt-20
+        col-start-3
+        md:flex
+        lg:pr-5
+        justify-center
+      "
     >
       <div class="question-right-content left-content question-vertical">
         <div class="loupe-img inline-block relative left-32">
@@ -229,23 +286,27 @@
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            これからの
-          </p>
-          <p class="question-section-title">
-            歩み
-          </p>
+          <p class="question-section-title">これからの</p>
+          <p class="question-section-title">歩み</p>
         </div>
       </div>
       <div class="people-answer-box right-content w-screen pb-5 md:w-3/5">
         <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
+          class="
+            answer-title
+            text-lg
+            md:text-2xl
+            font-bold
+            mb-6
+            tracking-widest
+            tablet-qisition-margin
+          "
         >
           <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
-          >移り変わる時代を生きるために
+          >お客様と従業員のために
         </h4>
         <p class="answer-text tracking-widest">
-          「お客様と従業員が共に幸せになれる百貨店」を目指します。そのためには、当社の強みである東急沿線という商圏やグループでの連携、売場編集力をこれまで以上に強化すること。また、2022年に10周年を迎えるShinQsについては、開業当初20代後半から40代の働く女性をメインターゲットとしてきましたが、東横のれん街の移転などでお客様層が拡大。そうした時代に合わせたコンセプトの見直しも図り、お客様との接点をさらに増やしていきたいです。
+          私は「お客様と従業員が共に幸せになれる百貨店」を目指します。そのためには、当社の強みである東急沿線という商圏やグループでの連携、売場編集力をこれまで以上に強化すること。また、2022年に10周年を迎えるShinQsについては、開業当初自らの価値観でモノ・コトを選択する20代後半から40代の働く女性をメインターゲットとしてきましたが、東横のれん街の移転などでお客様層が拡大。今後も様々なお客様との接点を増やし、従業員のやりがいにもつなげていきたいです。
         </p>
       </div>
     </section>
@@ -256,7 +317,7 @@
       <!-- コラム -->
       <section class="">
         <div class="inline-block relative top-16">
-          <div class="upper-content text-white text-center ">
+          <div class="upper-content text-white text-center">
             <h5 class="text-4xl py-3 BrandonGrotesque">
               <img
                 src="@/assets/images/people-column.png"
@@ -266,17 +327,14 @@
               />
             </h5>
           </div>
-          <p class="column-subtitle">
-            「〇〇 と共に歩む」
-          </p>
+          <p class="column-subtitle">「〇〇 と共に歩む」</p>
         </div>
 
         <div class="column-content bg-white text-center pt-20">
-          <h6 class="column-title">
-            「ありがとう」と共に歩む
-          </h6>
+          <h6 class="column-title">「ありがとう」と共に歩む</h6>
           <p class="column-text">
-ダミー東急百貨店の面接を通じて、採用担当の方が「本当の私」を知ろうとしてくれている熱意が伝わり、ありのままの自分を出すことができました。働く上で、お客様にも周りの人にも本当の自分を見ていただきたい。ダミー東急百貨店の面接を通じて、採用担当の方が「本当の私」を知ろうとしてくれている熱          </p>
+            「誰かから感謝される仕事をしなさい」という先輩からの言葉。その考えはお客様だけでなく、周囲の従業員に対しても共通することです。東急百貨店は、百貨店とショッピングセンターが融合した店舗や専門店など様々な形態を有しています。だからこそ、固定観念に捉われない働きやすい環境づくりに励んでいきたいと思います。
+          </p>
         </div>
       </section>
       <!-- コラムここまで -->
@@ -289,7 +347,7 @@
             class="home-person w-full"
           />
         </div>
-        <div class=" mt-8">
+        <div class="mt-8">
           <ul class="md:flex xl:mt-14 profile">
             <li class="profile-title">
               <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
@@ -301,12 +359,8 @@
               </p>
             </li>
             <li class="md:ml-32 pt-7 lg:pt-0 pl-5 md:pl-0">
-              <p class="people-name tracking-widest">
-                澤木 奈津子
-              </p>
-              <p class="people-kana mt-3 tracking-widest">
-                Natsuko Sawaki
-              </p>
+              <p class="people-name tracking-widest">澤木 奈津子</p>
+              <p class="people-kana mt-3 tracking-widest">Natsuko Sawaki</p>
             </li>
 
             <li class="md:ml-12 people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
@@ -316,14 +370,33 @@
             </li>
           </ul>
           <div
-            class="pagination flex justify-center w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
+            class="
+              pagination
+              flex
+              justify-center
+              w-screen
+              mx-auto
+              lg:w-6/12
+              py-10
+              xl:pt-20
+            "
           >
             <a href="3"
-              ><img src="@/assets/images/prep.png" alt="" class="pagination-img"
+              ><img
+                src="@/assets/images/prep.png"
+                alt=""
+                class="pagination-img"
             /></a>
-            <img src="@/assets/images/sep.png" alt="" class="pagination-img mx-3" />
+            <img
+              src="@/assets/images/sep.png"
+              alt=""
+              class="pagination-img mx-3"
+            />
             <a href="5"
-              ><img src="@/assets/images/next.png" alt="" class="ml-2 pagination-img"
+              ><img
+                src="@/assets/images/next.png"
+                alt=""
+                class="ml-2 pagination-img"
             /></a>
           </div>
         </div>

@@ -118,7 +118,7 @@
     </section>
     <section id="vision" class="lg:hidden">
       <div class="mt-16">
-        <div class="visoion-title w-8/12 mx-auto">
+        <div class="vision-title w-8/12 mx-auto">
           <img :src="titleimage" />
         </div>
         <div class="vision-right-content mt-8" style="margin-right: 20%;">

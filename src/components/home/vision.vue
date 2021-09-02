@@ -3,7 +3,7 @@
     <section id="vision" class="hidden pl-52 lg:flex py-10 bg-white relative" style="z-index: 99;">
       <div class="mt-16 ml-10">
         <HomeSectionTitle :image="titleimage" />
-        <div class="flex justify-between">
+        <div class="flex justify-between flex-row-reverse">
           <HomeSectionText
             text="東急グループの中でリテール関連事業の中核を担う東急百貨店。東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、これからどのようなビジョンと共に歩んでいくのかをお伝えします。"
           />
@@ -14,14 +14,14 @@
 
     <section id="vision" class="lg:hidden relative bg-white" style="z-index:99;">
       <div class="pt-16">
-        <div class="visoion-title w-8/12 mx-auto">
+        <div class="vision-title w-8/12 mx-auto text-right">
           <img :src="titleimage" />
         </div>
         <div class="vision-right-content mt-8" style="margin-right: 20%;">
           <img :src="homeimage" alt="" />
         </div>
         <div class="vision-left-content" style="margin-right: 20%;">
-          <p class="section-text text-sm py-5 pl-8">
+          <p class="section-text text-sm py-5 pl-8 ">
             東急グループの中でリテール関連事業の中核を担う東急百貨店。<br />
             東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、<br />
             これからどのようなビジョンと共に歩んでいくのかをお伝えします。
@@ -54,3 +54,14 @@ export default {
   },
 };
 </script>
+
+
+<style>
+#vision {
+    max-width: 1500px;
+}
+
+#vision .vision-title img {
+    margin-left: auto;
+}
+</style>

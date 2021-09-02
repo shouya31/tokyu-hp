@@ -258,13 +258,7 @@ a .fv-person-animation6:hover {
   opacity: 0;
   z-index: -3;
 }
-.explain-text {
-  font-size: 18px;
-  font-family: "Noto Sans Japanese", sans-serif;
-  line-height: 32px;
-  z-index: -3;
-  font-weight: 300;
-}
+
 .fv-right-content{
   /* z-index: -2; */
 }

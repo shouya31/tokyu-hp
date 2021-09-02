@@ -1,19 +1,19 @@
 <template>
   <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
     <sidebar></sidebar>
-    <header class="lg:hidden fixed w-full" style="z-index:999999999;">
+    <header class="lg:hidden fixed w-full" style="z-index: 999999999">
       <div class="pl-5 flex justify-between">
         <div class="py-3">
           <a href="#" class=""
             ><img
-              src="@/assets/images/tokyu-logo.png"
+              src="@/assets/images/tokyu-logo.svg"
               alt="東急百貨店"
               width="140"
           /></a>
         </div>
         <div class="menu p-5">
-          <p><span style="width: 40px;"></span></p>
-          <p><span style="width: 40px;"></span></p>
+          <p><span style="width: 40px"></span></p>
+          <p><span style="width: 40px"></span></p>
         </div>
       </div>
     </header>
@@ -21,7 +21,7 @@
       <div class="left-content">
         <div class="relative lg:right-12">
           <img
-            src="@/assets/images/people-title.png"
+            src="@/assets/images/people-title.svg"
             alt=""
             class="lg:w-full people-logo-sp"
           />
@@ -29,17 +29,17 @@
         <div class="lg:mt-20 lg:mb-10 tracking-wide">
           <img
             src="@/assets/images/person5.png"
+            srcset="
+              @/assets/images/home-people5.png    1x,
+              @/assets/images/home-people5@2x.png 2x
+            "
             class="pt-0 lg:hidden people-main-sp"
             width="450"
             height="800"
             alt="people1"
           />
-          <p class="main-catch-font">
-            明日は明日の
-          </p>
-          <p class="main-catch-font">
-            風が吹く
-          </p>
+          <p class="main-catch-font">明日は明日の</p>
+          <p class="main-catch-font">風が吹く</p>
         </div>
 
         <div class="message">
@@ -67,7 +67,7 @@
           <li>
             <p class="people-info mt-3 tracking-wide">
               事業戦略室<span class="lg:ml-3">事業開発部 兼 食品統括部</span
-              ><span class="mx-2 lg:mx-3">/</span> 2009年 入社<br>
+              ><span class="mx-2 lg:mx-3">/</span> 2009年 入社<br />
               映画学科 理論評論コース 卒
             </p>
           </li>
@@ -76,6 +76,10 @@
       <div class="people-image mt-5 hidden lg:block">
         <img
           src="@/assets/images/person5.png"
+          srcset="
+            @/assets/images/person5.png    1x,
+            @/assets/images/person5@2x.png 2x
+          "
           width="450"
           height="800"
           alt="people1"
@@ -89,6 +93,10 @@
         <div class="img-box tablet-qisition-margin">
           <img
             src="@/assets/images/person5-2.png"
+          srcset="
+            @/assets/images/person5-2.png    1x,
+            @/assets/images/person5-2@2x.png 2x
+          "
             class="lg:pr-10 lg:pr-16 people-sp-image"
             alt="persion2"
           />
@@ -96,25 +104,39 @@
         <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="question-right-content text-center question-vertical mx-auto lg:mt-0 lg:mb-8"
+        class="
+          question-right-content
+          text-center
+          question-vertical
+          mx-auto
+          lg:mt-0
+          lg:mb-8
+        "
       >
         <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
         </div>
         <div class="question-box">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            東急百貨店を
-          </p>
-          <p class="question-section-title">
-            志望した理由
-          </p>
+          <p class="question-section-title">東急百貨店を</p>
+          <p class="question-section-title">志望した理由</p>
         </div>
       </div>
     </section>
 
     <section
-      class="answer w-screen md:col-span-12 md:col-start-3 md:w-3/5 mx-auto pt-4 lg:pb-0  px-4 md:pl-0 md:pr-5"
+      class="
+        answer
+        w-screen
+        md:col-span-12 md:col-start-3
+        md:w-3/5
+        mx-auto
+        pt-4
+        lg:pb-0
+        px-4
+        md:pl-0
+        md:pr-5
+      "
     >
       <h4
         class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
@@ -128,27 +150,38 @@
     </section>
 
     <section
-      class="question col-span-12 col-start-3 md:flex lg:pr-5 lg:mt-28 justify-center"
+      class="
+        question
+        col-span-12 col-start-3
+        md:flex
+        lg:pr-5
+        lg:mt-28
+        justify-center
+      "
     >
       <div class="question-right-content question-vertical">
         <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            現在の
-          </p>
-          <p class="question-section-title">
-            仕事内容
-          </p>
+          <p class="question-section-title">現在の</p>
+          <p class="question-section-title">仕事内容</p>
         </div>
       </div>
       <div
         class="people-answer-box w-screen md:col-span-3 md:col-start-2 md:w-3/5"
       >
         <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
+          class="
+            answer-title
+            text-lg
+            md:text-2xl
+            font-bold
+            mb-6
+            tracking-widest
+            tablet-qisition-margin
+          "
         >
           <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >現状を変える2つの役割
@@ -161,7 +194,8 @@
           <div class="text-xs lg:text-sm mt-7 text-gray-600">
             <p class="answer-attention">*BOPIS:</p>
             <p class="answer-attention">
-              Buy Online Pick-up In Storeの略。オンラインショッピングを通じて、購入した商品をリアル店舗で受け取るショッピングスタイルのこと。
+              Buy Online Pick-up In
+              Storeの略。オンラインショッピングを通じて、購入した商品をリアル店舗で受け取るショッピングスタイルのこと。
             </p>
           </div>
         </div>
@@ -169,13 +203,25 @@
     </section>
 
     <section
-      class="question col-span-8 col-start-3 lg:mt-20 lg:flex lg:pt-10 px-5 xl:pt-30"
+      class="
+        question
+        col-span-8 col-start-3
+        lg:mt-20
+        lg:flex
+        lg:pt-10
+        px-5
+        xl:pt-30
+      "
     >
       <div class="left-content mb-10 lg:pb-0">
         <!-- <div class="white-box bg-white"></div> -->
         <div class="img-box tablet-qisition-margin">
           <img
             src="@/assets/images/person5-3.png"
+          srcset="
+            @/assets/images/person5-3.png    1x,
+            @/assets/images/person5-3@2x.png 2x
+          "
             class="lg:pr-10 lg:pr-16"
             alt="persion3"
           />
@@ -183,31 +229,45 @@
         <!-- <div class="blue-box"></div> -->
       </div>
       <div
-        class="question-right-content right-content text-center question-vertical mx-auto lg:pl-16"
+        class="
+          question-right-content
+          right-content
+          text-center
+          question-vertical
+          mx-auto
+          lg:pl-16
+        "
       >
         <div
           class="loupe-img inline-block relative left-40 tablet-qisition-margin"
         >
           <img
-            src="@/assets/images/question-logo.png"
+            src="@/assets/images/question-logo.svg"
             class="relative lg:top-10 right-10"
             alt="loupe"
           />
         </div>
         <div class="question-box lg:py-16 mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            私の
-          </p>
-          <p class="question-section-title">
-            エピソード
-          </p>
+          <p class="question-section-title">私の</p>
+          <p class="question-section-title">エピソード</p>
         </div>
       </div>
     </section>
 
     <section
-      class="answer w-screen md:col-span-12 md:col-start-3 md:w-3/5 mx-auto lg:pt-12 pb-5 px-4 md:pl-0 md:pr-5"
+      class="
+        answer
+        w-screen
+        md:col-span-12 md:col-start-3
+        md:w-3/5
+        mx-auto
+        lg:pt-12
+        pb-5
+        px-4
+        md:pl-0
+        md:pr-5
+      "
     >
       <h4
         class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest"
@@ -221,31 +281,44 @@
       <div class="text-xs lg:text-sm mt-7 text-gray-600">
         <p class="answer-attention">*EC:</p>
         <p class="answer-attention">
-          Electronic Commerceの略。インターネット上でモノやサービスを売買すること。加えて、越境ECとは、インターネット通販サイトを通じた国際的な電子商取引のこと。
+          Electronic
+          Commerceの略。インターネット上でモノやサービスを売買すること。加えて、越境ECとは、インターネット通販サイトを通じた国際的な電子商取引のこと。
         </p>
       </div>
     </section>
 
     <section
-      class="question col-span-12 lg:mt-20 col-start-3 md:flex lg:pr-5 justify-center"
+      class="
+        question
+        col-span-12
+        lg:mt-20
+        col-start-3
+        md:flex
+        lg:pr-5
+        justify-center
+      "
     >
       <div class="question-right-content left-content question-vertical">
         <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
-          <p class="question-section-title">
-            これからの
-          </p>
-          <p class="question-section-title">
-            歩み
-          </p>
+          <p class="question-section-title">これからの</p>
+          <p class="question-section-title">歩み</p>
         </div>
       </div>
       <div class="people-answer-box right-content w-screen pb-5 md:w-3/5">
         <h4
-          class="answer-title text-lg md:text-2xl font-bold mb-6 tracking-widest tablet-qisition-margin"
+          class="
+            answer-title
+            text-lg
+            md:text-2xl
+            font-bold
+            mb-6
+            tracking-widest
+            tablet-qisition-margin
+          "
         >
           <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >時代に即した百貨店を目指して
@@ -262,35 +335,32 @@
       <!-- コラム -->
       <section class="">
         <div class="inline-block relative top-16">
-          <div class="upper-content text-white text-center ">
+          <div class="upper-content text-white text-center">
             <h5 class="text-4xl py-3 BrandonGrotesque">
               <img
-                src="@/assets/images/people-column.png"
+                src="@/assets/images/people-column.svg"
                 alt=""
                 srcset=""
                 class="w-full"
               />
             </h5>
           </div>
-          <p class="column-subtitle">
-            「〇〇 と共に歩む」
-          </p>
+          <p class="column-subtitle">「〇〇 と共に歩む」</p>
         </div>
 
         <div class="column-content bg-white text-center pt-20">
-          <h6 class="column-title">
-            食と共に歩む
-          </h6>
-          <p class="column-text" style="padding-bottom:0px;">
+          <h6 class="column-title">食と共に歩む</h6>
+          <p class="column-text" style="padding-bottom: 0px">
             近年、人が生きる上で必要な三大要素が「衣食住」から「食住衣」へと変化。小売業でも食の強化が叫ばれています。東急百貨店は東横のれん街や東急フードショーなど食の分野に力を入れています。現在は渋谷の食を支える「食の一大マーケット」をつくり、さらに食の*DXと掛け合わせることで、お客様にとって不可欠な存在になりたいと思います。
           </p>
           <div
             class="column-text text-xs text-left lg:text-sm mt-7 text-gray-600"
-            style="padding-top:0px;"
+            style="padding-top: 0px"
           >
             <p class="answer-attention">*DX:</p>
             <p class="answer-attention">
-              Digital Transformationの略。デジタル技術を浸透させることで人々の生活をより良いものへと変革すること。<br />また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
+              Digital
+              Transformationの略。デジタル技術を浸透させることで人々の生活をより良いものへと変革すること。<br />また、既存の価値観を覆す革新的なイノベーションをもたらすもの。
             </p>
           </div>
         </div>
@@ -301,28 +371,28 @@
         <div class="upper-content pt-8 lg:pt-0">
           <img
             src="@/assets/images/home-people5.png"
+          srcset="
+            @/assets/images/home-people5.png    1x,
+            @/assets/images/home-people5@2x.png 2x
+          "
             alt="people4"
             class="home-person w-full"
           />
         </div>
-        <div class=" mt-8">
+        <div class="mt-8">
           <ul class="md:flex xl:mt-14 profile">
             <li class="profile-title">
               <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
                 <img
-                  src="@/assets/images/people-profile.png"
+                  src="@/assets/images/people-profile.svg"
                   alt=""
                   srcset=""
                 />
               </p>
             </li>
             <li class="md:ml-32 pt-7 lg:pt-0 pl-5 md:pl-0">
-              <p class="people-name tracking-widest">
-                橋本 崇顕
-              </p>
-              <p class="people-kana mt-3 tracking-widest">
-                Takaaki Hashimoto
-              </p>
+              <p class="people-name tracking-widest">橋本 崇顕</p>
+              <p class="people-kana mt-3 tracking-widest">Takaaki Hashimoto</p>
             </li>
 
             <li class="md:ml-12 people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
@@ -332,14 +402,33 @@
             </li>
           </ul>
           <div
-            class="pagination flex justify-center w-screen mx-auto lg:w-6/12 py-10 xl:pt-20"
+            class="
+              pagination
+              flex
+              justify-center
+              w-screen
+              mx-auto
+              lg:w-6/12
+              py-10
+              xl:pt-20
+            "
           >
             <a href="4"
-              ><img src="@/assets/images/prep.png" alt="" class="pagination-img"
+              ><img
+                src="@/assets/images/prep.svg"
+                alt=""
+                class="pagination-img"
             /></a>
-            <img src="@/assets/images/sep.png" alt="" class="pagination-img mx-3" />
+            <img
+              src="@/assets/images/people-pagination.svg"
+              alt=""
+              class="pagination-img ml-3 mr-1"
+            />
             <a href="6"
-              ><img src="@/assets/images/next.png" alt="" class="ml-2 pagination-img"
+              ><img
+                src="@/assets/images/next.svg"
+                alt=""
+                class="ml-2 pagination-img"
             /></a>
           </div>
         </div>
@@ -586,6 +675,10 @@ export default {
   }
 }
 @media screen and (max-width: 600px) {
+  .people-logo-sp {
+    width: 80%;
+    padding: 0 0 40px 20px;
+  }
   .hero {
     padding: 0px;
   }

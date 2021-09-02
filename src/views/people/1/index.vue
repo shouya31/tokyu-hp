@@ -46,7 +46,7 @@
         <div class="left-content">
           <div class="relative lg:right-12">
             <img
-              src="@/assets/images/people-title.png"
+              src="@/assets/images/people-title.svg"
               alt=""
               class="lg:w-full people-logo-sp"
             />
@@ -54,6 +54,10 @@
           <div class="lg:mt-20 lg:mb-10 tracking-wide">
             <img
               src="@/assets/images/person1.png"
+              srcset="
+                @/assets/images/person1.png    1x,
+                @/assets/images/person1@2x.png 2x
+              "
               class="pt-0 lg:hidden people-main-sp"
               width="450"
               height="800"
@@ -97,6 +101,10 @@
         <div class="people-image mt-5 hidden lg:block">
           <img
             src="@/assets/images/person1.png"
+            srcset="
+              @/assets/images/person1.png    1x,
+              @/assets/images/person1@2x.png 2x
+            "
             width="450"
             height="800"
             alt="people1"
@@ -110,6 +118,10 @@
           <div class="img-box tablet-qisition-margin">
             <img
               src="@/assets/images/person1-2.png"
+              srcset="
+                @/assets/images/person1-2.png    1x,
+                @/assets/images/person1-2@2x.png 2x
+              "
               class="lg:pr-10 lg:pr-16 people-sp-image"
               alt="persion2"
             />
@@ -127,7 +139,7 @@
           "
         >
           <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
           </div>
           <div class="question-box">
             <p class="text-xs text-right question-logo">
@@ -183,7 +195,7 @@
       >
         <div class="question-right-content question-vertical">
           <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
@@ -248,6 +260,10 @@
           <div class="img-box tablet-qisition-margin">
             <img
               src="@/assets/images/person1-3.png"
+              srcset="
+                @/assets/images/person1-3.png    1x,
+                @/assets/images/person1-3@2x.png 2x
+              "
               class="lg:pr-10 lg:pr-16"
               alt="persion3"
             />
@@ -261,7 +277,6 @@
             text-center
             question-vertical
             mx-auto
-            lg:pl-16
           "
         >
           <div
@@ -274,7 +289,7 @@
             "
           >
             <img
-              src="@/assets/images/question-logo.png"
+              src="@/assets/images/question-logo.svg"
               class="relative lg:top-10 right-10"
               alt="loupe"
             />
@@ -341,7 +356,7 @@
       >
         <div class="question-right-content left-content question-vertical">
           <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
@@ -373,19 +388,14 @@
         </div>
       </section>
 
-      <section
-        class="
-          col-span-4
-          lg:col-span-10 lg:col-start-2
-        "
-      >
+      <section class="col-span-4 lg:col-span-10 lg:col-start-2">
         <!-- コラム -->
         <section class="">
           <div class="inline-block relative top-16">
             <div class="upper-content text-white text-center">
               <h5 class="text-4xl py-3 BrandonGrotesque">
                 <img
-                  src="@/assets/images/people-column.png"
+                  src="@/assets/images/people-column.svg"
                   alt=""
                   srcset=""
                   class="w-full"
@@ -408,6 +418,10 @@
           <div class="upper-content pt-8 lg:pt-0">
             <img
               src="@/assets/images/home-people1.png"
+              srcset="
+                @/assets/images/home-people1.png    1x,
+                @/assets/images/home-people1@2x.png 2x
+              "
               alt="people4"
               class="home-person w-full"
             />
@@ -417,7 +431,7 @@
               <li class="profile-title">
                 <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
                   <img
-                    src="@/assets/images/people-profile.png"
+                    src="@/assets/images/people-profile.svg"
                     alt=""
                     srcset=""
                   />
@@ -448,7 +462,7 @@
             >
               <a href="2"
                 ><img
-                  src="@/assets/images/next.png"
+                  src="@/assets/images/next.svg"
                   alt=""
                   class="ml-2 pagination-img"
               /></a>
@@ -596,7 +610,7 @@
     padding-right: 40px;
   }
   .people-logo-sp {
-    width: 60%;
+    width: 80%;
     padding: 50px;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -691,6 +705,10 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .people-logo-sp {
+    width: 80%;
+    padding: 0 0 40px 20px;
+  }
   .hero {
     padding: 0px;
   }
@@ -706,8 +724,8 @@
   .tablet-qisition-margin {
     margin-top: 0px;
   }
-   .column-title {
+  .column-title {
     font-size: 20px;
-   }
+  }
 }
 </style>

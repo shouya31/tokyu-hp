@@ -70,49 +70,42 @@
       </div>
       <div class="workstyle-contents">
         <img src="@/assets/images/workstyle-2.png" alt="" />
-        <h4>休日・休暇について</h4>
+        <h4>育児・介護支援について</h4>
         <dl>
-          <dt>休日</dt>
-          <dd>週休2日（交替制）・年間休日116日</dd>
-          <dt>有給休暇</dt>
+          <dt>育児休職</dt>
+          <dd>最大2年取得可能</dd>
+          <dt>育児勤務</dt>
+          <dd>最短5時間まで短縮でき、最長で小学校4年生の4月まで取得可能</dd>
+          <dt>介護休職</dt>
           <dd>
-            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br
+            最短5時間まで短縮可能な短時間勤務や週休3日制等が利用可能<br
               class="pc-br"
             />
-            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇
-            他
-          </dd>
-          <dt>無給休暇</dt>
-          <dd>
-            生理休暇、不妊治療休暇、つわり休暇、妊産婦休暇、出産休暇、子の看護休暇、介護休暇、組合業務休暇
-          </dd>
-          <dt>連続休暇制度</dt>
-          <dd>
-            休日と年次休暇を利用して、上期・下期でそれぞれ８日間または11日間連続して取得できる休暇制度
+            1年を限度とし、通算5年まで取得できる
           </dd>
         </dl>
       </div>
       <div class="workstyle-contents">
         <img src="@/assets/images/workstyle-3.png" alt="" />
-        <h4>休日・休暇について</h4>
+        <h4>生活支援について</h4>
         <dl>
-          <dt>休日</dt>
-          <dd>週休2日（交替制）・年間休日116日</dd>
-          <dt>有給休暇</dt>
+          <dt>福利厚生</dt>
           <dd>
-            年次休暇、積立年次休暇、半日特別休暇、アニバーサリー休暇、<br
-              class="pc-br"
-            />
-            結婚休暇、配偶者出産休暇、忌引休暇、リフレッシュ休暇、定年退職準備休暇
-            他
+            社会保険（健康保険、厚生年金保険、雇用保険、労災保険、介護保険）<br />
+            財形貯蓄制度、積立貯蓄制度、東急グループ従業員持株会
           </dd>
-          <dt>無給休暇</dt>
+          <dt>福祉共済会</dt>
           <dd>
-            生理休暇、不妊治療休暇、つわり休暇、妊産婦休暇、出産休暇、子の看護休暇、介護休暇、組合業務休暇
-          </dd>
-          <dt>連続休暇制度</dt>
-          <dd>
-            休日と年次休暇を利用して、上期・下期でそれぞれ８日間または11日間連続して取得できる休暇制度
+            <dl class="workstyle-child-contents">
+              <dt>共済保障事業</dt>
+              <dd>慶弔見舞金、生涯生活保障制度 他</dd>
+              <dt>リゾート施設</dt>
+              <dd>優待価格での会員制リゾートホテル利用</dd>
+              <dt>チケット優待</dt>
+              <dd>
+                優待価格でのテーマパークや映画、<br />博物館などのチケット購入
+              </dd>
+            </dl>
           </dd>
         </dl>
       </div>
@@ -200,6 +193,17 @@
   padding-bottom: 80px;
   border-bottom: none;
 }
+
+dl.workstyle-child-contents {
+  border-top: none;
+}
+.workstyle-child-contents dt {
+  font-weight: normal;
+}
+.workstyle-child-contents dt,.workstyle-child-contents dd {
+  border: none;
+  padding: 10px 0;
+}
 @media screen and (max-width: 800px) {
   .workstyle .workstyle-contents,
   .workstyle-heading {
@@ -208,6 +212,12 @@
   @media screen and (max-width: 559px) {
     .workstyle.workstyle dl {
       flex-flow: column;
+    }
+    dl.workstyle-child-contents {
+      margin-top: -20px;
+    }
+    .workstyle-child-contents dt {
+      padding-bottom: 0;
     }
   }
 }

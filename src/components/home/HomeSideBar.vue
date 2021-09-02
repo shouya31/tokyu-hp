@@ -7,7 +7,7 @@
     <div class="side-bar-content max-w-full col-span-1">
       <router-link to="/"
         ><img
-          src="../../assets/images/tokyu-logo.png"
+          src="../../assets/images/tokyu-logo.svg"
           alt="東急百貨店"
           width="150"
       /></router-link>

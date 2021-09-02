@@ -6,7 +6,7 @@
         <div class="py-3">
           <a href="#" class=""
             ><img
-              src="@/assets/images/tokyu-logo.png"
+              src="@/assets/images/tokyu-logo.svg"
               alt="東急百貨店"
               width="140"
           /></a>
@@ -21,7 +21,7 @@
       <div class="left-content">
         <div class="relative lg:right-12">
           <img
-            src="@/assets/images/people-title.png"
+            src="@/assets/images/people-title.svg"
             alt=""
             class="lg:w-full people-logo-sp"
           />
@@ -29,6 +29,10 @@
         <div class="lg:mt-20 lg:mb-10 tracking-wide">
           <img
             src="@/assets/images/person4.png"
+            srcset="
+              @/assets/images/person4.png    1x,
+              @/assets/images/person4@2x.png 2x
+            "
             class="pt-0 lg:hidden people-main-sp"
             width="450"
             height="800"
@@ -73,6 +77,10 @@
       <div class="people-image mt-5 hidden lg:block">
         <img
           src="@/assets/images/person4.png"
+            srcset="
+              @/assets/images/person4.png    1x,
+              @/assets/images/person4@2x.png 2x
+            "
           width="450"
           height="800"
           alt="people1"
@@ -86,6 +94,10 @@
         <div class="img-box tablet-qisition-margin">
           <img
             src="@/assets/images/person4-2.png"
+            srcset="
+              @/assets/images/person4-2.png    1x,
+              @/assets/images/person4-2@2x.png 2x
+            "
             class="lg:pr-10 lg:pr-16 people-sp-image"
             alt="persion2"
           />
@@ -103,7 +115,7 @@
         "
       >
         <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
         </div>
         <div class="question-box">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
@@ -150,7 +162,7 @@
     >
       <div class="question-right-content question-vertical">
         <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
@@ -206,6 +218,10 @@
         <div class="img-box tablet-qisition-margin">
           <img
             src="@/assets/images/person4-3.png"
+            srcset="
+              @/assets/images/person4-3.png    1x,
+              @/assets/images/person4-3@2x.png 2x
+            "
             class="lg:pr-10 lg:pr-16"
             alt="persion3"
           />
@@ -226,7 +242,7 @@
           class="loupe-img inline-block relative left-40 tablet-qisition-margin"
         >
           <img
-            src="@/assets/images/question-logo.png"
+            src="@/assets/images/question-logo.svg"
             class="relative lg:top-10 right-10"
             alt="loupe"
           />
@@ -282,7 +298,7 @@
     >
       <div class="question-right-content left-content question-vertical">
         <div class="loupe-img inline-block relative left-32">
-          <img src="@/assets/images/question-logo.png" class="" alt="loupe" />
+          <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
         </div>
         <div class="question-box mx-auto">
           <p class="text-xs text-right question-logo"><span>Question</span></p>
@@ -320,7 +336,7 @@
           <div class="upper-content text-white text-center">
             <h5 class="text-4xl py-3 BrandonGrotesque">
               <img
-                src="@/assets/images/people-column.png"
+                src="@/assets/images/people-column.svg"
                 alt=""
                 srcset=""
                 class="w-full"
@@ -343,6 +359,10 @@
         <div class="upper-content pt-8 lg:pt-0">
           <img
             src="@/assets/images/home-people4.png"
+            srcset="
+              @/assets/images/home-people4.png    1x,
+              @/assets/images/home-people4@2x.png 2x
+            "
             alt="people4"
             class="home-person w-full"
           />
@@ -352,7 +372,7 @@
             <li class="profile-title">
               <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
                 <img
-                  src="@/assets/images/people-profile.png"
+                  src="@/assets/images/people-profile.svg"
                   alt=""
                   srcset=""
                 />
@@ -383,18 +403,18 @@
           >
             <a href="3"
               ><img
-                src="@/assets/images/prep.png"
+                src="@/assets/images/prep.svg"
                 alt=""
                 class="pagination-img"
             /></a>
             <img
-              src="@/assets/images/sep.png"
+              src="@/assets/images/people-pagination.svg"
               alt=""
-              class="pagination-img mx-3"
+              class="pagination-img ml-3 mr-1"
             />
             <a href="5"
               ><img
-                src="@/assets/images/next.png"
+                src="@/assets/images/next.svg"
                 alt=""
                 class="ml-2 pagination-img"
             /></a>
@@ -643,6 +663,10 @@ export default {
   }
 }
 @media screen and (max-width: 600px) {
+  .people-logo-sp {
+    width: 80%;
+    padding: 0 0 40px 20px;
+  }
   .hero {
     padding: 0px;
   }

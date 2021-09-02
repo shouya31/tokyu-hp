@@ -3,10 +3,10 @@
     <section id="recruit" class="hidden pl-52 lg:flex py-10">
       <div class="project-title mt-16 ml-10">
         <HomeSectionTitle :image="titleimage" />
-        <div class="flex justify-between p-10">
+        <div class="flex justify-between content-start p-10">
           <HomeSectionImage :image="homeimage" />
-          <div class="vision-left-content w-5/12 m-10">
-            <p class="sentence-more text-center mt-12">
+          <div class="vision-left-content w-5/12 m-10 flex">
+            <p class="sentence-more text-center m-auto self-center">
               <img
                 src="../../assets/images/read-more.png"
                 alt=""
@@ -20,10 +20,10 @@
 
     <section id="vision" class="lg:hidden">
       <div class="mt-16">
-        <div class="visoion-title w-8/12 mx-auto">
+        <div class="vision-title w-8/12 mx-auto">
           <img :src="titleimage" />
         </div>
-        <div class="vision-right-content mt-8" style="margin-left: 20%;">
+        <div class="vision-right-content" style="margin-left: 20%;">
           <img :src="homeimage" alt="" />
         </div>
         <div class="vision-left-content" style="margin-left: 20%;">
@@ -59,7 +59,7 @@ export default {
 </script>
 
 <style>
-.project-title .visoion-title img {
+.project-title .vision-title img {
   margin-left: 48%;
 }
 </style>

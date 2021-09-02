@@ -122,7 +122,7 @@
           />
         </p>
       </div>
-      <div class="content-inner">
+      <div class="content-inner credo">
         <h3 class="text-center">行動指針</h3>
         <h4 class="text-center sub-title">
           日々の仕事に向かう時の私たちの心得

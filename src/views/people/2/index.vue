@@ -33,7 +33,7 @@
       >
         <div class="left-content">
           <div class="relative lg:right-12">
-            <imgs
+            <img
               src="@/assets/images/people-title.svg"
               alt=""
               class="lg:w-full people-logo-sp"
@@ -223,8 +223,7 @@
             <div class="text-xs lg:text-sm mt-7 text-gray-600">
               <p class="answer-attention">*リーシング:</p>
               <p class="answer-attention">
-                テナントリーシングを指す。<br />
-                百貨店やショッピングセンターなど不動産を賃貸する商業施設にテナントを誘致する営業活動のこと。
+               百貨店やショッピングセンターなど不動産を賃貸する商業施設にテナントを誘致する営業活動のこと。
               </p>
             </div>
           </div>
@@ -410,7 +409,7 @@
             >
               <p class="answer-attention">*ポップアップストア（イベント）:</p>
               <p class="answer-attention">
-                期間限定店舗もしくはイベントのこと。通常、店舗を出店する場合は、「常設」が一般的。一方で、ポップアップの場合、数日から数週間といった一時的な出店となる。
+                期間限定店舗もしくはイベントのこと。常設の店舗とは異なり、ポップアップの場合、数日から数週間といった一時的な出店となる。
               </p>
             </div>
           </div>

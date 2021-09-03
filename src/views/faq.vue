@@ -112,6 +112,142 @@
           </dd>
         </dl>
       </div>
+      <h3 class="text-center">働き方・休日休暇について</h3>
+      <div class="">
+        <dl class="listQA">
+          <dt>
+            <p>働き方について教えてください。</p>
+          </dt>
+          <dd>
+            <p>
+              週休2日の交替制です。シフトは職場によって異なります。<br />
+              例）9：40～18：40、10：10～19：10、12：55～21：55 など<br />
+              また、一部の職場ではフレックスタイム制を導入しています。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>土日は休めますか?</p>
+          </dt>
+          <dd>
+            <p>
+              交替制での勤務のため、部署によって異なります。<br />
+              部署によっては土日も休みとなることもあります。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>連続休暇は取れますか?</p>
+          </dt>
+          <dd>
+            <p>
+              年に2回、8日間もしくは11日間の連続休暇の取得が可能であり、各職場で時期を調整し取得できます。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>休日やシフトはどのように決まりますか?</p>
+          </dt>
+          <dd>
+            <p>
+              4週間ごとを1期としたワークスケジュールを作成します。<br />スケジュールを組む際は、個々人の休日の希望や業務、運営人員等を考慮し、決定されます。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>残業時間は多いですか?</p>
+          </dt>
+          <dd>
+            <p>
+              平均7.6時間/月（※2019年度実績）と、全国的な平均と比べても低く、仕事とプライベートの両立もしやすいです。<br />
+              ※2020年度は新型コロナウイルスの影響を受け、例年と異なる数値傾向となったため、2019年度実績を記載しています。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>休暇は取りやすいですか?</p>
+          </dt>
+          <dd>
+            <p>
+              アニバーサリー休暇制度（年に2回、誕生日などの記念日に取得できる休暇）や、連続休暇制度により社員が計画的に年次有給休暇を取得できるような制度を設けています。<br />
+              有給取得日数は平均11.9日/年（※2019年度実績）と、社員が休暇を取得しやすい風土づくりにも取り組んでいます。<br />
+              ※2020年度は新型コロナウイルスの影響を受け、例年と異なる数値傾向となったため、2019年度実績を記載しています。<br />
+            </p>
+          </dd>
+        </dl>
+      </div>
+      <h3 class="text-center">教育・制度について</h3>
+      <div class="">
+        <dl class="listQA">
+          <dt>
+            <p>入社後の研修制度について教えてください。</p>
+          </dt>
+          <dd>
+            <p>
+              入社後は約2~3週間程度、入社時研修を実施いたします。その後も1年目は3ヶ月~半年ごとに定期的なフォローアップを実施しています。
+              詳しくは<a
+                href="https://www.tokyu-dept.co.jp/saiyou/shinsotsu/program.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >こちら</a
+              >をご確認ください。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>自己啓発プログラムについて教えてください。</p>
+          </dt>
+          <dd>
+            <p>
+              従業員の能力開発を支える制度として、自己啓発による資格取得費用の補助や外部企業の研修を受講できる自己研鑽支援制度がございます。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>出産・育児に関わる制度について教えてください。</p>
+          </dt>
+          <dd>
+            <p>
+              詳しくは<a
+                href="https://www.tokyu-dept.co.jp/corporate/support.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >こちら</a
+              >をご確認ください。
+            </p>
+          </dd>
+        </dl>
+      </div>
+            <h3 class="text-center">その他</h3>
+      <div class="">
+        <dl class="listQA">
+          <dt>
+            <p>社風について教えてください。</p>
+          </dt>
+          <dd>
+            <p>
+              社交的で優しい人が多く、温かな社風です。先輩社員や上司にも気軽に相談しやすく、自分の意見も発言しやすい雰囲気です。
+            </p>
+          </dd>
+        </dl>
+        <dl class="listQA">
+          <dt>
+            <p>社員の男女比を教えてください。</p>
+          </dt>
+          <dd>
+            <p>
+              男性 4：女性 6です。（2021年4月現在）
+            </p>
+          </dd>
+        </dl>
+      </div>
     </section>
 
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
@@ -174,6 +310,7 @@
   font-weight: bold;
   display: flex;
   position: relative;
+  cursor: pointer;
 }
 .faq .listQA dt::before {
   content: "Q";
@@ -208,7 +345,9 @@
   margin-top: 40px;
   display: none;
 }
-
+.faq .listQA dd a {
+  text-decoration: underline #1e344d;
+}
 @media screen and (max-width: 800px) {
   .faq .faq-contents {
     max-width: 90%;

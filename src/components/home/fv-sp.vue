@@ -31,20 +31,7 @@
                   <img src="../../assets/images/menu-vision.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> トップインタビュー</li>
-                  <li class="menu-list">> 融合型リテーラーとして</li>
-                  <li class="menu-list">> 店舗と共に</li>
-                  <li class="menu-list">> グループと共に</li>
-                  <li class="menu-list">> キーワードで知る</li>
-                </ul>
-              </div>
-              <div class="menu-block hidden">
-                <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-project.png" />
-                </p>
-                <ul class="menu-bottom-line">
-                  <li class="menu-list">> 地域と共に</li>
-                  <li class="menu-list">> 新規事業と共に</li>
+                  <li class="menu-list"><a href="/vision">> ビジョンについて</a></li>
                 </ul>
               </div>
             </div>
@@ -85,24 +72,12 @@
               </div>
             </div>
             <div class="menu-line">
-              <div class="menu-block hidden">
-                <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-culture.png" />
-                </p>
-                <ul class="menu-bottom-line">
-                  <li class="menu-list">> 若手座談会</li>
-                  <li class="menu-list">> 男性社員座談会</li>
-                  <li class="menu-list">> 上司×部下対談</li>
-                  <li class="menu-list">> メールアンケート</li>
-                </ul>
-              </div>
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-system.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> 研修制度</li>
-                  <li class="menu-list">> 福利厚生</li>
+                  <li class="menu-list"><a href="/workstyle">> 働き方について</a></li>
                 </ul>
               </div>
             </div>
@@ -117,17 +92,17 @@
                       >> 人事部長メッセージ</router-link
                     >
                   </li>
-                  <li class="menu-list">> FAQ</li>
-                  <li class="menu-list">> 会社概要＆募集要項</li>
+                  <li class="menu-list"><a href="/faq">> FAQ</a></li>
+                  <li class="menu-list"><a href="/recruit">> 会社概要＆募集要項</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
         <div class="lg:flex justify-between">
-          <div class="menu-entry-btn">
+          <!-- <div class="menu-entry-btn">
             <img src="../../assets/images/entry-btn.png" alt="" />
-          </div>
+          </div> -->
           <div class="menu-grou-together">
             <img src="../../assets/images/grow-together.png" alt="" />
           </div>

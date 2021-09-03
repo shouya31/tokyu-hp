@@ -1,7 +1,7 @@
 <template>
   <div class="lg:hidden">
     <header class="fixed w-full" style="z-index:999999999;">
-      <div class="pl-5 flex justify-between">
+      <div class="pl-5 flex w-full justify-between">
         <div class="py-3">
           <a href="#" class=""
             ><img
@@ -54,7 +54,7 @@
                   <img src="../../assets/images/menu-people.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> キャリアフィールド</li>
+                  <li class="menu-list"><a href="/careerfield">> キャリアフィールド</a></li>
                   <p
                     class="mt-8"
                     style="background:#333333; color:white; padding:5px;"
@@ -62,12 +62,24 @@
                     社員紹介
                   </p>
                   <ul>
-                    <li class="menu-list"><a href="/people/1">> 社員A</a></li>
-                    <li class="menu-list"><a href="/people/2">> 社員B</a></li>
-                    <li class="menu-list"><a href="/people/3">> 社員C</a></li>
-                    <li class="menu-list"><a href="/people/4">> 社員D</a></li>
-                    <li class="menu-list"><a href="/people/5">> 社員E</a></li>
-                    <li class="menu-list"><a href="/people/6">> 社員F</a></li>
+                    <li class="menu-list">
+                      <a href="/people/1">> たまプラーザ店 営業統括部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/2">> 専門店事業部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/3">> ファッション・雑貨統括部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/4">> 営業推進部 顧客サービス部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/5">> 事業戦略部 顧客サービス部</a>
+                    </li>
+                    <li class="menu-list">
+                      <a href="/people/6">> 営業推進部 営業企画部</a>
+                    </li>
                   </ul>
                 </ul>
               </div>

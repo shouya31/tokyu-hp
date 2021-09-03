@@ -28,23 +28,6 @@
       </div>
     </header>
     <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
-      <sidebar></sidebar>
-      <header class="lg:hidden fixed w-full" style="z-index: 999999999">
-        <div class="pl-5 flex justify-between">
-          <div class="py-3">
-            <a href="#" class=""
-              ><img
-                src="@/assets/images/tokyu-logo.svg"
-                alt="東急百貨店"
-                width="140"
-            /></a>
-          </div>
-          <div class="menu p-5">
-            <p><span style="width: 40px"></span></p>
-            <p><span style="width: 40px"></span></p>
-          </div>
-        </div>
-      </header>
       <section
         class="hero col-span-12 col-start-2 lg:flex justify-around mt-10"
       >

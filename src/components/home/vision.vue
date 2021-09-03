@@ -6,6 +6,7 @@
         <div class="flex justify-between flex-row-reverse">
           <HomeSectionText
             text="東急グループの中でリテール関連事業の中核を担う東急百貨店。東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、これからどのようなビジョンと共に歩んでいくのかをお伝えします。"
+            src='/vision'
           />
           <HomeSectionImage :image="homeimage" />
         </div>
@@ -28,7 +29,9 @@
           </p>
         </div>
         <p class="sentence-more text-center mt-3">
-          <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
+          <a href="/vision">
+            <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
+          </a>
         </p>
       </div>
     </section>

@@ -7,32 +7,39 @@
           <HomeSectionImage :image="homeimage" />
           <div class="vision-left-content w-5/12 m-10 flex">
             <p class="sentence-more text-center m-auto self-center">
-              <img
-                src="../../assets/images/read-more.png"
-                alt=""
-                class="mx-auto"
-              />
+              <a href="/recruit">
+                <img
+                  src="../../assets/images/read-more.png"
+                  alt=""
+                  class="mx-auto"
+                />
+              </a>
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="vision" class="lg:hidden">
-      <div class="mt-16">
-        <div class="vision-title w-8/12 mx-auto">
+    <section
+      id="vision"
+      class="lg:hidden relative bg-white"
+      style="z-index:99;"
+    >
+      <div class="pt-16">
+        <div class="vision-title w-8/12 mx-auto text-right">
           <img :src="titleimage" />
         </div>
-        <div class="vision-right-content" style="margin-left: 20%;">
+        <div class="vision-right-content mt-8" style="margin-right: 20%;">
           <img :src="homeimage" alt="" />
         </div>
-        <div class="vision-left-content" style="margin-left: 20%;">
-          <p class="section-text text-sm py-5 pr-8">
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </p>
-        </div>
         <p class="sentence-more text-center mt-3">
-          <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
+          <a href="/recruit">
+            <img
+              src="../../assets/images/read-more.png"
+              alt=""
+              class="mx-auto"
+            />
+          </a>
         </p>
       </div>
     </section>

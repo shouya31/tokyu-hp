@@ -33,7 +33,7 @@
                   <img src="../../assets/images/menu-vision.png" />
                 </p>
                 <ul>
-                  <li class="menu-list">> ビジョンについて</li>
+                  <li class="menu-list"><a href="/vision">> ビジョンについて</a></li>
                 </ul>
               </div>
               <div class="menu-block hidden">
@@ -41,8 +41,8 @@
                   <img src="../../assets/images/menu-project.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> 地域と共に</li>
-                  <li class="menu-list">> 新規事業と共に</li>
+                  <li class="menu-list"><a href="">> 地域と共に</a></li>
+                  <li class="menu-list"><a href="">> 新規事業と共に</a></li>
                 </ul>
               </div>
             </div>
@@ -52,7 +52,7 @@
                   <img src="../../assets/images/menu-people.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> キャリアフィールド</li>
+                  <li class="menu-list"><a href="/careerfield">> キャリアフィールド</a></li>
                   <p
                     class="mt-8"
                     style="background:#333333; color:white; padding:5px;"
@@ -88,10 +88,11 @@
                   <img src="../../assets/images/menu-culture.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> 若手座談会</li>
-                  <li class="menu-list">> 男性社員座談会</li>
-                  <li class="menu-list">> 上司×部下対談</li>
-                  <li class="menu-list">> メールアンケート</li>
+
+                  <li class="menu-list"><a href="">> 若手座談会</a></li>
+                  <li class="menu-list"><a href="">> 男性社員座談会</a></li>
+                  <li class="menu-list"><a href="">> 上司×部下対談</a></li>
+                  <li class="menu-list"><a href="">> メールアンケート</a></li>
                 </ul>
               </div>
               <div class="menu-block">
@@ -99,7 +100,7 @@
                   <img src="../../assets/images/menu-system.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> 働き方について</li>
+                  <li class="menu-list"><a href="/workstyle">> 働き方について</a></li>
                 </ul>
               </div>
             </div>
@@ -114,8 +115,8 @@
                       >> 人事部長メッセージ</router-link
                     >
                   </li>
-                  <li class="menu-list">> FAQ</li>
-                  <li class="menu-list">> 会社概要＆募集要項</li>
+                  <li class="menu-list"><a href="/faq">> FAQ</a></li>
+                  <li class="menu-list"><a href="/recruit">> 会社概要＆募集要項</a></li>
                 </ul>
               </div>
             </div>
@@ -308,5 +309,10 @@ export default {
   width: 60%;
   margin-left: 30px;
   margin-top: 20px;
+}
+.change_bg{
+  width: 100vw;
+  height: 100vh;
+  background: white;
 }
 </style>

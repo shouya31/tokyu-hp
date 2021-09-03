@@ -121,7 +121,7 @@
         <div class="vision-title w-8/12 mx-auto">
           <img :src="titleimage" />
         </div>
-        <div class="vision-right-content mt-8" style="margin-right: 20%;">
+        <div class="vision-right-content mt-8">
           <carousel :per-page="1" :autoplay="true" :loop="true">
             <slide>
               <div class="flex relative">
@@ -155,7 +155,7 @@
             </slide>
           </carousel>
         </div>
-        <div class="vision-left-content" style="margin-right: 20%;">
+        <div class="vision-left-content">
           <p class="section-text text-sm py-5 pl-8">
             東急百貨店と共に成長する仲間たち。<br />
             志望動機や現在の仕事内容はもちろん、入社から現在に至るまで<br />

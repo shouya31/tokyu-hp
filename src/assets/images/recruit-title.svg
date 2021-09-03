@@ -3,8 +3,8 @@
     <text id="共に歩む" transform="translate(224 51)" fill="#333" font-size="19" font-family="NotoSerifJP-Regular, Noto Serif JP" letter-spacing="0.16em"><tspan x="-42.56" y="0">共</tspan><tspan y="0">に</tspan><tspan y="0">歩</tspan><tspan y="0">む</tspan></text>
     <text id="RECRUIT" transform="translate(310 60)" fill="#16344f" font-size="49" font-family="BrandonGrotesque-Bold, Brandon Grotesque" font-weight="700" letter-spacing="0.12em"><tspan x="0" y="0">RECRUIT</tspan></text>
     <g id="グループ_2781" data-name="グループ 2781" transform="translate(280.816 36.325)">
-      <path id="パス_539" data-name="パス 539" d="M22.077,1.5H0v-3H22.077Z" transform="translate(0 15.611) rotate(-45)" fill="#333"/>
-      <path id="パス_540" data-name="パス 540" d="M22.077,1.5H0v-3H22.077Z" transform="translate(0 0) rotate(45)" fill="#333"/>
+      <path id="パス_539" data-name="パス 539" d="M0,0H22.077" transform="translate(0 15.611) rotate(-45)" fill="none" stroke="#333" stroke-width="3"/>
+      <path id="パス_540" data-name="パス 540" d="M0,0H22.077" transform="translate(0 0) rotate(45)" fill="none" stroke="#333" stroke-width="3"/>
     </g>
   </g>
 </svg>

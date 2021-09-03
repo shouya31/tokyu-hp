@@ -1,6 +1,6 @@
 <template>
   <div class="lg:hidden">
-    <header class="fixed w-full" style="z-index:999999999;">
+    <header class="fixed w-full" style="z-index: 999999999">
       <div class="pl-5 flex w-full justify-between">
         <div class="py-3">
           <a href="#" class=""
@@ -31,7 +31,9 @@
                   <img src="../../assets/images/menu-vision.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list"><a href="/vision">> ビジョンについて</a></li>
+                  <li class="menu-list">
+                    <a href="/vision">> ビジョンについて</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -41,10 +43,12 @@
                   <img src="../../assets/images/menu-people.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list"><a href="/careerfield">> キャリアフィールド</a></li>
+                  <li class="menu-list">
+                    <a href="/careerfield">> キャリアフィールド</a>
+                  </li>
                   <p
                     class="mt-8"
-                    style="background:#333333; color:white; padding:5px;"
+                    style="background: #333333; color: white; padding: 5px"
                   >
                     社員紹介
                   </p>
@@ -77,7 +81,9 @@
                   <img src="../../assets/images/menu-system.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list"><a href="/workstyle">> 働き方について</a></li>
+                  <li class="menu-list">
+                    <a href="/workstyle">> 働き方について</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -93,8 +99,24 @@
                     >
                   </li>
                   <li class="menu-list"><a href="/faq">> FAQ</a></li>
-                  <li class="menu-list"><a href="/recruit">> 会社概要＆募集要項</a></li>
+                  <li class="menu-list">
+                    <a href="/recruit">> 会社概要＆募集要項</a>
+                  </li>
                 </ul>
+              </div>
+            </div>
+            <div class="menu-line">
+              <div class="menu-block">
+                <a
+                  href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../../assets/images/entry-btn.png"
+                    alt="ENTRY"
+                    style="width: 200px"
+                /></a>
               </div>
             </div>
           </div>
@@ -117,7 +139,7 @@
                 :src="titleImages[index]"
                 :key="titleImages[index]"
                 class="ml-4 mt-4"
-                style="z-index:-2;"
+                style="z-index: -2"
               />
             </transition>
           </div>
@@ -136,7 +158,7 @@
             src="../../assets/images/home-fv2.png"
             alt=""
             class="fv-person-animation-sp2"
-            style="top: 170px;left: 65px; z-index:-2;;"
+            style="top: 170px; left: 65px; z-index: -2 ;"
             width="85"
           />
         </a>
@@ -145,7 +167,7 @@
             src="../../assets/images/home-fv1.png"
             alt=""
             class="fv-person-animation-sp1"
-            style="top: -140px; left: 30px; z-index:-2;;"
+            style="top: -140px; left: 30px; z-index: -2 ;"
             width="85"
           />
         </a>
@@ -155,7 +177,7 @@
             src="../../assets/images/home-fv3.png"
             alt=""
             class="fv-person-animation-sp3"
-            style="bottom: -280px; z-index:-2;;"
+            style="bottom: -280px; z-index: -2 ;"
             width="85"
           />
         </a>
@@ -166,7 +188,7 @@
             src="../../assets/images/home-fv5.png"
             alt=""
             class="fv-person-animation-sp5"
-            style="top: 280px;left: 65px; z-index:-2;;"
+            style="top: 280px; left: 65px; z-index: -2 ;"
             width="85"
           />
         </a>
@@ -176,7 +198,7 @@
             src="../../assets/images/home-fv4.png"
             alt=""
             class="fv-person-animation-sp4"
-            style="left: 30px; z-index:-2;;"
+            style="left: 30px; z-index: -2 ;"
             width="85"
           />
         </a>
@@ -186,7 +208,7 @@
             src="../../assets/images/home-fv6.png"
             alt=""
             class="fv-person-animation-sp6"
-            style="bottom: -420px; z-index:-2;;"
+            style="bottom: -420px; z-index: -2 ;"
             width="85"
           />
         </a>
@@ -223,7 +245,7 @@ export default {
     }, 3000);
   },
   methods: {
-    menuOpenOrClose: function() {
+    menuOpenOrClose: function () {
       this.$modal.show("hello-world-sp");
 
       if (this.src === this.openBtn) {
@@ -240,16 +262,16 @@ export default {
         return;
       }
     },
-    changeOpenMenu: function() {
+    changeOpenMenu: function () {
       this.src = this.openBtn;
     },
-    changeCloseMenu: function() {
+    changeCloseMenu: function () {
       this.src = this.closeBtn;
     },
-    opend: function() {
+    opend: function () {
       this.src = this.closeBtn;
     },
-    beforeClose: function() {
+    beforeClose: function () {
       this.src = this.openBtn;
     },
   },

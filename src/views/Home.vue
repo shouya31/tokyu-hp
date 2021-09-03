@@ -5,7 +5,7 @@
         <img src="../assets/images/grow-together.png" alt="" class="mx-auto" />
       </div>
       <img
-        src="../assets/images/footer-logo.png"
+        src="../assets/images/footer-logo.svg"
         alt="東急百貨店"
         width="180"
         class="mx-auto loader-logo"

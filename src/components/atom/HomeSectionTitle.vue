@@ -1,5 +1,5 @@
 <template>
-  <div class="visoion-title">
+  <div class="vision-title">
     <img :src="image">
     <!-- <div class="flex"> -->
       <!-- <p

@@ -60,14 +60,27 @@
         </div>
       </div>
       <div>
-        <img
-          src="@/assets/images/vision-affiliates.png"
-          srcset="
-            @/assets/images/vision-affiliates.png    1x,
-            @/assets/images/vision-affiliates@2x.png 2x
-          "
-          alt="東急百貨店の関連会社のロゴ"
-        />
+        <picture>
+          <source
+            media="(min-width:641px)"
+            srcset="
+              @/assets/images/vision-affiliates.png    1x,
+              @/assets/images/vision-affiliates@2x.png 2x
+            "
+          />
+          <source
+            media="(max-width:640px)"
+            srcset="
+              @/assets/images/vision-affiliates_sp.png    1x,
+              @/assets/images/vision-affiliates_sp@2x.png 2x
+            "
+          />
+          <source srcset="@/assets/images/vision-affiliates.png" />
+          <img
+            src="@/assets/images/vision-affiliates.png"
+            alt="東急百貨店の関連会社のロゴ"
+          />
+        </picture>
       </div>
     </section>
     <section class="vision-contents philosophy mx-auto bg-gray">
@@ -122,7 +135,7 @@
           />
         </p>
       </div>
-      <div class="content-inner">
+      <div class="content-inner credo">
         <h3 class="text-center">行動指針</h3>
         <h4 class="text-center sub-title">
           日々の仕事に向かう時の私たちの心得
@@ -187,12 +200,12 @@
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img
-          src="@/assets/images/footer-logo.png"
+          src="@/assets/images/footer-logo.svg"
           alt="東急百貨店"
           width="180"
           class="mx-auto bg-white"
       /></a>
-      <p class="text-xs lg:text-sm mt-5 italic">
+      <p class="text-xs lg:text-sm mt-5">
         <small
           >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
           Reserved.</small

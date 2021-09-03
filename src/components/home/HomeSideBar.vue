@@ -7,7 +7,7 @@
     <div class="side-bar-content max-w-full col-span-1">
       <router-link to="/"
         ><img
-          src="../../assets/images/tokyu-logo.png"
+          src="../../assets/images/tokyu-logo.svg"
           alt="東急百貨店"
           width="150"
       /></router-link>
@@ -33,12 +33,10 @@
                   <img src="../../assets/images/menu-vision.png" />
                 </p>
                 <ul>
-                  <li class="menu-list">> トップインタビュー</li>
                   <li class="menu-list">> ビジョンについて</li>
-                  <li class="menu-list">> キーワードで知る</li>
                 </ul>
               </div>
-              <div class="menu-block">
+              <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-project.png" />
                 </p>
@@ -85,7 +83,7 @@
               </div>
             </div>
             <div class="menu-line">
-              <div class="menu-block">
+              <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-culture.png" />
                 </p>
@@ -101,7 +99,6 @@
                   <img src="../../assets/images/menu-system.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list">> 研修制度</li>
                   <li class="menu-list">> 働き方について</li>
                 </ul>
               </div>
@@ -294,6 +291,8 @@ export default {
 }
 .side-bar-content .vm--container {
   width: 86%;
+  right: 0;
+  left: initial;
 }
 
 .menu-list {

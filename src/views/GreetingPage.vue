@@ -230,16 +230,15 @@
       </section>
     </div>
     <footer class="col-span-10 bg-white pt-14 pb-10 text-center">
-      <!-- 画像ちょっと横にずれてる？ -->
       <a href=""
         ><img
-          src="../assets/images/footer-logo.png"
+          src="../assets/images/footer-logo.svg"
           alt="東急百貨店"
           width="180"
           class="mx-auto bg-white"
       /></a>
 
-      <p class="text-sm mt-5 italic">
+      <p class="text-sm mt-5">
         <small
           >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
           Reserved.</small

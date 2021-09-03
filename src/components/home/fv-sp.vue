@@ -5,7 +5,7 @@
         <div class="py-3">
           <a href="#" class=""
             ><img
-              src="../../assets/images/tokyu-logo.png"
+              src="../../assets/images/tokyu-logo.svg"
               alt="東急百貨店"
               width="120"
           /></a>
@@ -38,7 +38,7 @@
                   <li class="menu-list">> キーワードで知る</li>
                 </ul>
               </div>
-              <div class="menu-block">
+              <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-project.png" />
                 </p>
@@ -73,7 +73,7 @@
               </div>
             </div>
             <div class="menu-line">
-              <div class="menu-block">
+              <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-culture.png" />
                 </p>
@@ -384,12 +384,7 @@ export default {
   opacity: 0;
   z-index: -3;
 }
-.explain-text {
-  font-size: 18px;
-  font-family: "Noto Sans Japanese", sans-serif;
-  line-height: 32px;
-  z-index: -3;
-}
+
 .fv-header-sp {
   width: 40%;
 }

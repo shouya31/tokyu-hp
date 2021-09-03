@@ -6,7 +6,7 @@
     <div class="max-w-full col-span-1">
       <router-link to="/"
         ><img
-          src="@/assets/images/tokyu-logo.png"
+          src="@/assets/images/tokyu-logo.svg"
           alt="東急百貨店"
           width="150"
       /></router-link>
@@ -39,7 +39,7 @@
                   <li class="menu-list">> キーワードで知る</li>
                 </ul>
               </div>
-              <div class="menu-block">
+              <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
                   <img src="@/assets/images/menu-project.png" />
                 </p>
@@ -234,9 +234,16 @@ export default {
 <style>
 /* @import "@/assets/style/home.css"; */
 /* @import "@/assets/style/style.css"; */
+
 .font-BrandonGrotesque {
   font-family: Brandon Grotesque;
 }
+
+
+.side-bar {
+  z-index: 9999;
+}
+
 .menu-close {
   position: absolute;
   top: 0px;

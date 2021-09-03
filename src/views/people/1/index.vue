@@ -5,6 +5,7 @@
         <img
           src="@/assets/images/header-logo.svg"
           alt="東急百貨店のリクルートサイト"
+          style="width: 120px"
         />
       </h1>
       <div class="header-nav-wrapper">
@@ -21,7 +22,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+              <img
+                src="@/assets/images/side-entry-btn.svg"
+                alt="ENTRY"
+                style="width: 80px"
+              />
             </a>
           </p>
         </button>
@@ -386,7 +391,7 @@
                   src="@/assets/images/people-column.svg"
                   alt=""
                   srcset=""
-                  class="w-full"
+                  style="width:147px"
                 />
               </h5>
             </div>
@@ -420,8 +425,8 @@
                 <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
                   <img
                     src="@/assets/images/people-profile.svg"
-                    alt=""
-                    srcset=""
+                    alt="profile"
+                    style="width:147px"
                   />
                 </p>
               </li>

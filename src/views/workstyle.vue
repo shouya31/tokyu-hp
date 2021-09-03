@@ -5,6 +5,7 @@
         <img
           src="@/assets/images/header-logo.svg"
           alt="東急百貨店のリクルートサイト"
+          style="width: 120px"
         />
       </h1>
       <div class="header-nav-wrapper">
@@ -21,7 +22,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+              <img
+                src="@/assets/images/side-entry-btn.svg"
+                alt="ENTRY"
+                style="width: 80px"
+              />
             </a>
           </p>
         </button>
@@ -31,7 +36,7 @@
       <div class="sub-pagetitle">
         <img
           src="@/assets/images/system-title.svg"
-          alt="共に歩む×RECRUIT"
+          alt="共に歩む×SYSTEM"
           class="lg:w-full"
         />
       </div>
@@ -207,6 +212,9 @@ dl.workstyle-child-contents {
 .workstyle-child-contents dd {
   border: none;
   padding: 10px 0;
+}
+.workstyle-child-contents dd:last-of-type {
+  padding-bottom: 0;
 }
 @media screen and (max-width: 800px) {
   .workstyle .workstyle-contents,

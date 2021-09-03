@@ -11,13 +11,6 @@
                 志望動機や現在の仕事内容はもちろん、入社から現在に至るまで
                 記憶に残るエピソードや未来に向けた想いを語っていただきました。
               </p>
-              <p class="sentence-more text-center mt-12">
-                <img
-                  src="../../assets/images/read-more.png"
-                  alt=""
-                  class="mx-auto"
-                />
-              </p>
             </div>
           </div>
 
@@ -162,9 +155,6 @@
             記憶に残るエピソードや未来に向けた想いを語っていただきました。<br />
           </p>
         </div>
-        <p class="sentence-more text-center mt-3">
-          <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
-        </p>
       </div>
     </section>
   </div>

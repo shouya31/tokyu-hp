@@ -5,6 +5,7 @@
         <img
           src="@/assets/images/header-logo.svg"
           alt="東急百貨店のリクルートサイト"
+          style="width: 120px"
         />
       </h1>
       <div class="header-nav-wrapper">
@@ -21,7 +22,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+              <img
+                src="@/assets/images/side-entry-btn.svg"
+                alt="ENTRY"
+                style="width: 80px"
+              />
             </a>
           </p>
         </button>

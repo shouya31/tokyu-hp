@@ -5,6 +5,7 @@
         <img
           src="@/assets/images/header-logo.svg"
           alt="東急百貨店のリクルートサイト"
+          style="width: 120px"
         />
       </h1>
       <div class="header-nav-wrapper">
@@ -21,7 +22,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+              <img
+                src="@/assets/images/side-entry-btn.svg"
+                alt="ENTRY"
+                style="width: 80px"
+              />
             </a>
           </p>
         </button>
@@ -225,7 +230,7 @@
           </dd>
         </dl>
       </div>
-            <h3 class="text-center">その他</h3>
+      <h3 class="text-center">その他</h3>
       <div class="">
         <dl class="listQA">
           <dt>
@@ -242,9 +247,7 @@
             <p>社員の男女比を教えてください。</p>
           </dt>
           <dd>
-            <p>
-              男性 4：女性 6です。（2021年4月現在）
-            </p>
+            <p>男性 4：女性 6です。（2021年4月現在）</p>
           </dd>
         </dl>
       </div>

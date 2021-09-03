@@ -226,7 +226,7 @@
             <div class="text-xs lg:text-sm mt-7 text-gray-600">
               <p class="answer-attention">*セールスパートナー:</p>
               <p class="answer-attention">
-                自社雇用ではなく店頭での商品販売に従事する取引先からのスタッフを指す。
+                店頭での商品販売に従事するお取引先様の販売スタッフの方々のこと。当社では一緒に働く仲間として、セールスパートナーと呼ぶ。
               </p>
             </div>
           </div>

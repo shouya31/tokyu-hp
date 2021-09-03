@@ -100,12 +100,12 @@
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img
-          src="@/assets/images/footer-logo.png"
+          src="@/assets/images/footer-logo.svg"
           alt="東急百貨店"
           width="180"
           class="mx-auto bg-white"
       /></a>
-      <p class="text-xs lg:text-sm mt-5 italic">
+      <p class="text-xs lg:text-sm mt-5">
         <small
           >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
           Reserved.</small

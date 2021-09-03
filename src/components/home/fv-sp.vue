@@ -38,7 +38,7 @@
                   <li class="menu-list">> キーワードで知る</li>
                 </ul>
               </div>
-              <div class="menu-block">
+              <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-project.png" />
                 </p>
@@ -73,7 +73,7 @@
               </div>
             </div>
             <div class="menu-line">
-              <div class="menu-block">
+              <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
                   <img src="../../assets/images/menu-culture.png" />
                 </p>

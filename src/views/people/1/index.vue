@@ -27,18 +27,6 @@
         </button>
       </div>
     </header>
-    <section class="page-top mx-auto">
-      <div class="sub-pagetitle">
-        <img
-          src="@/assets/images/recruit-title.svg"
-          alt="共に歩む×RECRUIT"
-          class="lg:w-full"
-        />
-      </div>
-      <div class="current-nav">
-        <p>FAQ</p>
-      </div>
-    </section>
     <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
       <section
         class="hero col-span-12 col-start-2 lg:flex justify-around mt-10"
@@ -474,12 +462,12 @@
       <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
         <a href="/"
           ><img
-            src="@/assets/images/footer-logo.png"
+            src="@/assets/images/footer-logo.svg"
             alt="東急百貨店"
             width="180"
             class="mx-auto bg-white"
         /></a>
-        <p class="text-xs lg:text-sm mt-5 italic">
+        <p class="text-xs lg:text-sm mt-5">
           <small
             >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
             Reserved.</small
@@ -494,10 +482,6 @@
 @import "../../../assets/style/style.css";
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url("https://use.typekit.net/bdr1ssy.css");
-
-.people {
-  margin-top: 40px;
-}
 
 .people-text {
   color: #707070;

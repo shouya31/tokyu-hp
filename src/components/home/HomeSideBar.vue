@@ -278,7 +278,7 @@ export default {
     },
     mouseoverRecruit: function () {
       this.recruitText = require("../../assets/images/RECRUIT_hover.png");
-      window.location.href = "#recruit";
+      // window.location.href = "#recruit";
     },
     mouseleaveRecruit: function () {
       this.recruitText = require("../../assets/images/RECRUIT_side_text.png");

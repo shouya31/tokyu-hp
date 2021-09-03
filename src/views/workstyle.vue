@@ -30,7 +30,7 @@
     <section class="page-top mx-auto">
       <div class="sub-pagetitle">
         <img
-          src="@/assets/images/system-title.svg"
+          src="@/assets/images/recruit-title.svg"
           alt="共に歩む×RECRUIT"
           class="lg:w-full"
         />
@@ -77,8 +77,6 @@
           <dt>育児勤務</dt>
           <dd>最短5時間まで短縮でき、最長で小学校4年生の4月まで取得可能</dd>
           <dt>介護休職</dt>
-          <dd>通算1年取得可能</dd>
-          <dt>介護勤務</dt>
           <dd>
             最短5時間まで短縮可能な短時間勤務や週休3日制等が利用可能<br
               class="pc-br"
@@ -177,7 +175,6 @@
   color: #1b224c;
   font-size: 16px;
   font-weight: bold;
-  letter-spacing: 2px;
   flex-basis: 25%;
   padding: 20px 24px;
   background-color: #fff;
@@ -203,8 +200,7 @@ dl.workstyle-child-contents {
 .workstyle-child-contents dt {
   font-weight: normal;
 }
-.workstyle-child-contents dt,
-.workstyle-child-contents dd {
+.workstyle-child-contents dt,.workstyle-child-contents dd {
   border: none;
   padding: 10px 0;
 }

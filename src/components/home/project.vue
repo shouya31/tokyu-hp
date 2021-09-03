@@ -59,7 +59,7 @@ export default {
   data() {
     return {
       homeimage: require("@/assets/images/greeting.png"),
-      titleimage: require("@/assets/images/RECRUIT_title.png"),
+      titleimage: require("@/assets/images/RECRUIT_title@2x.png"),
     };
   },
 };

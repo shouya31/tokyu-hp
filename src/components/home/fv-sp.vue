@@ -121,15 +121,6 @@
                   <li class="menu-list">> 会社概要＆募集要項</li>
                 </ul>
               </div>
-              <div class="menu-follow">
-                <img src="../../assets/images/menu-follow-us.png" />
-              </div>
-              <div class="menu-folow-parts flex justify-between">
-                <img src="../../assets/images/menu-facebook.png" />
-                <img src="../../assets/images/menu-instargram.png" />
-                <img src="../../assets/images/menu-youtube.png" />
-                <img src="../../assets/images/menu-twitter.png" />
-              </div>
             </div>
           </div>
         </div>

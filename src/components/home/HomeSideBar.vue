@@ -2,7 +2,7 @@
   <div
     v-bind:class="{ change_bg: ChangeBg }"
     class="side-bar w-2/12 p-8 fixed hidden lg:block"
-    style="z-index: 999;"
+    style="z-index: 999"
   >
     <div class="side-bar-content max-w-full col-span-1">
       <router-link to="/"
@@ -33,7 +33,9 @@
                   <img src="../../assets/images/menu-vision.png" />
                 </p>
                 <ul>
-                  <li class="menu-list"><a href="/vision">> ビジョンについて</a></li>
+                  <li class="menu-list">
+                    <a href="/vision">> ビジョンについて</a>
+                  </li>
                 </ul>
               </div>
               <div class="menu-block hidden">
@@ -52,10 +54,12 @@
                   <img src="../../assets/images/menu-people.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list"><a href="/careerfield">> キャリアフィールド</a></li>
+                  <li class="menu-list">
+                    <a href="/careerfield">> キャリアフィールド</a>
+                  </li>
                   <p
                     class="mt-8"
-                    style="background:#333333; color:white; padding:5px;"
+                    style="background: #333333; color: white; padding: 5px"
                   >
                     社員紹介
                   </p>
@@ -88,7 +92,6 @@
                   <img src="../../assets/images/menu-culture.png" />
                 </p>
                 <ul class="menu-bottom-line">
-
                   <li class="menu-list"><a href="">> 若手座談会</a></li>
                   <li class="menu-list"><a href="">> 男性社員座談会</a></li>
                   <li class="menu-list"><a href="">> 上司×部下対談</a></li>
@@ -100,7 +103,9 @@
                   <img src="../../assets/images/menu-system.png" />
                 </p>
                 <ul class="menu-bottom-line">
-                  <li class="menu-list"><a href="/workstyle">> 働き方について</a></li>
+                  <li class="menu-list">
+                    <a href="/workstyle">> 働き方について</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -116,10 +121,31 @@
                     >
                   </li>
                   <li class="menu-list"><a href="/faq">> FAQ</a></li>
-                  <li class="menu-list"><a href="/recruit">> 会社概要＆募集要項</a></li>
+                  <li class="menu-list">
+                    <a href="/recruit">> 会社概要＆募集要項</a>
+                  </li>
                 </ul>
               </div>
             </div>
+            <!-- <div class="menu-line">
+              <div class="menu-block">
+                <p>
+                  <a
+                    href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="block"
+                  >
+                    <img
+                      src="@/assets/images/entry-btn.png"
+                      alt=""
+                      class="w-11/12 mt-10"
+                      style="width: 200px"
+                    />
+                  </a>
+                </p>
+              </div>
+            </div> -->
           </div>
         </div>
         <div class="flex justify-between w-9/12">
@@ -131,11 +157,18 @@
             />
           </div>
           <div class="menu-entry-btn">
-            <img
-              src="../../assets/images/entry-btn.png"
-              alt=""
-              class="w-11/12 mt-10"
-            />
+            <a
+              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block"
+            >
+              <img
+                src="../../assets/images/entry-btn.png"
+                alt=""
+                class="w-11/12 mt-10"
+              />
+            </a>
           </div>
         </div>
       </modal>
@@ -145,7 +178,7 @@
           v-on:mouseleave="mouseleaveVision"
           class="menu-context-title tracking-wider font-BrandonGrotesque"
         >
-          <a href="/#vision" style="color:gray;"
+          <a href="/#vision" style="color: gray"
             ><img :src="visionText" alt=""
           /></a>
         </li>
@@ -154,7 +187,7 @@
           v-on:mouseleave="mouseleavePeople"
           class="menu-context-title tracking-wider font-BrandonGrotesque"
         >
-          <a href="/#people" style="color:gray;"
+          <a href="/#people" style="color: gray"
             ><img :src="peopleText" alt=""
           /></a>
         </li>
@@ -163,18 +196,24 @@
           v-on:mouseleave="mouseleaveRecruit"
           class="menu-context-title tracking-wider font-BrandonGrotesque"
         >
-          <a href="/#recruit" style="color:gray;"
+          <a href="/#recruit" style="color: gray"
             ><img :src="recruitText" alt=""
           /></a>
         </li>
       </ul>
       <div class="">
-        <button class="mt-16 px-2" style="background: #003366;">
+        <button class="mt-16 px-2" style="background: #003366">
           <p
             class="text-2xl text-white tracking-widest"
-            style="font-size: 20px;"
+            style="font-size: 20px"
           >
-            <img src="../../assets/images/side-entry-btn.png" alt="" />
+            <a
+              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="../../assets/images/side-entry-btn.png" alt="" />
+            </a>
           </p>
         </button>
       </div>
@@ -197,7 +236,7 @@ export default {
     };
   },
   methods: {
-    menuOpenOrClose: function() {
+    menuOpenOrClose: function () {
       if (this.src === this.openBtn) {
         this.$modal.show("hello-world");
         this.src = this.closeBtn;
@@ -210,47 +249,47 @@ export default {
         return;
       }
     },
-    changeOpenMenu: function() {
+    changeOpenMenu: function () {
       this.src = this.openBtn;
     },
-    changeCloseMenu: function() {
+    changeCloseMenu: function () {
       this.src = this.closeBtn;
     },
-    mouseoverVision: function() {
+    mouseoverVision: function () {
       this.visionText = require("../../assets/images/hover-side-vision.png");
       window.location.href = "#vision";
     },
-    mouseleaveVision: function() {
+    mouseleaveVision: function () {
       this.visionText = require("../../assets/images/VISION.png");
     },
-    mouseoverProject: function() {
+    mouseoverProject: function () {
       this.projectText = require("../../assets/images/hover-side-project.png");
       window.location.href = "#project";
     },
-    mouseleaveProject: function() {
+    mouseleaveProject: function () {
       this.projectText = require("../../assets/images/PROJECT.png");
     },
-    mouseoverPeople: function() {
+    mouseoverPeople: function () {
       this.peopleText = require("../../assets/images/hover-side-people.png");
       window.location.href = "#people";
     },
-    mouseleavePeople: function() {
+    mouseleavePeople: function () {
       this.peopleText = require("../../assets/images/PEOPLE.png");
     },
-    mouseoverRecruit: function() {
+    mouseoverRecruit: function () {
       this.recruitText = require("../../assets/images/RECRUIT_hover.png");
       window.location.href = "#recruit";
     },
-    mouseleaveRecruit: function() {
+    mouseleaveRecruit: function () {
       this.recruitText = require("../../assets/images/RECRUIT_side_text.png");
     },
-    beforeOpen: function() {
+    beforeOpen: function () {
       this.ChangeBg = true;
     },
-    opend: function() {
+    opend: function () {
       this.src = this.closeBtn;
     },
-    beforeClose: function() {
+    beforeClose: function () {
       this.ChangeBg = false;
       this.src = this.openBtn;
     },
@@ -310,7 +349,7 @@ export default {
   margin-left: 30px;
   margin-top: 20px;
 }
-.change_bg{
+.change_bg {
   width: 100vw;
   height: 100vh;
   background: white;

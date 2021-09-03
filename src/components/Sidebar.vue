@@ -137,11 +137,12 @@
             />
           </div>
           <div class="menu-entry-btn">
-            <img
-              src="@/assets/images/entry-btn.png"
-              alt=""
-              class="w-11/12 mt-10"
-            />
+            <a
+                  href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="block"
+                >
           </div>
         </div>
       </modal>

@@ -1,5 +1,11 @@
 <template>
   <div>
+    <div class="to-pagetop">
+      <a href="!#">
+        <img src="../../assets/images/pagetop-btn.svg" alt="PAGETOP">
+      </a>
+
+    </div>
     <footer class="bg-white text-center mt-30 lg:block hidden">
       <a href=""
         ><img

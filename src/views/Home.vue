@@ -87,7 +87,7 @@ export default {
 }
 
 .loader img {
-  animation: loading 3s ease-in-out;
+  animation: loading 1.5s ease-in-out;
   margin: auto;
 }
 

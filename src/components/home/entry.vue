@@ -9,7 +9,14 @@
         />
       </div>
       <div class="entry-btn">
-        <img src="../../assets/images/entry-btn.png" alt="" class="mx-auto" />
+        <a
+          href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block"
+        >
+          <img src="../../assets/images/entry-btn.png" alt="" class="mx-auto" />
+        </a>
       </div>
     </section>
     <section class="lg:hidden py-40">
@@ -21,7 +28,11 @@
         />
       </div>
       <div class="entry-btn">
-        <img src="../../assets/images/entry-btn.png" alt="" class="mx-auto w-4/12" />
+        <img
+          src="../../assets/images/entry-btn.png"
+          alt=""
+          class="mx-auto w-4/12"
+        />
       </div>
     </section>
   </div>

@@ -5,6 +5,7 @@
         <img
           src="@/assets/images/header-logo.svg"
           alt="東急百貨店のリクルートサイト"
+          style="width: 120px"
         />
       </h1>
       <div class="header-nav-wrapper">
@@ -21,7 +22,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+              <img
+                src="@/assets/images/side-entry-btn.svg"
+                alt="ENTRY"
+                style="width: 80px"
+              />
             </a>
           </p>
         </button>
@@ -41,10 +46,10 @@
           </div>
           <div class="lg:mt-20 lg:mb-10 tracking-wide">
             <img
-              src="@/assets/images/person1.png"
+              src="@/assets/images/person1-1.png"
               srcset="
-                @/assets/images/person1.png    1x,
-                @/assets/images/person1@2x.png 2x
+                @/assets/images/person1-1.png    1x,
+                @/assets/images/person1-1@2x.png 2x
               "
               class="pt-0 lg:hidden people-main-sp"
               width="450"
@@ -88,10 +93,10 @@
         </div>
         <div class="people-image mt-5 hidden lg:block">
           <img
-            src="@/assets/images/person1.png"
+            src="@/assets/images/person1-1.png"
             srcset="
-              @/assets/images/person1.png    1x,
-              @/assets/images/person1@2x.png 2x
+              @/assets/images/person1-1.png    1x,
+              @/assets/images/person1-1@2x.png 2x
             "
             width="450"
             height="800"
@@ -386,7 +391,7 @@
                   src="@/assets/images/people-column.svg"
                   alt=""
                   srcset=""
-                  class="w-full"
+                  style="width:147px"
                 />
               </h5>
             </div>
@@ -405,10 +410,10 @@
         <div class="lg:mt-32">
           <div class="upper-content pt-8 lg:pt-0">
             <img
-              src="@/assets/images/home-people1.png"
+              src="@/assets/images/person1-4.png"
               srcset="
-                @/assets/images/home-people1.png    1x,
-                @/assets/images/home-people1@2x.png 2x
+                @/assets/images/person1-4.png    1x,
+                @/assets/images/person1-4@2x.png 2x
               "
               alt="people4"
               class="home-person w-full"
@@ -420,8 +425,8 @@
                 <p class="font-thin text-4xl tracking-widest BrandonGrotesque">
                   <img
                     src="@/assets/images/people-profile.svg"
-                    alt=""
-                    srcset=""
+                    alt="profile"
+                    style="width:147px"
                   />
                 </p>
               </li>

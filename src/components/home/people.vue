@@ -5,18 +5,14 @@
         <HomeSectionTitle :image="titleimage" />
         <div class="">
           <div class="absolute">
-            <div class="vision-left-content w-4/12 m-10 relative bg-white" style="z-index:99;">
+            <div
+              class="vision-left-content w-4/12 m-10 relative bg-white"
+              style="z-index: 99"
+            >
               <p class="section-text mt-16">
                 東急百貨店と共に成長する仲間たち。
                 志望動機や現在の仕事内容はもちろん、入社から現在に至るまで
                 記憶に残るエピソードや未来に向けた想いを語っていただきました。
-              </p>
-              <p class="sentence-more text-center mt-12">
-                <img
-                  src="../../assets/images/read-more.png"
-                  alt=""
-                  class="mx-auto"
-                />
               </p>
             </div>
           </div>
@@ -33,10 +29,14 @@
                 <a href="/people/1">
                   <div class="vision-right-content mt-8">
                     <img
-                      src="../../assets/images/person1-message.png"
-                      alt=""
-                      width="1073"
-                      height="465"
+                      src="../../assets/images/home-people1.png"
+                      srcset="
+                        ../../assets/images/home-people1.png    1x,
+                        ../../assets/images/home-people1@2x.png 2x
+                      "
+                      alt="働く仲間と共に"
+                      width="1080"
+                      height="475"
                     />
                   </div>
                 </a>
@@ -47,9 +47,13 @@
                 <a href="/people/2">
                   <div class="vision-right-content mt-8">
                     <img
-                      src="../../assets/images/person2-message.png"
-                      width="1073"
-                      height="465"
+                      src="../../assets/images/home-people2.png"
+                      srcset="
+                        ../../assets/images/home-people2.png    1x,
+                        ../../assets/images/home-people2@2x.png 2x
+                      "
+                      width="1080"
+                      height="475"
                       alt=""
                     />
                   </div>
@@ -61,9 +65,13 @@
                 <a href="/people/3">
                   <div class="vision-right-content mt-8">
                     <img
-                      src="../../assets/images/person3-message.png"
-                      width="1073"
-                      height="465"
+                      src="../../assets/images/home-people3.png"
+                      srcset="
+                        ../../assets/images/home-people3.png    1x,
+                        ../../assets/images/home-people3@2x.png 2x
+                      "
+                      width="1080"
+                      height="475"
                       alt=""
                     />
                   </div>
@@ -75,9 +83,13 @@
                 <a href="/people/4">
                   <div class="vision-right-content mt-8">
                     <img
-                      src="../../assets/images/person4-message.png"
-                      width="1073"
-                      height="465"
+                      src="../../assets/images/home-people4.png"
+                      srcset="
+                        ../../assets/images/home-people4.png    1x,
+                        ../../assets/images/home-people4@2x.png 2x
+                      "
+                      width="1080"
+                      height="475"
                       alt=""
                     />
                   </div>
@@ -89,9 +101,13 @@
                 <a href="/people/5">
                   <div class="vision-right-content mt-8">
                     <img
-                      src="../../assets/images/person5-message.png"
-                      width="1073"
-                      height="465"
+                      src="../../assets/images/home-people5.png"
+                      srcset="
+                        ../../assets/images/home-people5.png    1x,
+                        ../../assets/images/home-people5@2x.png 2x
+                      "
+                      width="1080"
+                      height="475"
                       alt=""
                     />
                   </div>
@@ -103,9 +119,13 @@
                 <a href="/people/6">
                   <div class="vision-right-content mt-8">
                     <img
-                      src="../../assets/images/person6-message.png"
-                      width="1073"
-                      height="465"
+                      src="../../assets/images/home-people6.png"
+                      srcset="
+                        ../../assets/images/home-people6.png    1x,
+                        ../../assets/images/home-people6@2x.png 2x
+                      "
+                      width="1080"
+                      height="475"
                       alt=""
                     />
                   </div>
@@ -162,9 +182,6 @@
             記憶に残るエピソードや未来に向けた想いを語っていただきました。<br />
           </p>
         </div>
-        <p class="sentence-more text-center mt-3">
-          <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
-        </p>
       </div>
     </section>
   </div>
@@ -185,12 +202,12 @@ export default {
   },
   data() {
     return {
-      homeimage1: require("@/assets/images/person1-message.png"),
-      homeimage2: require("@/assets/images/person2-message.png"),
-      homeimage3: require("@/assets/images/person3-message.png"),
-      homeimage4: require("@/assets/images/person4-message.png"),
-      homeimage5: require("@/assets/images/person5-message.png"),
-      homeimage6: require("@/assets/images/person6-message.png"),
+      homeimage1: require("@/assets/images/home-people1.png"),
+      homeimage2: require("@/assets/images/home-people2.png"),
+      homeimage3: require("@/assets/images/home-people3.png"),
+      homeimage4: require("@/assets/images/home-people4.png"),
+      homeimage5: require("@/assets/images/home-people5.png"),
+      homeimage6: require("@/assets/images/home-people6.png"),
 
       titleimage: require("@/assets/images/top-people.png"),
     };
@@ -205,10 +222,8 @@ export default {
   height: 6px !important;
 }
 .VueCarousel {
-  width: 90%;
-  /* position: relative; */
-  /* z-index: -30; */
-  margin-left: 10%;
+  width: 100%;
+  padding-left: 10%;
 }
 .VueCarousel-wrapper,
 .VueCarousel-inner,

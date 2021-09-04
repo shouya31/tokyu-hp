@@ -7,7 +7,7 @@
           <HomeSectionImage :image="homeimage" />
           <div class="vision-left-content w-5/12 m-10 flex">
             <p class="sentence-more text-center m-auto self-center">
-              <a href="/recruit">
+              <a href="/greeting">
                 <img
                   src="../../assets/images/read-more.png"
                   alt=""
@@ -33,7 +33,7 @@
           <img :src="homeimage" alt="" />
         </div>
         <p class="sentence-more text-center mt-3">
-          <a href="/recruit">
+          <a href="/greeting">
             <img
               src="../../assets/images/read-more.png"
               alt=""

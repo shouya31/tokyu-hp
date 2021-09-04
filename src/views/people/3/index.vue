@@ -5,6 +5,7 @@
         <img
           src="@/assets/images/header-logo.svg"
           alt="東急百貨店のリクルートサイト"
+          style="width: 120px"
         />
       </h1>
       <div class="header-nav-wrapper">
@@ -21,7 +22,11 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="@/assets/images/side-entry-btn.svg" alt="ENTRY" />
+              <img
+                src="@/assets/images/side-entry-btn.svg"
+                alt="ENTRY"
+                style="width: 80px"
+              />
             </a>
           </p>
         </button>
@@ -41,10 +46,10 @@
           </div>
           <div class="lg:mt-20 lg:mb-10 tracking-wide">
             <img
-              src="@/assets/images/person3.png"
+              src="@/assets/images/person3-1.png"
               srcset="
-                @/assets/images/person3.png    1x,
-                @/assets/images/person3@2x.png 2x
+                @/assets/images/person3-1.png    1x,
+                @/assets/images/person3-1@2x.png 2x
               "
               class="pt-0 lg:hidden people-main-sp"
               width="450"
@@ -90,10 +95,10 @@
         </div>
         <div class="people-image mt-5 hidden lg:block">
           <img
-            src="@/assets/images/person3.png"
+            src="@/assets/images/person3-1.png"
             srcset="
-              @/assets/images/person3.png    1x,
-              @/assets/images/person3@2x.png 2x
+              @/assets/images/person3-1.png    1x,
+              @/assets/images/person3-1@2x.png 2x
             "
             width="450"
             height="800"
@@ -432,10 +437,10 @@
         <div class="lg:mt-32">
           <div class="upper-content pt-8 lg:pt-0">
             <img
-              src="@/assets/images/home-people3.png"
+              src="@/assets/images/person3-4.png"
               srcset="
-                @/assets/images/home-people3.png    1x,
-                @/assets/images/home-people3@2x.png 2x
+                @/assets/images/person3-4.png    1x,
+                @/assets/images/person3-4@2x.png 2x
               "
               alt="people4"
               class="home-person w-full"

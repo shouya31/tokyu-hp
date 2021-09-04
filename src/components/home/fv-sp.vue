@@ -28,7 +28,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-vision.png" />
+                  <img src="../../assets/images/menu-vision.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
@@ -40,7 +40,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-people.png" />
+                  <img src="../../assets/images/menu-people.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
@@ -78,7 +78,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-system.png" />
+                  <img src="../../assets/images/menu-system.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
@@ -90,7 +90,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-recruit.png" />
+                  <img src="../../assets/images/menu-recruit.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li>
@@ -115,10 +115,10 @@
                     class="block"
                   >
                     <img
-                      src="@/assets/images/entry-btn.png"
+                      src="@/assets/images/entry-btn.svg"
                       alt=""
                       class="w-11/12 mt-10"
-                      style="width:200px"
+                      style="width: 200px"
                     />
                   </a>
                 </p>
@@ -128,17 +128,24 @@
         </div>
         <div class="lg:flex justify-between">
           <!-- <div class="menu-entry-btn">
-            <img src="../../assets/images/entry-btn.png" alt="" />
+            <img src="../../assets/images/entry-btn.svg" alt="" />
           </div> -->
           <div class="menu-grou-together">
-            <img src="../../assets/images/grow-together.png" alt="" />
+            <img
+              src="@/assets/images/grow-together.png"
+              srcset="
+                @/assets/images/grow-together.png    1x,
+                @/assets/images/grow-together@2x.png 2x
+              "
+              alt="Grow together 「共に歩む」"
+            />
           </div>
         </div>
       </modal>
       <div class="fv-contents w-11/12 relative left-0">
         <div class="fv-sp-title p-5">
           <div class="fv-header-sp flex items-start pt-10">
-            <img src="../../assets/images/fv-title.png" />
+            <img src="../../assets/images/fv-title.svg" />
             <transition name="fade" mode="out-in">
               <img
                 :src="titleImages[index]"
@@ -163,7 +170,7 @@
             src="../../assets/images/home-fv2.png"
             alt=""
             class="fv-person-animation-sp2"
-            style="top: 170px; left: 65px; z-index: -2 ;"
+            style="top: 170px; left: 65px; z-index: -2"
             width="85"
           />
         </a>
@@ -172,7 +179,7 @@
             src="../../assets/images/home-fv1.png"
             alt=""
             class="fv-person-animation-sp1"
-            style="top: -140px; left: 30px; z-index: -2 ;"
+            style="top: -140px; left: 30px; z-index: -2"
             width="85"
           />
         </a>
@@ -182,7 +189,7 @@
             src="../../assets/images/home-fv3.png"
             alt=""
             class="fv-person-animation-sp3"
-            style="bottom: -280px; z-index: -2 ;"
+            style="bottom: -280px; z-index: -2"
             width="85"
           />
         </a>
@@ -193,7 +200,7 @@
             src="../../assets/images/home-fv5.png"
             alt=""
             class="fv-person-animation-sp5"
-            style="top: 280px; left: 65px; z-index: -2 ;"
+            style="top: 280px; left: 65px; z-index: -2"
             width="85"
           />
         </a>
@@ -203,7 +210,7 @@
             src="../../assets/images/home-fv4.png"
             alt=""
             class="fv-person-animation-sp4"
-            style="left: 30px; z-index: -2 ;"
+            style="left: 30px; z-index: -2"
             width="85"
           />
         </a>
@@ -213,7 +220,7 @@
             src="../../assets/images/home-fv6.png"
             alt=""
             class="fv-person-animation-sp6"
-            style="bottom: -420px; z-index: -2 ;"
+            style="bottom: -420px; z-index: -2"
             width="85"
           />
         </a>
@@ -233,14 +240,14 @@ export default {
         require("@/assets/images/fv-main1.png"),
         require("@/assets/images/fv-main2.png"),
       ],
-      src: require("@/assets/images/open-btn.png"),
-      openBtn: require("@/assets/images/open-btn.png"),
-      closeBtn: require("@/assets/images/close-menu.png"),
+      src: require("@/assets/images/open-btn.svg"),
+      openBtn: require("@/assets/images/open-btn.svg"),
+      closeBtn: require("@/assets/images/close-menu.svg"),
       titleImages: [
-        require("@/assets/images/fv-vision.png"),
-        require("@/assets/images/fv-project.png"),
-        require("@/assets/images/fv-people.png"),
-        require("@/assets/images/fv-culture.png"),
+        require("@/assets/images/fv-vision.svg"),
+        require("@/assets/images/fv-project.svg"),
+        require("@/assets/images/fv-people.svg"),
+        require("@/assets/images/fv-culture.svg"),
       ],
     };
   },

@@ -29,7 +29,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="@/assets/images/menu-vision.png" />
+                  <img src="@/assets/images/menu-vision.svg" />
                 </p>
                 <ul>
                   <li class="menu-list">> トップインタビュー</li>
@@ -41,7 +41,7 @@
               </div>
               <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
-                  <img src="@/assets/images/menu-project.png" />
+                  <img src="@/assets/images/menu-project.svg" />
                 </p>
                 <ul>
                   <li class="menu-list">> 地域と共に</li>
@@ -52,7 +52,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="@/assets/images/menu-people.png" />
+                  <img src="@/assets/images/menu-people.svg" />
                 </p>
                 <ul>
                   <li class="menu-list">> キャリアフィールド</li>
@@ -76,7 +76,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="@/assets/images/menu-culture.png" />
+                  <img src="@/assets/images/menu-culture.svg" />
                 </p>
                 <ul>
                   <li class="menu-list">> 若手座談会</li>
@@ -87,7 +87,7 @@
               </div>
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="@/assets/images/menu-system.png" />
+                  <img src="@/assets/images/menu-system.svg" />
                 </p>
                 <ul>
                   <li class="menu-list">> 研修制度</li>
@@ -98,7 +98,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="@/assets/images/menu-recruit.png" />
+                  <img src="@/assets/images/menu-recruit.svg" />
                 </p>
                 <ul>
                   <li>
@@ -132,7 +132,11 @@
           <div class="menu-grou-together ml-8">
             <img
               src="@/assets/images/grow-together.png"
-              alt=""
+              srcset="
+                @/assets/images/grow-together.png    1x,
+                @/assets/images/grow-together@2x.png 2x
+              "
+              alt="Grow together 「共に歩む」"
               class="w-10/12"
             />
           </div>
@@ -147,12 +151,15 @@
         </div>
       </modal>
       <div class="">
-        <button class="mt-16 px-2" style="background: #003366;">
-          <p
-            class="text-2xl text-white tracking-widest"
-            style="font-size: 20px;"
-          >
-            <img src="@/assets/images/side-entry-btn.png" alt="" />
+        <button class="mt-16 px-2">
+          <p style="width: 80px">
+            <a
+              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="@/assets/images/side-entry-btn.svg" alt="" />
+            </a>
           </p>
         </button>
       </div>
@@ -164,18 +171,18 @@
 export default {
   data() {
     return {
-      visionText: require("@/assets/images/VISION.png"),
-      projectText: require("@/assets/images/PROJECT.png"),
-      peopleText: require("@/assets/images/PEOPLE.png"),
-      cultureText: require("@/assets/images/CULTURE.png"),
-      openBtn: require("@/assets/images/open-btn.png"),
-      closeBtn: require("@/assets/images/close-menu.png"),
-      src: require("@/assets/images/open-btn.png"),
+      visionText: require("@/assets/images/side-vision.svg"),
+      projectText: require("@/assets/images/side-project.svg"),
+      peopleText: require("@/assets/images/side-people.svg"),
+      cultureText: require("@/assets/images/side-culture.svg"),
+      openBtn: require("@/assets/images/open-btn.svg"),
+      closeBtn: require("@/assets/images/close-menu.svg"),
+      src: require("@/assets/images/open-btn.svg"),
       ChangeBg: false,
     };
   },
   methods: {
-    menuOpenOrClose: function() {
+    menuOpenOrClose: function () {
       if (this.src === this.openBtn) {
         this.$modal.show("hello-world");
         this.src = this.closeBtn;
@@ -188,43 +195,43 @@ export default {
         return;
       }
     },
-    changeOpenMenu: function() {
+    changeOpenMenu: function () {
       this.src = this.openBtn;
     },
-    changeCloseMenu: function() {
+    changeCloseMenu: function () {
       this.src = this.closeBtn;
     },
-    mouseoverVision: function() {
-      this.visionText = require("@/assets/images/hover-side-vision.png");
+    mouseoverVision: function () {
+      this.visionText = require("@/assets/images/hover-side-vision.svg");
     },
-    mouseleaveVision: function() {
-      this.visionText = require("@/assets/images/VISION.png");
+    mouseleaveVision: function () {
+      this.visionText = require("@/assets/images/side-vision.svg");
     },
-    mouseoverProject: function() {
-      this.projectText = require("@/assets/images/hover-side-project.png");
+    mouseoverProject: function () {
+      this.projectText = require("@/assets/images/hover-side-project.svg");
     },
-    mouseleaveProject: function() {
-      this.projectText = require("@/assets/images/PROJECT.png");
+    mouseleaveProject: function () {
+      this.projectText = require("@/assets/images/side-project.svg");
     },
-    mouseoverPeople: function() {
-      this.peopleText = require("@/assets/images/hover-side-people.png");
+    mouseoverPeople: function () {
+      this.peopleText = require("@/assets/images/hover-side-people.svg");
     },
-    mouseleavePeople: function() {
-      this.peopleText = require("@/assets/images/PEOPLE.png");
+    mouseleavePeople: function () {
+      this.peopleText = require("@/assets/images/side-people.svg");
     },
-    mouseoverCulture: function() {
-      this.cultureText = require("@/assets/images/hover-side-culture.png");
+    mouseoverCulture: function () {
+      this.cultureText = require("@/assets/images/hover-side-culture.svg");
     },
-    mouseleaveCulture: function() {
-      this.cultureText = require("@/assets/images/CULTURE.png");
+    mouseleaveCulture: function () {
+      this.cultureText = require("@/assets/images/side-culture.svg");
     },
-    beforeOpen: function() {
+    beforeOpen: function () {
       this.ChangeBg = true;
     },
-    opend: function() {
+    opend: function () {
       this.src = this.closeBtn;
     },
-    beforeClose: function() {
+    beforeClose: function () {
       this.ChangeBg = false;
       this.src = this.openBtn;
     },
@@ -239,7 +246,6 @@ export default {
 .font-BrandonGrotesque {
   font-family: Brandon Grotesque;
 }
-
 
 .side-bar {
   z-index: 9999;
@@ -260,10 +266,7 @@ export default {
   padding: 10px;
 }
 .menu-context-title {
-  font-size: 28px;
-  font-weight: 400;
-  font-family: Brandon Grotesque;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .menu-list {

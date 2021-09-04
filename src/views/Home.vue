@@ -2,7 +2,15 @@
   <div>
     <div id="loading">
       <div class="loader">
-        <img src="../assets/images/grow-together.png" alt="" class="mx-auto" />
+        <img
+          src="@/assets/images/grow-together.png"
+          srcset="
+            @/assets/images/grow-together.png    1x,
+            @/assets/images/grow-together@2x.png 2x
+          "
+          alt="Grow together 「共に歩む」"
+          class="mx-auto"
+        />
       </div>
       <img
         src="../assets/images/footer-logo.svg"
@@ -48,12 +56,12 @@ export default {
     People,
     Entry,
     Footer,
-    Project
+    Project,
   },
-  mounted: function() {
+  mounted: function () {
     let spinner = document.querySelector(".loader");
 
-    spinner.addEventListener("animationend", function() {
+    spinner.addEventListener("animationend", function () {
       document.getElementById("loading").classList.add("loaded");
     });
   },

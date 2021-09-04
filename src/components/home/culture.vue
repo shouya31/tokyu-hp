@@ -25,7 +25,7 @@
           </p>
         </div>
         <p class="sentence-more text-center mt-3">
-          <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
+          <img src="../../assets/images/read-more.svg" alt="" class="mx-auto" />
         </p>
       </div>
     </section>
@@ -47,7 +47,7 @@ export default {
   data() {
     return {
       homeimage: require("@/assets/images/home-culture.png"),
-      titleimage: require("@/assets/images/top-culture.png"),
+      titleimage: require("@/assets/images/top-culture.svg"),
     };
   },
 };

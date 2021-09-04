@@ -3,7 +3,7 @@
         <p class="section-text pt-16">{{ text }}</p>
         <p class="sentence-more text-center mt-12">
             <a :href=src>
-                <img src="../../assets/images/read-more.png" alt="" class="mx-auto">
+                <img src="../../assets/images/read-more.svg" alt="" class="mx-auto">
             </a>
         </p>
     </div>

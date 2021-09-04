@@ -10,7 +10,7 @@
       </h1>
       <div class="header-nav-wrapper">
         <div v-on:click="menuOpenOrClose" class="menu">
-          <img src="@/assets/images/open-btn.png" alt="" srcset="" />
+          <img src="@/assets/images/open-btn.svg" alt="" srcset="" />
         </div>
         <button>
           <p

@@ -30,7 +30,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-vision.png" />
+                  <img src="../../assets/images/menu-vision.svg" />
                 </p>
                 <ul>
                   <li class="menu-list">
@@ -40,7 +40,7 @@
               </div>
               <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-project.png" />
+                  <img src="../../assets/images/menu-project.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list"><a href="">> 地域と共に</a></li>
@@ -51,7 +51,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-people.png" />
+                  <img src="../../assets/images/menu-people.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
@@ -89,7 +89,7 @@
             <div class="menu-line">
               <div class="menu-block hidden">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-culture.png" />
+                  <img src="../../assets/images/menu-culture.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list"><a href="">> 若手座談会</a></li>
@@ -100,7 +100,7 @@
               </div>
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-system.png" />
+                  <img src="../../assets/images/menu-system.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
@@ -112,7 +112,7 @@
             <div class="menu-line">
               <div class="menu-block">
                 <p class="menu-context-title text-3xl">
-                  <img src="../../assets/images/menu-recruit.png" />
+                  <img src="../../assets/images/menu-recruit.svg" />
                 </p>
                 <ul class="menu-bottom-line">
                   <li>
@@ -137,7 +137,7 @@
                     class="block"
                   >
                     <img
-                      src="@/assets/images/entry-btn.png"
+                      src="@/assets/images/entry-btn.svg"
                       alt=""
                       class="w-11/12 mt-10"
                       style="width: 200px"
@@ -151,8 +151,12 @@
         <div class="flex justify-between w-9/12">
           <div class="menu-grou-together ml-8">
             <img
-              src="../../assets/images/grow-together.png"
-              alt=""
+              src="@/assets/images/grow-together.png"
+              srcset="
+                @/assets/images/grow-together.png    1x,
+                @/assets/images/grow-together@2x.png 2x
+              "
+              alt="Grow together 「共に歩む」"
               class="w-10/12"
             />
           </div>
@@ -164,7 +168,7 @@
               class="block"
             >
               <img
-                src="../../assets/images/entry-btn.png"
+                src="../../assets/images/entry-btn.svg"
                 alt=""
                 class="w-11/12 mt-10"
               />
@@ -202,17 +206,14 @@
         </li>
       </ul>
       <div class="">
-        <button class="mt-16 px-2" style="background: #003366">
-          <p
-            class="text-2xl text-white tracking-widest"
-            style="font-size: 20px"
-          >
+        <button class="mt-16 px-2">
+          <p style="width: 80px">
             <a
               href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="../../assets/images/side-entry-btn.png" alt="" />
+              <img src="@/assets/images/side-entry-btn.svg" alt="" />
             </a>
           </p>
         </button>
@@ -225,13 +226,13 @@
 export default {
   data() {
     return {
-      visionText: require("../../assets/images/VISION.png"),
-      projectText: require("../../assets/images/PROJECT.png"),
-      peopleText: require("../../assets/images/PEOPLE.png"),
-      recruitText: require("../../assets/images/RECRUIT_side_text.png"),
-      openBtn: require("../../assets/images/open-btn.png"),
-      closeBtn: require("../../assets/images/close-menu.png"),
-      src: require("../../assets/images/open-btn.png"),
+      visionText: require("../../assets/images/side-vision.svg"),
+      projectText: require("../../assets/images/side-project.svg"),
+      peopleText: require("../../assets/images/side-people.svg"),
+      recruitText: require("../../assets/images/side-recruit.svg"),
+      openBtn: require("../../assets/images/open-btn.svg"),
+      closeBtn: require("../../assets/images/close-menu.svg"),
+      src: require("../../assets/images/open-btn.svg"),
       ChangeBg: false,
     };
   },
@@ -256,32 +257,32 @@ export default {
       this.src = this.closeBtn;
     },
     mouseoverVision: function () {
-      this.visionText = require("../../assets/images/hover-side-vision.png");
+      this.visionText = require("../../assets/images/hover-side-vision.svg");
       window.location.href = "#vision";
     },
     mouseleaveVision: function () {
-      this.visionText = require("../../assets/images/VISION.png");
+      this.visionText = require("../../assets/images/side-vision.svg");
     },
     mouseoverProject: function () {
-      this.projectText = require("../../assets/images/hover-side-project.png");
+      this.projectText = require("../../assets/images/hover-side-project.svg");
       window.location.href = "#project";
     },
     mouseleaveProject: function () {
-      this.projectText = require("../../assets/images/PROJECT.png");
+      this.projectText = require("@/assets/images/side-project.svg");
     },
     mouseoverPeople: function () {
-      this.peopleText = require("../../assets/images/hover-side-people.png");
+      this.peopleText = require("../../assets/images/hover-side-people.svg");
       window.location.href = "#people";
     },
     mouseleavePeople: function () {
-      this.peopleText = require("../../assets/images/PEOPLE.png");
+      this.peopleText = require("@/assets/images/side-people.svg");
     },
     mouseoverRecruit: function () {
-      this.recruitText = require("../../assets/images/RECRUIT_hover.png");
+      this.recruitText = require("../../assets/images/hover-side-recruit.svg");
       window.location.href = "#recruit";
     },
     mouseleaveRecruit: function () {
-      this.recruitText = require("../../assets/images/RECRUIT_side_text.png");
+      this.recruitText = require("../../assets/images/side-recruit.svg");
     },
     beforeOpen: function () {
       this.ChangeBg = true;
@@ -324,11 +325,12 @@ export default {
   padding: 10px;
 }
 .menu-context-title {
-  font-size: 28px;
-  font-weight: 400;
-  font-family: Brandon Grotesque;
-  margin-bottom: 10px;
+  height: 26px;
+  margin-bottom: 8px;
 }
+.menu-context-title:hover {
+}
+
 .side-bar-content .vm--container {
   width: 86%;
   right: 0;

@@ -10,7 +10,7 @@
       </h1>
       <div class="header-nav-wrapper">
         <div v-on:click="menuOpenOrClose" class="menu">
-          <img src="@/assets/images/open-btn.png" alt="" srcset="" />
+          <img src="@/assets/images/open-btn.svg" alt="" srcset="" />
         </div>
         <button>
           <p
@@ -489,7 +489,7 @@
               <img
                 src="@/assets/images/people-pagination.svg"
                 alt=""
-                class="pagination-img ml-3 mr-1"
+                class="mx-2"
               />
               <a href="6"
                 ><img
@@ -631,6 +631,11 @@
   margin-left: 80px;
 }
 
+.pagination .pagination-img {
+  width: 113px;
+  margin: auto;
+}
+
 @media screen and (max-width: 1024px) {
   .hero {
     padding: 0px;
@@ -719,9 +724,7 @@
   .home-person {
     width: 100%;
   }
-  .pagination-img {
-    margin: auto;
-  }
+
   .column-content {
     padding-bottom: 5rem;
     margin-left: 2%;

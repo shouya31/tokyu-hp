@@ -30,7 +30,7 @@
         </div>
         <p class="sentence-more text-center mt-3">
           <a href="/vision">
-            <img src="../../assets/images/read-more.png" alt="" class="mx-auto" />
+            <img src="../../assets/images/read-more.svg" alt="" class="mx-auto" />
           </a>
         </p>
       </div>
@@ -52,7 +52,7 @@ export default {
   data() {
     return {
       homeimage: require("@/assets/images/home-vision.png"),
-      titleimage: require("@/assets/images/top-vision.png"),
+      titleimage: require("@/assets/images/top-vision.svg"),
     };
   },
 };

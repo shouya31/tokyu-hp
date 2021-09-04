@@ -47,10 +47,10 @@
           </div>
           <div class="lg:mt-20 lg:mb-10 tracking-wide">
             <img
-              src="@/assets/images/person4.png"
+              src="@/assets/images/person4-1.png"
               srcset="
-                @/assets/images/person4.png    1x,
-                @/assets/images/person4@2x.png 2x
+                @/assets/images/person4-1.png    1x,
+                @/assets/images/person4-1@2x.png 2x
               "
               class="pt-0 lg:hidden people-main-sp"
               width="450"
@@ -95,10 +95,10 @@
         </div>
         <div class="people-image mt-5 hidden lg:block">
           <img
-            src="@/assets/images/person4.png"
+            src="@/assets/images/person4-1.png"
             srcset="
-              @/assets/images/person4.png    1x,
-              @/assets/images/person4@2x.png 2x
+              @/assets/images/person4-1.png    1x,
+              @/assets/images/person4-1@2x.png 2x
             "
             width="450"
             height="800"
@@ -418,10 +418,10 @@
         <div class="lg:mt-32">
           <div class="upper-content pt-8 lg:pt-0">
             <img
-              src="@/assets/images/home-people4.png"
+              src="@/assets/images/person4-4.png"
               srcset="
-                @/assets/images/home-people4.png    1x,
-                @/assets/images/home-people4@2x.png 2x
+                @/assets/images/person4-4.png    1x,
+                @/assets/images/person4-4@2x.png 2x
               "
               alt="people4"
               class="home-person w-full"

@@ -84,7 +84,7 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 999999;
 }
 
 .loader {

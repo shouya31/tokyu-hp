@@ -3,6 +3,7 @@ body {
   width: 100%;
   background-color: white;
   box-sizing: border-box;
+  max-width: 1600px;
 }
 
 hr {
@@ -63,9 +64,7 @@ hr {
   height: 380px;
   position: relative;
 }
-.white-box, .img-box, .blue-box {
-  /* position: absolute; */
-}
+
 .white-box{
   width: 550px;
   height: 100%;
@@ -133,7 +132,48 @@ hr {
   display: block;
 }
 
-@media (max-width: 1024px) {
+
+.main {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: 180px;
+}
+
+.home-main-content {
+  max-width: 1200px;
+  justify-content: center;
+}
+.explain {
+  /* margin: 0 calc(50% - 50vw); */
+  width: 100vw;
+}
+
+#vision {
+  margin-right: 85px;
+  margin-left: auto;
+}
+#vision .section-title img {
+  margin-left: auto;
+}
+#people .img-content {
+  max-width: 1080px;
+}
+#people .section-title {
+  margin-left: initial;
+}
+
+#recruit {
+  margin-right: 85px;
+  margin-left: auto;
+}
+#recruit .section-title img {
+  margin-left: auto;
+}
+
+@media (max-width: 1023px) {
+  .main {
+    margin-left: 0;
+  }
   .hero {
     text-align: center;
     padding-right: 8%;
@@ -141,6 +181,18 @@ hr {
   .img-box{
     width: 100%;
   }
+  .home-main-content {
+    max-width: 100%;
+  padding: 0px 20px;
+  }
+  #vision {
+    margin-right: 0;
+  }
+  #recruit {
+    margin-right: 0;
+  }
+
+
 }
 
 @media (max-width: 768px) {

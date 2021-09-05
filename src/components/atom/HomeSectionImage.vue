@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="vision-right-content mt-8">
+    <div class="img-content">
       <img :src="image" alt=""/>
     </div>
   </div>
@@ -11,3 +11,10 @@ export default {
   props: ["image"],
 };
 </script>
+
+<style>
+.img-content {
+    max-width: 767px;
+    margin-right: 40px;
+}
+</style>

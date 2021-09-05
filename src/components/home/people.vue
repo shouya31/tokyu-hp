@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section id="people" class="hidden relative pl-52 lg:flex py-10">
-      <div class="mt-16 ml-10">
+    <section id="people" class="hidden home-main-content elative lg:flex py-10">
+      <div class="mt-16">
         <HomeSectionTitle :image="titleimage" />
         <div class="">
           <div class="absolute">
@@ -142,9 +142,9 @@
         </div>
       </div>
     </section>
-    <section id="vision" class="lg:hidden">
+    <section id="people" class="lg:hidden home-main-content">
       <div class="mt-16">
-        <div class="vision-title w-8/12 mx-auto">
+        <div class="section-title mx-auto">
           <img :src="titleimage" />
         </div>
         <div class="vision-right-content mt-8">
@@ -304,14 +304,7 @@ export default {
   text-align: left;
   padding-left: 40px !important;
 }
-.employee-image-box {
-  overflow: visible !important;
-}
-.employee-message {
-  /* position: absolute; */
-  overflow: visible !important;
-  left: -100px;
-}
+
 .VueCarousel-pagination {
   margin-left: 30%;
   width: 70% !important;

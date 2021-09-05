@@ -284,7 +284,7 @@ export default {
 
 .side-bar {
   z-index: 9999;
-  max-width: 220px;
+  max-width: 180px;
   background-color: #fff;
 }
 

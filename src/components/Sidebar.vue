@@ -1,7 +1,7 @@
 <template>
   <div
     v-bind:class="{ change_bg: ChangeBg }"
-    class="side-bar w-2/12 p-8 fixed  hidden lg:block"
+    class="side-bar p-8 fixed hidden lg:block"
   >
     <div class="max-w-full col-span-1">
       <router-link to="/"

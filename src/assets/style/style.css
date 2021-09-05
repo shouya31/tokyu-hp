@@ -191,11 +191,16 @@ hr {
 /* 新デザインヘッダー */
 
 header {
-  margin: 0 50px;
+  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 122px;
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 .header-nav-wrapper {
   width: 200px;
@@ -205,7 +210,8 @@ header {
 }
 
 .page-top {
-  padding: 0 50px;
+  padding: 20px 50px;
+  margin-top: 122px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -233,7 +239,6 @@ header {
 @media screen and (max-width: 640px) {
   header {
     height: 80px;
-    margin: 0 10px;
   }
   .page-top {
     padding: 0 10px;

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="careerfield overflow-hidden">
     <header>
       <h1>
         <img
@@ -45,7 +45,7 @@
       </div>
     </section>
 
-    <div class="careerfield overflow-hidden">
+    <div class="">
       <section class="careerfield-contents mx-auto">
         <div>
           <img
@@ -123,8 +123,11 @@
 <style>
 .careerfield {
   background-color: #add6d4;
-  padding: 80px 0 240px;
-  margin-top: 40px;
+  /* padding: 80px 0 240px;
+  margin-top: 40px; */
+}
+.careerfield .page-top {
+  background-color: #add6d4;
 }
 .careerfield .careerfield-contentss {
   max-width: 728px;
@@ -148,6 +151,7 @@
 }
 .careerfield-circle {
   position: relative;
+  padding-bottom: 200px;
 }
 .careerfield-circle .img-wrapper img {
   width: fit-content;
@@ -216,7 +220,7 @@
 }
 .careerfield-circle-contents.headoffice-contents {
   position: absolute;
-  bottom: -180px;
+  bottom: 10px;
   left: 260px;
   width: 560px;
   display: flex;
@@ -245,6 +249,10 @@
 
   .careerfield .careerfield-contents {
     max-width: 90%;
+  }
+
+  .careerfield-circle {
+    padding-bottom: 0;
   }
   .careerfield-circle .sub-title {
     display: block;

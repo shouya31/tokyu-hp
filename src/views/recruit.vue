@@ -41,7 +41,7 @@
         />
       </div>
       <div class="current-nav">
-        <p>募集要項&企業概要</p>
+        <p>会社概要＆募集要項</p>
       </div>
     </section>
     <section class="recruit-requirement-content mx-auto">

@@ -34,7 +34,7 @@
     </header>
     <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
       <section
-        class="hero col-span-12 col-start-2 lg:flex justify-around mt-10"
+        class="hero col-span-12 col-start-2 lg:flex justify-around"
       >
         <div class="left-content">
           <div class="relative lg:right-12">
@@ -525,6 +525,10 @@
 @import "../../../assets/style/style.css";
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url("https://use.typekit.net/bdr1ssy.css");
+
+.hero {
+      margin-top: 162px;
+}
 
 .people-text {
   color: #707070;

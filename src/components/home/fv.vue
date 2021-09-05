@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id="fv-main" class="fv w-full mb-20 hidden lg:block">
-      <div class="fv-header flex items-start m-8 pt-10">
+      <div class="fv-header flex items-start my-8 pt-10">
         <img src="../../assets/images/fv-title.svg" class="fv-title"/>
         <transition name="fade" mode="out-in">
           <img

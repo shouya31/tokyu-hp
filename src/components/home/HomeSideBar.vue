@@ -306,7 +306,7 @@ export default {
   margin-left: 50px;
 }
 .menu-line {
-  padding: 80px 20px 0px 20px;
+  padding: 80px 10px 0px 20px;
 }
 .menu-block {
   padding: 30px;

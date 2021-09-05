@@ -120,11 +120,13 @@ export default {
 <style>
 .workstyle {
   background-color: #f8f8f8;
-  padding: 40px 0 80px;
 }
 .workstyle .workstyle-contents {
   max-width: 728px;
   margin: auto;
+}
+.workstyle .workstyle-contents:last-child {
+  margin-bottom: 80px;
 }
 .workstyle-heading {
   max-width: 728px;

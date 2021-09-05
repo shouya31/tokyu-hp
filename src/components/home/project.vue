@@ -9,7 +9,7 @@
             <p class="sentence-more text-center m-auto self-center">
               <a href="/greeting">
                 <img
-                  src="../../assets/images/read-more.png"
+                  src="../../assets/images/read-more.svg"
                   alt=""
                   class="mx-auto"
                 />
@@ -35,7 +35,7 @@
         <p class="sentence-more text-center mt-3">
           <a href="/greeting">
             <img
-              src="../../assets/images/read-more.png"
+              src="../../assets/images/read-more.svg"
               alt=""
               class="mx-auto"
             />
@@ -59,7 +59,7 @@ export default {
   data() {
     return {
       homeimage: require("@/assets/images/greeting.png"),
-      titleimage: require("@/assets/images/RECRUIT_title.png"),
+      titleimage: require("@/assets/images/top-recruit.svg"),
     };
   },
 };

@@ -209,7 +209,7 @@ export default {
       homeimage5: require("@/assets/images/home-people5.png"),
       homeimage6: require("@/assets/images/home-people6.png"),
 
-      titleimage: require("@/assets/images/top-people.png"),
+      titleimage: require("@/assets/images/top-people.svg"),
     };
   },
 };
@@ -258,5 +258,21 @@ export default {
 .VueCarousel-pagination {
   margin-left: 30%;
   width: 70% !important;
+}
+
+@media screen and (max-width: 640px) {
+  .VueCarousel-pagination {
+    width: 100% !important;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .VueCarousel-dot-container {
+    left: 20px;
+    text-align: right;
+  }
+  .VueCarousel-dot {
+    width: 30px !important;
+    padding: 0 8px !important;
+  }
 }
 </style>

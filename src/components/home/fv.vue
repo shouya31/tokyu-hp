@@ -2,7 +2,7 @@
   <div>
     <div id="fv-main" class="fv w-full pl-60 mb-20 hidden lg:block">
       <div class="fv-header flex items-start m-8 pt-10">
-        <img src="../../assets/images/fv-title.png" />
+        <img src="../../assets/images/fv-title.svg" />
         <transition name="fade" mode="out-in">
           <img
             :src="titleImages[index]"
@@ -107,10 +107,10 @@ export default {
         require("@/assets/images/fv-main2.png"),
       ],
       titleImages: [
-        require("@/assets/images/fv-vision.png"),
-        require("@/assets/images/fv-project.png"),
-        require("@/assets/images/fv-people.png"),
-        require("@/assets/images/fv-culture.png"),
+        require("@/assets/images/fv-vision.svg"),
+        require("@/assets/images/fv-project.svg"),
+        require("@/assets/images/fv-people.svg"),
+        require("@/assets/images/fv-culture.svg"),
       ],
     };
   },

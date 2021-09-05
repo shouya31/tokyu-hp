@@ -28,8 +28,8 @@ export default {
   props: ["image"],
   data(){
     return{
-        people: require("@/assets/images/top-people.png"),
-        culture: require("@/assets/images/top-culture.png"),
+        people: require("@/assets/images/top-people.svg"),
+        culture: require("@/assets/images/top-culture.svg"),
     }
   }
 };

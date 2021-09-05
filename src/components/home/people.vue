@@ -151,32 +151,86 @@
           <carousel :per-page="1" :autoplay="true" :loop="true">
             <slide>
               <div class="flex relative">
-                <HomeSectionImage :image="homeimage1" />
+                <div class="vision-right-content mt-8">
+                  <img
+                    :src="homeimage1"
+                    alt=""
+                    srcset="../../assets/images/home-people1.png    1x,
+                        ../../assets/images/home-people1@2x.png 2x,
+                        ../../assets/images/home-people1_sp@2x.png 640w
+                      "
+                  />
+                </div>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <HomeSectionImage :image="homeimage2" />
+                <div class="vision-right-content mt-8">
+                  <img
+                    :src="homeimage2"
+                    alt=""
+                    srcset="../../assets/images/home-people2.png    1x,
+                        ../../assets/images/home-people2@2x.png 2x,
+                        ../../assets/images/home-people2_sp@2x.png 640w
+                      "
+                  />
+                </div>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <HomeSectionImage :image="homeimage3" />
+                <div class="vision-right-content mt-8">
+                  <img
+                    :src="homeimage3"
+                    alt=""
+                    srcset="../../assets/images/home-people3.png    1x,
+                        ../../assets/images/home-people3@2x.png 2x,
+                        ../../assets/images/home-people3_sp@2x.png 640w
+                      "
+                  />
+                </div>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <HomeSectionImage :image="homeimage4" />
+                <div class="vision-right-content mt-8">
+                  <img
+                    :src="homeimage4"
+                    alt=""
+                    srcset="../../assets/images/home-people4.png    1x,
+                        ../../assets/images/home-people4@2x.png 2x,
+                        ../../assets/images/home-people4_sp@2x.png 640w
+                      "
+                  />
+                </div>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <HomeSectionImage :image="homeimage5" />
+                <div class="vision-right-content mt-8">
+                  <img
+                    :src="homeimage5"
+                    alt=""
+                    srcset="../../assets/images/home-people5.png    1x,
+                        ../../assets/images/home-people5@2x.png 2x,
+                        ../../assets/images/home-people5_sp@2x.png 640w
+                      "
+                  />
+                </div>
               </div>
             </slide>
             <slide>
               <div class="flex relative">
-                <HomeSectionImage :image="homeimage6" />
+                <div class="vision-right-content mt-8">
+                  <img
+                    :src="homeimage6"
+                    alt=""
+                    srcset="../../assets/images/home-people6.png    1x,
+                        ../../assets/images/home-people6@2x.png 2x,
+                        ../../assets/images/home-people6_sp@2x.png 640w
+                      "
+                  />
+                </div>
               </div>
             </slide>
           </carousel>
@@ -195,14 +249,12 @@
 
 <script>
 import HomeSectionTitle from "../../components/atom/HomeSectionTitle.vue";
-import HomeSectionImage from "../../components/atom/HomeSectionImage.vue";
 import { Carousel, Slide } from "vue-carousel";
 
 export default {
   name: "People",
   components: {
     HomeSectionTitle,
-    HomeSectionImage,
     Carousel,
     Slide,
   },
@@ -214,7 +266,6 @@ export default {
       homeimage4: require("@/assets/images/home-people4.png"),
       homeimage5: require("@/assets/images/home-people5.png"),
       homeimage6: require("@/assets/images/home-people6.png"),
-
       titleimage: require("@/assets/images/top-people.svg"),
     };
   },

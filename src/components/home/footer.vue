@@ -1,10 +1,9 @@
 <template>
   <div>
     <div class="to-pagetop">
-      <a href="!#">
-        <img src="../../assets/images/pagetop-btn.svg" alt="PAGETOP">
+      <a href="#">
+        <img src="../../assets/images/pagetop-btn.svg" alt="PAGETOP" />
       </a>
-
     </div>
     <footer class="bg-white text-center mt-30 lg:block hidden">
       <a href=""
@@ -44,3 +43,14 @@ export default {
   name: "Footer",
 };
 </script>
+
+<style>
+/* footer */
+.to-pagetop {
+  display: inline-block;
+  position: fixed;
+  right: 5%;
+  bottom: 20px;
+  z-index: 9999;
+}
+</style>

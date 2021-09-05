@@ -176,7 +176,7 @@ export default {
   height: 62px;
   position: absolute;
   top: 65%;
-  right: 235px;
+  right: 240px;
   transform: translate(0, -50%);
 }
 .careerfield-circle-contents.ec-contents {

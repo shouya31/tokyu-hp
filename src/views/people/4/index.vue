@@ -533,7 +533,6 @@ export default {
 }
 .main-catch-font {
   font-family: noto-serif-condensed, serif;
-  color: #000000;
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 8px;

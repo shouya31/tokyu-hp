@@ -138,11 +138,7 @@ return false;
   left: 1.5em;
 }
 .loader-logo {
-  position: absolute;
-  bottom: 50px;
-  left: 0px;
-  right: 30px;
-  width: 12%;
+  width: 150px;
 }
 
 @-webkit-keyframes loading {

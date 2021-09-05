@@ -221,7 +221,7 @@ export default {
   font-weight: bold;
   flex-basis: 25%;
   padding: 20px 0 24px 20px;
-  background-color: rgba(27, 34, 76, 0.3);
+  background-color: rgba(27, 34, 76, 0.1);
   border-bottom: 1px solid #16344f;
 }
 .recruit-requirement .info dd {

@@ -388,7 +388,6 @@
                 text-xs text-left
                 lg:text-sm
                 mt-7
-                text-gray-600
               "
               style="padding-top: 0px"
             >
@@ -552,7 +551,6 @@ export default {
 }
 .main-catch-font {
   font-family: noto-serif-condensed, serif;
-  color: #000000;
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 8px;

@@ -1,37 +1,7 @@
 <template>
   <div>
-    <header>
-      <h1>
-        <img
-          src="@/assets/images/header-logo.svg"
-          alt="東急百貨店のリクルートサイト"
-          style="width: 120px"
-        />
-      </h1>
-      <div class="header-nav-wrapper">
-        <div v-on:click="menuOpenOrClose" class="menu">
-          <img src="@/assets/images/open-btn.svg" alt="" srcset="" />
-        </div>
-        <button>
-          <p
-            class="text-2xl text-white tracking-widest"
-            style="font-size: 20px"
-          >
-            <a
-              href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="@/assets/images/side-entry-btn.svg"
-                alt="ENTRY"
-                style="width: 80px"
-              />
-            </a>
-          </p>
-        </button>
-      </div>
-    </header>
+    <Header />
+    <HeaderSp />
     <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
 
       <section
@@ -502,6 +472,17 @@
   </div>
 </template>
 
+<script>
+import Header from "../../../components/header.vue";
+import HeaderSp from "../../../components/header-sp.vue";
+
+export default {
+  components: {
+    Header,
+    HeaderSp,
+  },
+};
+</script>
 
 <style>
 @import "../../../assets/style/style.css";

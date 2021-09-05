@@ -261,14 +261,12 @@ export default {
       this.$modal.show("hello-world-sp");
 
       if (this.src === this.openBtn) {
-        console.log(1);
         this.$modal.show("hello-world-sp");
         this.src = this.closeBtn;
         return;
       }
 
       if (this.src === this.closeBtn) {
-        console.log(2);
         this.$modal.hide("hello-world-sp");
         this.src = this.openBtn;
         return;

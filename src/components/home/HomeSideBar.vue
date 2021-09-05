@@ -126,25 +126,6 @@
                 </ul>
               </div>
             </div>
-            <!-- <div class="menu-line">
-              <div class="menu-block">
-                <p>
-                  <a
-                    href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="block"
-                  >
-                    <img
-                      src="@/assets/images/entry-btn.svg"
-                      alt=""
-                      class="w-11/12 mt-10"
-                      style="width: 200px"
-                    />
-                  </a>
-                </p>
-              </div>
-            </div> -->
           </div>
         </div>
         <div class="flex justify-between w-9/12">
@@ -236,7 +217,7 @@ export default {
     };
   },
   methods: {
-    menuOpenOrClose: function () {
+    menuOpenOrClose: function() {
       if (this.src === this.openBtn) {
         this.$modal.show("hello-world");
         this.src = this.closeBtn;
@@ -249,47 +230,47 @@ export default {
         return;
       }
     },
-    changeOpenMenu: function () {
+    changeOpenMenu: function() {
       this.src = this.openBtn;
     },
-    changeCloseMenu: function () {
+    changeCloseMenu: function() {
       this.src = this.closeBtn;
     },
-    mouseoverVision: function () {
+    mouseoverVision: function() {
       this.visionText = require("../../assets/images/hover-side-vision.svg");
       window.location.href = "#vision";
     },
-    mouseleaveVision: function () {
+    mouseleaveVision: function() {
       this.visionText = require("../../assets/images/side-vision.svg");
     },
-    mouseoverProject: function () {
+    mouseoverProject: function() {
       this.projectText = require("../../assets/images/hover-side-project.svg");
       window.location.href = "#project";
     },
-    mouseleaveProject: function () {
+    mouseleaveProject: function() {
       this.projectText = require("@/assets/images/side-project.svg");
     },
-    mouseoverPeople: function () {
+    mouseoverPeople: function() {
       this.peopleText = require("../../assets/images/hover-side-people.svg");
       window.location.href = "#people";
     },
-    mouseleavePeople: function () {
+    mouseleavePeople: function() {
       this.peopleText = require("@/assets/images/side-people.svg");
     },
-    mouseoverRecruit: function () {
+    mouseoverRecruit: function() {
       this.recruitText = require("../../assets/images/hover-side-recruit.svg");
       window.location.href = "#recruit";
     },
-    mouseleaveRecruit: function () {
+    mouseleaveRecruit: function() {
       this.recruitText = require("../../assets/images/side-recruit.svg");
     },
-    beforeOpen: function () {
+    beforeOpen: function() {
       this.ChangeBg = true;
     },
-    opend: function () {
+    opend: function() {
       this.src = this.closeBtn;
     },
-    beforeClose: function () {
+    beforeClose: function() {
       this.ChangeBg = false;
       this.src = this.openBtn;
     },
@@ -356,6 +337,17 @@ export default {
 .change_bg {
   width: 100vw;
   height: 100vh;
-  background: white;
+  background: white !important;
+}
+.vm--overlay {
+  background: none !important;
+}
+.side-bar {
+  z-index: 9999;
+  max-width: 220px;
+  background: transparent;
+}
+.vm--modal{
+  box-shadow: none !important;
 }
 </style>

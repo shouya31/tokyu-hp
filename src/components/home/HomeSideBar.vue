@@ -283,6 +283,7 @@ export default {
 @import "../../assets/style/style.css";
 
 .side-bar {
+  z-index: 9999;
   max-width: 220px;
   background-color: #fff;
 }
@@ -342,11 +343,7 @@ export default {
 .vm--overlay {
   background: none !important;
 }
-.side-bar {
-  z-index: 9999;
-  max-width: 220px;
-  background: transparent;
-}
+
 .vm--modal{
   box-shadow: none !important;
 }

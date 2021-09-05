@@ -203,6 +203,12 @@ dl.workstyle-child-contents {
   .workstyle-heading {
     max-width: 90%;
   }
+}
+  @media screen and (max-width: 559px) {
+    .workstyle {
+      padding-top: 80px;
+    }
+  }
   @media screen and (max-width: 559px) {
     .workstyle.workstyle dl {
       flex-flow: column;
@@ -214,5 +220,4 @@ dl.workstyle-child-contents {
       padding-bottom: 0;
     }
   }
-}
 </style>

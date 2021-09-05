@@ -33,7 +33,7 @@
                       srcset="
                         ../../assets/images/home-people1.png    1x,
                         ../../assets/images/home-people1@2x.png 2x,
-                        ../../assets/images/home-people1_sp@2x.png 640w
+                        ../../assets/images/home-people1_sp@2x.png 320w
                       "
                       alt="働く仲間と共に"
                       width="1080"
@@ -52,7 +52,7 @@
                       srcset="
                         ../../assets/images/home-people2.png    1x,
                         ../../assets/images/home-people2@2x.png 2x,
-                        ../../assets/images/home-people2_sp@2x.png 640w
+                        ../../assets/images/home-people2_sp@2x.png 320w
                       "
                       width="1080"
                       height="475"
@@ -90,7 +90,7 @@
                       srcset="
                         ../../assets/images/home-people4.png    1x,
                         ../../assets/images/home-people4@2x.png 2x,
-                        ../../assets/images/home-people4_sp@2x.png 640w
+                        ../../assets/images/home-people4_sp@2x.png 320w
                       "
                       width="1080"
                       height="475"
@@ -109,7 +109,7 @@
                       srcset="
                         ../../assets/images/home-people5.png    1x,
                         ../../assets/images/home-people5@2x.png 2x,
-                        ../../assets/images/home-people5_sp@2x.png 640w
+                        ../../assets/images/home-people5_sp@2x.png 320w
                       "
                       width="1080"
                       height="475"
@@ -128,7 +128,7 @@
                       srcset="
                         ../../assets/images/home-people6.png    1x,
                         ../../assets/images/home-people6@2x.png 2x,
-                        ../../assets/images/home-people6_sp@2x.png 640w
+                        ../../assets/images/home-people6_sp@2x.png 320w
                       "
                       width="1080"
                       height="475"

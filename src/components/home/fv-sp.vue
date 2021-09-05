@@ -1,7 +1,7 @@
 <template>
   <div class="lg:hidden">
-    <header class="fixed w-full" style="z-index: 999999999">
-      <div class="pl-5 flex w-full justify-between">
+    <header class="fixed w-full" style="z-index: 999">
+      <div class="flex w-full justify-between items-center">
         <div class="py-3">
           <a href="#" class=""
             ><img

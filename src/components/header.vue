@@ -10,7 +10,7 @@
           />
         </router-link>
       </h1>
-      <div v-on:click="menuOpenOrClose" class="menu">
+      <div v-on:click="menuOpenOrClose" class="menu p-5">
         <img :src="src" alt="" srcset="" />
       </div>
     </header>

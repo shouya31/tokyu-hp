@@ -263,6 +263,9 @@ export default {
 }
 
 @media screen and (max-width: 640px) {
+  .recruit-requirement {
+    padding-top: 80px;
+  }
   .recruit-requirement h2 {
     margin-bottom: 40px;
   }

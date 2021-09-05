@@ -186,7 +186,7 @@
         </li>
       </ul>
       <div class="">
-        <button class="mt-16 px-2">
+        <button class="mt-16">
           <p style="width: 80px">
             <a
               href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"

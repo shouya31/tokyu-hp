@@ -328,6 +328,9 @@
 }
 
 @media screen and (max-width: 640px) {
+  .faq {
+    padding-top: 80px;
+  }
   .faq .listQA dt {
     padding-right: 30px;
   }

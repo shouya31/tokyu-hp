@@ -730,6 +730,7 @@ export default {
   }
   .hero {
     padding: 0px;
+    margin-top: 120px;
   }
   .main-catch-font {
     text-align: left;

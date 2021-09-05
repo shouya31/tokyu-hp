@@ -224,7 +224,7 @@ export default {
 
 @media screen and (max-width: 980px) {
   .careerfield {
-    padding: 80px 0;
+    padding-top: 80px;
   }
 
   .careerfield .careerfield-contents {

@@ -10,6 +10,7 @@ hr {
 }
 
 /* humbergar */
+
 .menu, .menu span {
   display: inline-block;
 }
@@ -239,11 +240,13 @@ header {
 @media screen and (max-width: 640px) {
   header {
     height: 80px;
+    padding: 0 10px;
   }
   .page-top {
     padding: 0 10px;
     flex-direction: column;
     align-items: start;
+    margin-top: 40px;
   }
   .header-nav-wrapper {
     width: 160px;

@@ -383,6 +383,10 @@ export default {
   }
 }
 @media screen and (max-width: 640px) {
+  .vision {
+    padding-top: 80px;
+  }
+  
   .vision .vision-contents {
     max-width: 90%;
   }

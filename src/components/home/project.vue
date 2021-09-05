@@ -1,11 +1,11 @@
 <template>
   <div>
-    <section id="recruit" class="hidden pl-52 lg:flex py-10">
-      <div class="project-title mt-16 ml-10">
+    <section id="recruit" class="home-main-content hidden lg:flex py-10">
+      <div class="project-title">
         <HomeSectionTitle :image="titleimage" />
-        <div class="flex justify-between content-start p-10">
+        <div class="flex justify-between content-start">
           <HomeSectionImage :image="homeimage" />
-          <div class="vision-left-content w-5/12 m-10 flex">
+          <div class="vision-left-content flex">
             <p class="sentence-more text-center m-auto self-center">
               <a href="/greeting">
                 <img
@@ -26,7 +26,7 @@
       style="z-index:99;"
     >
       <div class="pt-16">
-        <div class="vision-title w-8/12 mx-auto text-right">
+        <div class="section-title mx-auto text-right">
           <img :src="titleimage" />
         </div>
         <div class="vision-right-content mt-8" style="margin-right: 20%;">
@@ -64,9 +64,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.project-title .vision-title img {
-  margin-left: 48%;
-}
-</style>

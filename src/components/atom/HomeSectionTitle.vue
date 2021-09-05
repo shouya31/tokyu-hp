@@ -1,5 +1,5 @@
 <template>
-  <div class="vision-title pr-12">
+  <div class="section-title mb-10">
     <img :src="image">
     <!-- <div class="flex"> -->
       <!-- <p

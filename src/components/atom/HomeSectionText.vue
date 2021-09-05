@@ -1,7 +1,7 @@
 <template>
-    <div class="vision-left-content w-4/12 m-10">
-        <p class="section-text pt-16">{{ text }}</p>
-        <p class="sentence-more text-center mt-12">
+    <div class="text-content">
+        <p class="section-text">{{ text }}</p>
+        <p class="mt-12">
             <a :href=src>
                 <img src="../../assets/images/read-more.svg" alt="" class="mx-auto">
             </a>
@@ -16,13 +16,12 @@ export default {
 </script>
 
 <style>
+.text-content {
+    width: 227px;
+}
 .section-text{
     font-size: 14px;
     font-family: 'Noto Sans Japanese';
     line-height: 28px;
 }
-.sentence-more{
-    font-family: Brandon Grotesque;
-}
-
 </style>

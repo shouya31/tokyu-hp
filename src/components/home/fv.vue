@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="fv-main" class="fv w-full pl-60 mb-20 hidden lg:block">
+    <div id="fv-main" class="fv w-full mb-20 hidden lg:block">
       <div class="fv-header flex items-start m-8 pt-10">
         <img src="../../assets/images/fv-title.svg" />
         <transition name="fade" mode="out-in">
@@ -38,7 +38,6 @@
             <a href="/people/1">
               <img
                 src="../../assets/images/home-fv1.png"
-                alt=""
                 class=" w-3/12 fv-person-animation1"
                 style="top: -140px; left: 30px; width: 13vw; z-index:-2;;"
               />

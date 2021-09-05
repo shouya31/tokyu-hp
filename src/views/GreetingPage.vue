@@ -230,7 +230,6 @@ export default {
 
 .greeting {
   background-color: #f8f8f8;
-  padding: 40px 0 80px;
 }
 .greeting .greeting-contents {
   max-width: 728px;

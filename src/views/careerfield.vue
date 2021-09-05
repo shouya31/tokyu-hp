@@ -103,8 +103,6 @@ export default {
 <style>
 .careerfield {
   background-color: #add6d4;
-  /* padding: 80px 0 240px;
-  margin-top: 40px; */
 }
 .careerfield .page-top {
   background-color: #add6d4;

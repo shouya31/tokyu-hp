@@ -24,4 +24,19 @@ export default {
     font-family: 'Noto Sans Japanese';
     line-height: 28px;
 }
+
+@media (max-width: 940px) {
+  .text-content {
+    width: 400px;
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .text-content {
+    width: 90%;
+    margin: 20px auto 0;
+  }
+}
+
 </style>

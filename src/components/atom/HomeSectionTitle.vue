@@ -41,5 +41,18 @@ export default {
 .font-NotoSerif{
   font-family: 'Noto Serif JP', serif;
 }
+.section-title img {
+  height: 125px;
+}
+@media (max-width: 940px) {
+.section-title {
+    padding: 0 10px;
+  }
+}
 
+@media screen and (max-width: 640px) {
+  .section-title img {
+  height: 80px;
+}
+}
 </style>

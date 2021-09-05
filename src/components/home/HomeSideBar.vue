@@ -1,7 +1,7 @@
 <template>
   <div
     v-bind:class="{ change_bg: ChangeBg }"
-    class="side-bar w-2/12 p-8 fixed hidden lg:block"
+    class="side-bar p-8 fixed hidden lg:block"
   >
     <div class="side-bar-content max-w-full col-span-1">
       <router-link to="/"
@@ -24,7 +24,7 @@
         @before-close="beforeClose"
         @before-open="beforeOpen"
       >
-        <div class="menu-context flex">
+        <div class="sidebar_menu-context flex">
           <div class="each-menu flex">
             <div class="menu-line">
               <div class="menu-block">
@@ -128,7 +128,7 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-between w-9/12">
+        <div class="flex justify-between sidebar_bottom-menu-context">
           <div class="menu-grou-together ml-8">
             <img
               src="@/assets/images/grow-together.png"
@@ -282,6 +282,17 @@ export default {
 @import "../../assets/style/home.css";
 @import "../../assets/style/style.css";
 
+.sidebar_menu-context {
+  padding-top: 50px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0;
+}
+.sidebar_bottom-menu-context {
+  max-width: 1100px;
+  margin: 0;
+}
+
 .side-bar {
   z-index: 9999;
   max-width: 180px;
@@ -295,7 +306,7 @@ export default {
   margin-left: 50px;
 }
 .menu-line {
-  padding: 80px 20px 0px 20px;
+  padding: 80px 10px 0px 20px;
 }
 .menu-block {
   padding: 30px;
@@ -316,9 +327,9 @@ export default {
 }
 
 .side-bar-content .vm--container {
-  width: 86%;
+  width: 100%;
   right: 0;
-  left: initial;
+  left: 180px;
 }
 
 .menu-list {

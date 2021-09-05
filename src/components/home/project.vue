@@ -1,12 +1,14 @@
 <template>
   <div>
-    <section id="recruit" class="home-main-content hidden lg:flex py-10">
-      <div class="project-title">
+    <section
+     id="recruit" 
+     class="home-main-content lg:flex py-10">
+      <div class="mt-16">
         <HomeSectionTitle :image="titleimage" />
-        <div class="flex justify-between content-start">
+        <div class="content-wrapper">
           <HomeSectionImage :image="homeimage" />
-          <div class="vision-left-content flex">
-            <p class="sentence-more text-center m-auto self-center">
+          <div class="text-content">
+            <p class="sentence-more justify-end">
               <a href="/greeting">
                 <img
                   src="../../assets/images/read-more.svg"
@@ -20,7 +22,7 @@
       </div>
     </section>
 
-    <section
+    <!-- <section
       id="vision"
       class="lg:hidden relative bg-white"
       style="z-index:99;"
@@ -42,7 +44,7 @@
           </a>
         </p>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

@@ -344,7 +344,7 @@ import Header from "../components/header.vue";
 import HeaderSp from "../components/header-sp.vue";
 
 export default {
-    components: {
+  components: {
     Header,
     HeaderSp,
   },
@@ -358,3 +358,5 @@ export default {
   },
 };
 </script>
+
+

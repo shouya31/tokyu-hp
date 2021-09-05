@@ -1,13 +1,14 @@
 <template>
-  <div>
+  <div style="background-color: rgb(255, 255, 255);
+    z-index: 99;">
     <section
       id="vision"
-      class="home-main-content lg:flex bg-white relative"
+      class="home-main-content lg:flex pt-16"
       style="z-index: 99"
     >
-      <div class="mt-16">
+      <div class="">
         <HomeSectionTitle :image="titleimage" />
-        <div class="w-full flex justify-between flex-row-reverse">
+        <div class="content-wrapper">
           <HomeSectionText
             text="東急グループの中でリテール関連事業の中核を担う東急百貨店。東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、これからどのようなビジョンと共に歩んでいくのかをお伝えします。"
             src="/vision"

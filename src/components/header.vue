@@ -128,7 +128,7 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-between w-9/12">
+      <div class="flex justify-between bottom-menu-context">
         <div class="menu-grou-together ml-8">
           <img
             src="@/assets/images/grow-together.png"
@@ -170,7 +170,7 @@ export default {
     };
   },
   methods: {
-    menuOpenOrClose: function() {
+    menuOpenOrClose: function () {
       if (this.src === this.openBtn) {
         this.$modal.show("hello-world");
         this.src = this.closeBtn;
@@ -183,10 +183,10 @@ export default {
         return;
       }
     },
-    changeOpenMenu: function() {
+    changeOpenMenu: function () {
       this.src = this.openBtn;
     },
-    changeCloseMenu: function() {
+    changeCloseMenu: function () {
       this.src = this.closeBtn;
     },
   },
@@ -199,6 +199,27 @@ export default {
 
 .menu-context {
   padding-top: 50px;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.bottom-menu-context {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.vm--container {
+  max-width: 1600px;
+}
+@media screen and (min-width: 1600px) {
+.vm--container {
+  position: absolute!important;
+}
+.menu-context {
+  margin: 0 auto;
+}
+.bottom-menu-context {
+  margin: 0 auto;
+}
 }
 
 @media screen and (max-width: 800px) {

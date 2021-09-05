@@ -1,6 +1,6 @@
 <template>
   <div class="lg:hidden">
-    <header class="fixed w-full" style="z-index: 999">
+    <header class="fixed w-full">
       <div class="flex w-full justify-between items-center">
         <div class="py-3">
           <a href="#" class=""
@@ -145,12 +145,12 @@
       <div class="fv-contents w-11/12 relative left-0">
         <div class="fv-sp-title p-5">
           <div class="fv-header-sp flex items-start pt-10">
-            <img src="../../assets/images/fv-title.svg" />
+            <img src="../../assets/images/fv-title.svg" class="fv-title" />
             <transition name="fade" mode="out-in">
               <img
                 :src="titleImages[index]"
                 :key="titleImages[index]"
-                class="ml-4 mt-4"
+                class="ml-4 mt-4 fv-thema"
                 style="z-index: -2"
               />
             </transition>
@@ -194,7 +194,7 @@
           />
         </a>
       </div>
-      <div class="flex justify-end mt-96">
+      <div class="flex justify-end mt-10">
         <a href="/people/5">
           <img
             src="../../assets/images/home-fv5.png"
@@ -355,7 +355,7 @@ export default {
 
 @keyframes person_moveY-sp5 {
   0% {
-    transform: scaleY(1) translateY(450px);
+    transform: scaleY(1) translateY(350px);
   }
   50% {
   }
@@ -370,7 +370,7 @@ export default {
 
 @keyframes person_moveY-sp6 {
   0% {
-    transform: scaleY(1) translateY(700px);
+    transform: scaleY(1) translateY(350px);
   }
   50% {
   }
@@ -395,8 +395,31 @@ export default {
   z-index: -3;
 }
 
-.fv-header-sp {
-  width: 40%;
+@media screen and (max-width: 800px) {
+  .fv-header-sp {
+    width: 100%;
+    z-index: 9;
+    position: relative;
+  }
+  .fv-header-sp .fv-title {
+    width: 180px;
+  }
+  .fv-header-sp .fv-thema {
+    height: 40px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .fv-header-sp {
+    width: 100%;
+    z-index: 9;
+    position: relative;
+  }
+  .fv-header-sp .fv-title {
+    width: 120px;
+  }
+  .fv-header-sp .fv-thema {
+    height: 30px;
+  }
 }
 
 @keyframes anim {

@@ -14,7 +14,7 @@ export default {
 
 <style>
 .img-content {
-    max-width: 767px;
+    max-width: 747px;
     margin-right: 40px;
 }
 </style>

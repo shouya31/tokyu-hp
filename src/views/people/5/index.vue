@@ -405,10 +405,10 @@
         <div class="lg:mt-32">
           <div class="upper-content pt-8 lg:pt-0">
             <img
-              src="@/assets/images/home-people5.png"
+              src="@/assets/images/person5-4.png"
               srcset="
-                @/assets/images/home-people5.png    1x,
-                @/assets/images/home-people5@2x.png 2x
+                @/assets/images/person5-4.png    1x,
+                @/assets/images/person5-4@2x.png 2x
               "
               alt="people4"
               class="home-person w-full"

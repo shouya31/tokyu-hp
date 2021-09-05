@@ -1,18 +1,18 @@
 <template>
   <div>
     <div id="fv-main" class="fv w-full mb-20 hidden lg:block">
-      <div class="fv-header flex items-start m-8 pt-10">
-        <img src="../../assets/images/fv-title.svg" />
+      <div class="fv-header flex items-start my-8 pt-10">
+        <img src="../../assets/images/fv-title.svg" class="fv-title"/>
         <transition name="fade" mode="out-in">
           <img
             :src="titleImages[index]"
             :key="titleImages[index]"
-            class="ml-7 mt-10"
+            class="ml-7 mt-10 fv-thema"
             style="z-index:-2;"
           />
         </transition>
       </div>
-      <div class="fv-contents flex">
+      <div class="fv-contents flex relative">
         <div class="fv-left-content w-11/12" style="z-index:-3;">
           <transition name="fade" mode="out-in">
             <img
@@ -31,15 +31,15 @@
               <img
                 src="../../assets/images/home-fv3.png"
                 alt=""
-                class=" w-3/12 fv-person-animation2"
-                style="top: 170px;left: 65px; width: 13vw; z-index:-2;;"
+                class="fv-person-animation2"
+                style="top: 170px;left: 65px; max-width: 200px; z-index:-2;;"
               />
             </a>
             <a href="/people/1">
               <img
                 src="../../assets/images/home-fv1.png"
-                class=" w-3/12 fv-person-animation1"
-                style="top: -140px; left: 30px; width: 13vw; z-index:-2;;"
+                class="fv-person-animation1"
+                style="top: -140px; left: 30px; max-width: 200px; z-index:-2;;"
               />
             </a>
 
@@ -47,36 +47,36 @@
               <img
                 src="../../assets/images/home-fv6.png"
                 alt=""
-                class=" w-3/12 fv-person-animation3"
-                style="bottom: -280px; width: 13vw; z-index:-2;;"
+                class="fv-person-animation3"
+                style="bottom: -280px; max-width: 200px; z-index:-2;;"
               />
             </a>
           </div>
-          <div class="flex justify-end mt-96">
+          <div class="flex justify-end mt-20">
             <a href="/people/2">
               <img
                 src="../../assets/images/home-fv2.png"
                 alt=""
-                class=" w-3/12 fv-person-animation5"
-                style="top: 280px;left: 65px; width: 13vw; z-index:-2;;"
-              />
-            </a>
-
-            <a href="/people/5">
-              <img
-                src="../../assets/images/home-fv4.png"
-                alt=""
-                class=" w-3/12 fv-person-animation4"
-                style="left: 30px; width: 13vw; z-index:-2;;"
+                class="fv-person-animation5"
+                style="top: 280px;left: 65px; max-width: 200px; z-index:-2;;"
               />
             </a>
 
             <a href="/people/4">
               <img
+                src="../../assets/images/home-fv4.png"
+                alt=""
+                class="fv-person-animation4"
+                style="left: 30px; max-width: 200px; z-index:-2;;"
+              />
+            </a>
+
+            <a href="/people/5">
+              <img
                 src="../../assets/images/home-fv5.png"
                 alt=""
-                class=" w-3/12 fv-person-animation6"
-                style="bottom: -420px; width: 13vw; z-index:-2;;"
+                class="fv-person-animation6"
+                style="bottom: -420px; max-width: 200px; z-index:-2;;"
               />
             </a>
           </div>
@@ -127,6 +127,19 @@ export default {
 </script>
 
 <style>
+.fv-header {
+  width: 100%;
+  z-index: 9;
+  position: relative;
+}
+.fv-title {
+  width: 200px;
+}
+.fv-thema {
+  height: 80px;
+}
+
+
 .fv-person-animation1 {
   animation: person_moveY1 18s linear infinite;
 }
@@ -208,12 +221,12 @@ export default {
 
 @keyframes person_moveY6 {
   0% {
-    transform: scaleY(1) translateY(1000px);
+    transform: scaleY(1) translateY(800px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-700px);
+    transform: scaleY(1) translateY(-500px);
   }
 }
 
@@ -258,9 +271,6 @@ a .fv-person-animation6:hover {
   z-index: -3;
 }
 
-.fv-right-content{
-  /* z-index: -2; */
-}
 
 @keyframes anim {
   0% {

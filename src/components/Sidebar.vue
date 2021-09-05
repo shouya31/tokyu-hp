@@ -24,7 +24,7 @@
         @before-close="beforeClose"
         @before-open="beforeOpen"
       >
-        <div class="menu-context flex">
+        <div class="sidebar_menu-context flex">
           <div class="each-menu flex">
             <div class="menu-line">
               <div class="menu-block">

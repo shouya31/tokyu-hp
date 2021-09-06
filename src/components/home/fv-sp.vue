@@ -239,6 +239,8 @@ export default {
       images: [
         require("@/assets/images/fv-main1.png"),
         require("@/assets/images/fv-main2.png"),
+        require("@/assets/images/fv-main1.png"),
+        require("@/assets/images/fv-main2.png"),
       ],
       src: require("@/assets/images/open-btn.svg"),
       openBtn: require("@/assets/images/open-btn.svg"),
@@ -290,42 +292,57 @@ export default {
 
 <style>
 .fv-person-animation-sp1 {
-  animation: person_moveY-sp1 15s linear infinite;
+  animation: person_moveY-sp1 18s linear infinite;
 }
 
 @keyframes person_moveY-sp1 {
   0% {
-    transform: scaleY(1) translateY(60px);
+    transform: scaleY(1) translateY(360px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-800px);
+    transform: scaleY(1) translateY(-1360px);
   }
 }
 
 .fv-person-animation-sp2 {
-  animation: person_moveY-sp2 16s linear infinite;
+  animation: person_moveY-sp2 24s linear infinite;
 }
 
 @keyframes person_moveY-sp2 {
   0% {
-    transform: scaleY(1) translateY(350px);
+    transform: scaleY(1) translateY(1650px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-800px);
+    transform: scaleY(1) translateY(-1050px);
   }
 }
 
 .fv-person-animation-sp3 {
-  animation: person_moveY-sp3 17s linear infinite;
+  animation: person_moveY-sp3 16s linear infinite;
 }
 
 @keyframes person_moveY-sp3 {
   0% {
-    transform: scaleY(1) translateY(500px);
+    transform: scaleY(1) translateY(600px);
+  }
+  50% {
+  }
+  100% {
+    transform: scaleY(1) translateY(-900px);
+  }
+}
+
+.fv-person-animation-sp4 {
+  animation: person_moveY-sp4 24s linear infinite;
+}
+
+@keyframes person_moveY-sp4 {
+  0% {
+    transform: scaleY(1) translateY(1700px);
   }
   50% {
   }
@@ -334,48 +351,33 @@ export default {
   }
 }
 
-.fv-person-animation-sp4 {
-  animation: person_moveY-sp4 23s linear infinite;
-}
-
-@keyframes person_moveY-sp4 {
-  0% {
-    transform: scaleY(1) translateY(200px);
-  }
-  50% {
-  }
-  100% {
-    transform: scaleY(1) translateY(-1600px);
-  }
-}
-
 .fv-person-animation-sp5 {
-  animation: person_moveY-sp5 25s linear infinite;
+  animation: person_moveY-sp5 20s linear infinite;
 }
 
 @keyframes person_moveY-sp5 {
   0% {
-    transform: scaleY(1) translateY(350px);
+    transform: scaleY(1) translateY(960px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-1600px);
+    transform: scaleY(1) translateY(-1060px);
   }
 }
 
 .fv-person-animation-sp6 {
-  animation: person_moveY-sp6 24s linear infinite;
+  animation: person_moveY-sp6 18s linear infinite;
 }
 
 @keyframes person_moveY-sp6 {
   0% {
-    transform: scaleY(1) translateY(350px);
+    transform: scaleY(1) translateY(660px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-1600px);
+    transform: scaleY(1) translateY(-760px);
   }
 }
 
@@ -395,6 +397,17 @@ export default {
   z-index: -3;
 }
 
+.fv {
+  overflow: hidden;
+  height: 820px;
+}
+
+.fv-left-content img {
+  width: 740px;
+  height: 480px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 800px) {
   .fv-header-sp {
     width: 100%;
@@ -409,6 +422,10 @@ export default {
   }
 }
 @media screen and (max-width: 640px) {
+  .fv-left-content img {
+  height: 240px;
+}
+
   .fv-header-sp {
     width: 100%;
     z-index: 9;

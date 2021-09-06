@@ -244,6 +244,9 @@ hr {
 #vision .section-title img {
   margin-left: auto;
 }
+#vision .text-content {
+  margin-top: 40px;
+}
 #people {
   justify-content: flex-start;
 }
@@ -329,6 +332,9 @@ hr {
   }
   #vision .content-wrapper {
     flex-direction: column-reverse;
+  }
+  #vision .text-content {
+    margin-top: 20px;
   }
   #people .content-wrapper {
     flex-direction: column-reverse;

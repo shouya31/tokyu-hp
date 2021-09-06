@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="fv-main" class="fv w-full mb-20 hidden lg:block">
+    <div id="fv-main" class="fv w-full pb-20 hidden lg:block">
       <div class="fv-header flex items-start my-8 pt-10">
         <img src="../../assets/images/fv-title.svg" class="fv-title"/>
         <transition name="fade" mode="out-in">
@@ -127,6 +127,11 @@ export default {
 </script>
 
 <style>
+.fv {
+  overflow: hidden;
+  height: 820px;
+}
+
 .fv-header {
   width: 100%;
   z-index: 9;
@@ -138,7 +143,6 @@ export default {
 .fv-thema {
   height: 64x;
 }
-
 
 .fv-person-animation1 {
   animation: person_moveY1 18s linear infinite;
@@ -161,7 +165,7 @@ export default {
 
 @keyframes person_moveY2 {
   0% {
-    transform: scaleY(1) translateY(650px);
+    transform: scaleY(1) translateY(450px);
   }
   50% {
   }
@@ -176,7 +180,7 @@ export default {
 
 @keyframes person_moveY3 {
   0% {
-    transform: scaleY(1) translateY(800px);
+    transform: scaleY(1) translateY(600px);
   }
   50% {
   }
@@ -186,47 +190,47 @@ export default {
 }
 
 .fv-person-animation4 {
-  animation: person_moveY4 18s linear infinite;
+  animation: person_moveY4 24s linear infinite;
 }
 
 @keyframes person_moveY4 {
   0% {
-    transform: scaleY(1) translateY(500px);
+    transform: scaleY(1) translateY(1700px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-1260px);
+    transform: scaleY(1) translateY(-800px);
   }
 }
 
 .fv-person-animation5 {
-  animation: person_moveY5 18s linear infinite;
+  animation: person_moveY5 20s linear infinite;
 }
 
 @keyframes person_moveY5 {
   0% {
-    transform: scaleY(1) translateY(750px);
+    transform: scaleY(1) translateY(1850px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-950px);
+    transform: scaleY(1) translateY(-850px);
   }
 }
 
 .fv-person-animation6 {
-  animation: person_moveY6 18s linear infinite;
+  animation: person_moveY6 20s linear infinite;
 }
 
 @keyframes person_moveY6 {
   0% {
-    transform: scaleY(1) translateY(800px);
+    transform: scaleY(1) translateY(1600px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-500px);
+    transform: scaleY(1) translateY(-800px);
   }
 }
 

@@ -9,7 +9,7 @@
         <HomeSectionTitle :image="titleimage" />
         <div class="content-wrapper">
           <div class="text-content bg-white" style="z-index: 99">
-            <p class="section-text mt-16">
+            <p class="section-text">
               東急グループの中でリテール関連事業の中核を担う東急百貨店。<br />東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、これからどのようなビジョンと共に歩んでいくのかをお伝えします。
             </p>
           </div>

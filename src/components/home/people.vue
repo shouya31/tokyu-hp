@@ -268,6 +268,7 @@ export default {
   .VueCarousel-dot-container {
 text-align: center;
     padding-left: 0 !important;
+    margin-top: 0 !important;
   }
   .VueCarousel-dot {
     width: 30px !important;

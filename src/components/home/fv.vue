@@ -136,7 +136,7 @@ export default {
   width: 200px;
 }
 .fv-thema {
-  height: 80px;
+  height: 64x;
 }
 
 

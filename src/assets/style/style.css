@@ -189,6 +189,33 @@ hr {
 
 /* TOP page */
 
+/*  */
+.text-content {
+  width: 230px;
+  letter-spacing: 0;
+}
+
+.section-text{
+  font-size: 14px;
+  font-family: 'Noto Sans Japanese';
+  line-height: 28px;
+}
+
+@media (max-width: 940px) {
+.text-content {
+  width: 420px;
+  margin: 20px auto 0;
+}
+}
+
+@media (max-width: 640px) {
+.text-content {
+  width: 90%;
+  margin: 20px auto 0;
+}
+}
+/*  */
+
 .main {
   width: 100%;
   max-width: 1600px;

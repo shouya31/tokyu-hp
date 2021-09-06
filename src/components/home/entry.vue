@@ -36,11 +36,18 @@
         />
       </div>
       <div class="entry-btn mt-6">
-        <img
-          src="../../assets/images/entry-btn.svg"
-          alt=""
-          class="mx-auto w-4/12"
-        />
+        <a
+          href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block"
+        >
+          <img
+            src="../../assets/images/entry-btn.svg"
+            alt=""
+            class="mx-auto w-4/12"
+          />
+        </a>
       </div>
     </section>
   </div>

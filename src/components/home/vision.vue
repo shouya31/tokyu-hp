@@ -1,6 +1,5 @@
 <template>
-  <div style="background-color: rgb(255, 255, 255);
-    z-index: 99;">
+  <div style="background-color: rgb(255, 255, 255); z-index: 99">
     <section
       id="vision"
       class="home-main-content lg:flex pt-16"
@@ -9,10 +8,11 @@
       <div class="">
         <HomeSectionTitle :image="titleimage" />
         <div class="content-wrapper">
-          <HomeSectionText
-            text="東急グループの中でリテール関連事業の中核を担う東急百貨店。東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、これからどのようなビジョンと共に歩んでいくのかをお伝えします。"
-            src="/vision"
-          />
+          <div class="text-content bg-white" style="z-index: 99">
+            <p class="section-text mt-16">
+              東急グループの中でリテール関連事業の中核を担う東急百貨店。<br />東急百貨店がこれまでどのような信念を持ち、歩み続けてきたのか、これからどのようなビジョンと共に歩んでいくのかをお伝えします。
+            </p>
+          </div>
           <HomeSectionImage :image="homeimage" />
         </div>
       </div>
@@ -23,13 +23,11 @@
 <script>
 import HomeSectionTitle from "../../components/atom/HomeSectionTitle.vue";
 import HomeSectionImage from "../../components/atom/HomeSectionImage.vue";
-import HomeSectionText from "../../components/atom/HomeSectionText.vue";
 export default {
   name: "Vision",
   components: {
     HomeSectionTitle,
     HomeSectionImage,
-    HomeSectionText,
   },
   data() {
     return {

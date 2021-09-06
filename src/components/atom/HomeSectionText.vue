@@ -17,7 +17,7 @@ export default {
 
 <style>
 .text-content {
-    width: 227px;
+    width: 230px;
 }
 .section-text{
     font-size: 14px;

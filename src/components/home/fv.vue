@@ -150,7 +150,7 @@ export default {
 
 @keyframes person_moveY1 {
   0% {
-    transform: scaleY(1) translateY(360px);
+    transform: scaleY(1) translateY(660px);
   }
   50% {
   }
@@ -165,7 +165,7 @@ export default {
 
 @keyframes person_moveY2 {
   0% {
-    transform: scaleY(1) translateY(450px);
+    transform: scaleY(1) translateY(750px);
   }
   50% {
   }
@@ -180,7 +180,7 @@ export default {
 
 @keyframes person_moveY3 {
   0% {
-    transform: scaleY(1) translateY(600px);
+    transform: scaleY(1) translateY(850px);
   }
   50% {
   }
@@ -195,7 +195,7 @@ export default {
 
 @keyframes person_moveY4 {
   0% {
-    transform: scaleY(1) translateY(1700px);
+    transform: scaleY(1) translateY(1300px);
   }
   50% {
   }
@@ -210,7 +210,7 @@ export default {
 
 @keyframes person_moveY5 {
   0% {
-    transform: scaleY(1) translateY(1850px);
+    transform: scaleY(1) translateY(1250px);
   }
   50% {
   }
@@ -225,12 +225,12 @@ export default {
 
 @keyframes person_moveY6 {
   0% {
-    transform: scaleY(1) translateY(1600px);
+    transform: scaleY(1) translateY(900px);
   }
   50% {
   }
   100% {
-    transform: scaleY(1) translateY(-800px);
+    transform: scaleY(1) translateY(-1200px);
   }
 }
 

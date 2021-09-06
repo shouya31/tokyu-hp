@@ -1,5 +1,5 @@
 <template>
-  <div>
+<div style="background-color: rgb(255, 255, 255); z-index: 99; position: relative;">
     <section id="people" class="home-main-content relative py-10">
       <div class="mt-16">
         <HomeSectionTitle :image="titleimage" />

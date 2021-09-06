@@ -150,7 +150,7 @@
               <img
                 :src="titleImages[index]"
                 :key="titleImages[index]"
-                class="ml-4 mt-4 fv-thema"
+                class="ml-4 mt-4 fv-theme"
                 style="z-index: -2"
               />
             </transition>
@@ -417,7 +417,7 @@ export default {
   .fv-header-sp .fv-title {
     width: 180px;
   }
-  .fv-header-sp .fv-thema {
+  .fv-header-sp .fv-theme {
     height: 40px;
   }
 }
@@ -434,7 +434,7 @@ export default {
   .fv-header-sp .fv-title {
     width: 120px;
   }
-  .fv-header-sp .fv-thema {
+  .fv-header-sp .fv-theme {
     height: 30px;
   }
 }

@@ -7,7 +7,7 @@
           <img
             :src="titleImages[index]"
             :key="titleImages[index]"
-            class="ml-7 mt-10 fv-thema"
+            class="ml-7 mt-10 fv-theme"
             style="z-index:-2;"
           />
         </transition>
@@ -140,7 +140,7 @@ export default {
 .fv-title {
   width: 200px;
 }
-.fv-thema {
+.fv-theme {
   height: 64x;
 }
 

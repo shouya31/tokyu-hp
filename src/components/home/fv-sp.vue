@@ -10,7 +10,7 @@
               width="120"
           /></a>
         </div>
-        <div v-on:click="menuOpenOrClose" class="menu p-5">
+        <div v-on:click="menuOpenOrClose" class="menu">
           <img :src="src" alt="" srcset="" />
         </div>
       </div>

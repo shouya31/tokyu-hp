@@ -1,14 +1,17 @@
 <template>
   <div>
-    <section
-     id="recruit" 
-     class="home-main-content lg:flex py-10">
+    <section id="recruit" class="home-main-content lg:flex py-10">
       <div class="mt-16">
         <HomeSectionTitle :image="titleimage" />
         <div class="content-wrapper">
           <HomeSectionImage :image="homeimage" />
           <div class="text-content">
-            <p class="sentence-more justify-end">
+            <ul class="recruit-link">
+              <li><a href="/greeting">人事部長メッセージ</a></li>
+              <li><a href="/faq">FAQ</a></li>
+              <li><a href="/recruit">募集要項＆会社概要</a></li>
+            </ul>
+            <!-- <p class="sentence-more justify-end">
               <a href="/greeting">
                 <img
                   src="../../assets/images/read-more.svg"
@@ -16,7 +19,7 @@
                   class="mx-auto"
                 />
               </a>
-            </p>
+            </p> -->
           </div>
         </div>
       </div>

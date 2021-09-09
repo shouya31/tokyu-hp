@@ -10,9 +10,6 @@
           class="lg:w-full"
         />
       </div>
-      <div class="current-nav">
-        <p>会社概要＆募集要項</p>
-      </div>
     </section>
     <section class="recruit-requirement-content mx-auto">
       <h2 class="mx-auto">

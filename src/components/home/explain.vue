@@ -11,13 +11,11 @@
         </p>
         <p class="text-center explain-text tracking-widest">
           これからは新しい価値を提供するため。<br />
-          これからもお客様の期待に応え続けるため。
+          これからもお客様の期待に応え続けるため。<br />
+          私たちは常に挑戦し続ける。
         </p>
         <p class="text-center explain-text tracking-widest">
-          私たちは常に挑戦し続ける。<br />
-          「GROW TOGETHER」
-        </p>
-        <p class="text-center explain-text tracking-widest">
+          <strong>「GROW TOGETHER」</strong><br />
           共に成長しよう
         </p>
         <p class="text-center explain-text tracking-widest">
@@ -39,9 +37,13 @@
 .explain-text {
   font-size: 20px;
   font-family: "Noto Sans Japanese", sans-serif;
-  line-height: 60px;
+  line-height: 48px;
   z-index: -3;
   font-weight: 300;
+  margin-bottom: 20px;
+}
+.explain-text strong {
+  font-weight: bold;
 }
 @media screen and (max-width: 640px) {
 .explain {

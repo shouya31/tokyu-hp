@@ -10,9 +10,6 @@
           class="lg:w-full"
         />
       </div>
-      <div class="current-nav">
-        <p>人事部長からのメッセージ</p>
-      </div>
     </section>
     <div
       class="

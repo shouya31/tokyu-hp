@@ -10,9 +10,6 @@
           class="lg:w-full"
         />
       </div>
-      <div class="current-nav">
-        <p>ビジョンについて</p>
-      </div>
     </section>
 
     <section class="vision-contents mx-auto">

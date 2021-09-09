@@ -10,9 +10,6 @@
           class="lg:w-full"
         />
       </div>
-      <div class="current-nav">
-        <p>キャリアフィールド</p>
-      </div>
     </section>
 
     <div class="">

@@ -24,7 +24,9 @@ hr {
 }
 
 /* humbergar */
-
+.menu {
+  height: 40px;
+}
 .menu,
 .menu span {
   display: inline-block;
@@ -291,6 +293,24 @@ hr {
 #recruit .text-content {
   width: fit-content;
 }
+#recruit .recruit-link li {
+  margin-bottom: 10px;
+}
+#recruit .recruit-link li:last-of-type {
+  margin-bottom: 0;
+}
+#recruit .recruit-link a {
+  position: relative;
+}
+#recruit .recruit-link a:after {
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: url(/img/entry-btn-triangle.fe6fe1e8.svg) center/contain no-repeat;
+  position: absolute;
+  right: -20px;
+  top: 3px;
+}
 @media (max-width: 1280px) {
 }
 
@@ -398,17 +418,7 @@ header {
 .sub-pagetitle {
   width: 360px;
 }
-.current-nav {
-  width: 204px;
-  height: 35px;
-  border: solid 1px #707070;
-  text-align: center;
-}
-.current-nav p {
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 35px !important;
-}
+
 @media screen and (max-width: 740px) {
   .page-top .sub-pagetitle {
     width: 240px;

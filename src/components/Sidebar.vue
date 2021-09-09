@@ -32,11 +32,11 @@
                   <img src="@/assets/images/menu-vision.svg" />
                 </p>
                 <ul>
-                  <li class="menu-list">> トップインタビュー</li>
-                  <li class="menu-list">> 融合型リテーラーとして</li>
-                  <li class="menu-list">> 店舗と共に</li>
-                  <li class="menu-list">> グループと共に</li>
-                  <li class="menu-list">> キーワードで知る</li>
+                  <li class="menu-list">トップインタビュー</li>
+                  <li class="menu-list">融合型リテーラーとして</li>
+                  <li class="menu-list">店舗と共に</li>
+                  <li class="menu-list">グループと共に</li>
+                  <li class="menu-list">キーワードで知る</li>
                 </ul>
               </div>
               <div class="menu-block hidden">
@@ -44,8 +44,8 @@
                   <img src="@/assets/images/menu-project.svg" />
                 </p>
                 <ul>
-                  <li class="menu-list">> 地域と共に</li>
-                  <li class="menu-list">> 新規事業と共に</li>
+                  <li class="menu-list">地域と共に</li>
+                  <li class="menu-list">新規事業と共に</li>
                 </ul>
               </div>
             </div>
@@ -55,7 +55,7 @@
                   <img src="@/assets/images/menu-people.svg" />
                 </p>
                 <ul>
-                  <li class="menu-list">> キャリアフィールド</li>
+                  <li class="menu-list">キャリアフィールド</li>
                   <p
                     class="mt-8"
                     style="background:#333333; color:white; padding:5px;"
@@ -79,10 +79,10 @@
                   <img src="@/assets/images/menu-culture.svg" />
                 </p>
                 <ul>
-                  <li class="menu-list">> 若手座談会</li>
-                  <li class="menu-list">> 男性社員座談会</li>
-                  <li class="menu-list">> 上司×部下対談</li>
-                  <li class="menu-list">> メールアンケート</li>
+                  <li class="menu-list">若手座談会</li>
+                  <li class="menu-list">男性社員座談会</li>
+                  <li class="menu-list">上司×部下対談</li>
+                  <li class="menu-list">メールアンケート</li>
                 </ul>
               </div>
               <div class="menu-block">
@@ -90,8 +90,8 @@
                   <img src="@/assets/images/menu-system.svg" />
                 </p>
                 <ul>
-                  <li class="menu-list">> 研修制度</li>
-                  <li class="menu-list">> 福利厚生</li>
+                  <li class="menu-list">研修制度</li>
+                  <li class="menu-list">福利厚生</li>
                 </ul>
               </div>
             </div>
@@ -106,8 +106,8 @@
                       >> 人事部長メッセージ</router-link
                     >
                   </li>
-                  <li class="menu-list">> FAQ</li>
-                  <li class="menu-list">> 会社概要＆募集要項</li>
+                  <li class="menu-list">FAQ</li>
+                  <li class="menu-list">会社概要＆募集要項</li>
                 </ul>
               </div>
               <div

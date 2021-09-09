@@ -32,7 +32,7 @@
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
-                    <a href="/vision">> ビジョンについて</a>
+                    <a href="/vision">ビジョンについて</a>
                   </li>
                 </ul>
               </div>
@@ -44,14 +44,8 @@
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
-                    <a href="/careerfield">> キャリアフィールド</a>
+                    <a href="/careerfield">キャリアフィールド</a>
                   </li>
-                  <p
-                    class="mt-8"
-                    style="background: #333333; color: white; padding: 5px"
-                  >
-                    社員紹介
-                  </p>
                   <ul>
                     <li class="menu-list">
                       <a href="/people/1">> たまプラーザ店 営業統括部</a>
@@ -66,7 +60,7 @@
                       <a href="/people/4">> 営業推進部 顧客サービス部</a>
                     </li>
                     <li class="menu-list">
-                      <a href="/people/5">> 事業戦略部 顧客サービス部</a>
+                      <a href="/people/5">> 事業戦略室 事業開発部</a>
                     </li>
                     <li class="menu-list">
                       <a href="/people/6">> 営業推進部 営業企画部</a>
@@ -82,7 +76,7 @@
                 </p>
                 <ul class="menu-bottom-line">
                   <li class="menu-list">
-                    <a href="/workstyle">> 働き方について</a>
+                    <a href="/workstyle">働き方について</a>
                   </li>
                 </ul>
               </div>
@@ -95,12 +89,12 @@
                 <ul class="menu-bottom-line">
                   <li>
                     <router-link to="/greeting" class="menu-list"
-                      >> 人事部長メッセージ</router-link
+                      >人事部長メッセージ</router-link
                     >
                   </li>
-                  <li class="menu-list"><a href="/faq">> FAQ</a></li>
+                  <li class="menu-list"><a href="/faq">FAQ</a></li>
                   <li class="menu-list">
-                    <a href="/recruit">> 会社概要＆募集要項</a>
+                    <a href="/recruit">募集要項＆会社概要</a>
                   </li>
                 </ul>
               </div>

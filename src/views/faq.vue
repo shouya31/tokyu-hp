@@ -10,9 +10,6 @@
           class="lg:w-full"
         />
       </div>
-      <div class="current-nav">
-        <p>FAQ</p>
-      </div>
     </section>
 
     <section class="faq-contents mx-auto">

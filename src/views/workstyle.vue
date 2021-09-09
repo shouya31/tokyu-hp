@@ -10,9 +10,6 @@
           class="lg:w-full"
         />
       </div>
-      <div class="current-nav">
-        <p>働き方について</p>
-      </div>
     </section>
     <section class="workstyle mx-auto">
       <div class="workstyle-heading">

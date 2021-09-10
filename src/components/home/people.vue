@@ -6,9 +6,7 @@
         <div class="content-wrapper">
           <div class="text-content bg-white" style="z-index: 99">
             <p class="section-text mt-16">
-              東急百貨店と共に成長する仲間たち。
-              志望動機や現在の仕事内容はもちろん、入社から現在に至るまで
-              記憶に残るエピソードや未来に向けた想いを語っていただきました。
+              東急百貨店と共に成長する<br class="pc-br">仲間たち。志望動機や現在の<br class="pc-br">仕事内容はもちろん、入社から現在に<br class="pc-br">至るまで記憶に残るエピソードや<br class="pc-br">未来に向けた想いを語っていただきました。
             </p>
           </div>
 

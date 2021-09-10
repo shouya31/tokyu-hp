@@ -27,11 +27,18 @@
         <dl>
           <dt>採用人数</dt>
           <dd>
-            2022年 5名（予定）<br />
-            2021年 13名<br />
-            2020年 17名<br />
-            2019年 33名<br />
-            2018年 22名
+            <dl class="info-inner">
+              <dt>2022年</dt>
+              <dd>5名（予定）</dd>
+              <dt>2021年</dt>
+              <dd>13名</dd>
+              <dt>2020年</dt>
+              <dd>17名</dd>
+              <dt>2019年</dt>
+              <dd>33名</dd>
+              <dt>2018年</dt>
+              <dd>22名</dd>
+            </dl>
           </dd>
           <dt>募集職種</dt>
           <dd>総合職</dd>
@@ -39,25 +46,33 @@
           <dd>全学部・全学科</dd>
           <dt>初任給</dt>
           <dd>
-            （2021年度実績）<br />
-            東京地区：月給210,000円<br />
-            北海道地区：月給199,500円
+            <p>（2021年度実績）</p>
+            <dl class="info-inner">
+              <dt>東京地区</dt>
+              <dd>月給210,000円</dd>
+              <dt>北海道地区</dt>
+              <dd>月給199,500円</dd>
+            </dl>
           </dd>
           <dt>昇給・賞与</dt>
-          <dd>昇給 年１回 賞与 年２回</dd>
+          <dd>昇給 年1回&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;賞与 年2回</dd>
           <dt>退職金制度</dt>
           <dd>有</dd>
           <dt>諸手当</dt>
-          <dd>通勤費（原則全額）、時間外勤務手当、家族手当等</dd>
+          <dd>通勤費（原則全額）、時間外勤務手当、家族手当&nbsp;&nbsp;等</dd>
           <dt>勤務地</dt>
           <dd>
-            東京地区：東京都、神奈川県<br />
-            北海道地区：北海道（札幌市）
+            <dl class="info-inner">
+              <dt>東京地区</dt>
+              <dd>東京都、神奈川県</dd>
+              <dt>北海道地区</dt>
+              <dd>北海道（札幌市）</dd>
+            </dl>
           </dd>
           <dt>勤務時間</dt>
           <dd>
             シフトによる交替制勤務<br />
-            実働7時間45分（食事・休憩時間1時間15分）
+            実働7時間45分（食事・休憩時間&nbsp;&nbsp;1時間15分）
           </dd>
           <dt>休日</dt>
           <dd>週休2日（交替制）・年間休日116日</dd>
@@ -66,7 +81,7 @@
             年2回の連続休暇制度、年2日のアニバーサリー休暇制度、<br
               class="pc-br"
             />
-            年次休暇、半日休暇制度、慶弔休暇、リフレッシュ休暇他
+            年次休暇、半日休暇制度、慶弔休暇、リフレッシュ休暇&nbsp;&nbsp;他
           </dd>
           <dt>福利厚生</dt>
           <dd>各種社保、共済会、財形貯蓄、持株制度、自用品購買制度</dd>
@@ -86,7 +101,7 @@
           <dd>大学院、大学卒業見込みの方（2023年3月卒業の方）</dd>
           <dt>お問い合わせ</dt>
           <dd>
-            株）東急百貨店 人事部 採用担当<br />
+            （株）東急百貨店 人事部 採用担当<br />
             ＜東京地区＞<br />
             TEL：03-3477-3261（直通）<br />
             E-mail：employ@tokyu-dept.co.jp<br />
@@ -101,7 +116,10 @@
           href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
           target="_blank"
           rel="noopener noreferrer"
-          >エントリーはこちら</a
+          >エントリーはこちら<br />
+          <span class="text-sm"
+            >※東急グループ（グループ募集）のページより、エントリーしてください。</span
+          ></a
         >
       </div>
     </section>
@@ -116,25 +134,34 @@
           alt="Company Overview"
         />
       </h2>
-      <h3 class="text-center">企業概要</h3>
+      <h3 class="text-center">会社概要</h3>
       <div class="info">
         <dl>
           <dt>商号</dt>
           <dd>株式会社 東急百貨店</dd>
           <dt>会社設立年月日</dt>
-          <dd>大正8年3月7日（1919年）</dd>
+          <dd>大正8年（1919年）3月7日</dd>
           <dt>事業内容</dt>
           <dd>百貨店業</dd>
           <dt>資本金</dt>
           <dd>1億円</dd>
           <dt>決算期</dt>
           <dd>1月</dd>
-          <dt>本店所在地</dt>
+          <dt>所在地</dt>
           <dd>東京都渋谷区道玄坂2丁目24番1号</dd>
-          <dt>従業員数（社員）</dt>
+          <dt>従業員数</dt>
           <dd>1,665名（2021年4月30日現在）</dd>
           <dt>電話番号</dt>
           <dd>03-3477-3111（代表）</dd>
+          <dt>公式ホームページ</dt>
+          <dd>
+            <a
+              href="https://www.tokyu-dept.co.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >https://www.tokyu-dept.co.jp/</a
+            >
+          </dd>
           <dt>関連会社</dt>
           <dd>
             株式会社セントラルフーズ、株式会社東急タイム、<br class="pc-br" />
@@ -227,14 +254,35 @@ export default {
   background-color: #fff;
   border-bottom: 1px solid #16344f;
 }
+
+.recruit-requirement .info .info-inner,
+.recruit-requirement .info .info-inner dt,
+.recruit-requirement .info .info-inner dd {
+  border: none;
+  background: none;
+  padding: 0;
+  font-weight: initial;
+}
+.recruit-requirement .info .info-inner {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.recruit-requirement .info .info-inner dt {
+  flex-basis: 20%;
+}
+.recruit-requirement .info .info-inner dd {
+  flex-basis: 80%;
+}
+
 .recruit-requirement .entry-btn {
   font-size: 18px;
   text-align: center;
-  line-height: 100px;
   border: solid 2px #1b224c;
   background-color: #fff;
   height: 100px;
   margin-top: 60px;
+  padding-top: 22px;
 }
 .recruit-requirement .entry-btn a {
   padding-right: 20px;
@@ -249,7 +297,7 @@ export default {
     no-repeat;
   position: absolute;
   right: 35%;
-  top: 50%;
+  top: 25%;
   transform: translate(-50%, -50%);
 }
 
@@ -273,11 +321,19 @@ export default {
   .recruit-requirement .info dl {
     flex-flow: column;
   }
+  .recruit-requirement .info .info-inner {
+  }
+  .recruit-requirement .info .info-inner dt {
+    flex-basis: 15%;
+  }
+  .recruit-requirement .info .info-inner dd {
+    flex-basis: 80%;
+  }
   .recruit-requirement .entry-btn a {
     padding-right: 0;
   }
   .recruit-requirement .entry-btn a::after {
-    display: none;
+    right: 25%;
   }
 }
 </style>

@@ -193,7 +193,7 @@ hr {
 
 /*  */
 .text-content {
-  width: 230px;
+  width: 240px;
   letter-spacing: 0;
 }
 
@@ -204,6 +204,9 @@ hr {
 }
 
 @media (max-width: 940px) {
+.section-text .pc-br {
+  display: none;
+}
 .text-content {
   width: 420px;
   margin: 20px auto 0;
@@ -267,7 +270,7 @@ hr {
 }
 #people .text-content {
   position: absolute;
-  left: 75px;
+  left: 55px;
 }
 #people .img-content {
   max-width: 1080px;

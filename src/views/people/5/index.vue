@@ -3,9 +3,7 @@
     <Header />
     <HeaderSp />
     <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
-      <section
-        class="hero col-span-12 col-start-2 lg:flex justify-around"
-      >
+      <section class="hero col-span-12 col-start-2 lg:flex justify-around">
         <div class="left-content">
           <div class="relative lg:right-12">
             <img
@@ -383,12 +381,7 @@
               近年、人が生きる上で必要な三大要素が「衣食住」から「食住衣」へと変化。小売業でも食の強化が叫ばれています。東急百貨店は東横のれん街や東急フードショーなど食の分野に力を入れています。現在は渋谷の食を支える「食の一大マーケット」をつくり、さらに食の*DXと掛け合わせることで、お客様にとって不可欠な存在になりたいと思います。
             </p>
             <div
-              class="
-                column-text
-                text-xs text-left
-                lg:text-sm
-                mt-7
-              "
+              class="column-text text-xs text-left lg:text-sm mt-7"
               style="padding-top: 0px"
             >
               <p class="answer-attention">*DX:</p>
@@ -437,37 +430,35 @@
                 <p>映画学科 理論評論コース 卒</p>
               </li>
             </ul>
-            <div
-              class="
-                pagination
-                flex
-                justify-center
-                w-screen
-                mx-auto
-                lg:w-6/12
-                py-10
-                xl:pt-20
-              "
-            >
-              <a href="4"
-                ><img
-                  src="@/assets/images/prep.svg"
-                  alt=""
-                  class="pagination-img"
-              /></a>
-              <img
-                src="@/assets/images/people-pagination.svg"
-                alt=""
-                class="mx-2"
-              />
-              <a href="6"
-                ><img
-                  src="@/assets/images/next.svg"
-                  alt=""
-                  class="ml-2 pagination-img"
-              /></a>
-            </div>
           </div>
+        </div>
+        <p class="people-footer-caption">※内容は取材当時のものです</p>
+        <div
+          class="
+            pagination
+            flex
+            justify-center
+            w-screen
+            mx-auto
+            lg:w-6/12
+            py-10
+            xl:pt-20
+          "
+        >
+          <a href="4"
+            ><img src="@/assets/images/prep.svg" alt="" class="pagination-img"
+          /></a>
+          <img
+            src="@/assets/images/people-pagination.svg"
+            alt=""
+            class="mx-2"
+          />
+          <a href="6"
+            ><img
+              src="@/assets/images/next.svg"
+              alt=""
+              class="ml-2 pagination-img"
+          /></a>
         </div>
       </section>
 
@@ -502,242 +493,3 @@ export default {
 };
 </script>
 
-<style>
-@import "../../../assets/style/style.css";
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-@import url("https://use.typekit.net/bdr1ssy.css");
-
-.hero {
-      margin-top: 162px;
-}
-
-.people-text {
-  color: #707070;
-}
-.column-title {
-  font-family: noto-serif-condensed, serif;
-  font-weight: 400;
-  font-size: 28px;
-  color: #707070;
-  letter-spacing: 10px;
-  display: inline-block;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-thickness: from-font;
-}
-.column-subtitle {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  color: #707070;
-  letter-spacing: 2px;
-}
-.column-content {
-  width: 96%;
-  margin-left: 4%;
-}
-.column-text {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 14px;
-  color: #707070;
-  line-height: 28px;
-  padding: 40px 96px 80px;
-  text-align: left;
-}
-.BrandonGrotesque {
-  font-family: Brandon Grotesque !important;
-  font-weight: 300;
-  font-style: normal;
-}
-.main-catch-font {
-  font-family: noto-serif-condensed, serif;
-  font-size: 36px;
-  font-weight: 300;
-  letter-spacing: 8px;
-}
-.sub-catch-font {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #707070;
-}
-.question-section-title {
-  border-left: 4px solid #16344f;
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 24px;
-  padding-right: 24px;
-  font-weight: bold;
-  text-align: left;
-}
-.question-box {
-  display: inline-block;
-}
-.answer-text {
-  font-family: "Noto Sans Japanese";
-  font-size: 14px;
-  width: 100%;
-  color: #707070;
-  font-weight: 400;
-}
-.answer-attention {
-  font-family: "Noto Sans Japanese";
-  font-size: 10px;
-  color: #707070;
-}
-.answer-title {
-  font-family: "Noto Sans Japanese";
-  font-size: 24px;
-}
-.answer-font {
-  color: #add6d4;
-  font-family: "Noto Sans Japanese";
-}
-.people-info {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-weight: 200;
-  font-size: 14px;
-}
-.people-name {
-  font-family: "Noto Sans Japanese";
-  font-size: 24px;
-}
-.people-kana {
-  font-size: 14px;
-  color: #707070;
-}
-.bottom-content {
-  width: 78%;
-}
-.home-person {
-}
-.people-answer-box {
-  padding: 30px;
-  margin-left: 80px;
-}
-
-.pagination .pagination-img {
-  width: 113px;
-  margin: auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .hero {
-    padding: 0px;
-    padding-right: 40px;
-  }
-  .people-logo-sp {
-    width: 60%;
-    padding: 50px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
-  .people-main-sp {
-    width: 92%;
-    margin: auto;
-    margin-bottom: 40px;
-  }
-  .main-catch-font {
-    font-size: 28px;
-    padding-left: 30px;
-  }
-
-  .message {
-    width: 85%;
-    text-align: left;
-    margin: auto;
-    padding: 20px 0px;
-  }
-  .sub-catch-font {
-    font-size: 14px;
-    text-align: center;
-  }
-  .employee-box {
-    width: 84%;
-    margin: 20px auto 0px;
-  }
-  .people-name {
-    font-size: 19px;
-  }
-  .people-kana {
-    font-size: 11px;
-  }
-  .people-info {
-    font-size: 14px;
-  }
-  .question-right-content {
-    margin: 40px auto;
-    padding: 0px;
-  }
-  .answer-title {
-    font-size: 18px;
-  }
-  .answer-text {
-    font-size: 14px;
-  }
-  .people-answer-box {
-    margin: 0;
-    padding: 20px;
-  }
-  .people-sp-image {
-    padding: 0;
-    width: 90%;
-    margin: auto;
-  }
-  .question-section-title {
-    font-size: 19px;
-  }
-  .column-title {
-    font-size: 24px;
-    border: none;
-    padding: 30px;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: from-font;
-  }
-  .column-text {
-    padding: 20px;
-  }
-
-  .bottom-content {
-    padding: 60px;
-    width: 100%;
-  }
-  .upper-content {
-    right: 13px !important;
-  }
-  .home-person {
-    width: 100%;
-  }
-
-  .column-content {
-    padding-bottom: 5rem;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .tablet-qisition-margin {
-    margin-top: 80px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .people-logo-sp {
-    width: 80%;
-    padding: 0 0 40px 20px;
-  }
-  .hero {
-    padding: 0px;
-    margin-top: 120px;
-  }
-  .main-catch-font {
-    text-align: left;
-  }
-  .sub-catch-font {
-    text-align: left;
-  }
-  .employee-box {
-    text-align: left;
-  }
-  .tablet-qisition-margin {
-    margin-top: 0px;
-  }
-}
-</style>

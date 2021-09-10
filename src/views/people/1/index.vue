@@ -359,7 +359,7 @@
                   src="@/assets/images/people-column.svg"
                   alt=""
                   srcset=""
-                  style="width:147px"
+                  style="width: 147px"
                 />
               </h5>
             </div>
@@ -394,7 +394,7 @@
                   <img
                     src="@/assets/images/people-profile.svg"
                     alt="profile"
-                    style="width:147px"
+                    style="width: 147px"
                   />
                 </p>
               </li>
@@ -409,26 +409,27 @@
                 <p>経済学部 会計ファイナンス学科 卒</p>
               </li>
             </ul>
-            <div
-              class="
-                pagination
-                flex
-                justify-center
-                w-screen
-                mx-auto
-                lg:w-6/12
-                py-10
-                xl:pt-20
-              "
-            >
-              <a href="2"
-                ><img
-                  src="@/assets/images/next.svg"
-                  alt=""
-                  class="ml-2 pagination-img"
-              /></a>
-            </div>
           </div>
+        </div>
+        <p class="people-footer-caption">※内容は取材当時のものです</p>
+        <div
+          class="
+            pagination
+            flex
+            justify-center
+            w-screen
+            mx-auto
+            lg:w-6/12
+            py-10
+            xl:pt-20
+          "
+        >
+          <a href="2"
+            ><img
+              src="@/assets/images/next.svg"
+              alt=""
+              class="ml-2 pagination-img"
+          /></a>
         </div>
       </section>
 
@@ -575,9 +576,14 @@ export default {
   padding: 30px;
   margin-left: 80px;
 }
-
+.people-footer-caption {
+  font-size: 12px;
+  color: #707070;
+  margin-top: 10px;
+}
 .pagination .pagination-img {
   width: 113px;
+  height: 23px;
   margin: auto;
 }
 
@@ -648,7 +654,7 @@ export default {
     font-size: 19px;
   }
   .column-title {
-    font-size: 24px;
+    font-size: 22px;
     border: none;
     padding: 30px;
     text-decoration: underline;
@@ -702,5 +708,12 @@ export default {
   .column-title {
     font-size: 20px;
   }
+  .profile-title {
+    padding-left: 1.25rem;
+  }
+  .people-footer-caption {
+  padding-left: 1.25rem;
+  margin-top: 20px;
+}
 }
 </style>

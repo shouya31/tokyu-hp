@@ -60,35 +60,27 @@
       <div class="content-inner">
         <h4>
           <img
-            src="@/assets/images/vision-title_vision.png"
-            srcset="
-              @/assets/images/vision-title_vision.png    1x,
-              @/assets/images/vision-title_vision@2x.png 2x
-            "
+            src="@/assets/images/vision-title_vision.svg"
             alt="VISON"
             class="mx-auto"
           />
         </h4>
-        <p class="sub-title text-center">私たち東急百貨店が求める姿</p>
+        <p class="sub-title text-center">私たちが追求する東急百貨店の姿</p>
         <p class="text-box text-center mx-auto">
           お客様にとって、なくてはならない存在。<br />
           それが私たちの誇りです。<br />
           私たちは、誰よりもお客様の近くで、<br />
           誰よりも深くお客様を想い、<br />
           誰よりも情熱をもってお客様の力になります。<br />
-          私たちは、お客様と共に<br />
+          私たちは、お客様とともに<br />
           未来へ向かって成長し続けます。
         </p>
       </div>
       <div class="content-inner">
         <h4>
           <img
-            src="@/assets/images/vision-title_slogan.png"
-            srcset="
-              @/assets/images/vision-title_slogan.png    1x,
-              @/assets/images/vision-title_slogan@2x.png 2x
-            "
-            alt="VISON"
+            src="@/assets/images/vision-title_slogan.svg"
+            alt="SLOGAN"
             class="mx-auto"
           />
         </h4>
@@ -108,9 +100,15 @@
         </p>
       </div>
       <div class="content-inner credo">
-        <h3 class="text-center">行動指針</h3>
+        <h3>
+          <img
+            src="@/assets/images/vision-title_credo.svg"
+            alt="行動指針"
+            class="mx-auto"
+          />
+        </h3>
         <h4 class="text-center sub-title">
-          日々の仕事に向かう時の私たちの心得
+          日々の仕事に向かうときの私たちの心得
         </h4>
         <ul class="credo-list text-center">
           <li>
@@ -137,14 +135,14 @@
           <li>
             <p>
               <span>社会とhug</span>
-              清らかで豊かな心を持って、社会と向き合い、<br class="sp-br" />
+              清らかで豊かな心をもって、社会と向き合い、<br class="sp-br" />
               行動する人間であろう。
             </p>
           </li>
           <li>
             <p>
               <span>株主とhug</span>
-              支援や激励をいただく皆様に誠意を尽くし、<br class="sp-br" />
+              支援や激励を頂く皆様に誠意を尽くし、<br class="sp-br" />
               実りある実績でお応えしよう。
             </p>
           </li>
@@ -383,7 +381,7 @@ export default {
   .vision {
     padding-top: 80px;
   }
-  
+
   .vision .vision-contents {
     max-width: 90%;
   }

@@ -40,12 +40,12 @@
         </div>
         <div class="careerfield-circle-contents shop-contents">
           <p class="sub-title">店舗</p>
-          <p>店頭における接客、販売を中心とした業務に関わる仕事</p>
+          <p>店頭における接客、販売を中心とした<br />業務に関わる仕事</p>
           <p>賃貸借テナントのマネジメントを行う仕事</p>
           <p>
-            店舗のイメージ維持・向上、<br />
-            集客のための販売促進計画の<br />
-            立案を行い、実行する仕事
+            店舗のイメージ維持・向上、集客のための<br />
+            販売促進計画の立案を行い、<br class="sp-br"/>
+            実行する仕事
           </p>
         </div>
         <div class="careerfield-circle-contents sales-contents">
@@ -58,14 +58,17 @@
         </div>
         <div class="careerfield-circle-contents ec-contents">
           <p class="sub-title">EC</p>
-          <p>自社のウェブサイトやカタログなどで多種多様な商品を販売する仕事</p>
+          <p>
+            自社のウェブサイトやカタログなどで<br />
+            多種多様な商品を販売する仕事
+          </p>
         </div>
         <div class="careerfield-circle-contents headoffice-contents">
           <p class="sub-title">本社</p>
-          <p>商品の選定やショップへの<br />誘致を行う仕事</p>
+          <p>商品の選定やショップへの誘致を行う仕事</p>
           <p>市場や消費者の動向を調査・分析し、<br />新規事業を開発する仕事</p>
           <p>企業のブランディングや<br />社会貢献のための施策を実行する仕事</p>
-          <p>経営計画の原案を策定し、<br />推進していく仕事</p>
+          <p>経営計画の原案を策定し、<br class="pc-br" />推進していく仕事</p>
         </div>
       </section>
     </div>
@@ -144,19 +147,19 @@ export default {
 }
 .careerfield-circle-contents.shop-contents {
   position: absolute;
-  top: 180px;
-  left: 870px;
-  width: 215px;
+  top: 240px;
+  left: 840px;
+  width: 305px;
 }
 .careerfield-circle-contents.shop-contents:before {
   content: "";
   background: url(../assets/images/careerfield-shop-arrow.svg) no-repeat
     center/contain;
-  width: 110px;
+  width: 100px;
   height: 72px;
   position: absolute;
-  top: 25%;
-  right: 210px;
+  top: -4%;
+  right: 300px;
   transform: translate(0, -50%);
 }
 .careerfield-circle-contents.sales-contents {
@@ -180,7 +183,7 @@ export default {
   position: absolute;
   top: 60px;
   left: 110px;
-  width: 185px;
+  width: 275px;
 }
 .careerfield-circle-contents.ec-contents:after {
   content: "";
@@ -189,8 +192,8 @@ export default {
   width: 156px;
   height: 103px;
   position: absolute;
-  bottom: -110px;
-  right: 27px;
+  bottom: -125px;
+  right: 117px;
   transform: translate(0, -50%);
 }
 .careerfield-circle-contents.headoffice-contents {
@@ -218,6 +221,10 @@ export default {
 }
 
 @media screen and (max-width: 980px) {
+  .careerfield .pc-br {
+    display: none;
+  }
+
   .careerfield {
     padding-top: 80px;
   }
@@ -246,21 +253,27 @@ export default {
   .careerfield-circle-contents.ec-contents,
   .careerfield-circle-contents.headoffice-contents {
     position: initial;
-    width: 60%;
+    width: fit-content;
+    min-width: 380px;
     margin: auto;
   }
   .careerfield-circle-contents.headoffice-contents {
     display: block;
   }
-
+  .careerfield-circle-contents.headoffice-contents p {
+    width: fit-content;
+  }
   .careerfield-circle-contents.shop-contents::before,
-  .careerfield-circle-contents.sales-contents.careerfield-circle-contents,
+  .careerfield-circle-contents.sales-contents::before,
   .careerfield-circle-contents.ec-contents::after,
   .careerfield-circle-contents.headoffice-contents::before {
     display: none;
   }
 }
 @media screen and (max-width: 640px) {
+  .careerfield h2 {
+    font-size: 24px;
+  }
   .careerfield .careerfield-contents {
     max-width: 95%;
   }
@@ -269,9 +282,7 @@ export default {
   .careerfield-circle-contents.ec-contents,
   .careerfield-circle-contents.headoffice-contents {
     width: 90%;
-  }
-  .careerfield h2 {
-    font-size: 24px;
+    min-width: initial;
   }
 }
 </style>

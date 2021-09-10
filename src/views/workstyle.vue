@@ -192,7 +192,7 @@ dl.workstyle-child-contents {
 .workstyle-child-contents dt,
 .workstyle-child-contents dd {
   border: none;
-  padding: 10px 0;
+  padding: 0 0 20px 0;
 }
 .workstyle-child-contents dd:last-of-type {
   padding-bottom: 0;

@@ -3,9 +3,7 @@
     <Header />
     <HeaderSp />
     <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
-      <section
-        class="hero col-span-12 col-start-2 lg:flex justify-around"
-      >
+      <section class="hero col-span-12 col-start-2 lg:flex justify-around">
         <div class="left-content">
           <div class="relative lg:right-12">
             <img
@@ -192,13 +190,13 @@
           </h4>
           <div>
             <p class="answer-text tracking-widest">
-              専門店事業部にて、東急フードショースライスの新規開発や運営をメインで担当し、開業に向けた*テナントリーシングから販売計画の策定を行っています。東急フードショースライスは、基本的にお取引先様のショップのみで構成されている形態が多いため、一人で担当する店舗数も多く、各種調整に苦労することもあります。一方で、小型店が多いため、新しい取り組みが実施しやすく、お取引先様とも密接に関わることができるため、やりがいも感じます。
+              専門店事業部にて、東急フードショースライスの新規開発や運営をメインで担当し、開業に向けたテナント*リーシングから販売計画の策定を行っています。東急フードショースライスは、基本的にお取引先様のショップのみで構成されている形態が多いため、一人で担当する店舗数も多く、各種調整に苦労することもあります。一方で、小型店が多いため、新しい取り組みを実施しやすく、お取引先様とも密接に関わることができ、やりがいも感じます。
             </p>
 
             <div class="text-xs lg:text-sm mt-7 text-gray-600">
               <p class="answer-attention">*リーシング:</p>
               <p class="answer-attention">
-               百貨店やショッピングセンターなど不動産を賃貸する商業施設にテナントを誘致する営業活動のこと。
+                百貨店やショッピングセンターなど不動産を賃貸する商業施設にテナントを誘致する営業活動のこと。
               </p>
             </div>
           </div>
@@ -293,7 +291,7 @@
           >グループ会社での新たな学び
         </h4>
         <p class="answer-text tracking-widest">
-          入社後、ShinQsでフード業務に携わった後、2019年に初のフードフロア開発に取り組んでいた（株）SHIBUYA109エンタテイメントへの出向を経験。出向先では、企業や著名人とコラボしたオリジナルフードショップの立ち上げから運営までの新規事業を担当しました。渋谷の象徴とも言える場所で最先端の食文化を発信する業務に従事できることは、大きなモチベーションになりました。メニュー開発の際は、商品名から値段、見た目や味に至るまで様々なディレクションを担い、試行錯誤する毎日。有名人をゲストに呼ぶ際は、日程調整など迅速な対応が求められました。先輩方への相談やメンバーとの意見交換を通じて乗り越え、大行列でオープンを迎えた時の達成感は今でも覚えています。
+          入社後、ShinQsでフード業務に携わった後、2019年に初のフードフロア開発に取り組んでいた（株）SHIBUYA109エンタテイメントへの出向を経験。出向先では、企業や著名人とコラボしたオリジナルフードショップの立ち上げから運営までの新規事業を担当しました。渋谷の象徴とも言える場所で最先端の食文化を発信する業務に従事できることは、大きなモチベーションになりました。メニュー開発の際は、商品名から値段、見た目や味に至るまで様々なディレクションを担い、試行錯誤する毎日。著名人をゲストに呼ぶ際は、日程調整など迅速な対応が求められました。先輩方への相談やメンバーとの意見交換を通じて乗り越え、大行列でオープンを迎えた時の達成感は今でも覚えています。
         </p>
       </section>
 
@@ -373,12 +371,7 @@
               2018年からフード催事や*ポップアップストアを担当。それ以来、新しいショップを見つけては、イベントへの出店交渉を行っています。「催事担当の才治」として名刺代わりの挨拶を行うことも多く、私と催事は切っても切り離せない関係。これからもリアル店舗でしか体験できない価値も大切にしながら、東急百貨店を盛り上げていきたいと考えています。
             </p>
             <div
-              class="
-                column-text
-                text-xs text-left
-                lg:text-sm
-                mt-7
-              "
+              class="column-text text-xs text-left lg:text-sm mt-7"
               style="padding-top: 0px"
             >
               <p class="answer-attention">*ポップアップストア（イベント）:</p>
@@ -424,37 +417,35 @@
                 <p>総合情報学部 総合情報学科 卒</p>
               </li>
             </ul>
-            <div
-              class="
-                pagination
-                flex
-                justify-center
-                w-screen
-                mx-auto
-                lg:w-6/12
-                py-10
-                xl:pt-20
-              "
-            >
-              <a href="1"
-                ><img
-                  src="@/assets/images/prep.svg"
-                  alt=""
-                  class="pagination-img"
-              /></a>
-              <img
-                src="@/assets/images/people-pagination.svg"
-                alt=""
-                class="mx-2"
-              />
-              <a href="3"
-                ><img
-                  src="@/assets/images/next.svg"
-                  alt=""
-                  class="ml-2 pagination-img"
-              /></a>
-            </div>
           </div>
+        </div>
+        <p class="text-xs" style="color: #707070">※内容は取材当時のものです</p>
+        <div
+          class="
+            pagination
+            flex
+            justify-center
+            w-screen
+            mx-auto
+            lg:w-6/12
+            py-10
+            xl:pt-20
+          "
+        >
+          <a href="1"
+            ><img src="@/assets/images/prep.svg" alt="" class="pagination-img"
+          /></a>
+          <img
+            src="@/assets/images/people-pagination.svg"
+            alt=""
+            class="mx-2"
+          />
+          <a href="3"
+            ><img
+              src="@/assets/images/next.svg"
+              alt=""
+              class="ml-2 pagination-img"
+          /></a>
         </div>
       </section>
 
@@ -489,242 +480,3 @@ export default {
 };
 </script>
 
-<style>
-@import "../../../assets/style/style.css";
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-@import url("https://use.typekit.net/bdr1ssy.css");
-
-.hero {
-      margin-top: 162px;
-}
-
-
-.people-text {
-  color: #707070;
-}
-.column-title {
-  font-family: noto-serif-condensed, serif;
-  font-weight: 400;
-  font-size: 28px;
-  color: #707070;
-  letter-spacing: 10px;
-  display: inline-block;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-thickness: from-font;
-}
-.column-subtitle {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  color: #707070;
-  letter-spacing: 2px;
-}
-.column-content {
-  width: 96%;
-  margin-left: 4%;
-}
-.column-text {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 14px;
-  color: #707070;
-  line-height: 28px;
-  padding: 40px 96px 80px;
-  text-align: left;
-}
-.BrandonGrotesque {
-  font-family: Brandon Grotesque !important;
-  font-weight: 300;
-  font-style: normal;
-}
-.main-catch-font {
-  font-family: noto-serif-condensed, serif;
-  font-size: 36px;
-  font-weight: 300;
-  letter-spacing: 8px;
-}
-.sub-catch-font {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #707070;
-}
-.question-section-title {
-  border-left: 4px solid #16344f;
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-size: 24px;
-  padding-right: 24px;
-  font-weight: bold;
-  text-align: left;
-}
-.question-box {
-  display: inline-block;
-}
-.answer-text {
-  font-family: "Noto Sans Japanese";
-  font-size: 14px;
-  width: 100%;
-  color: #707070;
-  font-weight: 400;
-}
-.answer-attention {
-  font-family: "Noto Sans Japanese";
-  font-size: 10px;
-  color: #707070;
-}
-.answer-title {
-  font-family: "Noto Sans Japanese";
-  font-size: 24px;
-}
-.answer-font {
-  color: #add6d4;
-  font-family: "Noto Sans Japanese";
-}
-.people-info {
-  font-family: "Noto Sans Japanese", sans-serif;
-  font-weight: 200;
-  font-size: 14px;
-}
-.people-name {
-  font-family: "Noto Sans Japanese";
-  font-size: 24px;
-}
-.people-kana {
-  font-size: 14px;
-  color: #707070;
-}
-.bottom-content {
-  width: 78%;
-}
-.home-person {
-}
-.people-answer-box {
-  padding: 30px;
-  margin-left: 80px;
-}
-
-.pagination .pagination-img {
-  width: 113px;
-  margin: auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .hero {
-    padding: 0px;
-    padding-right: 40px;
-  }
-  .people-logo-sp {
-    width: 60%;
-    padding: 50px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-  }
-  .people-main-sp {
-    width: 92%;
-    margin: auto;
-    margin-bottom: 40px;
-  }
-  .main-catch-font {
-    font-size: 28px;
-    padding-left: 30px;
-  }
-
-  .message {
-    width: 85%;
-    text-align: left;
-    margin: auto;
-    padding: 20px 0px;
-  }
-  .sub-catch-font {
-    font-size: 14px;
-    text-align: center;
-  }
-  .employee-box {
-    width: 84%;
-    margin: 20px auto 0px;
-  }
-  .people-name {
-    font-size: 19px;
-  }
-  .people-kana {
-    font-size: 11px;
-  }
-  .people-info {
-    font-size: 14px;
-  }
-  .question-right-content {
-    margin: 40px auto;
-    padding: 0px;
-  }
-  .answer-title {
-    font-size: 18px;
-  }
-  .answer-text {
-    font-size: 14px;
-  }
-  .people-answer-box {
-    margin: 0;
-    padding: 20px;
-  }
-  .people-sp-image {
-    padding: 0;
-    width: 90%;
-    margin: auto;
-  }
-  .question-section-title {
-    font-size: 19px;
-  }
-  .column-title {
-    font-size: 24px;
-    border: none;
-    padding: 30px;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: from-font;
-  }
-  .column-text {
-    padding: 20px;
-  }
-
-  .bottom-content {
-    padding: 60px;
-    width: 100%;
-  }
-  .upper-content {
-    right: 13px !important;
-  }
-  .home-person {
-    width: 100%;
-  }
-  .column-content {
-    padding-bottom: 5rem;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .tablet-qisition-margin {
-    margin-top: 80px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .people-logo-sp {
-    width: 80%;
-    padding: 0 0 40px 20px;
-  }
-  .hero {
-    padding: 0px;
-    margin-top: 120px;
-  }
-  .main-catch-font {
-    text-align: left;
-  }
-  .sub-catch-font {
-    text-align: left;
-  }
-  .employee-box {
-    text-align: left;
-  }
-  .tablet-qisition-margin {
-    margin-top: 0px;
-  }
-}
-</style>

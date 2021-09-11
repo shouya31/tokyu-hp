@@ -7,8 +7,8 @@
           <img
             :src="titleImages[index]"
             :key="titleImages[index]"
+              height="40"
             class="ml-7 mt-10 fv-theme"
-            style="z-index:-2;"
           />
         </transition>
       </div>
@@ -21,7 +21,6 @@
               alt=""
               width="800"
               height="550"
-              style="height:550px; z-index:-3;"
             />
           </transition>
         </div>
@@ -119,7 +118,7 @@ export default {
   mounted() {
     setInterval(() => {
       this.index = this.index < this.images.length - 1 ? this.index + 1 : 0;
-    }, 3000);
+    }, 6000);
   },
 };
 </script>
@@ -139,7 +138,7 @@ export default {
   width: 200px;
 }
 .fv-theme {
-  height: 64x;
+  height: 64px;
 }
 
 .fv-person-animation1 {
@@ -265,12 +264,13 @@ a .fv-person-animation6:hover {
 }
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
-.fade-enter,
-.fade-leave-to {
+.fade-enter {
   opacity: 0;
-  z-index: -3;
+}
+.fade-leave-to {
+  opacity: .05;
 }
 
 

@@ -116,9 +116,11 @@
           href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
           target="_blank"
           rel="noopener noreferrer"
-          >エントリーはこちら<br />
+          ><span class="entry-btn-link">エントリーはこちら</span><br />
           <span class="text-sm"
-            >※東急グループ（グループ募集）のページより、エントリーしてください。</span
+            >※東急グループ（グループ募集）のページより、<br
+              class="sp-br"
+            />エントリーしてください。</span
           ></a
         >
       </div>
@@ -170,7 +172,23 @@
         </dl>
       </div>
     </section>
-
+    <div class="recruit-requirement-content recruit-nav">
+      <p class="othercontents-title">
+        <img
+          src="../assets/images/othercontents-title.svg"
+          alt="OTHER CONTENTS"
+        />
+      </p>
+      <ul class="">
+        <li class="recruit-nav-item">
+          <a href="/greeting">人事部長メッセージ</a>
+        </li>
+        <li class="recruit-nav-item">
+          <a href="/faq">FAQ</a>
+        </li>
+        <li class="recruit-nav-item current">募集要項＆会社概要</li>
+      </ul>
+    </div>
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img
@@ -280,30 +298,79 @@ export default {
   text-align: center;
   border: solid 2px #1b224c;
   background-color: #fff;
-  height: 100px;
   margin-top: 60px;
-  padding-top: 22px;
+  padding: 20px 5px;
 }
-.recruit-requirement .entry-btn a {
+.recruit-requirement .entry-btn .entry-btn-link {
   padding-right: 20px;
   position: relative;
-  display: block;
+  display: inline;
 }
-.recruit-requirement .entry-btn a::after {
+.recruit-requirement .entry-btn .entry-btn-link::after {
   content: "";
   width: 18px;
   height: 20px;
   background: url(../assets/images/entry-btn-triangle.svg) center/contain
     no-repeat;
   position: absolute;
-  right: 35%;
-  top: 25%;
+  right: -20px;
+  top: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.othercontents-title {
+  border: none !important;
+  padding-left: 0 !important;
+  position: relative;
+  margin-bottom: 20px;
+}
+.othercontents-title::after {
+  content: "";
+  width: calc(100% - 30%);
+  height: 1px;
+  background-color: #16344f;
+  position: absolute;
+  top: 6px;
+  left: 230px;
+}
+.recruit-nav {
+  max-width: 918px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.recruit-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recruit-nav .recruit-nav-item {
+  width: fit-content;
+  line-height: 4rem;
+  margin-right: 100px;
+}
+.recruit-nav .recruit-nav-item.current {
+  color: #b4b4b4;
+  margin-right: 80px;
+}
+.recruit-nav .recruit-nav-item a {
+  position: relative;
+}
+.recruit-nav .recruit-nav-item a:after {
+  content: "";
+  width: 14px;
+  height: 16px;
+  background: url(/img/entry-btn-triangle.7cec7ed5.svg) center/contain no-repeat;
+  position: absolute;
+  right: -35px;
+  top: 8px;
   transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 800px) {
   .recruit-requirement .recruit-requirement-content {
     max-width: 90%;
+  }
+  .recruit-nav .recruit-nav-item {
+    width: 50%;
   }
 }
 
@@ -334,6 +401,11 @@ export default {
   }
   .recruit-requirement .entry-btn a::after {
     right: 25%;
+  }
+
+.recruit-nav .recruit-nav-item {
+    width: 100%;
+    line-height: 2rem;
   }
 }
 </style>

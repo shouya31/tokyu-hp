@@ -154,6 +154,23 @@
         </p>
       </section>
     </div>
+    <div class="greeting-contents recruit-nav">
+      <p class="othercontents-title">
+        <img
+          src="../assets/images/othercontents-title.svg"
+          alt="OTHER CONTENTS"
+        />
+      </p>
+      <ul class="">
+        <li class="recruit-nav-item current">人事部長メッセージ</li>
+        <li class="recruit-nav-item">
+          <a href="/faq">FAQ</a>
+        </li>
+        <li class="recruit-nav-item">
+          <a href="/recruit ">募集要項＆会社概要</a>
+        </li>
+      </ul>
+    </div>
     <footer class="col-span-10 bg-white pt-14 pb-10 text-center">
       <a href=""
         ><img
@@ -162,7 +179,6 @@
           width="180"
           class="mx-auto bg-white"
       /></a>
-
       <p class="text-sm mt-5">
         <small
           >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
@@ -222,5 +238,11 @@ p {
 }
 .NotoSansJapanesee {
   font-family: "Noto Sans Japanese";
+}
+@media screen and (max-width: 640px) {
+.greeting-contents.recruit-nav {
+  padding: 1rem;
+  margin-bottom: 80px;
+}
 }
 </style>

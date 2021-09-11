@@ -226,7 +226,23 @@
         </dl>
       </div>
     </section>
-
+    <div class="faq-contents recruit-nav mx-auto">
+      <p class="othercontents-title">
+        <img
+          src="../assets/images/othercontents-title.svg"
+          alt="OTHER CONTENTS"
+        />
+      </p>
+      <ul class="">
+        <li class="recruit-nav-item">
+          <a href="/greeting">人事部長メッセージ</a>
+        </li>
+        <li class="recruit-nav-item current">FAQ</li>
+        <li class="recruit-nav-item">
+          <a href="/recruit ">募集要項＆会社概要</a>
+        </li>
+      </ul>
+    </div>
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
         ><img

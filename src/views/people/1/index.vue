@@ -432,7 +432,7 @@
           /></a>
         </div>
       </section>
-
+    </div>
       <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
         <a href="/"
           ><img
@@ -449,7 +449,6 @@
         </p>
       </footer>
     </div>
-  </div>
 </template>
 
 <script>
@@ -586,7 +585,6 @@ export default {
   height: 23px;
   margin: auto;
 }
-
 @media screen and (max-width: 1024px) {
   .hero {
     padding: 0px;

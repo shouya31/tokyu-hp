@@ -21,7 +21,7 @@ export default {
 }
 .section-text{
     font-size: 14px;
-    font-family: 'Noto Sans Japanese';
+    font-family: 'Noto Sans JP';
     line-height: 28px;
 }
 

@@ -11,66 +11,91 @@
         />
       </div>
     </section>
-
-    <div class="">
-      <section class="careerfield-contents mx-auto">
-        <div>
-          <img
-            src="@/assets/images/careerfield-title.png"
-            srcset="
-              @/assets/images/careerfield-title.png    1x,
-              @/assets/images/careerfield-title@2x.png 2x
-            "
-            alt="CAREER FIELD"
-          />
-        </div>
-        <h2>キャリアフィールド</h2>
-        <p>東急百貨店には多種多様な仕事があります。</p>
-      </section>
-      <section class="careerfield-contents careerfield-circle mx-auto">
-        <div class="mx-auto img-wrapper">
-          <img
-            src="@/assets/images/careerfield-circle.png"
-            srcset="
-              @/assets/images/careerfield-circle.png    1x,
-              @/assets/images/careerfield-circle@2x.png 2x
-            "
-            alt="東急百貨店のキャリアフィールド"
-          />
-        </div>
-        <div class="careerfield-circle-contents shop-contents">
-          <p class="sub-title">店舗</p>
-          <p>店頭における接客、販売を中心とした<br />業務に関わる仕事</p>
-          <p>賃貸借テナントのマネジメントを行う仕事</p>
-          <p>
-            店舗のイメージ維持・向上、集客のための<br />
-            販売促進計画の立案を行い、<br class="sp-br"/>
-            実行する仕事
-          </p>
-        </div>
-        <div class="careerfield-circle-contents sales-contents">
-          <p class="sub-title">外商</p>
-          <p>
-            お客様との信頼関係をもとに、<br />
-            ご要望に合わせて商品を<br />
-            提案・販売する仕事
-          </p>
-        </div>
-        <div class="careerfield-circle-contents ec-contents">
-          <p class="sub-title">EC</p>
-          <p>
-            自社のウェブサイトやカタログなどで<br />
-            多種多様な商品を販売する仕事
-          </p>
-        </div>
-        <div class="careerfield-circle-contents headoffice-contents">
-          <p class="sub-title">本社</p>
-          <p>商品の選定やショップへの誘致を行う仕事</p>
-          <p>市場や消費者の動向を調査・分析し、<br />新規事業を開発する仕事</p>
-          <p>企業のブランディングや<br />社会貢献のための施策を実行する仕事</p>
-          <p>経営計画の原案を策定し、<br class="pc-br" />推進していく仕事</p>
-        </div>
-      </section>
+    <section class="careerfield-contents mx-auto">
+      <div>
+        <img
+          src="@/assets/images/careerfield-title.png"
+          srcset="
+            @/assets/images/careerfield-title.png    1x,
+            @/assets/images/careerfield-title@2x.png 2x
+          "
+          alt="CAREER FIELD"
+        />
+      </div>
+      <h2>キャリアフィールド</h2>
+      <p>東急百貨店には多種多様な仕事があります。</p>
+    </section>
+    <section class="careerfield-contents careerfield-circle">
+      <div class="mx-auto img-wrapper">
+        <img
+          src="@/assets/images/careerfield-circle.png"
+          srcset="
+            @/assets/images/careerfield-circle.png    1x,
+            @/assets/images/careerfield-circle@2x.png 2x
+          "
+          alt="東急百貨店のキャリアフィールド"
+        />
+      </div>
+      <div class="careerfield-circle-contents shop-contents">
+        <p class="sub-title">店舗</p>
+        <p>店頭における接客、販売を中心とした<br />業務に関わる仕事</p>
+        <p>賃貸借テナントのマネジメントを行う仕事</p>
+        <p>
+          店舗のイメージ維持・向上、集客のための<br />
+          販売促進計画の立案を行い、<br class="sp-br" />
+          実行する仕事
+        </p>
+      </div>
+      <div class="careerfield-circle-contents sales-contents">
+        <p class="sub-title">外商</p>
+        <p>
+          お客様との信頼関係をもとに、<br />
+          ご要望に合わせて商品を<br />
+          提案・販売する仕事
+        </p>
+      </div>
+      <div class="careerfield-circle-contents ec-contents">
+        <p class="sub-title">EC</p>
+        <p>
+          自社のウェブサイトやカタログなどで<br />
+          多種多様な商品を販売する仕事
+        </p>
+      </div>
+      <div class="careerfield-circle-contents headoffice-contents">
+        <p class="sub-title">本社</p>
+        <p>商品の選定やショップへの誘致を行う仕事</p>
+        <p>市場や消費者の動向を調査・分析し、<br />新規事業を開発する仕事</p>
+        <p>企業のブランディングや<br />社会貢献のための施策を実行する仕事</p>
+        <p>経営計画の原案を策定し、<br class="pc-br" />推進していく仕事</p>
+      </div>
+    </section>
+    <div class="careerfield-circle-contents people-nav">
+      <p class="othercontents-title">
+        <img
+          src="../assets/images/othercontents-title.svg"
+          alt="OTHER CONTENTS"
+        />
+      </p>
+      <ul class="">
+        <li class="people-nav-item">
+          <a href="/people/1">たまプラーザ店 営業統括部</a>
+        </li>
+        <li class="people-nav-item">
+          <a href="/people/2">専門店事業部</a>
+        </li>
+        <li class="people-nav-item">
+          <a href="/people/3">ファッション・雑貨統括部</a>
+        </li>
+        <li class="people-nav-item">
+          <a href="/people/4">営業推進部 顧客サービス部</a>
+        </li>
+        <li class="people-nav-item">
+          <a href="/people/5">事業戦略室 事業開発部</a>
+        </li>
+        <li class="people-nav-item">
+          <a href="/people/6">営業推進部 営業企画部</a>
+        </li>
+      </ul>
     </div>
     <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
       <a href="/"
@@ -107,10 +132,6 @@ export default {
 .careerfield .page-top {
   background-color: #add6d4;
 }
-.careerfield .careerfield-contentss {
-  max-width: 728px;
-  margin-bottom: 80px;
-}
 
 .careerfield p {
   font-family: "Noto Sans JP", sans-serif;
@@ -120,6 +141,7 @@ export default {
 .careerfield .careerfield-contents {
   max-width: 1000px;
   margin-bottom: 80px;
+  margin-left: 160px;
 }
 .careerfield h2 {
   margin-top: 10px;
@@ -219,6 +241,54 @@ export default {
   left: -140px;
   transform: translate(0, -50%);
 }
+.othercontents-title {
+  border: none !important;
+  padding-left: 0 !important;
+  position: relative;
+  margin-bottom: 20px;
+}
+.othercontents-title::after {
+  content: "";
+  width: calc(100% - 30%);
+  height: 1px;
+  background-color: #16344f;
+  position: absolute;
+  top: 6px;
+  left: 230px;
+}
+.careerfield-circle-contents.people-nav {
+  max-width: 918px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.careerfield-circle-contents.people-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.careerfield-circle-contents.people-nav .people-nav-item {
+  width: 30%;
+  line-height: 2rem;
+}
+.careerfield-circle-contents.people-nav .people-nav-item a {
+  position: relative;
+}
+.careerfield-circle-contents.people-nav .people-nav-item a:after {
+  content: "";
+  width: 14px;
+  height: 16px;
+  background: url(/img/entry-btn-triangle.7cec7ed5.svg) center/contain no-repeat;
+  position: absolute;
+  right: -35px;
+  top: 8px;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1080px) {
+   .careerfield .careerfield-contents {
+    max-width: 90%;
+    margin-left: 30px;
+  }
+}
 
 @media screen and (max-width: 980px) {
   .careerfield .pc-br {
@@ -269,6 +339,12 @@ export default {
   .careerfield-circle-contents.headoffice-contents::before {
     display: none;
   }
+  .careerfield-circle-contents.people-nav {
+    max-width: 80%;
+  }
+  .careerfield-circle-contents.people-nav .people-nav-item {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 640px) {
   .careerfield h2 {
@@ -283,6 +359,13 @@ export default {
   .careerfield-circle-contents.headoffice-contents {
     width: 90%;
     min-width: initial;
+  }
+  .careerfield-circle-contents.people-nav .people-nav-item {
+    width: 100%;
+  }
+  .othercontents-title::after {
+    width: calc(100% - 65%);
+    left: 215px;
   }
 }
 </style>

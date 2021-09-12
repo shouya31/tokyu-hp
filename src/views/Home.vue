@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="loading">
+    <div id="loading" style="display:none;">
       <div class="loader">
         <img
           src="@/assets/images/grow-together.png"
@@ -59,34 +59,47 @@ export default {
     Footer,
     Project,
   },
-  mounted: function () {
+
+  mounted: function() {
+    const keyName = "visited";
+    const keyValue = true;
     let spinner = document.querySelector(".loader");
 
-    spinner.addEventListener("animationend", function () {
+    if (!localStorage.getItem(keyName)) {
+      document.getElementById("loading").removeAttribute("style");
+      localStorage.setItem(keyName, keyValue);
+      console.log("初めての訪問です");
+    } else {
+      console.log("訪問済みです");
+    }
+
+    spinner.addEventListener("animationend", function() {
       document.getElementById("loading").classList.add("loaded");
     });
   },
-function () {
-$(document).ready(function()
-{
-$('a[href^=#]').click(function()
-{
-var speed = 400;// ミリ秒
 
-var href= $(this).attr("href");
+  function() {
+    $(document).ready(function() {
+      $("a[href^=#]").click(function() {
+        var speed = 400; // ミリ秒
 
-var target = $(href == "#" || href == "" ? 'html' : href);
+        var href = $(this).attr("href");
 
-var position = target.offset().top;
+        var target = $(href == "#" || href == "" ? "html" : href);
 
-$($.support.safari ? 'body' : 'html').animate({scrollTop:position}, speed, 'swing');
+        var position = target.offset().top;
 
-return false;
-});
-});
-},
+        $($.support.safari ? "body" : "html").animate(
+          { scrollTop: position },
+          speed,
+          "swing"
+        );
 
-}
+        return false;
+      });
+    });
+  },
+};
 </script>
 
 <style>

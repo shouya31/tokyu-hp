@@ -3,9 +3,7 @@
     <Header />
     <HeaderSp />
     <div class="people lg:grid grid-cols-1 lg:grid-cols-12 overflow-hidden">
-      <section
-        class="hero col-span-12 col-start-2 lg:flex justify-around"
-      >
+      <section class="hero col-span-12 col-start-2 lg:flex justify-around">
         <div class="left-content">
           <div class="relative lg:right-12">
             <img
@@ -47,9 +45,13 @@
           <ul class="employee-box lg:mt-16">
             <li>
               <p class="people-name tracking-widest">
-                和田 遥<span class="people-kana tracking-widest lg:ml-5"
-                  >Haruka Wada</span
-                >
+                和田 遥
+                <span class="people-kana ml-2"
+                  ><img
+                    src="@/assets/images/people-kana_wada.svg"
+                    alt="Wada Haruka"
+                    style="display: inline-block"
+                /></span>
               </p>
             </li>
             <li>
@@ -108,7 +110,12 @@
           </div>
           <div class="question-box">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
@@ -164,7 +171,12 @@
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
@@ -201,7 +213,7 @@
             <div class="text-xs lg:text-sm mt-7 text-gray-600">
               <p class="answer-attention">*リーシング:</p>
               <p class="answer-attention">
-               百貨店やショッピングセンターなど不動産を賃貸する商業施設にテナントを誘致する営業活動のこと。
+                百貨店やショッピングセンターなど不動産を賃貸する商業施設にテナントを誘致する営業活動のこと。
               </p>
             </div>
           </div>
@@ -261,7 +273,12 @@
           </div>
           <div class="question-box lg:py-16 mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
@@ -336,7 +353,12 @@
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
@@ -429,7 +451,12 @@
               </li>
               <li class="md:ml-32 pt-7 lg:pt-0 pl-5 md:pl-0">
                 <p class="people-name tracking-widest">和田 遥</p>
-                <p class="people-kana mt-3 tracking-widest">Haruka Wada</p>
+                <span class="people-kana"
+                  ><img
+                    src="@/assets/images/people-kana_wada.svg"
+                    alt="Wada Haruka"
+                    style="display: inline-block"
+                /></span>
               </li>
 
               <li class="md:ml-12 people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
@@ -440,38 +467,34 @@
             </ul>
           </div>
         </div>
-        <p class="text-xs" style="color: #707070">※内容は取材当時のものです</p>
-            <div
-              class="
-                pagination
-                flex
-                justify-center
-                w-screen
-                mx-auto
-                lg:w-6/12
-                py-10
-                xl:pt-20
-              "
-            >
-              <a href="2"
-                ><img
-                  src="@/assets/images/prep.svg"
-                  alt=""
-                  class="pagination-img"
-              /></a>
-              <img
-                src="@/assets/images/people-pagination.svg"
-                alt=""
-                class="mx-2"
-              />
-              <a href="4"
-                ><img
-                  src="@/assets/images/next.svg"
-                  alt=""
-                  class="ml-2 pagination-img"
-              /></a>
-            </div>
-
+                <p class="people-footer-caption">※内容は取材当時のものです</p>
+        <div
+          class="
+            pagination
+            flex
+            justify-center
+            w-screen
+            mx-auto
+            lg:w-6/12
+            py-10
+            xl:pt-20
+          "
+        >
+          <a href="2"
+            ><img src="@/assets/images/prep.svg" alt="" class="pagination-img"
+          /></a>
+          <img
+            src="@/assets/images/people-pagination.svg"
+            alt=""
+            class="mx-2"
+          />
+          <a href="4"
+            ><img
+              src="@/assets/images/next.svg"
+              alt=""
+              class="ml-2 pagination-img"
+          /></a>
+        </div>
       </section>
 
       <footer class="col-span-12 bg-white pt-14 pb-10 text-center">

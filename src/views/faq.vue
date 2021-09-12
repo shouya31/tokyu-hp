@@ -351,6 +351,10 @@
   .faq {
     padding-top: 80px;
   }
+  .faq h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
   .faq .listQA dt {
     padding-right: 30px;
   }

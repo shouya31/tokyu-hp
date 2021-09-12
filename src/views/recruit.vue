@@ -29,7 +29,7 @@
           <dd>
             <dl class="info-inner">
               <dt>2022年</dt>
-              <dd>5名（予定）</dd>
+              <dd>&nbsp;&nbsp;5名（予定）</dd>
               <dt>2021年</dt>
               <dd>13名</dd>
               <dt>2020年</dt>
@@ -48,9 +48,9 @@
           <dd>
             <p>（2021年度実績）</p>
             <dl class="info-inner">
-              <dt>東京地区</dt>
+              <dt>東京地区：</dt>
               <dd>月給210,000円</dd>
-              <dt>北海道地区</dt>
+              <dt>北海道地区：</dt>
               <dd>月給199,500円</dd>
             </dl>
           </dd>
@@ -284,6 +284,7 @@ export default {
 .recruit-requirement .info .info-inner {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .recruit-requirement .info .info-inner dt {
@@ -310,8 +311,7 @@ export default {
   content: "";
   width: 18px;
   height: 20px;
-  background: url(/images/entry-btn-triangle.svg) center/contain
-    no-repeat;
+  background: url(/images/entry-btn-triangle.svg) center/contain no-repeat;
   position: absolute;
   right: -20px;
   top: 10px;
@@ -323,10 +323,11 @@ export default {
   padding-left: 0 !important;
   position: relative;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .othercontents-title::after {
   content: "";
-  width: calc(100% - 30%);
+  width: 100%;
   height: 1px;
   background-color: #16344f;
   position: absolute;
@@ -336,7 +337,6 @@ export default {
 .recruit-nav {
   max-width: 918px;
   margin: 0 auto;
-  padding-bottom: 80px;
 }
 .recruit-nav ul {
   display: flex;
@@ -371,6 +371,7 @@ export default {
   }
   .recruit-nav .recruit-nav-item {
     width: 50%;
+    line-height: 2rem;
   }
 }
 
@@ -378,9 +379,10 @@ export default {
   .recruit-requirement {
     padding-top: 80px;
   }
-  .recruit-requirement h2 {
+.recruit-requirement h2 {
+    margin-top: 40px;
     margin-bottom: 40px;
-  }
+}
   .recruit-requirement h3 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -391,10 +393,9 @@ export default {
   .recruit-requirement .info .info-inner {
   }
   .recruit-requirement .info .info-inner dt {
-    flex-basis: 15%;
   }
   .recruit-requirement .info .info-inner dd {
-    flex-basis: 80%;
+    flex-basis: 70%;
   }
   .recruit-requirement .entry-btn a {
     padding-right: 0;
@@ -403,9 +404,8 @@ export default {
     right: 25%;
   }
 
-.recruit-nav .recruit-nav-item {
+  .recruit-nav .recruit-nav-item {
     width: 100%;
-    line-height: 2rem;
   }
 }
 </style>

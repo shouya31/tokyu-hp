@@ -63,7 +63,7 @@
       </div>
       <div class="careerfield-circle-contents headoffice-contents">
         <p class="sub-title">本社</p>
-        <p>商品の選定やショップへの誘致を行う仕事</p>
+        <p>商品の選定やショップへの<br class="pc-br" />誘致を行う仕事</p>
         <p>市場や消費者の動向を調査・分析し、<br />新規事業を開発する仕事</p>
         <p>企業のブランディングや<br />社会貢献のための施策を実行する仕事</p>
         <p>経営計画の原案を策定し、<br class="pc-br" />推進していく仕事</p>
@@ -141,7 +141,6 @@ export default {
 .careerfield .careerfield-contents {
   max-width: 1000px;
   margin-bottom: 80px;
-  margin-left: 160px;
 }
 .careerfield h2 {
   margin-top: 10px;
@@ -152,6 +151,7 @@ export default {
 .careerfield-circle {
   position: relative;
   padding-bottom: 200px;
+  margin-left: 110px!important;
 }
 .careerfield-circle .img-wrapper img {
   width: fit-content;
@@ -222,9 +222,10 @@ export default {
   position: absolute;
   bottom: 10px;
   left: 260px;
-  width: 560px;
+  width: 580px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .careerfield-circle-contents.headoffice-contents p {
   width: 280px;
@@ -246,10 +247,11 @@ export default {
   padding-left: 0 !important;
   position: relative;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .othercontents-title::after {
   content: "";
-  width: calc(100% - 30%);
+  width: 100%;
   height: 1px;
   background-color: #16344f;
   position: absolute;
@@ -282,9 +284,14 @@ export default {
   top: 12px;
   transform: translate(-50%, -50%);
 }
+@media screen and (min-width: 1441px) {
+.careerfield-circle {
+  margin: 0 auto 80px!important;
+}
 
+}
 @media screen and (max-width: 1080px) {
-   .careerfield .careerfield-contents {
+  .careerfield .careerfield-contents {
     max-width: 90%;
     margin-left: 30px;
   }
@@ -300,7 +307,8 @@ export default {
   }
 
   .careerfield .careerfield-contents {
-    max-width: 90%;
+    max-width: 95%;
+    margin: 0 auto 80px;
   }
 
   .careerfield-circle {
@@ -315,7 +323,7 @@ export default {
   }
   .careerfield-circle .img-wrapper {
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 
   .careerfield-circle-contents.shop-contents,
@@ -364,7 +372,6 @@ export default {
     width: 100%;
   }
   .othercontents-title::after {
-    width: calc(100% - 65%);
     left: 215px;
   }
 }

@@ -13,7 +13,6 @@
     </section>
     <div
       class="
-        p-4
         lg:col-span-6
         col-span-3
         lg:col-start-3
@@ -120,7 +119,7 @@
           普段から心がけているのは、「否定をしないこと」と「メンバーの様子に気を配ること」。共に働く仲間とその一人ひとりが持つ熱意を大切にしたい......。人事部長として、それぞれの個性を活かし、尊重する人材育成を行っていきたいと考えています。組織を城の城壁に例えると、城壁は様々な形と大きさの石垣が重なり合い、崩れない強固な土台を築いています。同様に、企業も一人ひとりの個性や強みが組み合わさり、相乗効果が生まれることで強い組織が形成されます。「人材」が貴重な「人財」に進化するよう、制度面・環境面双方の向上に注力し、東急百貨店の今と未来を支えていくことが自分の役目であると考えています。
         </p>
       </section>
-      <section class="pt-8 pb-8 lg:pb-32">
+      <section class="pt-8 pb-24">
         <!-- Questionのフォント調査 -->
         <h3
           class="section-sub-title text-lg md:text-2xl pt-5 tracking-wider bold"
@@ -209,7 +208,10 @@ export default {
 }
 .greeting .greeting-contents {
   max-width: 728px;
-  margin: auto;
+  margin: 0 auto;
+}
+.greeting .greeting-contents:last-of-type {
+  padding-bottom: 80px;
 }
 .question-title {
   border: none !important;
@@ -229,9 +231,16 @@ p {
   font-family: "Noto Sans JP";
 }
 @media screen and (max-width: 640px) {
-.greeting-contents.recruit-nav {
-  padding: 1rem;
-  margin-bottom: 80px;
-}
+  .greeting {
+    padding-top: 80px;
+  }
+  .greeting .greeting-contents {
+    max-width: 90%;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .greeting-contents.recruit-nav {
+    padding: 1rem;
+  }
 }
 </style>

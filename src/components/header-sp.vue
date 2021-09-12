@@ -174,9 +174,11 @@ export default {
       this.src = this.closeBtn;
     },
     opend: function() {
+      document.querySelector('body').setAttribute('style', 'overflow: hidden;')
       this.src = this.closeBtn;
     },
     beforeClose: function() {
+      document.querySelector('body').removeAttribute('style', 'overflow: hidden;')
       this.src = this.openBtn;
     },
   },

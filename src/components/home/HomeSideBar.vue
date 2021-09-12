@@ -262,9 +262,11 @@ export default {
       this.ChangeBg = true;
     },
     opend: function() {
+      document.querySelector('body').setAttribute('style', 'overflow: hidden;')
       this.src = this.closeBtn;
     },
     beforeClose: function() {
+      document.querySelector('body').removeAttribute('style', 'overflow: hidden;')
       this.ChangeBg = false;
       this.src = this.openBtn;
     },

@@ -168,12 +168,14 @@ export default {
       if (this.src === this.openBtn) {
         this.$modal.show("hello-world");
         this.src = this.closeBtn;
+        document.querySelector('body').setAttribute('style', 'overflow: hidden;')
         return;
       }
 
       if (this.src === this.closeBtn) {
         this.$modal.hide("hello-world");
         this.src = this.openBtn;
+        document.querySelector('body').removeAttribute('style', 'overflow: hidden;')
         return;
       }
     },

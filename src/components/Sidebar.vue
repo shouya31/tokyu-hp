@@ -230,8 +230,10 @@ export default {
     },
     opend: function () {
       this.src = this.closeBtn;
+      document.querySelector('body').setAttribute('style', 'overflow: hidden;')
     },
     beforeClose: function () {
+      document.querySelector('body').removeAttribute('style', 'overflow: hidden;')
       this.ChangeBg = false;
       this.src = this.openBtn;
     },

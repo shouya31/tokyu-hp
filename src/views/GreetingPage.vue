@@ -224,7 +224,7 @@ export default {
   font-family: "Noto Serif JP";
 }
 p {
-  font-family: "Noto Sans Japanese";
+  font-family: "Noto Sans JP";
 }
 .section-title-theme {
   font-family: Brandon Grotesque !important;
@@ -233,11 +233,11 @@ p {
 }
 .section-sub-title {
   color: rgb(51, 51, 51);
-  font-family: "Noto Sans Japanese";
+  font-family: "Noto Sans JP";
   font-weight: 500;
 }
 .NotoSansJapanesee {
-  font-family: "Noto Sans Japanese";
+  font-family: "Noto Sans JP";
 }
 @media screen and (max-width: 640px) {
 .greeting-contents.recruit-nav {

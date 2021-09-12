@@ -211,12 +211,6 @@ export default {
   max-width: 728px;
   margin: auto;
 }
-
-.section-title-theme {
-  color: #16344f;
-  font-family: Brandon Grotesque;
-  font-weight: bold;
-}
 .question-title {
   border: none !important;
 }
@@ -225,11 +219,6 @@ export default {
 }
 p {
   font-family: "Noto Sans JP";
-}
-.section-title-theme {
-  font-family: Brandon Grotesque !important;
-  font-size: 32px;
-  font-weight: 500;
 }
 .section-sub-title {
   color: rgb(51, 51, 51);

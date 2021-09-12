@@ -256,12 +256,6 @@ a .fv-person-animation6:hover {
   cursor: pointer;
 }
 
-.font-BrandonGrotesque {
-  font-family: Brandon Grotesque;
-}
-.font-NotoSerif {
-  font-family: "Noto Serif JP", serif;
-}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 1s;

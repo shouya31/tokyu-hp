@@ -375,12 +375,7 @@ export default {
   }
 }
 
-.font-BrandonGrotesque {
-  font-family: Brandon Grotesque;
-}
-.font-NotoSerif {
-  font-family: "Noto Serif JP", serif;
-}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;

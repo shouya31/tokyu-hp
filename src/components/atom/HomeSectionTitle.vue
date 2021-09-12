@@ -35,12 +35,6 @@ export default {
 };
 </script>
 <style>
-.font-BrandonGrotesque {
-  font-family: Brandon Grotesque;
-}
-.font-NotoSerif{
-  font-family: 'Noto Serif JP', serif;
-}
 .section-title img {
   height: 125px;
 }

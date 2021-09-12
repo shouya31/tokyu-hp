@@ -233,24 +233,20 @@ export default {
       images: [
         require("@/assets/images/fv-main1.png"),
         require("@/assets/images/fv-main2.png"),
-        require("@/assets/images/fv-main1.png"),
-        require("@/assets/images/fv-main2.png"),
       ],
       src: require("@/assets/images/open-btn.svg"),
       openBtn: require("@/assets/images/open-btn.svg"),
       closeBtn: require("@/assets/images/close-menu.svg"),
       titleImages: [
         require("@/assets/images/fv-vision.svg"),
-        require("@/assets/images/fv-project.svg"),
         require("@/assets/images/fv-people.svg"),
-        require("@/assets/images/fv-culture.svg"),
       ],
     };
   },
   mounted() {
     setInterval(() => {
       this.index = this.index < this.images.length - 1 ? this.index + 1 : 0;
-    }, 3000);
+    }, 6000);
   },
   methods: {
     menuOpenOrClose: function () {

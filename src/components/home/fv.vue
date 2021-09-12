@@ -101,7 +101,6 @@ export default {
       images: [
         require("@/assets/images/fv-main1.png"),
         require("@/assets/images/fv-main2.png"),
-        // require("@/assets/images/fv-main1.png")
       ],
       titleImages: [
         require("@/assets/images/fv-vision.svg"),

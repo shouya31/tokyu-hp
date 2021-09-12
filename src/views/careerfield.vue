@@ -279,7 +279,7 @@ export default {
   background: url(/img/entry-btn-triangle.7cec7ed5.svg) center/contain no-repeat;
   position: absolute;
   right: -35px;
-  top: 8px;
+  top: 12px;
   transform: translate(-50%, -50%);
 }
 

@@ -39,7 +39,6 @@
   font-family: "Noto Sans JP", sans-serif;
   line-height: 48px;
   z-index: -3;
-  font-weight: 300;
   margin-bottom: 20px;
 }
 .explain-text strong {

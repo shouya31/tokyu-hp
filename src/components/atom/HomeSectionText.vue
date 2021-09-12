@@ -15,27 +15,3 @@ export default {
 }
 </script>
 
-<style>
-.text-content {
-    width: 230px;
-}
-.section-text{
-    font-size: 14px;
-    line-height: 28px;
-}
-
-@media (max-width: 940px) {
-  .text-content {
-    width: 400px;
-    margin: 20px auto 0;
-  }
-}
-
-@media (max-width: 640px) {
-  .text-content {
-    width: 90%;
-    margin: 20px auto 0;
-  }
-}
-
-</style>

@@ -186,6 +186,7 @@ hr {
   font-size: 14px;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 28px;
+  letter-spacing: initial;
 }
 
 @media (max-width: 940px) {

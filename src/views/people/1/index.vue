@@ -476,7 +476,7 @@ export default {
   color: #707070;
 }
 .column-title {
-  font-family: noto-serif-condensed, serif;
+  font-family: "Noto Serif JP", serif;
   font-weight: 400;
   font-size: 28px;
   color: #707070;
@@ -505,13 +505,8 @@ export default {
   padding: 40px 96px 80px;
   text-align: left;
 }
-.BrandonGrotesque {
-  font-family: Brandon Grotesque !important;
-  font-weight: 300;
-  font-style: normal;
-}
 .main-catch-font {
-  font-family: noto-serif-condensed, serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 8px;

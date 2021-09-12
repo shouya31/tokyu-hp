@@ -243,9 +243,6 @@ export default {
 /* @import "@/assets/style/home.css"; */
 /* @import "@/assets/style/style.css"; */
 
-.font-BrandonGrotesque {
-  font-family: Brandon Grotesque;
-}
 
 .side-bar {
   z-index: 9999;
@@ -270,7 +267,6 @@ export default {
 }
 
 .menu-list {
-  font-family: Noto Sans;
   line-height: 28px;
   font-size: 14px;
 }

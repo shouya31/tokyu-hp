@@ -295,10 +295,10 @@ hr {
   content: "";
   height: 12px;
   width: 12px;
-  background: url(/img/entry-btn-triangle.fe6fe1e8.svg) center/contain no-repeat;
+  background: url(../images/entry-btn-triangle.svg) center/contain no-repeat;
   position: absolute;
   right: -20px;
-  top: 3px;
+  top: 7px;
 }
 @media (max-width: 1280px) {
 }

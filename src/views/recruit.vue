@@ -310,7 +310,7 @@ export default {
   content: "";
   width: 18px;
   height: 20px;
-  background: url(../assets/images/entry-btn-triangle.svg) center/contain
+  background: url(/images/entry-btn-triangle.svg) center/contain
     no-repeat;
   position: absolute;
   right: -20px;

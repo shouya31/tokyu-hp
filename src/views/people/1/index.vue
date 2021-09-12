@@ -45,9 +45,13 @@
           <ul class="employee-box lg:mt-16">
             <li>
               <p class="people-name tracking-widest">
-                船田 あかり<span class="people-kana tracking-widest lg:ml-5"
-                  >Akari Funada</span
-                >
+                船田 あかり
+                <span class="people-kana ml-2"
+                  ><img
+                    src="@/assets/images/people-kana_funada.svg"
+                    alt="Funada Akari"
+                    style="display: inline-block"
+                /></span>
               </p>
             </li>
             <li>
@@ -104,7 +108,12 @@
           </div>
           <div class="question-box">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
@@ -160,7 +169,12 @@
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
@@ -257,7 +271,12 @@
           </div>
           <div class="question-box lg:py-16 mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
@@ -321,7 +340,12 @@
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
@@ -400,7 +424,12 @@
               </li>
               <li class="md:ml-32 pt-7 lg:pt-0 pl-5 md:pl-0">
                 <p class="people-name tracking-widest">船田 あかり</p>
-                <p class="people-kana mt-3 tracking-widest">Akari Funada</p>
+                <span class="people-kana"
+                  ><img
+                    src="@/assets/images/people-kana_funada.svg"
+                    alt="Funada Akari"
+                    style="display: inline-block"
+                /></span>
               </li>
 
               <li class="md:ml-12 people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
@@ -433,22 +462,22 @@
         </div>
       </section>
     </div>
-      <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
-        <a href="/"
-          ><img
-            src="@/assets/images/footer-logo.svg"
-            alt="東急百貨店"
-            width="180"
-            class="mx-auto bg-white"
-        /></a>
-        <p class="text-xs lg:text-sm mt-5">
-          <small
-            >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
-            Reserved.</small
-          >
-        </p>
-      </footer>
-    </div>
+    <footer class="col-span-12 bg-white pt-14 pb-10 text-center">
+      <a href="/"
+        ><img
+          src="@/assets/images/footer-logo.svg"
+          alt="東急百貨店"
+          width="180"
+          class="mx-auto bg-white"
+      /></a>
+      <p class="text-xs lg:text-sm mt-5">
+        <small
+          >Copyright © TOKYU DEPARTMENT STORE CO.,LTD All Rights
+          Reserved.</small
+        >
+      </p>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -524,6 +553,7 @@ export default {
   padding-right: 24px;
   font-weight: bold;
   text-align: left;
+  letter-spacing: 0.4em;
 }
 .question-box {
   display: inline-block;
@@ -554,12 +584,8 @@ export default {
   font-size: 14px;
 }
 .people-name {
-  font-family: "Noto Sans JP";
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 24px;
-}
-.people-kana {
-  font-size: 14px;
-  color: #707070;
 }
 .bottom-content {
   width: 78%;
@@ -617,9 +643,6 @@ export default {
   }
   .people-name {
     font-size: 19px;
-  }
-  .people-kana {
-    font-size: 11px;
   }
   .people-info {
     font-size: 14px;
@@ -705,8 +728,8 @@ export default {
     padding-left: 1.25rem;
   }
   .people-footer-caption {
-  padding-left: 1.25rem;
-  margin-top: 20px;
-}
+    padding-left: 1.25rem;
+    margin-top: 20px;
+  }
 }
 </style>

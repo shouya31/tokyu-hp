@@ -45,9 +45,13 @@
           <ul class="employee-box lg:mt-16">
             <li>
               <p class="people-name tracking-widest">
-                才治 雄一<span class="people-kana tracking-widest lg:ml-5"
-                  >Yuichi Saiji</span
-                >
+                才治 雄一
+                <span class="people-kana ml-2"
+                  ><img
+                    src="@/assets/images/people-kana_saiji.svg"
+                    alt="Yuichi Saiji"
+                    style="display: inline-block"
+                /></span>
               </p>
             </li>
             <li>
@@ -103,7 +107,12 @@
           </div>
           <div class="question-box">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
@@ -159,7 +168,12 @@
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
@@ -255,7 +269,12 @@
           </div>
           <div class="question-box lg:py-16 mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
@@ -312,7 +331,12 @@
           </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
-              <span>Question</span>
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
             </p>
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
@@ -408,7 +432,12 @@
               </li>
               <li class="md:ml-32 pt-7 lg:pt-0 pl-5 md:pl-0">
                 <p class="people-name tracking-widest">才治 雄一</p>
-                <p class="people-kana mt-3 tracking-widest">Yuichi Saiji</p>
+                <span class="people-kana"
+                  ><img
+                    src="@/assets/images/people-kana_saiji.svg"
+                    alt="Yuichi Saiji"
+                    style="display: inline-block"
+                /></span>
               </li>
 
               <li class="md:ml-12 people-info pl-5 lg:pl-0 pt-3 lg:pt-0">
@@ -419,7 +448,7 @@
             </ul>
           </div>
         </div>
-        <p class="text-xs" style="color: #707070">※内容は取材当時のものです</p>
+        <p class="people-footer-caption">※内容は取材当時のものです</p>
         <div
           class="
             pagination

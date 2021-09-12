@@ -137,7 +137,7 @@ export default {
   width: 200px;
 }
 .fv-theme {
-  height: 64px;
+  height: 40px;
 }
 
 .fv-person-animation1 {

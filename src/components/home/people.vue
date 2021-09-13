@@ -5,8 +5,8 @@
         <HomeSectionTitle :image="titleimage" />
         <div class="content-wrapper">
           <div class="text-content bg-white" style="z-index: 99">
-            <p class="section-text mt-16">
-              東急百貨店と共に成長する<br class="pc-br">仲間たち。志望動機や現在の<br class="pc-br">仕事内容はもちろん、入社から現在に<br class="pc-br">至るまで記憶に残るエピソードや<br class="pc-br">未来に向けた想いを語っていただきました。
+            <p class="section-text mt-16" style="letter-spacing: -0.05em">
+              東急百貨店と共に成長する仲間たち。<br class="pc-br">志望動機や現在の仕事内容はもちろん、<br class="pc-br">入社から現在に至るまで記憶に残る<br class="pc-br">エピソードや未来に向けた想いを<br class="pc-br">語っていただきました。
             </p>
           </div>
 

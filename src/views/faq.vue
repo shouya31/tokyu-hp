@@ -169,7 +169,9 @@
           <dd>
             <p>
               入社後は約2~3週間程度、入社時研修を実施いたします。その後も1年目は3ヶ月~半年ごとに定期的なフォローアップを実施しています。
-              詳しくは<a
+            </p>
+            <p class="mt-4">
+              ※詳細は<a
                 href="https://www.tokyu-dept.co.jp/saiyou/shinsotsu/program.html"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -194,8 +196,8 @@
           </dt>
           <dd>
             <p>
-              詳しくは<a
-                href="https://www.tokyu-dept.co.jp/corporate/support.html"
+              ※詳細は<a
+                href="https://www.tokyu-dept.co.jp/saiyou/shinsotsu/program.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 >こちら</a

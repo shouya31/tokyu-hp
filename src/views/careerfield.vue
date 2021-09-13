@@ -42,16 +42,14 @@
         <p>賃貸借テナントのマネジメントを行う仕事</p>
         <p>
           店舗のイメージ維持・向上、集客のための<br />
-          販売促進計画の立案を行い、<br class="sp-br" />
-          実行する仕事
+          販売促進計画の立案を行い、実行する仕事
         </p>
       </div>
       <div class="careerfield-circle-contents sales-contents">
         <p class="sub-title">外商</p>
         <p>
           お客様との信頼関係をもとに、<br />
-          ご要望に合わせて商品を<br />
-          提案・販売する仕事
+          ご要望に合わせて商品を提案・販売する仕事
         </p>
       </div>
       <div class="careerfield-circle-contents ec-contents">
@@ -186,19 +184,19 @@ export default {
 }
 .careerfield-circle-contents.sales-contents {
   position: absolute;
-  top: -70px;
-  right: 40px;
-  width: 245px;
+    top: -40px;
+    right: 10px;
+    width: 320px;
 }
 .careerfield-circle-contents.sales-contents:before {
   content: "";
   background: url(../assets/images/careerfield-sales-arrow.svg) no-repeat
     center/contain;
-  width: 196px;
-  height: 62px;
+    width: 146px;
+    height: 52px;
   position: absolute;
-  top: 65%;
-  right: 240px;
+top: 65%;
+    right: 320px;
   transform: translate(0, -50%);
 }
 .careerfield-circle-contents.ec-contents {
@@ -294,6 +292,9 @@ export default {
   .careerfield .careerfield-contents {
     max-width: 90%;
     margin-left: 30px;
+  }
+  .careerfield-circle {
+  margin-left :auto!important;
   }
 }
 

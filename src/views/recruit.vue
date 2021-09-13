@@ -27,7 +27,7 @@
         <dl>
           <dt>採用人数</dt>
           <dd>
-            <dl class="info-inner">
+            <dl class="info-inner hires">
               <dt>2022年</dt>
               <dd>&nbsp;&nbsp;5名（予定）</dd>
               <dt>2021年</dt>
@@ -48,10 +48,10 @@
           <dd>
             <p>（2021年度実績）</p>
             <dl class="info-inner">
-              <dt>東京地区：</dt>
-              <dd>月給210,000円</dd>
-              <dt>北海道地区：</dt>
-              <dd>月給199,500円</dd>
+              <dt>東京地区</dt>
+              <dd>：月給210,000円</dd>
+              <dt>北海道地区</dt>
+              <dd>：月給199,500円</dd>
             </dl>
           </dd>
           <dt>昇給・賞与</dt>
@@ -64,9 +64,9 @@
           <dd>
             <dl class="info-inner">
               <dt>東京地区</dt>
-              <dd>東京都、神奈川県</dd>
+              <dd>：東京都、神奈川県</dd>
               <dt>北海道地区</dt>
-              <dd>北海道（札幌市）</dd>
+              <dd>：北海道（札幌市）</dd>
             </dl>
           </dd>
           <dt>勤務時間</dt>
@@ -100,7 +100,7 @@
           <dt>応募資格</dt>
           <dd>大学院、大学卒業見込みの方（2023年3月卒業の方）</dd>
           <dt>お問い合わせ</dt>
-          <dd>
+          <dd style="letter-spacing: 0.04em">
             （株）東急百貨店 人事部 採用担当<br />
             ＜東京地区＞<br />
             TEL：03-3477-3261（直通）<br />
@@ -288,10 +288,16 @@ export default {
 }
 
 .recruit-requirement .info .info-inner dt {
-  flex-basis: 20%;
+  flex-basis: 18%;
 }
 .recruit-requirement .info .info-inner dd {
-  flex-basis: 80%;
+  flex-basis: 82%;
+}
+.recruit-requirement .info .info-inner.hires dt {
+  flex-basis: 15%;
+}
+.recruit-requirement .info .info-inner.hires dd {
+  flex-basis: 85%;
 }
 
 .recruit-requirement .entry-btn {
@@ -309,12 +315,13 @@ export default {
 }
 .recruit-requirement .entry-btn .entry-btn-link::after {
   content: "";
-  width: 18px;
-  height: 20px;
-  background: url(/images/entry-btn-triangle.svg) center/contain no-repeat;
+  width: 16px;
+  height: 16px;
+  background: url(../assets/images/entry-btn-triangle.svg) center/contain
+    no-repeat;
   position: absolute;
-  right: -20px;
-  top: 10px;
+  right: -16px;
+  top: 14px;
   transform: translate(-50%, -50%);
 }
 
@@ -358,7 +365,8 @@ export default {
   content: "";
   width: 14px;
   height: 16px;
-  background: url(/img/entry-btn-triangle.7cec7ed5.svg) center/contain no-repeat;
+  background: url(../assets/images/entry-btn-triangle.svg) center/contain
+    no-repeat;
   position: absolute;
   right: -35px;
   top: 12px;
@@ -373,16 +381,22 @@ export default {
     width: 50%;
     line-height: 2rem;
   }
+  .recruit-requirement .info .info-inner dt {
+    flex-basis: 20%;
+  }
+  .recruit-requirement .info .info-inner dd {
+    flex-basis: 80%;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .recruit-requirement {
     padding-top: 80px;
   }
-.recruit-requirement h2 {
+  .recruit-requirement h2 {
     margin-top: 40px;
     margin-bottom: 40px;
-}
+  }
   .recruit-requirement h3 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -390,12 +404,20 @@ export default {
   .recruit-requirement .info dl {
     flex-flow: column;
   }
-  .recruit-requirement .info .info-inner {
+  .recruit-requirement .info dd {
+        padding: 20px 15px;
   }
   .recruit-requirement .info .info-inner dt {
+    flex-basis: 30%;
   }
   .recruit-requirement .info .info-inner dd {
     flex-basis: 70%;
+  }
+  .recruit-requirement .info .info-inner.hires dt {
+    flex-basis: 28%;
+  }
+  .recruit-requirement .info .info-inner.hires dd {
+    flex-basis: 72%;
   }
   .recruit-requirement .entry-btn a {
     padding-right: 0;

@@ -77,6 +77,7 @@ export default {
       document.getElementById("loading").classList.add("loaded");
     });
   },
+  
 
   function() {
     $(document).ready(function() {

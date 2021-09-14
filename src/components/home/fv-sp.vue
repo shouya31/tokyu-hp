@@ -88,8 +88,8 @@
                 </p>
                 <ul class="menu-bottom-line">
                   <li>
-                    <router-link to="/greeting" class="menu-list"
-                      >人事部長メッセージ</router-link
+                    <a href="/greeting" class="menu-list"
+                      >人事部長メッセージ</a
                     >
                   </li>
                   <li class="menu-list"><a href="/faq">FAQ</a></li>

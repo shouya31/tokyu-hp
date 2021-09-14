@@ -4,12 +4,12 @@
     class="side-bar p-8 fixed hidden lg:block"
   >
     <div class="side-bar-content max-w-full col-span-1">
-      <router-link to="/"
+      <a to="/"
         ><img
           src="../../assets/images/tokyu-logo.svg"
           alt="東急百貨店"
           width="150"
-      /></router-link>
+      /></a>
 
       <div v-on:click="menuOpenOrClose" class="menu hidden lg:block py-40 ml-8">
         <img :src="src" alt="" srcset="" />
@@ -109,8 +109,8 @@
                 </p>
                 <ul class="menu-bottom-line">
                   <li>
-                    <router-link to="/greeting" class="menu-list"
-                      >人事部長メッセージ</router-link
+                    <a href="/greeting" class="menu-list"
+                      >人事部長メッセージ</a
                     >
                   </li>
                   <li class="menu-list"><a href="/faq">FAQ</a></li>

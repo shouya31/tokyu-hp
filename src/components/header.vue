@@ -2,13 +2,13 @@
   <div class="hidden sm:block">
     <header>
       <h1>
-        <router-link to="/">
+        <a href="/">
           <img
             src="@/assets/images/header-logo.svg"
             alt="東急百貨店のリクルートサイト"
             style="width: 120px"
           />
-        </router-link>
+        </a>
       </h1>
       <div v-on:click="menuOpenOrClose" class="menu">
         <img :src="src" alt="" srcset="" />
@@ -109,8 +109,8 @@
               </p>
               <ul class="menu-bottom-line">
                 <li>
-                  <router-link to="/greeting" class="menu-list"
-                    >人事部長メッセージ</router-link
+                  <a href="/greeting" class="menu-list"
+                    >人事部長メッセージ</a
                   >
                 </li>
                 <li class="menu-list"><a href="/faq">FAQ</a></li>

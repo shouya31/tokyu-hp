@@ -17,5 +17,8 @@ Vue.use(VueRouter)
 new Vue({
   router,
   render: h => h(App),
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
 }).$mount('#app')
 

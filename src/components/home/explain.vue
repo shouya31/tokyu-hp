@@ -30,7 +30,6 @@
 </template>
 
 <style>
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url("https://use.typekit.net/bdr1ssy.css");
 
 

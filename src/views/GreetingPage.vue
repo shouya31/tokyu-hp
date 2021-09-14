@@ -36,31 +36,24 @@
             pt-9
             pb-3
             md:text-3xl
+            text-2xl
           "
         >
           新しい未来に向けて、<br class="sp-br" />共に歩んでいきましょう
         </h1>
         <hr class="my-3 border-black" />
-        <ul class="block mt-6 md:flex">
+        <ul class="block mt-6 flex">
           <li class="leader-name">
-            <p class="text-base md:text-2xl">
+            <p class="text-base text-xl">
               <span class="mr-1">飯塚</span><span class="ml-1">康浩</span>
             </p>
           </li>
           <li>
-            <p
-              class="
-                leading-7
-                ml-0
-                sm:ml-4
-                text-gray-400
-                tracking-widest
-                text-xs
-                sm:leading-10
-              "
-            >
-              Yasuhiro Iizuka
-            </p>
+            <img
+              src="@/assets/images/greeting-kana_iizuka.svg"
+              alt="Yasuhiro Iizuka"
+              style="display: inline-block; margin-left: 20px; margin-top: 6px"
+            />
           </li>
         </ul>
         <p class="mt-3 text-sm md:text-md">人事部長</p>
@@ -217,18 +210,11 @@ export default {
   border: none !important;
 }
 .greeting-message {
-  font-family: "Noto Serif JP";
-}
-p {
-  font-family: "Noto Sans JP";
+  font-family: "Noto Serif JP", serif;
 }
 .section-sub-title {
   color: rgb(51, 51, 51);
-  font-family: "Noto Sans JP";
   font-weight: 500;
-}
-.NotoSansJapanesee {
-  font-family: "Noto Sans JP";
 }
 @media screen and (max-width: 640px) {
   .greeting {

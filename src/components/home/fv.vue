@@ -140,10 +140,6 @@ export default {
   height: 40px;
 }
 
-.fv-right-content {
-  perspective: 1000;
-}
-
 .fv-person-animation1 {
   animation: person_moveY1 18s linear infinite;
 }

@@ -144,7 +144,7 @@
               <img
                 src="../../assets/images/entry-btn.svg"
                 alt=""
-                class="w-11/12 mt-10"
+                class="w-11/12 mt-10 mx-auto"
               />
             </a>
           </div>
@@ -304,6 +304,13 @@ export default {
 .menu-line {
   padding: 80px 10px 0px 20px;
 }
+
+@media screen and (max-width: 1040px) {
+.menu-line {
+    padding: 80px 0px 0px 0px;
+}
+}
+
 .menu-block {
   padding: 30px;
   margin-bottom: 30px;

@@ -144,7 +144,7 @@
             <img
               src="../assets/images/entry-btn.svg"
               alt=""
-              class="w-11/12 mt-10"
+              class="w-11/12 mt-10 mx-auto"
             />
           </a>
         </div>

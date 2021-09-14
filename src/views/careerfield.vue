@@ -76,22 +76,22 @@
       </p>
       <ul class="">
         <li class="people-nav-item">
-          <a href="/people/1">たまプラーザ店 営業統括部</a>
+          <a href="/people/1">01 たまプラーザ店 営業統括部</a>
         </li>
         <li class="people-nav-item">
-          <a href="/people/2">専門店事業部</a>
+          <a href="/people/2">02 専門店事業部</a>
         </li>
         <li class="people-nav-item">
-          <a href="/people/3">ファッション・雑貨統括部</a>
+          <a href="/people/3">03 ファッション・雑貨統括部</a>
         </li>
         <li class="people-nav-item">
-          <a href="/people/4">営業推進部 顧客サービス部</a>
+          <a href="/people/4">04 営業推進部 顧客サービス部</a>
         </li>
         <li class="people-nav-item">
-          <a href="/people/5">事業戦略室 事業開発部</a>
+          <a href="/people/5">05 事業戦略室 事業開発部</a>
         </li>
         <li class="people-nav-item">
-          <a href="/people/6">営業推進部 営業企画部</a>
+          <a href="/people/6">06 営業推進部 営業企画部</a>
         </li>
       </ul>
     </div>
@@ -279,7 +279,7 @@ top: 65%;
   background: url(/img/entry-btn-triangle.7cec7ed5.svg) center/contain no-repeat;
   position: absolute;
   right: -35px;
-  top: 12px;
+  top: 13px;
   transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 1441px) {

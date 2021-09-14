@@ -14,10 +14,10 @@
           </div>
           <div class="lg:mt-20 lg:mb-10 tracking-wide">
             <img
-              src="@/assets/images/person5-4.png"
+              src="@/assets/images/person5-1.png"
               srcset="
-                @/assets/images/person5-4.png    1x,
-                @/assets/images/person5-4@2x.png 2x
+                @/assets/images/person5-1.png    1x,
+                @/assets/images/person5-1@2x.png 2x
               "
               class="pt-0 lg:hidden people-main-sp"
               width="450"
@@ -57,7 +57,7 @@
             <li>
               <p class="people-info mt-3 tracking-wide">
                 事業戦略室<span class="lg:ml-3">事業開発部 兼 食品統括部</span
-                ><span class="mx-2 lg:mx-3">/</span> 2009年 入社<br />
+                ><span class="mx-2 lg:mx-3">/</span> <br class="sp-br">2009年 入社<br />
                 映画学科 理論評論コース 卒
               </p>
             </li>

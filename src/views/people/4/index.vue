@@ -398,7 +398,7 @@
           </div>
 
           <div class="column-content bg-white text-center pt-20">
-            <h6 class="column-title">「ありがとう」と共に歩む</h6>
+            <h6 class="column-title">「ありがとう」と<br class="sp-br">共に歩む</h6>
             <p class="column-text">
               「誰かから感謝される仕事をしなさい」という先輩からの言葉。その考えはお客様だけでなく、周囲の従業員に対しても共通することです。東急百貨店は、百貨店とショッピングセンターが融合した店舗や専門店など様々な形態を有しています。だからこそ、固定観念に捉われない働きやすい環境づくりに励んでいきたいと思います。
             </p>

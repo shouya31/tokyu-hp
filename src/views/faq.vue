@@ -310,6 +310,7 @@
 .faq .listQA dt::before {
   content: "Q";
   margin-right: 20px;
+  font-family: "Lato", sans-serif;
 }
 .faq .listQA dt::after {
   content: "";

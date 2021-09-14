@@ -11,10 +11,10 @@
         />
       </div>
     </section>
-    <section class="workstyle mx-auto">
+    <section class="mx-auto">
       <div class="workstyle-heading">
-        <h3>働き方について</h3>
-        <p>従業員が働きやすい環境づくりに努めています。</p>
+        <h3 class="md:text-3xl text-2xl">働き方について</h3>
+        <p>従業員が働きやすい環境づくりに<br class="sp-br">努めています。</p>
       </div>
       <div class="workstyle-contents">
         <img src="@/assets/images/workstyle-1.png" alt="" />
@@ -142,7 +142,6 @@ export default {
 .workstyle h3 {
   margin-top: 70px;
   margin-bottom: 20px;
-  font-size: 36px;
   font-family: "Noto Serif JP", serif;
   letter-spacing: 3px;
 }
@@ -201,13 +200,18 @@ dl.workstyle-child-contents {
   .workstyle .workstyle-contents,
   .workstyle-heading {
     max-width: 90%;
+        margin: 0 auto 40px;
   }
 }
-  @media screen and (max-width: 559px) {
+@media screen and (max-width: 640px) {
     .workstyle {
       padding-top: 80px;
     }
+.workstyle h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
+}
   @media screen and (max-width: 559px) {
     .workstyle.workstyle dl {
       flex-flow: column;

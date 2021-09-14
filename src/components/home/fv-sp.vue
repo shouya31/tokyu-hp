@@ -111,7 +111,7 @@
                     <img
                       src="@/assets/images/entry-btn.svg"
                       alt=""
-                      class="w-11/12 mt-10"
+                      class="w-11/12 mt-10 mx-auto"
                       style="width: 200px"
                     />
                   </a>
@@ -283,11 +283,6 @@ export default {
 </script>
 
 <style>
-
-.fv-right-content {
-  perspective: 1000;
-}
-
 .fv-person-animation-sp1 {
   animation: person_moveY-sp1 18s linear infinite;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden lg:block">
+  <div class="hidden sm:block">
     <header>
       <h1>
         <router-link to="/">
@@ -207,9 +207,9 @@ export default {
   max-width: 1600px;
 }
 @media screen and (min-width: 1600px) {
-  .vm--container {
+  /* .vm--container {
     position: absolute !important;
-  }
+  } */
   .menu-context {
     margin: 0 auto;
   }

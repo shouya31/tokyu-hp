@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:hidden">
+  <div class="sm:hidden">
     <header>
       <h1>
         <router-link to="/">

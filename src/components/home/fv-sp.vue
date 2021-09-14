@@ -395,6 +395,14 @@ export default {
   object-fit: cover;
 }
 
+@media screen and (min-width:800px) and ( max-width:1024px) {
+  section .vm--container .vm--modal{
+    left: 0px !important;
+    width: auto !important;
+  }
+
+}
+
 @media screen and (max-width: 800px) {
   .fv-header-sp {
     width: 100%;

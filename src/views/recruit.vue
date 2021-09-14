@@ -321,7 +321,7 @@ export default {
     no-repeat;
   position: absolute;
   right: -16px;
-  top: 14px;
+  top: 10px;
   transform: translate(-50%, -50%);
 }
 

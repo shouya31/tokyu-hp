@@ -360,6 +360,7 @@
   }
   .faq .listQA dt {
     padding-right: 30px;
+    font-size: 14px;
   }
 }
 </style>

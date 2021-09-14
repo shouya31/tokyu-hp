@@ -230,7 +230,7 @@ export default {
     padding-top: 100px;
   }
   .menu-list {
-    font: normal normal bold 16px/32px Noto Sans;
+    font-weight: bold;
     letter-spacing: 0px;
     color: #333333;
   }
@@ -254,7 +254,7 @@ export default {
   .menu-block ul p {
     width: 140px;
     height: 35%;
-    font: normal normal bold 14px/32px Noto Sans;
+    font-weight: bold;
     text-align: center;
   }
   .menu-bottom-line {

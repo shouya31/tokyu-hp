@@ -283,6 +283,11 @@ export default {
 </script>
 
 <style>
+
+.fv-right-content {
+  perspective: 1000;
+}
+
 .fv-person-animation-sp1 {
   animation: person_moveY-sp1 18s linear infinite;
 }
@@ -459,7 +464,7 @@ export default {
     padding-top: 100px;
   }
   .menu-list {
-    font: normal normal bold 16px/32px Noto Sans;
+    font-weight: bold;
     letter-spacing: 0px;
     color: #333333;
   }

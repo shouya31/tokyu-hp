@@ -494,7 +494,6 @@ export default {
 
 <style>
 @import "../../../assets/style/style.css";
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url("https://use.typekit.net/bdr1ssy.css");
 
 .hero {
@@ -516,7 +515,6 @@ export default {
   text-decoration-thickness: from-font;
 }
 .column-subtitle {
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #707070;
@@ -527,7 +525,6 @@ export default {
   margin-left: 4%;
 }
 .column-text {
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
   color: #707070;
   line-height: 28px;
@@ -541,14 +538,12 @@ export default {
   letter-spacing: 8px;
 }
 .sub-catch-font {
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
   font-size: 18px;
   color: #707070;
 }
 .question-section-title {
   border-left: 4px solid #16344f;
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 24px;
   padding-right: 24px;
   font-weight: bold;
@@ -559,32 +554,26 @@ export default {
   display: inline-block;
 }
 .answer-text {
-  font-family: "Noto Sans JP";
   font-size: 14px;
   width: 100%;
   color: #707070;
   font-weight: 400;
 }
 .answer-attention {
-  font-family: "Noto Sans JP";
   font-size: 10px;
   color: #707070;
 }
 .answer-title {
-  font-family: "Noto Sans JP";
   font-size: 24px;
 }
 .answer-font {
   color: #add6d4;
-  font-family: "Noto Sans JP";
 }
 .people-info {
-  font-family: "Noto Sans JP", sans-serif;
   font-weight: 200;
   font-size: 14px;
 }
 .people-name {
-  font-family: "Noto Sans JP", sans-serif;
   font-size: 24px;
 }
 .bottom-content {

@@ -1,10 +1,10 @@
 <template>
   <div
     v-bind:class="{ change_bg: ChangeBg }"
-    class="side-bar p-8 fixed hidden lg:block"
+    class="side-bar p-8 fixed hidden lg:block 2xl:block"
   >
     <div class="side-bar-content max-w-full col-span-1">
-      <a to="/"
+      <a href="/"
         ><img
           src="../../assets/images/tokyu-logo.svg"
           alt="東急百貨店"
@@ -360,5 +360,16 @@ export default {
 
 .vm--modal{
   box-shadow: none !important;
+}
+
+@media screen and (min-width:1600px) and ( max-width:2224px) {
+.side-bar{
+  position: absolute;
+  left: 24px;
+}
+.vm--modal{
+  left: 50px !important;
+}
+
 }
 </style>

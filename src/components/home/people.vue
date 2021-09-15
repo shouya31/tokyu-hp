@@ -12,7 +12,7 @@
 
           <carousel
             :per-page="1"
-            :autoplay="false"
+            :autoplay="true"
             :loop="true"
             :mouse-drag="true"
             :speed="300"

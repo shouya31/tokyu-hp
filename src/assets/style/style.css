@@ -235,9 +235,6 @@ hr {
 #vision .text-content .sentence-more {
   margin-top: 20px;
 }
-#vision .text-content .sentence-more img {
-  margin-left: auto;
-}
 #people {
   justify-content: flex-start;
 }
@@ -267,14 +264,13 @@ hr {
   margin-left: auto;
 }
 #recruit .content-wrapper {
-  width: 1014px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-#recruit .text-content {
-  width: fit-content;
+#recruit .recruit-link {
+  margin-top: 20px;
 }
 #recruit .recruit-link li {
   margin-bottom: 10px;
@@ -367,6 +363,11 @@ hr {
   #recruit .text-content {
     margin-top: 3rem;
   }
+  #recruit .recruit-link {
+    width: fit-content;
+    padding-right: 20px;
+    margin: 20px auto 0;
+  }
 }
 
 /* 新デザインヘッダー */
@@ -427,5 +428,4 @@ header {
     margin-bottom: 10px;
   }
 }
-
 /* 新デザインヘッダーここまで */

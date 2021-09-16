@@ -1,20 +1,20 @@
 <template>
   <div>
     <div id="fv-main" class="fv w-full pb-20 hidden lg:block">
-      <div class="fv-header flex items-start my-8 pt-10">
+      <div class="fv-header flex items-start my-8  ml-4 pt-10">
         <img src="../../assets/images/fv-title.svg" class="fv-title"/>
-        <transition name="fade" mode="out-in">
+        <transition name="fade" mode="">
           <img
             :src="titleImages[index]"
             :key="titleImages[index]"
               height="40"
-            class="ml-7 mt-10 fv-theme"
+            class="fv-theme"
           />
         </transition>
       </div>
       <div class="fv-contents flex relative">
         <div class="fv-left-content w-11/12" style="z-index:-3;">
-          <transition name="fade" mode="out-in">
+          <transition name="fade" mode="in-out">
             <img
               :src="images[index]"
               :key="images[index]"
@@ -105,7 +105,7 @@ export default {
       titleImages: [
         require("@/assets/images/fv-vision.svg"),
         require("@/assets/images/fv-people.svg"),
-        require("@/assets/images/fv-recruit.svg")
+        require("@/assets/images/fv-recruit.svg"),
       ],
     };
   },
@@ -142,6 +142,18 @@ export default {
 
 .fv-person-animation1 {
   animation: person_moveY1 18s linear infinite;
+}
+
+.fv-theme {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  padding-left: 230px;
+}
+
+.fv-left-content img {
+  position: absolute;
+  top: 40px;
 }
 
 @keyframes person_moveY1 {

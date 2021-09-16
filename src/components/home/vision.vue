@@ -2,7 +2,7 @@
   <div style="background-color: rgb(255, 255, 255); z-index: 99; position: relative;">
     <section
       id="vision"
-      class="home-main-content lg:flex py-16"
+      class="home-main-content lg:flex pt-36 pb-16"
       style="z-index: 99"
     >
       <div class="">

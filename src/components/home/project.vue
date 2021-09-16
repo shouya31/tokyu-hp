@@ -6,20 +6,18 @@
         <div class="content-wrapper">
           <HomeSectionImage :image="homeimage" />
           <div class="text-content">
+            <p class="section-text">
+              ダミーテキストダミーテキスト<br
+                class="pc-br"
+              />ダミーテキストダミーテキスト<br
+                class="pc-br"
+              />ダミーテキストダミーテキスト
+            </p>
             <ul class="recruit-link">
               <li><a href="/greeting">人事部長メッセージ</a></li>
               <li><a href="/faq">FAQ</a></li>
               <li><a href="/recruit">募集要項＆会社概要</a></li>
             </ul>
-            <!-- <p class="sentence-more justify-end">
-              <a href="/greeting">
-                <img
-                  src="../../assets/images/read-more.svg"
-                  alt=""
-                  class="mx-auto"
-                />
-              </a>
-            </p> -->
           </div>
         </div>
       </div>

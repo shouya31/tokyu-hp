@@ -88,9 +88,7 @@
                 </p>
                 <ul class="menu-bottom-line">
                   <li>
-                    <a href="/greeting" class="menu-list"
-                      >人事部長メッセージ</a
-                    >
+                    <a href="/greeting" class="menu-list">人事部長メッセージ</a>
                   </li>
                   <li class="menu-list"><a href="/faq">FAQ</a></li>
                   <li class="menu-list">
@@ -136,11 +134,11 @@
           </div>
         </div>
       </modal>
-      <div class="fv-contents w-11/12 relative left-0">
+      <div class="fv-contents fv-sp w-11/12 relative left-0">
         <div class="fv-sp-title p-5">
-          <div class="fv-header-sp flex items-start pt-10">
+          <div class="fv-header-sp flex items-start">
             <img src="../../assets/images/fv-title.svg" class="fv-title" />
-            <transition name="fade" mode="out-in">
+            <transition name="fade" mode="">
               <img
                 :src="titleImages[index]"
                 :key="titleImages[index]"
@@ -151,7 +149,7 @@
           </div>
         </div>
         <div class="fv-left-content">
-          <transition name="fade" mode="out-in">
+          <transition name="fade" mode="">
             <img :src="images[index]" :key="images[index]" />
           </transition>
         </div>
@@ -228,7 +226,7 @@ export default {
   name: "FvSp",
   data() {
     return {
-      show: true,
+      show: false,
       index: 0,
       images: [
         require("@/assets/images/fv-main1.png"),
@@ -240,6 +238,7 @@ export default {
       titleImages: [
         require("@/assets/images/fv-vision.svg"),
         require("@/assets/images/fv-people.svg"),
+        require("@/assets/images/fv-recruit.svg"),
       ],
     };
   },
@@ -271,11 +270,13 @@ export default {
       this.src = this.closeBtn;
     },
     opend: function () {
-      document.querySelector('body').setAttribute('style', 'overflow: hidden;')
+      document.querySelector("body").setAttribute("style", "overflow: hidden;");
       this.src = this.closeBtn;
     },
     beforeClose: function () {
-      document.querySelector('body').removeAttribute('style', 'overflow: hidden;')
+      document
+        .querySelector("body")
+        .removeAttribute("style", "overflow: hidden;");
       this.src = this.openBtn;
     },
   },
@@ -283,6 +284,48 @@ export default {
 </script>
 
 <style>
+.fv-sp {
+  height: 640px;
+}
+
+.fv-sp .fv-theme {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  padding-left: 260px;
+}
+.fv-header-sp {
+  padding-top: 40px;
+}
+@media screen and (max-width: 800px) {
+  .fv-sp .fv-theme {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding-left: 190px;
+  }
+}
+.fv-sp .fv-left-content img {
+  position: absolute;
+  top: 160px;
+}
+
+@media screen and (max-width: 640px) {
+  .fv-sp {
+    height: 320px;
+  }
+  .fv-header-sp {
+  padding-top: 0;
+}
+.fv-sp .fv-theme  {
+  top: 0;
+    padding-left: 120px;
+  }
+  .fv-sp .fv-left-content img {
+  position: absolute;
+  top: 100px;
+}
+}
 .fv-person-animation-sp1 {
   animation: person_moveY-sp1 18s linear infinite;
 }
@@ -373,7 +416,6 @@ export default {
   }
 }
 
-
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;
@@ -395,12 +437,11 @@ export default {
   object-fit: cover;
 }
 
-@media screen and (min-width:800px) and ( max-width:1024px) {
-  section .vm--container .vm--modal{
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  section .vm--container .vm--modal {
     left: 0px !important;
     width: auto !important;
   }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -418,8 +459,8 @@ export default {
 }
 @media screen and (max-width: 640px) {
   .fv-left-content img {
-  height: 240px;
-}
+    height: 240px;
+  }
 
   .fv-header-sp {
     width: 100%;

@@ -197,7 +197,7 @@
           <dd>
             <p>
               ※詳細は<a
-                href="https://www.tokyu-dept.co.jp/saiyou/shinsotsu/program.html"
+                href="https://www.tokyu-dept.co.jp/corporate/support.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 >こちら</a

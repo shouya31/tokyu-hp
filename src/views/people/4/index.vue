@@ -119,6 +119,17 @@
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
           </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">東急百貨店を志望した理由</p>
+          </div>
         </div>
       </section>
 
@@ -179,6 +190,17 @@
             </p>
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
+          </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">現在の仕事内容</p>
           </div>
         </div>
         <div
@@ -282,6 +304,17 @@
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
           </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">私のエピソード</p>
+          </div>
         </div>
       </section>
 
@@ -293,7 +326,7 @@
           md:w-3/5
           mx-auto
           lg:pt-12
-          pb-5
+          py-5
           px-4
           md:pl-0
           md:pr-5
@@ -348,6 +381,17 @@
             </p>
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
+          </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">これからの歩み</p>
           </div>
         </div>
         <div class="people-answer-box right-content w-screen pb-5 md:w-3/5">

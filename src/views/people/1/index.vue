@@ -93,16 +93,7 @@
           </div>
           <!-- <div class="blue-box"></div> -->
         </div>
-        <div
-          class="
-            question-right-content
-            text-center
-            question-vertical
-            mx-auto
-            lg:mt-0
-            lg:mb-8
-          "
-        >
+        <div class="question-right-content text-center mx-auto lg:mt-0 lg:mb-8">
           <div class="loupe-img inline-block relative left-32">
             <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
           </div>
@@ -117,6 +108,17 @@
             </p>
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
+          </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">東急百貨店を志望した理由</p>
           </div>
         </div>
       </section>
@@ -163,7 +165,7 @@
           justify-center
         "
       >
-        <div class="question-right-content question-vertical">
+        <div class="question-right-content">
           <div class="loupe-img inline-block relative left-32">
             <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
           </div>
@@ -178,6 +180,17 @@
             </p>
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
+          </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">現在の仕事内容</p>
           </div>
         </div>
         <div
@@ -245,15 +258,7 @@
           </div>
           <!-- <div class="blue-box"></div> -->
         </div>
-        <div
-          class="
-            question-right-content
-            right-content
-            text-center
-            question-vertical
-            mx-auto
-          "
-        >
+        <div class="question-right-content right-content text-center mx-auto">
           <div
             class="
               loupe-img
@@ -281,6 +286,17 @@
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
           </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">私のエピソード</p>
+          </div>
         </div>
       </section>
 
@@ -292,7 +308,7 @@
           md:w-3/5
           mx-auto
           lg:pt-12
-          pb-5
+          py-5
           px-4
           md:pl-0
           md:pr-5
@@ -349,6 +365,17 @@
             </p>
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
+          </div>
+          <div class="question-box-sp mx-auto">
+            <p class="text-right question-logo">
+              <span
+                ><img
+                  src="@/assets/images/people-question-text.svg"
+                  alt="Question"
+                  style="display: initial"
+              /></span>
+            </p>
+            <p class="question-section-title">これからの歩み</p>
           </div>
         </div>
         <div class="people-answer-box right-content w-screen pb-5 md:w-3/5">
@@ -503,6 +530,10 @@ export default {
 .people-text {
   color: #707070;
 }
+
+.question-right-content {
+  writing-mode: vertical-rl;
+}
 .column-title {
   font-family: "Noto Serif JP", serif;
   font-weight: 400;
@@ -553,6 +584,9 @@ export default {
 .question-box {
   display: inline-block;
 }
+.question-box-sp {
+  display: none;
+}
 .answer-text {
   font-size: 14px;
   width: 100%;
@@ -595,6 +629,7 @@ export default {
   height: 23px;
   margin: auto;
 }
+
 @media screen and (max-width: 1024px) {
   .hero {
     padding: 0px;
@@ -615,7 +650,6 @@ export default {
     font-size: 28px;
     padding-left: 30px;
   }
-
   .message {
     width: 85%;
     text-align: left;
@@ -639,6 +673,7 @@ export default {
   .question-right-content {
     margin: 40px auto;
     padding: 0px;
+    writing-mode: vertical-rl;
   }
   .answer-title {
     font-size: 18px;
@@ -687,6 +722,58 @@ export default {
   }
   .tablet-qisition-margin {
     margin-top: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .question-right-content {
+    position: relative;
+    margin: 100px auto 0px;
+  }
+  .loupe-img {
+    position: absolute !important;
+    top: -30px !important;
+    left: -45px !important;
+    width: 40px;
+  }
+  .loupe-img img {
+    right: initial !important;
+    top: 0;
+  }
+  .question-box {
+    display: none;
+  }
+  .question-box-sp {
+    display: block;
+    position: relative;
+  }
+  .question-logo {
+    border-left: none;
+  }
+  .question-box-sp .question-section-title {
+    padding-right: 0;
+    letter-spacing: 0.2em;
+    writing-mode: initial;
+    border-left: none;
+    border-top: 1px solid #16344f;
+    border-bottom: 4px solid #16344f;
+  }
+  .answer {
+    padding : 
+  }
+  .answer-title {
+    margin-top: 0;
+    font-size: 16px!important;
+  }
+  .question-logo {
+    position: absolute;
+    top: -42px;
+    right: 24px;
+  }
+  .question-logo span img {
+    transform: rotate(270deg);
+  }
+  .tablet-qisition-margin {
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 600px) {

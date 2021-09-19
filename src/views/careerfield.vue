@@ -68,10 +68,10 @@
       </div>
     </section>
     <div class="careerfield-circle-contents people-nav">
-      <p class="othercontents-title">
+      <p class="interview-title">
         <img
-          src="../assets/images/othercontents-title.svg"
-          alt="OTHER CONTENTS"
+          src="../assets/images/interview-title.svg"
+          alt="INTERVIEW"
         />
       </p>
       <ul class="">
@@ -240,22 +240,25 @@ top: 65%;
   left: -140px;
   transform: translate(0, -50%);
 }
-.othercontents-title {
-  border: none !important;
+
+.interview-title {
+    border: none !important;
   padding-left: 0 !important;
   position: relative;
   margin-bottom: 20px;
   overflow: hidden;
 }
-.othercontents-title::after {
-  content: "";
+
+.interview-title::after {
+    content: "";
   width: 100%;
   height: 1px;
   background-color: #16344f;
   position: absolute;
   top: 6px;
-  left: 230px;
+  left: 130px;
 }
+
 .careerfield-circle-contents.people-nav {
   max-width: 918px;
   margin: 0 auto;
@@ -266,7 +269,8 @@ top: 65%;
   flex-wrap: wrap;
 }
 .careerfield-circle-contents.people-nav .people-nav-item {
-  width: 30%;
+    min-width: 280px;
+        padding-right: 90px;
   line-height: 2rem;
 }
 .careerfield-circle-contents.people-nav .people-nav-item a {
@@ -279,7 +283,7 @@ top: 65%;
   background: url(/img/entry-btn-triangle.7cec7ed5.svg) center/contain no-repeat;
   position: absolute;
   right: -35px;
-  top: 13px;
+  top: 10px;
   transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 1441px) {
@@ -355,6 +359,12 @@ top: 65%;
     width: 50%;
   }
 }
+@media screen and (max-width: 780px) {
+  .careerfield-circle-contents.people-nav .people-nav-item {
+    width: 100%;
+    padding-right: 0;
+  }
+}
 @media screen and (max-width: 640px) {
   .careerfield h2 {
     font-size: 24px;
@@ -368,12 +378,6 @@ top: 65%;
   .careerfield-circle-contents.headoffice-contents {
     width: 90%;
     min-width: initial;
-  }
-  .careerfield-circle-contents.people-nav .people-nav-item {
-    width: 100%;
-  }
-  .othercontents-title::after {
-    left: 215px;
   }
 }
 </style>

@@ -233,7 +233,7 @@ hr {
   margin-top: 40px;
 }
 #vision .text-content .sentence-more {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #people {
   justify-content: flex-start;
@@ -270,7 +270,7 @@ hr {
   align-items: center;
 }
 #recruit .recruit-link {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 #recruit .recruit-link li {
   margin-bottom: 10px;
@@ -288,7 +288,7 @@ hr {
   background: url(../images/entry-btn-triangle.svg) center/contain no-repeat;
   position: absolute;
   right: -20px;
-  top: 7px;
+  top: 4px;
 }
 @media (max-width: 1280px) {
 }

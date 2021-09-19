@@ -10,8 +10,20 @@
           />
         </a>
       </h1>
-      <div v-on:click="menuOpenOrClose" class="menu">
-        <img :src="src" alt="" srcset="" />
+      <div class="header-nav-wrapper">
+        <a
+          href="https://job.mynavi.jp/23/pc/search/corp103559/outline.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block"
+          ><img
+            src="../assets/images/side-entry-btn.svg"
+            alt=""
+            style="width: 80px"
+        /></a>
+        <div v-on:click="menuOpenOrClose" class="menu">
+          <img :src="src" alt="" srcset="" />
+        </div>
       </div>
     </header>
     <modal
@@ -109,9 +121,7 @@
               </p>
               <ul class="menu-bottom-line">
                 <li>
-                  <a href="/greeting" class="menu-list"
-                    >人事部長メッセージ</a
-                  >
+                  <a href="/greeting" class="menu-list">人事部長メッセージ</a>
                 </li>
                 <li class="menu-list"><a href="/faq">FAQ</a></li>
                 <li class="menu-list">
@@ -142,9 +152,10 @@
             class="block"
           >
             <img
-              src="../assets/images/entry-btn.svg"
+              src="../assets/images/side-entry-btn.svg"
               alt=""
-              class="w-11/12 mt-10 mx-auto"
+              class="mt-10 mx-auto"
+              style="width:200px;"
             />
           </a>
         </div>
@@ -168,14 +179,18 @@ export default {
       if (this.src === this.openBtn) {
         this.$modal.show("hello-world");
         this.src = this.closeBtn;
-        document.querySelector('body').setAttribute('style', 'overflow: hidden;')
+        document
+          .querySelector("body")
+          .setAttribute("style", "overflow: hidden;");
         return;
       }
 
       if (this.src === this.closeBtn) {
         this.$modal.hide("hello-world");
         this.src = this.openBtn;
-        document.querySelector('body').removeAttribute('style', 'overflow: hidden;')
+        document
+          .querySelector("body")
+          .removeAttribute("style", "overflow: hidden;");
         return;
       }
     },

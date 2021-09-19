@@ -101,6 +101,7 @@ export default {
       images: [
         require("@/assets/images/fv-main1.png"),
         require("@/assets/images/fv-main2.png"),
+        require("@/assets/images/fv-main3.png"),
       ],
       titleImages: [
         require("@/assets/images/fv-vision.svg"),
@@ -117,7 +118,7 @@ export default {
   mounted() {
     setInterval(() => {
       this.index = this.index < this.images.length - 1 ? this.index + 1 : 0;
-    }, 6000);
+    }, 4000);
   },
 };
 </script>

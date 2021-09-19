@@ -7,11 +7,7 @@
           <HomeSectionImage :image="homeimage" />
           <div class="text-content">
             <p class="section-text">
-              ダミーテキストダミーテキスト<br
-                class="pc-br"
-              />ダミーテキストダミーテキスト<br
-                class="pc-br"
-              />ダミーテキストダミーテキスト
+              採用に関する情報をご覧いただけます。
             </p>
             <ul class="recruit-link">
               <li><a href="/greeting">人事部長メッセージ</a></li>

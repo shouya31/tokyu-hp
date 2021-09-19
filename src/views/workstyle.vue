@@ -207,6 +207,9 @@ dl.workstyle-child-contents {
     .workstyle {
       padding-top: 80px;
     }
+    .workstyle dt {
+      border-bottom: 0;
+    }
 .workstyle h3 {
     margin-top: 40px;
     margin-bottom: 20px;

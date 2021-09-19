@@ -291,7 +291,10 @@ export default {
   margin-bottom: 50px;
 }
 .philosophy h4 img {
-  width: 160px;
+
+}
+.philosophy h3 img {
+  width: 130px;
 }
 .philosophy .sub-title {
   font-size: 20px;

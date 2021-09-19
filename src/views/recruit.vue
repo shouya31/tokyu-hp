@@ -95,7 +95,7 @@
             新入社員研修、階層別研修、専門知識・スキルアップ研修、<br
               class="pc-br"
             />
-            自己啓発補助他
+            自己啓発補助 他
           </dd>
           <dt>応募資格</dt>
           <dd>大学院、大学卒業見込みの方（2023年3月卒業の方）</dd>
@@ -164,7 +164,7 @@
               >https://www.tokyu-dept.co.jp/</a
             >
           </dd>
-          <dt>関連会社</dt>
+          <dt>主な関連会社</dt>
           <dd>
             株式会社セントラルフーズ、株式会社東急タイム、<br class="pc-br" />
             東急ビジネスサポート株式会社
@@ -369,7 +369,7 @@ export default {
     no-repeat;
   position: absolute;
   right: -35px;
-  top: 12px;
+  top: 10px;
   transform: translate(-50%, -50%);
 }
 
@@ -428,6 +428,9 @@ export default {
 
   .recruit-nav .recruit-nav-item {
     width: 100%;
+  }
+    .othercontents-title::after {
+    left: 215px;
   }
 }
 </style>

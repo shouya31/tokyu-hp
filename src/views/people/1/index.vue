@@ -56,8 +56,7 @@
             </li>
             <li>
               <p class="people-info mt-3 tracking-wide">
-                たまプラーザ店<span class="lg:ml-3">営業統括部</span
-                ><span class="mx-2 lg:mx-3">/</span>2018年 入社<br />
+                たまプラーザ店 営業統括部<span class="mx-2 lg:mx-3">/</span>2018年 入社<br />
                 経済学部 会計ファイナンス学科 卒
               </p>
             </li>
@@ -109,7 +108,7 @@
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -181,7 +180,7 @@
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -286,7 +285,7 @@
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -366,7 +365,7 @@
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -728,11 +727,19 @@ export default {
   .question-right-content {
     position: relative;
     margin: 100px auto 0px;
+    width: 100%;
+    left: 40px;
+    top: -40px;
   }
+  .question-box-sp {
+    display: block;
+    position: absolute;
+    left: 30px;
+}
   .loupe-img {
     position: absolute !important;
     top: -30px !important;
-    left: -45px !important;
+    left: -25px !important;
     width: 40px;
   }
   .loupe-img img {
@@ -744,7 +751,8 @@ export default {
   }
   .question-box-sp {
     display: block;
-    position: relative;
+    position: absolute;
+    left: 40px;
   }
   .question-logo {
     border-left: none;

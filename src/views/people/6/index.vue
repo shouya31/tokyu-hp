@@ -55,8 +55,7 @@
             </li>
             <li>
               <p class="people-info mt-3 tracking-wide">
-                営業推進部<span class="lg:ml-3">営業企画部</span
-                ><span class="mx-2 lg:mx-3">/</span> 2005年 入社<br />
+                営業推進部 営業企画部<span class="mx-2 lg:mx-3">/</span> 2005年 入社<br />
                 文学部 心理学科 卒
               </p>
             </li>
@@ -117,7 +116,7 @@
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -189,7 +188,7 @@
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -303,7 +302,7 @@
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -376,7 +375,7 @@
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img

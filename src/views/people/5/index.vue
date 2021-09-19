@@ -56,8 +56,7 @@
             </li>
             <li>
               <p class="people-info mt-3 tracking-wide">
-                事業戦略室<span class="lg:ml-3">事業開発部 兼 食品統括部</span
-                ><span class="mx-2 lg:mx-3">/</span> <br class="sp-br" />2009年
+                事業戦略室 事業開発部 兼 食品統括部<span class="mx-2 lg:mx-3">/</span><br class="sp-br"/>2009年
                 入社<br />
                 映画学科 理論評論コース 卒
               </p>
@@ -119,7 +118,7 @@
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -191,7 +190,7 @@
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -305,7 +304,7 @@
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -385,7 +384,7 @@
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img

@@ -120,7 +120,7 @@
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -192,7 +192,7 @@
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -305,7 +305,7 @@
             <p class="question-section-title">私の</p>
             <p class="question-section-title">エピソード</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -396,7 +396,7 @@
             <p class="question-section-title">これからの</p>
             <p class="question-section-title">歩み</p>
           </div>
-          <div class="question-box-sp mx-auto">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img

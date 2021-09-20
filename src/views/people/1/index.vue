@@ -521,7 +521,7 @@ export default {
   right: -60px;
   width: 55px;
   height: 68px;
-  background: url(/img/question-logo.b7159020.svg) center/contain no-repeat;
+  background: url(../../../assets/images/question-logo.svg) center/contain no-repeat;
 }
 
 .column-title {

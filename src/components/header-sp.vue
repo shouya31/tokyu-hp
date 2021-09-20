@@ -106,10 +106,10 @@
                   class="block"
                 >
                   <img
-                    src="@/assets/images/entry-btn.svg"
+                    src="@/assets/images/side-entry-btn.svg"
                     alt=""
                     class="w-11/12 mt-10 mx-auto"
-                    style="width: 200px"
+                    style="width: 160px"
                   />
                 </a>
               </p>

@@ -107,10 +107,10 @@
                     class="block"
                   >
                     <img
-                      src="@/assets/images/entry-btn.svg"
+                      src="@/assets/images/side-entry-btn.svg"
                       alt=""
                       class="w-11/12 mt-10 mx-auto"
-                      style="width: 200px"
+                      style="width: 160px"
                     />
                   </a>
                 </p>
@@ -231,6 +231,7 @@ export default {
       images: [
         require("@/assets/images/fv-main1.png"),
         require("@/assets/images/fv-main2.png"),
+        require("@/assets/images/fv-main3.png"),
       ],
       src: require("@/assets/images/open-btn.svg"),
       openBtn: require("@/assets/images/open-btn.svg"),
@@ -245,7 +246,7 @@ export default {
   mounted() {
     setInterval(() => {
       this.index = this.index < this.images.length - 1 ? this.index + 1 : 0;
-    }, 6000);
+    }, 4000);
   },
   methods: {
     menuOpenOrClose: function () {

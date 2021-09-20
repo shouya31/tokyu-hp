@@ -7,7 +7,7 @@
           <HomeSectionImage :image="homeimage" />
           <div class="text-content">
             <p class="section-text">
-              採用に関する情報をご覧いただけます。
+              採用に関する情報を<br class="pc-br">ご覧いただけます。
             </p>
             <ul class="recruit-link">
               <li><a href="/greeting">人事部長メッセージ</a></li>

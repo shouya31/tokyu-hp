@@ -151,8 +151,7 @@
             tracking-widest
           "
         >
-          <span class="px-4 mr-2 font-thin answer-font">A</span
-          >心に寄り添う社風
+          <span class="px-4 mr-2 font-thin answer-font">A</span>心に寄り添う社風
         </h4>
         <p class="answer-text tracking-widest">
           中学、高校と演劇部に所属。観客の心に寄り添い、感動を届ける演技の魅力に惹かれていました。就職活動でも従業員同士が協力し合い、最良のサービスを通じてお客様に感動を届ける百貨店の仕事に共通点を見出し、志望しました。東急百貨店の面接では、採用担当者がこれまで歩んできた人生にまで興味を抱き、質問をするなど距離の近さを実感。企業理念の体現を肌で感じたことで、お客様の心に触れる仕事ができると確信しました。
@@ -203,17 +202,16 @@
           "
         >
           <h4
-          class="
-            answer-title
-            text-lg
-            md:text-2xl
-            font-bold
-            mb-6
-            tracking-widest
+            class="
+              answer-title
+              text-lg
+              md:text-2xl
+              font-bold
+              mb-6
+              tracking-widest
             "
           >
-            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
-              >A</span
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
             >潜在ニーズを見つけ出す
           </h4>
           <div>
@@ -368,8 +366,7 @@
               tracking-widest
             "
           >
-            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
-              >A</span
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
             >相手の心の側に立っていたい
           </h4>
           <p class="answer-text tracking-widest">
@@ -521,7 +518,8 @@ export default {
   right: -60px;
   width: 55px;
   height: 68px;
-  background: url(../../../assets/images/question-logo.svg) center/contain no-repeat;
+  background: url(../../../assets/images/question-logo.svg) center/contain
+    no-repeat;
 }
 
 .column-title {
@@ -716,10 +714,15 @@ export default {
 }
 @media screen and (max-width: 767px) {
   .question-right-content {
+    margin: 80px auto 0 50px;
+    padding-bottom: 0;
   }
   .question-right-content::after {
     width: 35px;
     height: 42px;
+    top: -20px;
+    left: -42px;
+    right: initial;
   }
   .question-box {
     display: none;
@@ -739,16 +742,7 @@ export default {
     border-top: 1px solid #16344f;
     border-bottom: 4px solid #16344f;
   }
-  .question-right-content {
-    margin: 80px auto 20px 50px;
-  }
-  .question-right-content::after {
-    width: 35px;
-    height: 42px;
-    top: -20px;
-    left: -42px;
-    right: initial;
-  }
+
   .answer {
     padding: ;
   }

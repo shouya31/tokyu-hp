@@ -14,10 +14,10 @@
           </div>
           <div class="lg:mt-20 lg:mb-10 tracking-wide">
             <img
-              src="@/assets/images/person2-1.png"
+              src="@/assets/images/person2-1.jpg"
               srcset="
-                @/assets/images/person2-1.png    1x,
-                @/assets/images/person2-1@2x.png 2x
+                @/assets/images/person2-1.jpg    1x,
+                @/assets/images/person2-1@2x.jpg 2x
               "
               class="pt-0 lg:hidden people-main-sp"
               width="450"
@@ -64,10 +64,10 @@
         </div>
         <div class="people-image mt-5 hidden lg:block">
           <img
-            src="@/assets/images/person2-1.png"
+            src="@/assets/images/person2-1.jpg"
             srcset="
-              @/assets/images/person2-1.png    1x,
-              @/assets/images/person2-1@2x.png 2x
+              @/assets/images/person2-1.jpg    1x,
+              @/assets/images/person2-1@2x.jpg 2x
             "
             width="450"
             height="800"
@@ -244,10 +244,10 @@
         <div class="left-content mb-10 lg:pb-0">
           <div class="img-box tablet-qisition-margin">
             <img
-              src="@/assets/images/person1-3.png"
+              src="@/assets/images/person2-3.png"
               srcset="
-                @/assets/images/person1-3.png    1x,
-                @/assets/images/person1-3@2x.png 2x
+                @/assets/images/person2-3.png    1x,
+                @/assets/images/person2-3@2x.png 2x
               "
               class="lg:pr-10 lg:pr-16"
               alt="persion3"
@@ -417,10 +417,10 @@
         <div class="lg:mt-32">
           <div class="upper-content pt-8 lg:pt-0">
             <img
-              src="@/assets/images/person2-4.png"
+              src="@/assets/images/person2-4.jpg"
               srcset="
-                @/assets/images/person2-4.png    1x,
-                @/assets/images/person2-4@2x.png 2x
+                @/assets/images/person2-4.jpg    1x,
+                @/assets/images/person2-4@2x.jpg 2x
               "
               alt="people4"
               class="home-person w-full"

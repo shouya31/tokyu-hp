@@ -25,20 +25,20 @@
                       <source
                         media="(min-width:641px)"
                         srcset="
-                          @/assets/images/home-people1.png    1x,
-                          @/assets/images/home-people1@2x.png 2x
+                          @/assets/images/home-people1.jpg    1x,
+                          @/assets/images/home-people1@2x.jpg 2x
                         "
                       />
                       <source
                         media="(max-width:640px)"
                         srcset="
-                          @/assets/images/home-people1_sp.png    1x,
-                          @/assets/images/home-people1_sp@2x.png 2x
+                          @/assets/images/home-people1_sp.jpg    1x,
+                          @/assets/images/home-people1_sp@2x.jpg 2x
                         "
                         width="375px"
                       />
                       <img
-                        src="@/assets/images/home-people1.png"
+                        src="@/assets/images/home-people1.jpg"
                         alt="働く仲間と共に"
                       />
                     </picture>
@@ -54,19 +54,19 @@
                       <source
                         media="(min-width:641px)"
                         srcset="
-                          @/assets/images/home-people2.png    1x,
-                          @/assets/images/home-people2@2x.png 2x
+                          @/assets/images/home-people2.jpg    1x,
+                          @/assets/images/home-people2@2x.jpg 2x
                         "
                       />
                       <source
                         media="(max-width:640px)"
                         srcset="
-                          @/assets/images/home-people2_sp.png    1x,
-                          @/assets/images/home-people2_sp@2x.png 2x
+                          @/assets/images/home-people2_sp.jpg    1x,
+                          @/assets/images/home-people2_sp@2x.jpg 2x
                         "
                       />
                       <img
-                        src="@/assets/images/home-people2.png"
+                        src="@/assets/images/home-people2.jpg"
                         alt="催事と共に"
                       />
                     </picture>
@@ -82,19 +82,19 @@
                       <source
                         media="(min-width:641px)"
                         srcset="
-                          @/assets/images/home-people3.png    1x,
-                          @/assets/images/home-people3@2x.png 2x
+                          @/assets/images/home-people3.jpg    1x,
+                          @/assets/images/home-people3@2x.jpg 2x
                         "
                       />
                       <source
                         media="(max-width:640px)"
                         srcset="
-                          @/assets/images/home-people3_sp.png    1x,
-                          @/assets/images/home-people3_sp@2x.png 2x
+                          @/assets/images/home-people3_sp.jpg    1x,
+                          @/assets/images/home-people3_sp@2x.jpg 2x
                         "
                       />
                       <img
-                        src="@/assets/images/home-people3.png"
+                        src="@/assets/images/home-people3.jpg"
                         alt="お取引先様と共に"
                       />
                     </picture>
@@ -110,19 +110,19 @@
                       <source
                         media="(min-width:641px)"
                         srcset="
-                          @/assets/images/home-people4.png    1x,
-                          @/assets/images/home-people4@2x.png 2x
+                          @/assets/images/home-people4.jpg    1x,
+                          @/assets/images/home-people4@2x.jpg 2x
                         "
                       />
                       <source
                         media="(max-width:640px)"
                         srcset="
-                          @/assets/images/home-people4_sp.png    1x,
-                          @/assets/images/home-people4_sp@2x.png 2x
+                          @/assets/images/home-people4_sp.jpg    1x,
+                          @/assets/images/home-people4_sp@2x.jpg 2x
                         "
                       />
                       <img
-                        src="@/assets/images/home-people4.png"
+                        src="@/assets/images/home-people4.jpg"
                         alt="「ありがとう」と共に"
                       />
                     </picture>
@@ -138,19 +138,19 @@
                       <source
                         media="(min-width:641px)"
                         srcset="
-                          @/assets/images/home-people5.png    1x,
-                          @/assets/images/home-people5@2x.png 2x
+                          @/assets/images/home-people5.jpg    1x,
+                          @/assets/images/home-people5@2x.jpg 2x
                         "
                       />
                       <source
                         media="(max-width:640px)"
                         srcset="
-                          @/assets/images/home-people5_sp.png    1x,
-                          @/assets/images/home-people5_sp@2x.png 2x
+                          @/assets/images/home-people5_sp.jpg    1x,
+                          @/assets/images/home-people5_sp@2x.jpg 2x
                         "
                       />
                       <img
-                        src="@/assets/images/home-people5.png"
+                        src="@/assets/images/home-people5.jpg"
                         alt="食と共に"
                       />
                     </picture>
@@ -166,20 +166,20 @@
                       <source
                         media="(min-width:641px)"
                         srcset="
-                          @/assets/images/home-people6.png    1x,
-                          @/assets/images/home-people6@2x.png 2x
+                          @/assets/images/home-people6.jpg    1x,
+                          @/assets/images/home-people6@2x.jpg 2x
                         "
                       />
                       <source
                         media="(max-width:640px)"
                         srcset="
-                          @/assets/images/home-people6_sp.png    1x,
-                          @/assets/images/home-people6_sp@2x.png 2x
+                          @/assets/images/home-people6_sp.jpg    1x,
+                          @/assets/images/home-people6_sp@2x.jpg 2x
                         "
                       />
 
                       <img
-                        src="@/assets/images/home-people6.png"
+                        src="@/assets/images/home-people6.jpg"
                         alt="東急線沿線と共に"
                       />
                     </picture>
@@ -207,12 +207,12 @@ export default {
   },
   data() {
     return {
-      homeimage1: require("@/assets/images/home-people1.png"),
-      homeimage2: require("@/assets/images/home-people2.png"),
-      homeimage3: require("@/assets/images/home-people3.png"),
-      homeimage4: require("@/assets/images/home-people4.png"),
-      homeimage5: require("@/assets/images/home-people5.png"),
-      homeimage6: require("@/assets/images/home-people6.png"),
+      homeimage1: require("@/assets/images/home-people1.jpg"),
+      homeimage2: require("@/assets/images/home-people2.jpg"),
+      homeimage3: require("@/assets/images/home-people3.jpg"),
+      homeimage4: require("@/assets/images/home-people4.jpg"),
+      homeimage5: require("@/assets/images/home-people5.jpg"),
+      homeimage6: require("@/assets/images/home-people6.jpg"),
       titleimage: require("@/assets/images/top-people.svg"),
     };
   },

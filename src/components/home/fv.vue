@@ -99,9 +99,9 @@ export default {
       show: true,
       index: 0,
       images: [
-        require("@/assets/images/fv-main1.png"),
-        require("@/assets/images/fv-main2.png"),
-        require("@/assets/images/fv-main3.png"),
+        require("@/assets/images/fv-main1.jpg"),
+        require("@/assets/images/fv-main2.jpg"),
+        require("@/assets/images/fv-main3.jpg"),
       ],
       titleImages: [
         require("@/assets/images/fv-vision.svg"),

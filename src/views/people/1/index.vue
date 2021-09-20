@@ -715,7 +715,7 @@ export default {
 @media screen and (max-width: 767px) {
   .question-right-content {
     margin: 80px auto 0 50px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
   .question-right-content::after {
     width: 35px;

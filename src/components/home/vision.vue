@@ -39,7 +39,7 @@ export default {
   },
   data() {
     return {
-      homeimage: require("@/assets/images/home-vision@2x.png"),
+      homeimage: require("@/assets/images/home-vision@2x.jpg"),
       titleimage: require("@/assets/images/top-vision.svg"),
     };
   },

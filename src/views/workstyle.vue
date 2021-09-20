@@ -17,7 +17,7 @@
         <p>従業員が働きやすい環境づくりに<br class="sp-br">努めています。</p>
       </div>
       <div class="workstyle-contents">
-        <img src="@/assets/images/workstyle-1.png" alt="" />
+        <img src="@/assets/images/workstyle-1@2x.jpg" alt="" />
         <h4>休日・休暇について</h4>
         <dl>
           <dt>休日</dt>
@@ -41,7 +41,7 @@
         </dl>
       </div>
       <div class="workstyle-contents">
-        <img src="@/assets/images/workstyle-2.png" alt="" />
+        <img src="@/assets/images/workstyle-2@2x.jpg" alt="" />
         <h4>育児・介護支援について</h4>
         <dl>
           <dt>育児休職</dt>
@@ -60,7 +60,7 @@
         </dl>
       </div>
       <div class="workstyle-contents">
-        <img src="@/assets/images/workstyle-3.png" alt="" />
+        <img src="@/assets/images/workstyle-3@2x.jpg" alt="" />
         <h4>生活支援について</h4>
         <dl>
           <dt>福利厚生</dt>

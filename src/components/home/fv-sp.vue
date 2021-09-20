@@ -229,9 +229,9 @@ export default {
       show: false,
       index: 0,
       images: [
-        require("@/assets/images/fv-main1.png"),
-        require("@/assets/images/fv-main2.png"),
-        require("@/assets/images/fv-main3.png"),
+        require("@/assets/images/fv-main1.jpg"),
+        require("@/assets/images/fv-main2.jpg"),
+        require("@/assets/images/fv-main3.jpg"),
       ],
       src: require("@/assets/images/open-btn.svg"),
       openBtn: require("@/assets/images/open-btn.svg"),

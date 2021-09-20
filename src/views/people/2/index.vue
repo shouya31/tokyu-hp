@@ -238,7 +238,6 @@
           lg:mt-20
           lg:flex
           lg:pt-10
-          px-5
           xl:pt-30
         "
       >

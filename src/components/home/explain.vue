@@ -35,7 +35,6 @@
 
 .explain-text {
   font-size: 20px;
-  font-family: "Noto Sans JP", sans-serif;
   line-height: 48px;
   z-index: -3;
   margin-bottom: 20px;
@@ -50,7 +49,6 @@
 
 .explain-text {
   font-size: 14px;
-  font-family: "Noto Sans JP", sans-serif;
   line-height: 40px;
   z-index: -3;
 }

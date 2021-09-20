@@ -32,7 +32,4 @@ const routes = [
 export default new VueRouter({
   mode: "history",
   routes,
-  scrollBehavior() {
-    return { top: 0 }
-  },
 });

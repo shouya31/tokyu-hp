@@ -76,9 +76,17 @@
         </div>
       </section>
 
-      <section class="question col-span-8 col-start-2 lg:flex pt-20 xl:pt-30">
+      <section
+        class="
+          question
+          col-span-8 col-start-2
+          lg:flex
+          pt-20
+          xl:pt-30
+          items-center
+        "
+      >
         <div class="left-content mb-10 lg:pb-0">
-          <!-- <div class="white-box bg-white"></div> -->
           <div class="img-box tablet-qisition-margin">
             <img
               src="@/assets/images/person2-2.png"
@@ -86,25 +94,12 @@
                 @/assets/images/person2-2.png    1x,
                 @/assets/images/person2-2@2x.png 2x
               "
-              class="lg:pr-10 lg:pr-16 people-sp-image"
+              class="lg:pr-40 lg:pr-16 people-sp-image"
               alt="persion2"
             />
           </div>
-          <!-- <div class="blue-box"></div> -->
         </div>
-        <div
-          class="
-            question-right-content
-            text-center
-            question-vertical
-            mx-auto
-            lg:mt-0
-            lg:mb-8
-          "
-        >
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+        <div class="question-right-content">
           <div class="question-box">
             <p class="text-xs text-right question-logo">
               <span
@@ -117,7 +112,7 @@
             <p class="question-section-title">東急百貨店を</p>
             <p class="question-section-title">志望した理由</p>
           </div>
-                    <div class="question-box-sp">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -130,7 +125,6 @@
           </div>
         </div>
       </section>
-
       <section
         class="
           answer
@@ -155,7 +149,7 @@
             tracking-widest
           "
         >
-          <span class="py-1 px-4 mr-2 font-thin answer-font">A</span
+          <span class="px-4 mr-2 font-thin answer-font">A</span
           >地域に根付いた百貨店
         </h4>
         <p class="answer-text tracking-widest">
@@ -166,17 +160,14 @@
       <section
         class="
           question
-          col-span-12 col-start-3
+          col-span-12 col-start-2
           md:flex
           lg:pr-5
           lg:mt-28
           justify-center
         "
       >
-        <div class="question-right-content question-vertical">
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+        <div class="question-right-content">
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
@@ -189,7 +180,7 @@
             <p class="question-section-title">現在の</p>
             <p class="question-section-title">仕事内容</p>
           </div>
-                    <div class="question-box-sp">
+          <div class="question-box-sp">
             <p class="text-right question-logo">
               <span
                 ><img
@@ -220,7 +211,7 @@
               tablet-qisition-margin
             "
           >
-            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
               >A</span
             >密接な関わりが、確かな信頼を生む
           </h4>
@@ -239,6 +230,7 @@
         </div>
       </section>
 
+   
       <section
         class="
           question
@@ -251,45 +243,20 @@
         "
       >
         <div class="left-content mb-10 lg:pb-0">
-          <!-- <div class="white-box bg-white"></div> -->
           <div class="img-box tablet-qisition-margin">
             <img
-              src="@/assets/images/person2-3.png"
+              src="@/assets/images/person1-3.png"
               srcset="
-                @/assets/images/person2-3.png    1x,
-                @/assets/images/person2-3@2x.png 2x
+                @/assets/images/person1-3.png    1x,
+                @/assets/images/person1-3@2x.png 2x
               "
               class="lg:pr-10 lg:pr-16"
               alt="persion3"
             />
           </div>
-          <!-- <div class="blue-box"></div> -->
         </div>
-        <div
-          class="
-            question-right-content
-            right-content
-            text-center
-            question-vertical
-            mx-auto
-          "
-        >
-          <div
-            class="
-              loupe-img
-              inline-block
-              relative
-              left-40
-              tablet-qisition-margin
-            "
-          >
-            <img
-              src="@/assets/images/question-logo.svg"
-              class="relative lg:top-10 right-10"
-              alt="loupe"
-            />
-          </div>
-          <div class="question-box lg:py-16 mx-auto">
+        <div class="question-right-content">
+          <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
                 ><img
@@ -339,7 +306,7 @@
             tracking-widest
           "
         >
-          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
+          <span class="px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >グループ会社での新たな学び
         </h4>
         <p class="answer-text tracking-widest">
@@ -358,10 +325,7 @@
           justify-center
         "
       >
-        <div class="question-right-content left-content question-vertical">
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+               <div class="question-right-content">
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
@@ -398,9 +362,9 @@
               tablet-qisition-margin
             "
           >
-            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
               >A</span
-            >マルチプレイヤーとして会社を支える
+            >マルチプレイヤーとして<br class="sp-br">会社を支える
           </h4>
           <p class="answer-text tracking-widest">
             当社で働く魅力の一つに、定期的なジョブローテーションによるキャリア開発の幅広さが挙げられます。私自身もこれまでに販売業務からショップ管理、店舗の新規開発と様々な業務を経験。特に、東急百貨店では新しいことに挑戦する従業員を後押しする風土があると感じます。これからもそうした利点を存分に活かし、多様な経験と知識を備えたマルチプレイヤーとして会社に貢献できる人材に成長したいです。

@@ -79,9 +79,18 @@
         </div>
       </section>
 
-      <section class="question col-span-8 col-start-3 lg:flex pt-20 xl:pt-30">
+  
+      <section
+        class="
+          question
+          col-span-8 col-start-2
+          lg:flex
+          pt-20
+          xl:pt-30
+          items-center
+        "
+      >
         <div class="left-content mb-10 lg:pb-0">
-          <!-- <div class="white-box bg-white"></div> -->
           <div class="img-box tablet-qisition-margin">
             <img
               src="@/assets/images/person3-2.png"
@@ -89,25 +98,12 @@
                 @/assets/images/person3-2.png    1x,
                 @/assets/images/person3-2@2x.png 2x
               "
-              class="lg:pr-10 lg:pr-16 people-sp-image"
+              class="lg:pr-40 lg:pr-16 people-sp-image"
               alt="persion2"
             />
           </div>
-          <!-- <div class="blue-box"></div> -->
         </div>
-        <div
-          class="
-            question-right-content
-            text-center
-            question-vertical
-            mx-auto
-            lg:mt-0
-            lg:mb-8
-          "
-        >
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+        <div class="question-right-content">
           <div class="question-box">
             <p class="text-xs text-right question-logo">
               <span
@@ -134,6 +130,7 @@
         </div>
       </section>
 
+
       <section
         class="
           answer
@@ -158,7 +155,7 @@
             tracking-widest
           "
         >
-          <span class="py-1 px-4 mr-2 font-thin answer-font">A</span
+          <span class="px-4 mr-2 font-thin answer-font">A</span
           >期待を胸に成長できる
         </h4>
         <p class="answer-text tracking-widest">
@@ -176,10 +173,7 @@
           justify-center
         "
       >
-        <div class="question-right-content question-vertical">
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+        <div class="question-right-content">
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
@@ -223,7 +217,7 @@
               tablet-qisition-margin
             "
           >
-            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
               >A</span
             >店舗づくりの核を担う
           </h4>
@@ -249,12 +243,11 @@
           lg:mt-20
           lg:flex
           lg:pt-10
-          px-5
           xl:pt-30
         "
       >
         <div class="left-content mb-10 lg:pb-0">
-          <!-- <div class="white-box bg-white"></div> -->
+
           <div class="img-box tablet-qisition-margin">
             <img
               src="@/assets/images/person3-3.png"
@@ -262,38 +255,14 @@
                 @/assets/images/person3-3.png    1x,
                 @/assets/images/person3-3@2x.png 2x
               "
-              class="lg:pr-10 lg:pr-16"
+              class="lg:pr-10 lg:pr-16 people-sp-image"
               alt="persion3"
             />
           </div>
-          <!-- <div class="blue-box"></div> -->
+
         </div>
-        <div
-          class="
-            question-right-content
-            right-content
-            text-center
-            question-vertical
-            mx-auto
-            lg:pl-16
-          "
-        >
-          <div
-            class="
-              loupe-img
-              inline-block
-              relative
-              left-40
-              tablet-qisition-margin
-            "
-          >
-            <img
-              src="@/assets/images/question-logo.svg"
-              class="relative lg:top-10 right-10"
-              alt="loupe"
-            />
-          </div>
-          <div class="question-box lg:py-16 mx-auto">
+        <div class="question-right-content">
+          <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
                 ><img
@@ -343,7 +312,7 @@
             tracking-widest
           "
         >
-          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
+          <span class="px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >慌ただしく過ぎる時間の中で
         </h4>
         <p class="answer-text tracking-widest">
@@ -380,10 +349,7 @@
           justify-center
         "
       >
-        <div class="question-right-content left-content question-vertical">
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+        <div class="question-right-content">
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
@@ -420,7 +386,7 @@
               tablet-qisition-margin
             "
           >
-            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
               >A</span
             >成長を通じて、感謝を伝える
           </h4>

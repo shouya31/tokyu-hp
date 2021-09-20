@@ -403,9 +403,12 @@ header {
   width: 360px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 780px) {
   .page-top .sub-pagetitle {
     width: 240px;
+  }
+  #recruit .section-text {
+    text-align: center;
   }
 }
 
@@ -427,5 +430,6 @@ header {
   .sub-pagetitle {
     margin-bottom: 10px;
   }
+
 }
 /* 新デザインヘッダーここまで */

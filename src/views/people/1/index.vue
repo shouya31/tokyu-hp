@@ -56,7 +56,8 @@
             </li>
             <li>
               <p class="people-info mt-3 tracking-wide">
-                たまプラーザ店 営業統括部<span class="mx-2 lg:mx-3">/</span>2018年 入社<br />
+                たまプラーザ店 営業統括部<span class="mx-2 lg:mx-3">/</span
+                >2018年 入社<br />
                 経済学部 会計ファイナンス学科 卒
               </p>
             </li>
@@ -76,9 +77,17 @@
         </div>
       </section>
 
-      <section class="question col-span-8 col-start-2 lg:flex pt-20 xl:pt-30">
+      <section
+        class="
+          question
+          col-span-8 col-start-2
+          lg:flex
+          pt-20
+          xl:pt-30
+          items-center
+        "
+      >
         <div class="left-content mb-10 lg:pb-0">
-          <!-- <div class="white-box bg-white"></div> -->
           <div class="img-box tablet-qisition-margin">
             <img
               src="@/assets/images/person1-2.png"
@@ -86,16 +95,12 @@
                 @/assets/images/person1-2.png    1x,
                 @/assets/images/person1-2@2x.png 2x
               "
-              class="lg:pr-10 lg:pr-16 people-sp-image"
+              class="lg:pr-40 lg:pr-16 people-sp-image"
               alt="persion2"
             />
           </div>
-          <!-- <div class="blue-box"></div> -->
         </div>
-        <div class="question-right-content text-center mx-auto lg:mt-0 lg:mb-8">
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+        <div class="question-right-content">
           <div class="question-box">
             <p class="text-xs text-right question-logo">
               <span
@@ -146,7 +151,7 @@
             tracking-widest
           "
         >
-          <span class="py-1 px-4 mr-2 font-thin answer-font">A</span
+          <span class="px-4 mr-2 font-thin answer-font">A</span
           >心に寄り添う社風
         </h4>
         <p class="answer-text tracking-widest">
@@ -165,9 +170,6 @@
         "
       >
         <div class="question-right-content">
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
@@ -201,17 +203,16 @@
           "
         >
           <h4
-            class="
-              answer-title
-              text-lg
-              md:text-2xl
-              font-bold
-              mb-6
-              tracking-widest
-              tablet-qisition-margin
+          class="
+            answer-title
+            text-lg
+            md:text-2xl
+            font-bold
+            mb-6
+            tracking-widest
             "
           >
-            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
               >A</span
             >潜在ニーズを見つけ出す
           </h4>
@@ -238,12 +239,10 @@
           lg:mt-20
           lg:flex
           lg:pt-10
-          px-5
           xl:pt-30
         "
       >
         <div class="left-content mb-10 lg:pb-0">
-          <!-- <div class="white-box bg-white"></div> -->
           <div class="img-box tablet-qisition-margin">
             <img
               src="@/assets/images/person1-3.png"
@@ -251,29 +250,13 @@
                 @/assets/images/person1-3.png    1x,
                 @/assets/images/person1-3@2x.png 2x
               "
-              class="lg:pr-10 lg:pr-16"
+              class="lg:pr-10 lg:pr-16 people-sp-image"
               alt="persion3"
             />
           </div>
-          <!-- <div class="blue-box"></div> -->
         </div>
-        <div class="question-right-content right-content text-center mx-auto">
-          <div
-            class="
-              loupe-img
-              inline-block
-              relative
-              left-40
-              tablet-qisition-margin
-            "
-          >
-            <img
-              src="@/assets/images/question-logo.svg"
-              class="relative lg:top-10 right-10"
-              alt="loupe"
-            />
-          </div>
-          <div class="question-box lg:py-16 mx-auto">
+        <div class="question-right-content">
+          <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
                 ><img
@@ -323,7 +306,7 @@
             tracking-widest
           "
         >
-          <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
+          <span class="px-4 mr-2 font-thin bg-blue-900 answer-font">A</span
           >工夫を続けることで見えたもの
         </h4>
         <p class="answer-text tracking-widest">
@@ -349,10 +332,7 @@
           justify-center
         "
       >
-        <div class="question-right-content left-content question-vertical">
-          <div class="loupe-img inline-block relative left-32">
-            <img src="@/assets/images/question-logo.svg" class="" alt="loupe" />
-          </div>
+        <div class="question-right-content">
           <div class="question-box mx-auto">
             <p class="text-xs text-right question-logo">
               <span
@@ -386,10 +366,9 @@
               font-bold
               mb-6
               tracking-widest
-              tablet-qisition-margin
             "
           >
-            <span class="py-1 px-4 mr-2 font-thin bg-blue-900 answer-font"
+            <span class="px-4 mr-2 font-thin bg-blue-900 answer-font"
               >A</span
             >相手の心の側に立っていたい
           </h4>
@@ -532,7 +511,19 @@ export default {
 
 .question-right-content {
   writing-mode: vertical-rl;
+  position: relative;
+  margin-top: 80px;
 }
+.question-right-content::after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -60px;
+  width: 55px;
+  height: 68px;
+  background: url(/img/question-logo.b7159020.svg) center/contain no-repeat;
+}
+
 .column-title {
   font-family: "Noto Serif JP", serif;
   font-weight: 400;
@@ -598,6 +589,8 @@ export default {
 }
 .answer-title {
   font-size: 24px;
+  display: flex;
+  align-items: center;
 }
 .answer-font {
   color: #add6d4;
@@ -670,9 +663,7 @@ export default {
     font-size: 14px;
   }
   .question-right-content {
-    margin: 40px auto;
-    padding: 0px;
-    writing-mode: vertical-rl;
+    margin: 80px auto 20px;
   }
   .answer-title {
     font-size: 18px;
@@ -725,34 +716,17 @@ export default {
 }
 @media screen and (max-width: 767px) {
   .question-right-content {
-    position: relative;
-    margin: 100px auto 0px;
-    width: 100%;
-    left: 40px;
-    top: -40px;
   }
-  .question-box-sp {
-    display: block;
-    position: absolute;
-    left: 30px;
-}
-  .loupe-img {
-    position: absolute !important;
-    top: -30px !important;
-    left: -25px !important;
-    width: 40px;
-  }
-  .loupe-img img {
-    right: initial !important;
-    top: 0;
+  .question-right-content::after {
+    width: 35px;
+    height: 42px;
   }
   .question-box {
     display: none;
   }
   .question-box-sp {
     display: block;
-    position: absolute;
-    left: 40px;
+    position: relative;
   }
   .question-logo {
     border-left: none;
@@ -765,12 +739,22 @@ export default {
     border-top: 1px solid #16344f;
     border-bottom: 4px solid #16344f;
   }
+  .question-right-content {
+    margin: 80px auto 20px 50px;
+  }
+  .question-right-content::after {
+    width: 35px;
+    height: 42px;
+    top: -20px;
+    left: -42px;
+    right: initial;
+  }
   .answer {
-    padding : 
+    padding: ;
   }
   .answer-title {
     margin-top: 0;
-    font-size: 16px!important;
+    font-size: 16px !important;
   }
   .question-logo {
     position: absolute;

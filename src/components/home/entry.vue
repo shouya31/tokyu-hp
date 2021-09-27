@@ -19,7 +19,12 @@
           rel="noopener noreferrer"
           class="block"
         >
-          <img src="../../assets/images/entry-btn.svg" alt="" class="mx-auto" />
+          <img
+            src="../../assets/images/entry-btn.svg"
+            alt="ENTRY"
+            class="mx-auto"
+            style="width: 320px; height: 140px"
+          />
         </a>
       </div>
     </section>
@@ -44,8 +49,9 @@
         >
           <img
             src="../../assets/images/entry-btn.svg"
-            alt=""
-            class="mx-auto w-4/12"
+            alt="ENTRY"
+            class="mx-auto"
+            style="width: 160px; height: 90px;"
           />
         </a>
       </div>

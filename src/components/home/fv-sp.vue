@@ -119,9 +119,6 @@
           </div>
         </div>
         <div class="lg:flex justify-between">
-          <!-- <div class="menu-entry-btn">
-            <img src="../../assets/images/entry-btn.svg" alt="" />
-          </div> -->
           <div class="menu-grou-together">
             <img
               src="@/assets/images/grow-together.png"
